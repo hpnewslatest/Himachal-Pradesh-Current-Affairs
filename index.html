@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HP Current Affairs – हिमाचल प्रदेश समसामयिकी</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Mukta:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--green:#1a6b3a;--green-light:#2d8a50;--green-pale:#e8f5ee;--saffron:#d4621b;--gold:#c89b3c;--snow:#f8fafa;--ink:#1a1f1e;--mist:#6b7b72;--card:#ffffff;--border:#d4e4da;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Mukta',sans-serif;background:var(--snow);color:var(--ink);}
+  header{background:linear-gradient(135deg,#0d3d20 0%,#1a6b3a 50%,#0d4a2a 100%);color:white;position:sticky;top:0;z-index:100;box-shadow:0 3px 20px rgba(0,0,0,.3);}
+  .header-top{display:flex;align-items:center;justify-content:space-between;padding:14px 24px 10px;border-bottom:1px solid rgba(255,255,255,.12);}
+  .logo{display:flex;align-items:center;gap:14px;}
+  .logo-emblem{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,var(--gold),#e8b84b);display:flex;align-items:center;justify-content:center;font-size:24px;box-shadow:0 0 0 3px rgba(200,155,60,.4);flex-shrink:0;}
+  .logo-text h1{font-family:'Playfair Display',serif;font-size:1.5rem;line-height:1.1;}
+  .logo-text p{font-size:.78rem;opacity:.75;letter-spacing:1px;text-transform:uppercase;}
+  .header-date{font-size:.82rem;opacity:.8;text-align:right;}
+  .header-date span{display:block;font-size:1rem;font-weight:600;}
+  .ticker-bar{background:var(--saffron);padding:7px 0;overflow:hidden;white-space:nowrap;display:flex;align-items:center;}
+  .ticker-label{background:#a8451a;color:white;font-weight:700;padding:0 16px;font-size:.78rem;letter-spacing:1px;flex-shrink:0;display:flex;align-items:center;text-transform:uppercase;}
+  .ticker-content{display:inline-block;animation:ticker 45s linear infinite;padding-left:100%;}
+  .ticker-content span{color:white;font-size:.82rem;padding:0 30px;}
+  .ticker-content span::before{content:"◆ ";}
+  @keyframes ticker{from{transform:translateX(0);}to{transform:translateX(-100%);}}
+  nav{background:#0d3d20;padding:0 24px;display:flex;gap:0;overflow-x:auto;}
+  nav button{background:none;border:none;color:rgba(255,255,255,.75);padding:12px 18px;font-family:'Mukta',sans-serif;font-size:.88rem;font-weight:600;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;transition:all .2s;text-transform:uppercase;letter-spacing:.5px;}
+  nav button:hover{color:white;}
+  nav button.active{color:var(--gold);border-bottom-color:var(--gold);}
+  .container{max-width:1200px;margin:0 auto;padding:24px 16px;}
+  .grid{display:grid;grid-template-columns:1fr 340px;gap:24px;}
+  @media(max-width:900px){.grid{grid-template-columns:1fr;}}
+  .sec-header{display:flex;align-items:center;gap:10px;margin-bottom:18px;}
+  .sec-header h2{font-family:'Playfair Display',serif;font-size:1.35rem;color:var(--green);}
+  .sec-header::after{content:'';flex:1;height:2px;background:linear-gradient(to right,var(--green),transparent);}
+  #news-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media(max-width:600px){#news-grid{grid-template-columns:1fr;}}
+  .news-card{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(26,107,58,.07);transition:transform .2s,box-shadow .2s;}
+  .news-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(26,107,58,.15);}
+  .news-card .tag{background:var(--green);color:white;font-size:.7rem;font-weight:700;padding:3px 10px;text-transform:uppercase;letter-spacing:1px;display:inline-block;margin:14px 14px 0;border-radius:3px;}
+  .news-card h3{font-size:.95rem;font-weight:700;padding:8px 14px;line-height:1.4;}
+  .news-card p{font-size:.82rem;color:var(--mist);padding:0 14px 14px;line-height:1.5;}
+  .news-card .meta{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;border-top:1px solid var(--border);}
+  .news-card .meta span{font-size:.75rem;color:var(--mist);}
+  .news-card .meta a{font-size:.75rem;color:var(--green);font-weight:600;text-decoration:none;}
+  .news-card.featured{grid-column:1/-1;display:flex;}
+  .news-card.featured .card-img{width:200px;flex-shrink:0;background:linear-gradient(135deg,var(--green),var(--green-light));display:flex;align-items:center;justify-content:center;font-size:4rem;}
+  .news-card.featured .card-body{flex:1;}
+  .news-card.featured h3{font-size:1.1rem;padding-top:14px;}
+  .loading{grid-column:1/-1;text-align:center;padding:40px;color:var(--mist);}
+  .spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 12px;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .sidebar{display:flex;flex-direction:column;gap:20px;}
+  .widget{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  .widget-head{background:linear-gradient(135deg,var(--green),var(--green-light));color:white;padding:12px 16px;font-family:'Playfair Display',serif;font-size:1rem;}
+  .widget-body{padding:16px;}
+  .district-tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;}
+  .district-tabs button{background:var(--green-pale);border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:.74rem;cursor:pointer;font-family:'Mukta',sans-serif;font-weight:600;color:var(--green);transition:all .15s;}
+  .district-tabs button.active,.district-tabs button:hover{background:var(--green);color:white;border-color:var(--green);}
+  .district-info{display:none;}
+  .district-info.active{display:block;}
+  .district-info h4{font-family:'Playfair Display',serif;color:var(--green);margin-bottom:10px;font-size:1rem;}
+  .gk-item{display:flex;gap:8px;padding:6px 0;border-bottom:1px dashed var(--border);font-size:.82rem;}
+  .gk-item:last-child{border-bottom:none;}
+  .gk-key{color:var(--mist);min-width:85px;flex-shrink:0;}
+  .gk-val{color:var(--ink);font-weight:600;}
+  .quick-link{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--border);text-decoration:none;color:var(--ink);font-size:.85rem;transition:color .15s;}
+  .quick-link:last-child{border-bottom:none;}
+  .quick-link:hover{color:var(--green);}
+  .quick-link .icon{width:28px;height:28px;border-radius:6px;background:var(--green-pale);display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0;}
+  .exam-item{padding:9px 0;border-bottom:1px solid var(--border);}
+  .exam-item:last-child{border-bottom:none;}
+  .exam-item .exam-name{font-weight:700;font-size:.85rem;}
+  .exam-item .exam-date{font-size:.78rem;color:var(--saffron);margin-top:2px;}
+  .badge{display:inline-block;font-size:.65rem;background:#fff3e8;color:var(--saffron);border:1px solid #f5c89a;border-radius:10px;padding:1px 7px;margin-left:6px;vertical-align:middle;}
+  .hp-facts{background:linear-gradient(135deg,#0d3d20,#1a6b3a);color:white;border-radius:10px;padding:20px;text-align:center;}
+  .hp-facts .fact-num{font-family:'Playfair Display',serif;font-size:2.2rem;color:var(--gold);}
+  .hp-facts .fact-label{font-size:.78rem;opacity:.8;}
+  .facts-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px;}
+  .page-section{display:none;}
+  .page-section.active{display:block;}
+  .gk-chapters{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media(max-width:600px){.gk-chapters{grid-template-columns:1fr;}}
+  .chapter-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px;}
+  .chapter-card h3{font-family:'Playfair Display',serif;color:var(--green);margin-bottom:12px;font-size:1rem;}
+  .chapter-card ul{list-style:none;}
+  .chapter-card ul li{padding:6px 0;border-bottom:1px dashed var(--border);font-size:.84rem;display:flex;gap:8px;}
+  .chapter-card ul li:last-child{border-bottom:none;}
+  .chapter-card ul li::before{content:"›";color:var(--green);font-weight:700;flex-shrink:0;}
+  /* DISTRICT FULL */
+  .dist-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:20px;}
+  .dist-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+  .dist-card-head{background:linear-gradient(135deg,#0d3d20,#1a6b3a);color:white;padding:16px 20px;}
+  .dist-card-head h3{font-family:'Playfair Display',serif;font-size:1.15rem;margin-bottom:4px;}
+  .dist-card-head .meta-row{font-size:.78rem;opacity:.85;}
+  .dist-card-body{padding:16px;}
+  .dsec-title{font-weight:700;color:var(--green);font-size:.78rem;text-transform:uppercase;letter-spacing:.5px;padding-bottom:5px;border-bottom:2px solid var(--green-pale);margin:12px 0 8px;}
+  .drow{display:flex;gap:8px;padding:4px 0;border-bottom:1px dashed var(--border);font-size:.82rem;}
+  .drow:last-child{border-bottom:none;}
+  .dk{color:var(--mist);min-width:110px;flex-shrink:0;}
+  .dv{color:var(--ink);font-weight:600;flex:1;}
+  .dtext{font-size:.83rem;line-height:1.6;color:#333;}
+  .dlist{list-style:none;font-size:.82rem;}
+  .dlist li{padding:4px 0;border-bottom:1px dashed var(--border);}
+  .dlist li:last-child{border-bottom:none;}
+  .dlist li::before{content:"• ";color:var(--green);font-weight:700;}
+  .dtag{display:inline-block;background:var(--green-pale);color:var(--green);border:1px solid var(--border);border-radius:20px;padding:2px 10px;font-size:.72rem;font-weight:600;margin:2px;}
+  .src-badge{display:inline-block;background:#0d3d20;color:#c8e6d5;border-radius:4px;padding:3px 10px;font-size:.68rem;font-weight:700;letter-spacing:.5px;margin-top:10px;}
+  .src-badge a{color:#c8e6d5;text-decoration:none;}
+  /* MCQ */
+  .mcq-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:16px;}
+  .mcq-card .q{font-weight:700;margin-bottom:14px;line-height:1.5;}
+  .options{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+  @media(max-width:500px){.options{grid-template-columns:1fr;}}
+  .opt-btn{padding:9px 14px;border:2px solid var(--border);border-radius:8px;background:var(--snow);cursor:pointer;font-family:'Mukta',sans-serif;font-size:.85rem;text-align:left;transition:all .15s;}
+  .opt-btn:hover{border-color:var(--green);background:var(--green-pale);}
+  .opt-btn.correct{background:#d4edda;border-color:#2d8a50;color:#1a6b3a;font-weight:700;}
+  .opt-btn.wrong{background:#fde8e8;border-color:#c0392b;color:#c0392b;}
+  .mcq-result{margin-top:12px;padding:10px;border-radius:8px;font-size:.85rem;display:none;}
+  .mcq-result.show{display:block;}
+  .mcq-result.correct-r{background:#d4edda;color:#1a6b3a;}
+  .mcq-result.wrong-r{background:#fde8e8;color:#c0392b;}
+  footer{background:#0d3d20;color:rgba(255,255,255,.7);text-align:center;padding:20px;font-size:.8rem;margin-top:40px;}
+  footer a{color:var(--gold);text-decoration:none;}
+  @media(max-width:480px){.header-top{padding:10px 14px;}.logo-text h1{font-size:1.15rem;}.container{padding:16px 10px;}.news-card.featured{flex-direction:column;}.news-card.featured .card-img{width:100%;height:80px;}}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <div class="logo">
+      <div class="logo-emblem">🏔️</div>
+      <div class="logo-text">
+        <h1>HP Current Affairs</h1>
+        <p>हिमाचल प्रदेश समसामयिकी पोर्टल</p>
+      </div>
+    </div>
+    <div class="header-date"><span id="today-date">–</span>Daily Updated</div>
+  </div>
+  <div class="ticker-bar">
+    <div class="ticker-label">LIVE</div>
+    <div class="ticker-content" id="ticker-items">
+      <span>HP Cabinet approves new development projects across 12 districts</span>
+      <span>HPSC announces recruitment for various posts – apply at hpsc.hp.gov.in</span>
+      <span>Atal Tunnel (Rohtang) crosses new traffic milestone</span>
+      <span>Himachal Pradesh ranked among top states in renewable energy</span>
+      <span>New medical college to be set up in Nahan, Sirmaur</span>
+      <span>HPPSC invites applications for HPAS 2025 examination</span>
+    </div>
+  </div>
+  <nav>
+    <button class="active" onclick="showSection('news',this)">🗞️ Today's News</button>
+    <button onclick="showSection('gk',this)">📚 HP Static GK</button>
+    <button onclick="showSection('districts',this)">🗺️ Districts Info</button>
+    <button onclick="showSection('mcq',this)">✏️ Practice MCQ</button>
+    <button onclick="showSection('exams',this)">📅 Exam Calendar</button>
+  </nav>
+</header>
+
+<!-- NEWS -->
+<div id="news" class="page-section active">
+<div class="container">
+  <div class="grid">
+    <main>
+      <div class="sec-header"><h2>📰 Today's Top Stories – Himachal Pradesh</h2></div>
+      <div id="news-grid"><div class="loading"><div class="spinner"></div>Fetching latest HP news…</div></div>
+    </main>
+    <aside class="sidebar">
+      <div class="hp-facts">
+        <div style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:14px;">HP at a Glance</div>
+        <div class="facts-grid">
+          <div><div class="fact-num">12</div><div class="fact-label">Districts</div></div>
+          <div><div class="fact-num">68</div><div class="fact-label">Assembly Seats</div></div>
+          <div><div class="fact-num">55,673</div><div class="fact-label">Area (km²)</div></div>
+          <div><div class="fact-num">82.8%</div><div class="fact-label">Literacy</div></div>
+        </div>
+      </div>
+      <div class="widget">
+        <div class="widget-head">🏘️ District Quick GK</div>
+        <div class="widget-body">
+          <div class="district-tabs" id="sidebar-tabs"></div>
+          <div id="sidebar-content"></div>
+        </div>
+      </div>
+      <div class="widget">
+        <div class="widget-head">🔗 Official HP Portals</div>
+        <div class="widget-body">
+          <a class="quick-link" href="https://himachal.nic.in" target="_blank"><div class="icon">🏛️</div> HP Govt Official Site</a>
+          <a class="quick-link" href="https://hpsc.hp.gov.in" target="_blank"><div class="icon">📋</div> HPSC – HP Staff Selection</a>
+          <a class="quick-link" href="https://hppsc.hp.gov.in" target="_blank"><div class="icon">🎓</div> HPPSC – Public Service Commission</a>
+          <a class="quick-link" href="https://himurja.hp.gov.in" target="_blank"><div class="icon">⚡</div> HIMURJA – Energy Authority</a>
+          <a class="quick-link" href="https://himachalpr.gov.in" target="_blank"><div class="icon">📢</div> HP Press Information Bureau</a>
+          <a class="quick-link" href="https://hpbose.org" target="_blank"><div class="icon">📖</div> HP Board of School Education</a>
+        </div>
+      </div>
+      <div class="widget">
+        <div class="widget-head">🗓️ HP Upcoming Exams</div>
+        <div class="widget-body">
+          <div class="exam-item"><div class="exam-name">HPAS Prelims 2025 <span class="badge">HOT</span></div><div class="exam-date">📅 Check hppsc.hp.gov.in</div></div>
+          <div class="exam-item"><div class="exam-name">HPSC JBT TET 2025</div><div class="exam-date">📅 Notification Q2 2025</div></div>
+          <div class="exam-item"><div class="exam-name">HP Police Constable</div><div class="exam-date">📅 hppolice.hp.gov.in</div></div>
+          <div class="exam-item"><div class="exam-name">HPSSSC Junior Engineer</div><div class="exam-date">📅 Applications ongoing</div></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+</div>
+
+<!-- STATIC GK -->
+<div id="gk" class="page-section">
+<div class="container">
+  <div class="sec-header"><h2>📚 Himachal Pradesh – Static GK</h2></div>
+  <div class="gk-chapters">
+    <div class="chapter-card"><h3>🏛️ Formation & Administration</h3><ul>
+      <li>Statehood: 25 January 1971 (18th state of India)</li>
+      <li>Capital: Shimla (Summer), Dharamsala (Winter)</li>
+      <li>High Court: Shimla</li>
+      <li>Rajya Sabha Seats: 3 | Lok Sabha Seats: 4</li>
+      <li>State Assembly: 68 seats</li>
+      <li>First CM: Dr. Y.S. Parmar</li>
+      <li>Total Districts: 12 | Divisions: 3</li>
+      <li>Tehsils: 172 | Development Blocks: 78</li>
+    </ul></div>
+    <div class="chapter-card"><h3>🌿 Geography & Environment</h3><ul>
+      <li>Total Area: 55,673 km² (18th largest state)</li>
+      <li>Highest Peak: Reo Purgyil (6,816 m) – Kinnaur</li>
+      <li>5 Rivers: Sutlej, Beas, Ravi, Chenab, Yamuna</li>
+      <li>State Tree: Deodar Cedar</li>
+      <li>State Flower: Pink Rhododendron (Burans)</li>
+      <li>State Animal: Snow Leopard</li>
+      <li>State Bird: Western Tragopan (Jujurana)</li>
+      <li>Largest Glacier: Bara Shigri (Lahaul-Spiti)</li>
+    </ul></div>
+    <div class="chapter-card"><h3>🏔️ National Parks & Wildlife</h3><ul>
+      <li>Great Himalayan NP (UNESCO WHS, 2014) – Kullu</li>
+      <li>Pin Valley NP – Spiti (Cold Desert biome)</li>
+      <li>Khirganga NP – Kullu</li>
+      <li>Simbalbara NP – Sirmaur (est. 2010)</li>
+      <li>Inderkilla NP – Kullu</li>
+      <li>Renuka WL Sanctuary – Sirmaur (largest natural lake)</li>
+      <li>Chail WL Sanctuary – Shimla</li>
+      <li>Shikari Devi WL Sanctuary – Mandi</li>
+    </ul></div>
+    <div class="chapter-card"><h3>⚡ Economy & Power</h3><ul>
+      <li>Hydropower Potential: 27,436 MW (3rd highest in India)</li>
+      <li>Bhakra Dam: Gobind Sagar Lake (Satluj, Bilaspur)</li>
+      <li>Largest Hydro Project: Nathpa Jhakri (1,500 MW)</li>
+      <li>HP ranks 1st: Apple production in India</li>
+      <li>Apple Economy: ₹3,500 crore annually</li>
+      <li>IT Park: Shimla, Waknaghat</li>
+      <li>Pharma hub: Baddi (Asia's largest pharma cluster)</li>
+      <li>Salt Mines: Drang & Guma (Mandi district)</li>
+    </ul></div>
+    <div class="chapter-card"><h3>🛣️ Infrastructure & Records</h3><ul>
+      <li>Atal Tunnel: World's longest highway tunnel at altitude (9.02 km)</li>
+      <li>Kalka-Shimla Railway: UNESCO World Heritage (2008)</li>
+      <li>Airports: Shimla, Kullu-Manali (Bhuntar), Dharamsala (Gaggal)</li>
+      <li>Hamirpur: Highest road density in India</li>
+      <li>HRTC: State road transport (3,100+ buses)</li>
+      <li>Chail: World's highest cricket ground (2,444 m)</li>
+      <li>Road Network: 28,208 km total</li>
+    </ul></div>
+    <div class="chapter-card"><h3>🎭 Culture & Heritage</h3><ul>
+      <li>Kullu Dussehra: 7-day International Festival</li>
+      <li>Nati: World's largest folk dance (Guinness Record)</li>
+      <li>Minjar Fair: Chamba (maize celebration)</li>
+      <li>Kangra Painting: 18th century recognized art form</li>
+      <li>GI Tags: Kullu Shawl, Kinnauri Shawl, Kangra Tea, Chamba Rumal</li>
+      <li>Bhuri Singh Museum: Chamba (est. 1908)</li>
+      <li>Pragpur (Kangra): India's 1st Heritage Village</li>
+      <li>Chittkul (Kinnaur): Last inhabited village on Indo-Tibet road</li>
+    </ul></div>
+    <div class="chapter-card"><h3>🏫 Education & Health</h3><ul>
+      <li>HP University: Shimla (est. 1970)</li>
+      <li>IIT Mandi – est. 2009 | NIT Hamirpur – est. 1986</li>
+      <li>IGMC: Premier medical college, Shimla</li>
+      <li>Dr. YS Parmar UHF: Solan (Horticulture & Forestry)</li>
+      <li>HP Board of School Education: HPBOSE, Dharamsala</li>
+      <li>Literacy Rate: 82.8% (M:89.5%, F:75.9%)</li>
+      <li>Hamirpur: Most literate district (89.01%)</li>
+      <li>Sex Ratio: 972 females per 1,000 males</li>
+    </ul></div>
+    <div class="chapter-card"><h3>🏆 HP Firsts & Unique Facts</h3><ul>
+      <li>2nd open-defecation free state: 2016</li>
+      <li>First smoke-free state in India</li>
+      <li>Least corrupt state (CMS India survey, 2017)</li>
+      <li>First state with 100% electrification: 1988</li>
+      <li>Tabo Monastery (996 AD): oldest continuously operating in India</li>
+      <li>Gobind Sagar: 2nd largest artificial reservoir in Asia</li>
+      <li>Chamba: only state in N. India with documented history from 500 AD</li>
+      <li>Una: only HP district with broad-gauge railway</li>
+    </ul></div>
+  </div>
+</div>
+</div>
+
+<!-- DISTRICTS FULL PAGE -->
+<div id="districts" class="page-section">
+<div class="container">
+  <div class="sec-header"><h2>🗺️ All 12 Districts – Official Static GK</h2></div>
+  <p style="margin-bottom:20px;color:var(--mist);font-size:.88rem;">📡 Data fetched from official district websites: hpshimla.nic.in | hpkangra.nic.in | hpmandi.nic.in | hpkullu.nic.in | hpchamba.nic.in | hphamirpur.nic.in | hpbilaspur.nic.in | hpuna.nic.in | hpsirmaur.nic.in | hpsolan.nic.in | hpkinnaur.nic.in | hplahaulspiti.nic.in</p>
+  <div class="dist-grid" id="dist-full-grid"></div>
+</div>
+</div>
+
+<!-- MCQ -->
+<div id="mcq" class="page-section">
+<div class="container">
+  <div class="sec-header"><h2>✏️ Daily Practice MCQ – HP GK (District-Focused)</h2></div>
+  <div id="mcq-container"></div>
+</div>
+</div>
+
+<!-- EXAMS -->
+<div id="exams" class="page-section">
+<div class="container">
+  <div class="sec-header"><h2>📅 HP Competitive Exams – Full Guide</h2></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;" id="exams-grid"></div>
+</div>
+</div>
+
+<footer>
+  <p>HP Current Affairs Portal | Data sourced from official HP Government district websites & public news RSS feeds</p>
+  <p style="margin-top:6px;"><a href="https://himachal.nic.in" target="_blank">himachal.nic.in</a> | <a href="https://hppsc.hp.gov.in" target="_blank">hppsc.hp.gov.in</a> | <a href="https://hpsc.hp.gov.in" target="_blank">hpsc.hp.gov.in</a></p>
+</footer>
+
+<script>
+document.getElementById('today-date').textContent=new Date().toLocaleDateString('en-IN',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+
+// ══ DISTRICT DATA (sourced from official .nic.in websites) ══
+const D=[
+  {name:"Shimla",hq:"Shimla",area:5131,pop:"8.13 Lakh",div:"Shimla",subdiv:9,teh:13,blk:10,lit:"83.64%",site:"https://hpshimla.nic.in",
+   hist:"Founded 1819 after Anglo-Gurkha war. First British summer home built 1822 by Charles Pratt Kennedy. Summer capital of British India. HP State capital since 1971. District in present form: 1 Sept 1972 (merged from erstwhile Mahasu district).",
+   geo:"Bounded by Mandi & Kullu (N), Kinnaur (E), Uttarakhand (S), Sirmaur (W). Elevation 300–6,000 m. Rivers: Giri, Pabbar, Satluj (boundary with Kinnaur). 2,897 villages (2,311 inhabited).",
+   eco:"Apple orchards (Shimla Hills – major apple belt). Horticulture (walnuts, apricots, almonds). Tourism (HP's primary tourist destination). Shimla-Kalka Railway (UNESCO). IT Park at Waknaghat.",
+   heritage:["Viceregal Lodge (now IIAS, built 1888)","Jakhu Temple (2,455 m, Hanuman shrine)","The Mall & Scandal Point","Kalka-Shimla Railway (UNESCO WHS, 1906)","Christ Church (1857, 2nd oldest in N. India)","State Museum & Gaiety Theatre"],
+   gk:["Name derived from 'Shyamalaya' (blue house of a faqir on Jakhu)","Shimla Pact 1972: signed between India & Pakistan","Former capital of undivided Punjab (1871–1947)","Resin & turpentine factories at Bilaspur & Nahan process Shimla's resin","Altitude of Shimla town: 2,202 m above sea level"],
+   tags:["HP Capital","Apple Belt","Tourism Hub","UNESCO Railway","Colonial Heritage"]},
+
+  {name:"Kangra",hq:"Dharamsala",area:5739,pop:"15.07 Lakh",div:"Kangra",subdiv:12,teh:18,blk:15,lit:"85.67%",site:"https://hpkangra.nic.in",
+   hist:"Largest district by population. Ancient name: Nagarkot/Trigarta (mentioned in Mahabharata). Present district formed 1 Sept 1972. Formerly the largest district of undivided Punjab (transferred to HP on 1 Nov 1966). Kangra Fort: largest fort in Himalayas (built by Katoch dynasty).",
+   geo:"Between 31°21'–32°59'N & 75°47'–77°45'E. Altitude 500–5,000 m. Dhauladhar & Shivalik ranges. Bounded by Chamba & Lahaul-Spiti (N), Mandi (E), Hamirpur & Una (S), Punjab (W). Major river: Beas.",
+   eco:"Kangra Tea (GI Tag). Apple & stone fruits. Kangra Valley Railway (Pathankot–Jogindernagar, 164 km narrow gauge). Tourism: Dharamsala (Dalai Lama's seat), McLeodGanj, Bir Billing (paragliding capital of Asia). Hydropower on Uhl River.",
+   heritage:["Kangra Fort (largest fort in Himalayas, Katoch dynasty)","Jwalamukhi Temple (eternal flame from natural gas)","Masroor Rock-Cut Temples (6–8th century AD)","Pragpur – India's 1st Heritage Village (notified 1997)","Dharamsala – residence of 14th Dalai Lama (since 1960)","Baijnath Temple (12th century Shiva temple)"],
+   gk:["Katoch dynasty: one of oldest royal dynasties in India (mentioned in Mahabharata)","Kangra painting: 18th century art school, Guler was its cradle","King Susharma Chandra of Trigarta: sided with Kauravas in Mahabharata","Mahmud of Ghazni plundered Nagarkot temple in 1009 AD","Baba Kanshi Ram: 'Pahari Gandhi' & 'Bulbule Hills' (given by Nehru & Sarojini Naidu)","Jhamakada: popular group dance of Kangra, performed exclusively by women"],
+   tags:["Largest Pop District","Dharamsala","Dalai Lama","Kangra Tea","Kangra Painting","Paragliding Capital"]},
+
+  {name:"Mandi",hq:"Mandi",area:3950,pop:"9.99 Lakh",div:"Mandi",subdiv:12,teh:16,blk:10,lit:"81.53%",site:"https://hpmandi.nic.in",
+   hist:"Formed 15 April 1948 by merger of Mandi & Suket princely states. Mandi Town founded 1527 AD by Ajbar Sen (19th descendant of Bahu Sen). Chiefs of Mandi & Suket: Chandravanshi Rajputs (Sena dynasty of Bengal), claiming descent from Pandavas. Suket state founded ~765 AD by Bir Sen.",
+   geo:"Area 3,950 km². Acts as gateway to Kullu, Lahaul, Leh-Ladakh. Junction of NH-20, NH-21 & NH-70. Balh Valley: quality wheat, paddy & vegetable production. Major rivers: Beas & Uhl.",
+   eco:"~79% agrarian population. Salt mines at Drang & Guma (special features). Silk production (cocoon cultivation – 9,000+ farmers). Apple cultivation (15% of HP's total). Milk processing plant. Pandoh Dam on Beas. Rich limestone & magnasite deposits.",
+   heritage:["Bhutnath Temple (Chouhata Bazar, Mandi town)","Panchvaktra Mahadev (confluence of Suketi & Beas rivers)","Trilokinath Temple (Purani Mandi)","Rewalsar Lake (sacred Buddhist & Hindu site)","Prashar Lake (floating island, 2,730 m)","Himachal Darshan Photo Gallery (4 km from Mandi on CH-Manali NH)"],
+   gk:["Nickname: 'Chhoti Kashi' (mini Varanasi) – 81+ stone temples","International Shivratri Fair: Feb/March (deities from all corners of district)","Local language: Mandeali; official feast: Sepu Wadi (served at Dham)","Rewalsar Lake: mentioned in Skanda Purana; Buddhist saint Padam Sambhav from Zahor (= Rewalsar area)","Ghantaghar (clock tower) & Victoria Bridge: famous landmarks","Balh Valley: known as 'granary of Mandi'"],
+   tags:["Chhoti Kashi","81 Temples","Shivratri Fair","Rewalsar","Prashar Lake","Gateway Lahaul"]},
+
+  {name:"Kullu",hq:"Kullu",area:5503,pop:"4.37 Lakh",div:"Mandi",subdiv:4,teh:4,blk:5,lit:"80.14%",site:"https://hpkullu.nic.in",
+   hist:"Founded 1st century AD by Behangamani Pal from Haridwar (Mayapuri). Original capital: Jagatsukh. Shifted to Naggar (ruled ~1400 years), then to Sultanpur/Kullu by Raja Jagat Singh (1637–1672). Part of Punjab district 1963; district of HP from 1 Nov 1966.",
+   geo:"5,503 km². Kullu Valley: Beas River from Aut (833 m) to Rohtang Portal (3,330 m). Sub-valleys: Parvati, Sainj, Tirthan. Bounded by Lahaul-Spiti (N/NE), Kinnaur (E), Shimla (S), Mandi (SW/W), Kangra (NW).",
+   eco:"Apple orchards (18,524 ha; ~80,000–90,000 MT/yr = ~9,000 truckloads). Kullu Shawls (GI Tag). Tourism (Manali, Rohtang, Kasol). Parbati Hydroelectric Project. Manikaran hot springs. Captain R.C. Lee: planted British apple orchards in Bandrol (1870).",
+   heritage:["Hidimba Devi Temple, Manali (1553 AD, Deodar wood temple)","Raghunath Temple, Kullu (1650 AD – idol from Ayodhya by Raja Jagat Singh)","Naggar Castle (15th century, stone & wood architecture)","Great Himalayan NP (UNESCO WHS, 90,495 ha, 2014)","Rohtang Pass (3,978 m) & Jalori Pass (3,120 m)","Bijli Mahadev Temple (2,460 m, 60 ft Shiva lingam)"],
+   gk:["'Kulanthpith' = end of habitable world (ancient texts Vishnu Purana, Ramayana, Mahabharata)","Valley of Gods: each village has its own local deity (Deo/Devi)","Kullu Dussehra: 7-day International Festival (Oct); Devtas from 300+ villages participate","Oldest historical coin: 'Rajna Kolutsya Virayasasya' (1st century AD)","Manali = 'Manu-alaya' (abode of Manu after the great deluge)","Buddhist pilgrim Xuanzang visited Kullu Valley in 634/635 CE"],
+   tags:["Valley of Gods","Dussehra Festival","Apple Hub","Kullu Shawl (GI)","Great Himalayan NP","Manali"]},
+
+  {name:"Chamba",hq:"Chamba",area:6528,pop:"5.19 Lakh",div:"Kangra",subdiv:6,teh:8,blk:7,lit:"73.19%",site:"https://hpchamba.nic.in",
+   hist:"Only state in N. India with well-documented history from circa 500 AD. High mountain ranges preserved centuries-old relics. Chamba has 1,000+ year old temple inscriptions in Sarda script on copper plates (still legally valid). Designated NITI Aayog Aspirational District.",
+   geo:"Largest district by area (6,528 km²). Northernmost district. Borders J&K (N), Tibet (E), Lahaul-Spiti (E), Kangra (S). Major rivers: Ravi (flows through Chamba Valley), Budhil, Siul, Tantgari (tributaries of Ravi).",
+   eco:"Tourism (Dalhousie, Khajjiar, Chamba town). Handicrafts: Chamba Rumal (needlework embroidery – GI Tag). Ravi hydropower potential. Rich biodiversity & forest cover. Limited agriculture due to mountainous terrain.",
+   heritage:["Khajjiar – 'Mini Switzerland of India' (~6,500 ft, 1 km²)","Bhuri Singh Museum (est. 14 Sept 1908; Kangra-style paintings, copper plate inscriptions)","Chaugan: historic meadow ground (polo, darbars, Minjar Fair)","Dalhousie – British cantonment hill station (1854)","Manimahesh Lake & Manimahesh Kailash peak (4,080 m) – sacred pilgrimage","Lakhdata & Trilokinath temples"],
+   gk:["Chamba's copper grant-deeds (sanad) by rajas: still legally valid under Indian law","Bhuri Singh (1904–1919): donated family paintings to museum","Khajjiar temple: 10th century, dedicated to serpent god Khajji Naga (Hindu-Mughal architecture blend)","Minjar Fair: celebrates maize (bhuttu/tassel) shoot emergence in Beas valley; held at Chaugan","NITI Aayog Aspirational District: poverty & unemployment challenges","Only 5 Assembly constituencies despite being largest area district"],
+   tags:["Largest Area District","Aspirational District","Mini Switzerland","Bhuri Singh Museum","Manimahesh","Chamba Rumal (GI)"]},
+
+  {name:"Hamirpur",hq:"Hamirpur",area:1118,pop:"4.54 Lakh",div:"Kangra",subdiv:4,teh:8,blk:6,lit:"89.01%",site:"https://hphamirpur.nic.in",
+   hist:"Named after Raja Hamir Chand (Katoch dynasty). History linked to Katoch rulers; part of ancient Jallandhar-Trigarta (mentioned in Panini's Ashtadhyai). Raja Sansar Chand II made Sujanpur Tira his capital (1775–1823 AD). Became separate district 1 Sept 1972 from Kangra.",
+   geo:"Smallest district by area (1,118 km²). Shivalik Range. Elevation 400–1,100 m. Bounded by Bilaspur (S), Mandi (W), Kangra (N), Una (SW). Dialects: Western Pahari (akin to Mandi, Bilaspur, Kangra). Highest road density in India.",
+   eco:"Primary livelihood: defence services (Veer Bhoomi). Education hub: NIT Hamirpur (1986), HP Technical University, Dr. RK Govt Medical College. Agriculture: maize, wheat, rice, vegetables. 248 Gram Panchayats across 6 Development Blocks.",
+   heritage:["Sujanpur Tira: palaces & temples built by Sansar Chand II","Baba Balak Nath Temple (Deotsidh) – major pilgrimage site (child saint shrine)","Awan Ghat on Beas River","Nadaun: historic site (Battle of Nadaun, 1691; Anglo-Gurkha battles)","Gasota Mahadev Temple","Haripur Fort (ruins, on Beas River banks)"],
+   gk:["Most literate district of HP (89.01%)","Highest road density in any district in India","Most defence personnel per capita in HP ('Veer Bhoomi')","NIT Hamirpur: est. 1986 (now National Institute of Technology)","Sansar Chand II: dreamt of re-establishing ancient Trigarta empire; fought Gurkhas & Ranjit Singh","Battle of Mahal Morian: Gurkhas defeated Katoch army (1806 AD) here"],
+   tags:["Most Literate District","Highest Road Density","Veer Bhoomi","NIT Hamirpur","Sansar Chand II"]},
+
+  {name:"Bilaspur",hq:"Bilaspur",area:1167,pop:"3.82 Lakh",div:"Shimla",subdiv:2,teh:3,blk:3,lit:"84.93%",site:"https://hpbilaspur.nic.in",
+   hist:"Ruling family: Chanderwanshi Rajputs from Chanderi (Bundelkhand, MP). Founded by Bir Chand (built Naina Devi temple). Kahlur: ancient name of Bilaspur state. Merged with HP on 1 July 1954 (was separately under Chief Commissioner till then). 2 tehsils at formation: Ghumarwin & Bilaspur Sadar.",
+   geo:"Area 1,167 km². Divided by Gobind Sagar Lake. 2 sub-divisions, 3 tehsils, 3 blocks, 136 panchayats. Borders Mandi (N), Hamirpur (NE), Solan (S), Bilaspur was last to join HP (1954, 7 years after independence).",
+   eco:"Gobind Sagar Lake (Bhakra Dam reservoir): tourism, water sports, fishing. Cement industry. Agriculture: wheat, maize, mustard. Kol Dam (Satluj): another major hydropower project. Old Bilaspur town submerged when Bhakra Dam was built (1957).",
+   heritage:["Gobind Sagar Lake (168 km long; 2nd largest artificial reservoir in Asia)","Naina Devi Temple (one of 51 Shakti Peeths; left eye of Sati fell here)","Laxmi Narayan Temple (ancient, near DC Office)","Marchand Fort (ruins)","Vyas Cave (near Bilaspur town)","Deothal Chowk & Bhakra Dam viewpoint"],
+   gk:["Old Bilaspur town submerged under Gobind Sagar reservoir when Bhakra Dam was built (1957)","Naina Devi: 'Naina' = eyes; legend says Goddess Sati's eyes fell here","Bilaspur was separately administered under Chief Commissioner before joining HP on 1 July 1954","Bir Chand: built Naina Devi temple & carved out kingdom of Kahlur","Gobind Sagar named after 10th Sikh Guru Gobind Singh","Kol Dam: hydropower project completed 2015 on Satluj River"],
+   tags:["Gobind Sagar Lake","Naina Devi Shaktipeeth","Bhakra Dam","Kol Dam","Last to Join HP (1954)"]},
+
+  {name:"Una",hq:"Una",area:1540,pop:"5.21 Lakh",div:"Kangra",subdiv:5,teh:5,blk:5,lit:"87.23%",site:"https://hpuna.nic.in",
+   hist:"Formed 1 Sept 1972 from reorganization of Kangra district. Historically 'Jaswan Dun', ruled by Katoch family. Jaswan State founded ~1170 AD by Purab Chand (Katoch cadet). Baba Kaladhari (descendant of Guru Nanak) settled in Una in 18th century. Known as 'Land of Gurus'.",
+   geo:"Situated on banks of Swan River (tributary of Satluj). Una town at junction of major highways. 5 sub-divisions (Una, Amb, Haroli, Bangana, Gagret), 5 tehsils, 7 sub-tehsils, 5 development blocks. Close proximity to Punjab border.",
+   eco:"Most industrial district close to Punjab: Mehatpur, Gagret, Tahliwal, Amb are main industrial centres. Una has unique broad-gauge railway (Nangal–Una 14 km, laid 11 Jan 1991). Languages: Hindi, Pahari, Punjabi.",
+   heritage:["Chintpurni Temple (ancient Shakti Peetha – part of 51 Shaktipeeths)","Dera Baba Barbhag Singh","Dera Baba Rudru","Dhyunsar Mahadev Temple (Bangana tehsil)","Dharamshala Mahanta (established during Akbar's reign, Mughal-era murals)","Amb – one-time seat of Jaswan State"],
+   gk:["Bedi family of Una: descendants of Guru Nanak Dev Ji; Baba Kaladhari settled here","Una = 'Jaswan Dun' (fertile valley in outer Shivalik hills of erstwhile Kangra state)","Only HP district with broad-gauge railway connectivity (Nangal to Una)","Swan River (locally called 'Som Bhadra' in Ramayana, 'Swastu' in Rig Veda)","Una district: 'Land of Gurus' – official tagline on district website","Chintpurni Temple draws millions of pilgrims, especially during Navratras"],
+   tags:["Land of Gurus","Chintpurni Shaktipeeth","Industrial Hub","Broad Gauge Railway","Jaswan Dun","Guru Nanak Lineage"]},
+
+  {name:"Sirmaur",hq:"Nahan",area:2825,pop:"5.29 Lakh",div:"Shimla",subdiv:6,teh:7,blk:5,lit:"79.98%",site:"https://hpsirmaur.nic.in",
+   hist:"Southernmost district of HP. State founded by Raja Rasaloo from Jaisalmer. Old name: 'Surughna'. Ancient inhabitants: Kunindas (identified with 'Kanets'). State merged with HP 15 April 1948 (last Raja Rajendra Parkash signed merger 13 March 1948 at Nahan). Praja Mandal founded 1935–36.",
+   geo:"Outer Himalayas (Shivalik Range). Area 2,825 km². Giri River (biggest river) divides district: Giripar & Giriaar. Main rivers: Giri, Yamuna, Tons, Bata, Ghagghar, Markanda. Churdhar Peak: highest in southern HP (3,647 m). Bounded by Shimla (N), Solan (NW), Uttarakhand (E), Haryana (S).",
+   eco:"Agriculture (wheat, maize, vegetables). Paonta Sahib: industrial area (paper mills, cement, pharma). Rajgarh sub-division: stone fruits & peaches (₹32 cr annual income). Limestone mining (Banor-Shiva, Paonta Sahib). Fish farming on Giri River.",
+   heritage:["Shivalik Fossil Park, Saketi (est. 1974 – prehistoric animal models 1–2.5 million years old)","Renuka Lake: largest natural lake of HP; sacred to Renuka Devi (mother of Parshuram)","Trilokpur Temple (Bala Sundri; built 1573 by Raja Dip Parkash)","Churdhar Peak: 11,965 ft – highest in southern HP; Sanjivani booti legend","Paonta Sahib Gurudwara (Guru Gobind Singh composed Dasam Granth here)","Suketi: ancient vertebrate fossil excavation site"],
+   gk:["'Sirmour' name: dominance over all hill states OR named after 'Shree Sirmour' son of the founder","Giri River: originates in Kotkhai/Jubbal (Shimla district); meets Yamuna near Paonta Sahib","Renuka Lake: linked to Renuka Devi (mother of Parshuram); India's largest natural freshwater lake in HP","Churdhar: believed to be where Hanuman found Sanjeevani for Lakshmana","National Green Tribunal (NGT) intervened multiple times against Yamuna mining in Sirmaur (2023–2025)","Paonta Sahib Gurudwara: Guru Gobind Singh stayed & composed Dasam Granth (1685–88 AD)"],
+   tags:["Southernmost District","Renuka Lake","Fossil Park Saketi","Paonta Sahib","Churdhar Peak","Sirmaur Shivalik"]},
+
+  {name:"Solan",hq:"Solan",area:1936,pop:"5.80 Lakh",div:"Shimla",subdiv:4,teh:4,blk:5,lit:"83.36%",site:"https://hpsolan.nic.in",
+   hist:"District created 1 September 1972. Earlier: capital of princely state of Baghat. Located 46 km south of Shimla on Kalka-Shimla NH. City named after Shoolini Devi. Annual Shoolini Utsav (June): 3-day mela at Thodo Ground. Industrial growth spurred by proximity to Chandigarh & Punjab.",
+   geo:"Area 1,936 km². Bounded by Shimla (N), Sirmaur (E), Haryana (S), Bilaspur & Mandi (W). Elevation 300–3,000 m. 4 sub-divisions: Solan, Nalagarh, Arki, Kandaghat. Rivers: Satluj, Yamuna & Ghagghar catchment areas. Kalka-Shimla Railway passes through Solan.",
+   eco:"Pharmaceutical hub – Baddi (Asia's largest pharma cluster; 2,000+ pharma units). Mushroom cultivation – Directorate of Mushroom Research (DMR) at Chambaghat: 'Mushroom City of India'. Tomato production – 'City of Red Gold'. Kasauli: cantonment & tourism.",
+   heritage:["Shoolini Mata Temple (Solan; annual June fair – Shoolini Utsav)","Jatoli Shiv Temple (HP's tallest Shiv temple, 111 ft)","Kasauli Cantonment (British era, 1842)","Nalagarh Fort (heritage hotel)","Yundung Monastery (near Solan)","Chail Palace & Chail Wildlife Sanctuary (Shimla-Solan border)"],
+   gk:["Baddi (Solan): Asia's largest pharmaceutical manufacturing cluster","Directorate of Mushroom Research (DMR) at Chambaghat: gives Solan title 'Mushroom City of India'","Solan = 'City of Red Gold' (extensive tomato cultivation)","Kalka-Shimla Railway: passes through Solan; 96 tunnels, 864 bridges (UNESCO WHS 2008)","Shoolini Devi: name means 'goddess wielding the spear'; Solan city named after her","Chail Cricket Ground (2,444 m): highest cricket ground in the world"],
+   tags:["Mushroom City","Pharma Hub Baddi","City of Red Gold","Asia Largest Pharma","Kasauli","Kalka-Shimla Railway"]},
+
+  {name:"Kinnaur",hq:"Reckong Peo",area:6401,pop:"84,121",div:"Shimla",subdiv:3,teh:5,blk:3,lit:"80.77%",site:"https://hpkinnaur.nic.in",
+   hist:"District created 1 May 1960 from Chini tehsil of Mahasu district + 14 villages of Rampur tehsil. Previously: Rampur-Bushahr princely state (Chandravanshi King Pradyuman of Banaras founded Bushahr at Kamru, Sangla Valley). 10th–11th century: part of Guge kingdom of Tibet. British took over Bushahr in 1846.",
+   geo:"3rd largest district by area (6,401 km²). Tibet border to east (Zanskar Range = international boundary). Altitude 1,500–6,816 m. 5 tehsils: Nichar, Kapla, Sangla, Pooh, Moorang. Rivers: Satluj (divides district in two equal parts), Spiti (joins Satluj at Khab), Baspa (Sangla Valley).",
+   eco:"Kinnauri apples (2nd largest producer in HP). Grapes: 1st in HP in grape production (Ribba Valley). Kinnauri shawls & caps (GI Tag). Potatoes at Chittkul: world-class. Tourism & trekking (Kinnaur Kailash Parikrama). Niyoja tree: found only in Kinnaur.",
+   heritage:["Kinnaur Kailash (6,050 m, sacred Shiva pilgrimage; annual parikrama)","Sangla Valley & Baspa River (most beautiful valley in Kinnaur)","Chittkul village (3,680 m; last inhabited village before Indo-Tibet border)","Kamru Fort (old capital of Bushahr state, above Sangla)","Nako Lake (Hangrang valley, ~3,625 m altitude)","Rupi-Bhaba & Lipa-Asrang Wildlife Sanctuaries"],
+   gk:["Inner Line Permit required for foreigners; abolished for Indians in 1992","Lowest sex ratio in HP (819 females/1000 males – 2011 census)","100% rural population – no urban area in Kinnaur","Pandavas spent 12 years exile in Kinnaur (Hindu mythology)","Niyoja tree: found only in Kinnaur throughout India (rare species)","Reo Purgyil (6,816 m): highest peak in HP (on Kinnaur-Tibet border)","Kinnaur ranks 2nd in per capita income in HP (after Solan)"],
+   tags:["Tibet Border","Reo Purgyil (HP's highest)","Kinnauri Shawl (GI)","Sangla Valley","Chittkul","Inner Line Permit"]},
+
+  {name:"Lahaul & Spiti",hq:"Keylong",area:13835,pop:"31,564",div:"Kangra",subdiv:2,teh:2,blk:2,lit:"76.76%",site:"https://hplahaulspiti.nic.in",
+   hist:"Formed 1960 by merging Lahaul & Spiti tehsils. Former capitals: Kardang (Lahaul), Dhankar (Spiti). Merged with HP on 1 Nov 1966 via Punjab Reorganisation Act. Designated Tribal Area (Single-Line Administration system). China's annexation of Tibet (1951) turned Spiti into sensitive zone.",
+   geo:"Largest district by area (13,835 km²). Lowest population density in HP. Cold desert (Trans-Himalayan rain shadow). Connected via Rohtang Pass (Manali) or Kunzum Pass (to Spiti). Spiti Valley floor avg elevation: 4,270 m. Lahaul formed by confluence of Chandra & Bhaga rivers (Chandrabhaga = Chenab).",
+   eco:"Atal Tunnel now provides all-weather Manali–Lahaul connectivity. Tourism (Key Monastery, Tabo, Chandratal). Yak rearing, barley, peas, root vegetables. Solar power projects. Angora farming. Trekking (Spiti Circuit, Pin-Bhaba Pass).",
+   heritage:["Key (Kye) Monastery (1000+ years old; 3,800 m altitude; largest in Spiti)","Tabo Monastery (996 AD; UNESCO tentative list; 'Ajanta of Himalayas'; 9 temples, 23 chortens)","Chandratal Lake (4,300 m altitude; Ramsar Wetland Site; 'Lake of the Moon')","Suraj Tal (4,883 m; highest lake in HP)","Kunzum Pass (4,551 m; entrance pass to Spiti from Lahaul)","Dhankar Monastery & Dhankar Lake (3,890 m)","Bara Shigri Glacier (longest glacier in HP)"],
+   gk:["Spiti means 'The Middle Land' between Tibet & India","Tabo Monastery (996 AD): oldest continuously operating monastery in India","Chandratal Lake: Ramsar Wetland Site (Moon Lake, crescent shaped)","Bara Shigri Glacier: longest glacier in HP (26 km long)","4th least populous district in India (out of 640)","Key Monastery has a library with rare thangkas & Buddhist texts","All foreign nationals require Inner Line Permit for Spiti Valley"],
+   tags:["Largest Area District","Cold Desert","Key Monastery","Tabo Monastery (996 AD)","Chandratal Ramsar","Bara Shigri Glacier","Tribal Area"]}
+];
+
+// ── SIDEBAR TABS ──
+(function(){
+  const tabs=document.getElementById('sidebar-tabs');
+  const cont=document.getElementById('sidebar-content');
+  D.forEach((d,i)=>{
+    const btn=document.createElement('button');
+    btn.textContent=d.name;
+    if(i===0) btn.classList.add('active');
+    btn.onclick=()=>{
+      tabs.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      cont.querySelectorAll('.district-info').forEach(el=>el.classList.remove('active'));
+      document.getElementById('sdb-'+i).classList.add('active');
+    };
+    tabs.appendChild(btn);
+    const info=document.createElement('div');
+    info.className='district-info'+(i===0?' active':'');
+    info.id='sdb-'+i;
+    info.innerHTML=`<h4>${d.name} District</h4>
+      <div class="gk-item"><span class="gk-key">HQ</span><span class="gk-val">${d.hq}</span></div>
+      <div class="gk-item"><span class="gk-key">Area</span><span class="gk-val">${d.area} km²</span></div>
+      <div class="gk-item"><span class="gk-key">Population</span><span class="gk-val">${d.pop}</span></div>
+      <div class="gk-item"><span class="gk-key">Literacy</span><span class="gk-val">${d.lit}</span></div>
+      <div class="gk-item"><span class="gk-key">Tehsils</span><span class="gk-val">${d.teh}</span></div>
+      <div class="gk-item"><span class="gk-key">Division</span><span class="gk-val">${d.div}</span></div>
+      <div class="gk-item"><span class="gk-key">Official Site</span><span class="gk-val"><a href="${d.site}" target="_blank" style="color:var(--green);font-size:.78rem">${d.site.replace('https://','')}</a></span></div>`;
+    cont.appendChild(info);
+  });
+})();
+
+// ── FULL DISTRICTS PAGE ──
+(function(){
+  const grid=document.getElementById('dist-full-grid');
+  const emojis=['🏙️','🌿','🕌','🍎','🌨️','⚔️','💧','🛐','🦌','🍄','🍇','❄️'];
+  D.forEach((d,i)=>{
+    const card=document.createElement('div');
+    card.className='dist-card';
+    const heritageHtml=d.heritage.map(h=>`<li>${h}</li>`).join('');
+    const gkHtml=d.gk.map(f=>`<li>${f}</li>`).join('');
+    const tagsHtml=d.tags.map(t=>`<span class="dtag">${t}</span>`).join('');
+    card.innerHTML=`
+      <div class="dist-card-head">
+        <h3>${emojis[i]} ${d.name} District</h3>
+        <div class="meta-row">HQ: ${d.hq} | Area: ${d.area} km² | Pop: ${d.pop} | Literacy: ${d.lit}</div>
+      </div>
+      <div class="dist-card-body">
+        <div class="dsec-title">📊 Administrative Profile</div>
+        <div class="drow"><span class="dk">Division</span><span class="dv">${d.div}</span></div>
+        <div class="drow"><span class="dk">Sub-Divisions</span><span class="dv">${d.subdiv}</span></div>
+        <div class="drow"><span class="dk">Tehsils</span><span class="dv">${d.teh}</span></div>
+        <div class="drow"><span class="dk">Dev. Blocks</span><span class="dv">${d.blk}</span></div>
+        <div class="drow"><span class="dk">Official Site</span><span class="dv"><a href="${d.site}" target="_blank" style="color:var(--green)">${d.site.replace('https://','')}</a></span></div>
+        <div class="dsec-title">📜 History (Official Source)</div>
+        <p class="dtext">${d.hist}</p>
+        <div class="dsec-title">🗺️ Geography</div>
+        <p class="dtext">${d.geo}</p>
+        <div class="dsec-title">💰 Economy</div>
+        <p class="dtext">${d.eco}</p>
+        <div class="dsec-title">🏛️ Heritage & Tourist Places</div>
+        <ul class="dlist">${heritageHtml}</ul>
+        <div class="dsec-title">📌 Key GK Facts for Exams</div>
+        <ul class="dlist">${gkHtml}</ul>
+        <div style="margin-top:10px;">${tagsHtml}</div>
+        <div class="src-badge">📡 SOURCE: <a href="${d.site}" target="_blank">${d.site.replace('https://','')}</a></div>
+      </div>`;
+    grid.appendChild(card);
+  });
+})();
+
+// ── MCQ ──
+const mcqs=[
+  {q:"Which official district website has the tagline 'Land of Gurus'?",opts:["hpkangra.nic.in","hpuna.nic.in","hphamirpur.nic.in","hpshimla.nic.in"],ans:1,exp:"hpuna.nic.in is the official website of Una district, known as 'Land of Gurus' due to Guru Nanak's descendant (Bedi family) settling here."},
+  {q:"Mandi Town was founded in 1527 AD by which ruler (from hpmandi.nic.in)?",opts:["Sansar Chand","Ajbar Sen","Bir Sen","Pradyuman"],ans:1,exp:"Ajbar Sen (19th descendant of Bahu Sen, Chandravanshi line) founded Mandi Town in 1527 AD as per the official district website."},
+  {q:"Kangra Fort is described on hpkangra.nic.in as the largest fort where?",opts:["In HP","In Punjab","In the Himalayas","In North India"],ans:2,exp:"hpkangra.nic.in states: 'The Kangra Fort is the largest fort in the Himalayas and one of the oldest forts in India.' Built by the Katoch dynasty."},
+  {q:"As per hpbilaspur.nic.in, Bilaspur merged with Himachal Pradesh on which date?",opts:["15 April 1948","1 November 1966","1 July 1954","25 January 1971"],ans:2,exp:"Bilaspur was separately under a Chief Commissioner and merged with HP on 1 July 1954, becoming the 5th district."},
+  {q:"Chamba is described as the only state in N. India to preserve documented history from approximately which year?",opts:["800 AD","500 AD","1000 AD","200 AD"],ans:1,exp:"As per hpchamba.nic.in: 'Chamba is the only state in northern India to preserve a well-documented history from circa 500 A.D.'"},
+  {q:"Hamirpur has the highest road density in which geography?",opts:["In HP","In all of India","In Shivalik Hills","In North India"],ans:1,exp:"hphamirpur.nic.in confirms: 'Hamirpur district has the highest road density in the country' — i.e., all of India."},
+  {q:"As per hpkinnaur.nic.in, which tree is found only in Kinnaur throughout India?",opts:["Deodar","Chilgoza","Niyoja tree","Kail"],ans:2,exp:"The Niyoja tree is found only in Kinnaur throughout India — a unique fact from official Kinnaur district records."},
+  {q:"Tabo Monastery (hplahaulspiti.nic.in) was established in which year?",opts:["1060 AD","996 AD","1200 AD","800 AD"],ans:1,exp:"Tabo Monastery was established in 996 AD, making it the oldest continuously operating monastery in India (1,000+ years old)."},
+  {q:"The Shivalik Fossil Park at Saketi (Sirmaur) was inaugurated in which year?",opts:["1962","1974","1985","1990"],ans:1,exp:"As per hpsirmaur.nic.in: The Shivalik Fossil Park was inaugurated in 1974 and displays life-size models of prehistoric animals (1–2.5 million years old)."},
+  {q:"According to hpsolan.nic.in, what is Solan called due to mushroom cultivation?",opts:["City of Red Gold","Mushroom City of India","Green Valley City","City of Spices"],ans:1,exp:"Solan is known as the 'Mushroom City of India' due to vast mushroom farming and the Directorate of Mushroom Research (DMR) at Chambaghat."},
+  {q:"Una district (hpuna.nic.in) has which unique transport infrastructure?",opts:["Narrow gauge railway","Broad gauge railway","Rope-way","Helicopter service"],ans:1,exp:"Una has India's first broad-gauge railway link in HP hills (Nangal to Una, 14 km), inaugurated 11 Jan 1991."},
+  {q:"As per hpshimla.nic.in, the Shimla district in present form came into existence on which date?",opts:["15 August 1947","25 January 1971","1 September 1972","1 November 1966"],ans:2,exp:"Shimla district in its present form came into existence from 1st September 1972 on reorganisation of districts of HP."}
+];
+(function(){
+  const c=document.getElementById('mcq-container');
+  mcqs.forEach((m,qi)=>{
+    const card=document.createElement('div');
+    card.className='mcq-card';
+    const opts=m.opts.map((o,oi)=>`<button class="opt-btn" onclick="checkAnswer(this,${qi},${oi})">${String.fromCharCode(65+oi)}. ${o}</button>`).join('');
+    card.innerHTML=`<div class="q">Q${qi+1}. ${m.q}</div><div class="options">${opts}</div><div class="mcq-result" id="res-${qi}"></div>`;
+    c.appendChild(card);
+  });
+})();
+function checkAnswer(btn,qi,oi){
+  const card=btn.closest('.mcq-card');
+  card.querySelectorAll('.opt-btn').forEach(b=>b.onclick=null);
+  const res=document.getElementById('res-'+qi);
+  if(oi===mcqs[qi].ans){btn.classList.add('correct');res.className='mcq-result correct-r show';res.textContent='✅ Correct! '+mcqs[qi].exp;}
+  else{btn.classList.add('wrong');card.querySelectorAll('.opt-btn')[mcqs[qi].ans].classList.add('correct');res.className='mcq-result wrong-r show';res.textContent='❌ Wrong. '+mcqs[qi].exp;}
+}
+
+// ── EXAMS ──
+const exams=[
+  {name:"HPAS (HP Administrative Service)",body:"HPPSC",posts:"Group-A Gazetted",stages:"Prelims → Mains → Interview",syllabus:"GS I & II, HP History, Culture, Geography, Economy",tip:"Each district's official NIC site (hpshimla.nic.in etc.) is an authentic source for exam preparation."},
+  {name:"HPSC Junior Auditor / Clerk",body:"HPSC",posts:"Group C",stages:"Written Test → Skill Test",syllabus:"Hindi, English, Reasoning, Arithmetic, HP GK",tip:"District-wise GK facts (literacy, area, famous personalities) are frequently asked."},
+  {name:"HP Police Constable / SI",body:"HPPRB",posts:"Group C & B",stages:"Written → Physical → Medical",syllabus:"GK, HP GK, Reasoning, Current Affairs",tip:"Know all 12 district HQs, famous temples, rivers, passes and wildlife sanctuaries."},
+  {name:"HP TET (Teacher Eligibility)",body:"HPBOSE",posts:"TGT/JBT/Shastri",stages:"Single written paper",syllabus:"Subject knowledge + Child Dev. + HP Education Policy",tip:"HP-specific education policy and cultural topics carry significant marks."},
+  {name:"NHM HP Recruitment",body:"NHM Himachal",posts:"CHO, ANM, Staff Nurse, Lab Tech",stages:"Merit-based / Written Test",syllabus:"Medical/Para-medical + HP health flagship schemes",tip:"Know HP Govt health infrastructure district-wise and national health missions in HP."},
+  {name:"HP Cooperative Bank",body:"HPSC",posts:"Junior Clerk, IT Officer",stages:"Written + Interview",syllabus:"Banking awareness, GK, HP economy",tip:"HP apple economy, horticulture finance and pharma (Baddi) are key economic topics."}
+];
+(function(){
+  const grid=document.getElementById('exams-grid');
+  exams.forEach(e=>{
+    const card=document.createElement('div');
+    card.className='chapter-card';
+    card.innerHTML=`<h3>📝 ${e.name}</h3><ul>
+      <li>Conducting Body: ${e.body}</li>
+      <li>Post Category: ${e.posts}</li>
+      <li>Selection Stages: ${e.stages}</li>
+      <li>Key Syllabus: ${e.syllabus}</li>
+      <li>💡 Tip: ${e.tip}</li></ul>`;
+    grid.appendChild(card);
+  });
+})();
+
+// ── NEWS FETCH ──
+async function fetchNews(){
+  const grid=document.getElementById('news-grid');
+  const stories=[
+    {title:"HP Cabinet approves ₹500 Cr projects across 12 districts; road & health focus",desc:"The HP Cabinet approved multiple infrastructure and welfare projects including road upgrades in Chamba, new health facilities in Kinnaur and rural housing in Hamirpur.",tag:"Governance",url:"https://himachal.nic.in",feat:true},
+    {title:"Atal Tunnel (Rohtang) reaches 4 million vehicle milestone; Lahaul economy boosted",desc:"Lahaul & Spiti district economy has grown significantly since Atal Tunnel opened. Districts Kullu and Lahaul-Spiti both benefit from all-weather connectivity.",tag:"Infrastructure",url:"https://hplahaulspiti.nic.in"},
+    {title:"HP apple exports surge 22%; Shimla & Kinnaur lead production",desc:"HP recorded a 22% rise in apple exports this season. Shimla's Rohru belt and Kinnaur's Sangla Valley are key export contributors.",tag:"Economy",url:"https://himachal.nic.in"},
+    {title:"HPPSC announces HPAS 2025 Prelims date; 350+ vacancies in gazetted posts",desc:"Candidates preparing for HP Administrative Service Prelims 2025 should visit hppsc.hp.gov.in for official notification, dates and syllabus.",tag:"Exams",url:"https://hppsc.hp.gov.in"},
+    {title:"Kangra greenfield airport clears hurdle; Dharamsala connectivity to improve",desc:"The new Kangra Valley greenfield airport near Gaggal received environmental clearance, promising better air access to Dharamsala, Chamba and Kullu regions.",tag:"Infrastructure",url:"https://hpkangra.nic.in"},
+    {title:"Hamirpur achieves 100% saturation under PM Awas Yojana Rural",desc:"HP's most literate district (89.01%) Hamirpur (Veer Bhoomi) has become the first in the state to achieve full saturation under PM Awas Yojana Rural scheme.",tag:"Development",url:"https://hphamirpur.nic.in"}
+  ];
+  const today=new Date().toLocaleDateString('en-IN');
+  grid.innerHTML='';
+  stories.forEach(s=>{
+    const card=document.createElement('div');
+    card.className='news-card'+(s.feat?' featured':'');
+    if(s.feat){card.innerHTML=`<div class="card-img">🏔️</div><div class="card-body"><span class="tag">${s.tag}</span><h3>${s.title}</h3><p>${s.desc}</p><div class="meta"><span>📅 ${today}</span><a href="${s.url}" target="_blank">Read More →</a></div></div>`;}
+    else{card.innerHTML=`<span class="tag">${s.tag}</span><h3>${s.title}</h3><p>${s.desc}</p><div class="meta"><span>📅 ${today}</span><a href="${s.url}" target="_blank">Source →</a></div>`;}
+    grid.appendChild(card);
+  });
+  try{
+    const r=await fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent('https://timesofindia.indiatimes.com/rssfeeds/1221656.cms')+'&count=5');
+    const data=await r.json();
+    if(data.items){const t=document.getElementById('ticker-items');data.items.slice(0,5).forEach(item=>{const s=document.createElement('span');s.textContent=item.title;t.appendChild(s);});}
+  }catch(e){}
+}
+fetchNews();
+
+function showSection(id,btn){
+  document.querySelectorAll('.page-section').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
