@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HPPSC Daily GK Quiz | HP Current Affairs</title>
+<meta name="description" content="Daily HPPSC-style GK quiz based on latest current affairs. 20 MCQs in bilingual format for HP Class 1 & 2 exams."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --gold: #daa520;
+    --gold-dark: #b8860b;
+    --gold-light: #f5c842;
+    --bg: #0a0e1a;
+    --bg2: #0d1b2a;
+    --card: rgba(255,255,255,0.04);
+    --border: rgba(218,165,32,0.22);
+    --text: #f0e4cc;
+    --text-muted: #9e8a6e;
+    --text-dim: #6b5b45;
+    --green: #00c896;
+    --red: #ef5350;
+  }
+
+  body {
+    background: linear-gradient(135deg, var(--bg) 0%, var(--bg2) 50%, var(--bg) 100%);
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    padding: 0;
+  }
+
+  /* Grid background */
+  body::before {
+    content: '';
+    position: fixed; inset: 0; z-index: 0;
+    background-image:
+      linear-gradient(rgba(255,200,100,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,200,100,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  .wrap {
+    position: relative; z-index: 1;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 28px 16px 48px;
+  }
+
+  /* ── HEADER ── */
+  .site-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .site-header .back-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: var(--text-muted); text-decoration: none;
+    font-size: 12px; letter-spacing: 1px;
+    margin-bottom: 16px;
+    transition: color 0.2s;
+  }
+  .site-header .back-link:hover { color: var(--gold); }
+  .eyebrow {
+    background: linear-gradient(135deg, var(--gold-dark), var(--gold), var(--gold-dark));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    font-size: 11px; letter-spacing: 4px;
+    text-transform: uppercase; margin-bottom: 8px; display: block;
+  }
+  .site-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(22px, 4vw, 30px);
+    color: #f5e6c8; font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .site-header .date-tag {
+    color: var(--text-muted); font-size: 13px;
+  }
+
+  /* ── CARDS ── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px 28px;
+  }
+
+  /* ── HOME SCREEN ── */
+  #screen-home { text-align: center; }
+  .home-icon { font-size: 54px; margin-bottom: 16px; }
+  .home-title { font-family: 'Playfair Display', serif; font-size: 22px; color: #f5e6c8; margin-bottom: 10px; }
+  .home-desc { color: var(--text-muted); font-size: 14px; line-height: 1.7; max-width: 460px; margin: 0 auto 22px; }
+  .tags { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-bottom: 26px; }
+  .tag {
+    background: rgba(218,165,32,0.12); border: 1px solid rgba(218,165,32,0.3);
+    color: var(--gold); padding: 4px 14px; border-radius: 20px; font-size: 12px;
+  }
+  .error-msg { color: #ef9a9a; font-size: 13px; margin-bottom: 14px; display: none; }
+
+  /* ── LOADING ── */
+  #screen-loading { text-align: center; padding: 60px 28px; }
+  .spinner {
+    width: 52px; height: 52px;
+    border: 3px solid rgba(218,165,32,0.15);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-msg { color: var(--gold); font-size: 15px; }
+  .loading-sub { color: var(--text-dim); font-size: 12px; margin-top: 6px; }
+
+  /* ── QUIZ SCREEN ── */
+  #screen-quiz { display: none; }
+  .quiz-meta {
+    display: flex; justify-content: space-between;
+    align-items: center; margin-bottom: 8px;
+  }
+  .quiz-meta-left { font-size: 12px; color: var(--text-muted); }
+  .quiz-meta-right { display: flex; align-items: center; gap: 12px; }
+  .score-tag { font-size: 12px; color: var(--text-muted); }
+  .timer {
+    width: 38px; height: 38px; border-radius: 50%;
+    border: 2px solid var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; color: var(--gold);
+    background: rgba(218,165,32,0.08);
+    transition: all 0.3s;
+  }
+  .timer.urgent { border-color: var(--red); color: var(--red); background: rgba(239,83,80,0.1); }
+  .progress-bar-bg { height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; margin-bottom: 18px; }
+  .progress-bar-fill {
+    height: 100%; border-radius: 2px;
+    background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+    transition: width 0.4s ease;
+  }
+  .q-num-badge {
+    display: inline-block;
+    background: rgba(218,165,32,0.13); color: var(--gold);
+    padding: 3px 10px; border-radius: 6px;
+    font-size: 11px; letter-spacing: 1px; margin-bottom: 12px;
+  }
+  .q-en { font-family: 'Playfair Display', serif; font-size: 16px; line-height: 1.6; color: #f0e4cc; margin-bottom: 10px; }
+  .q-hi { font-size: 13px; line-height: 1.6; color: #7a6a52; }
+  .options { display: flex; flex-direction: column; gap: 10px; margin: 18px 0; }
+  .opt-btn {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px; padding: 13px 16px;
+    text-align: left; cursor: pointer;
+    color: #d4c4a8; font-size: 14px;
+    display: flex; align-items: flex-start; gap: 10px;
+    transition: all 0.2s; width: 100%;
+  }
+  .opt-btn:hover:not(:disabled) {
+    background: rgba(218,165,32,0.08);
+    border-color: rgba(218,165,32,0.4);
+  }
+  .opt-btn.selected {
+    background: rgba(218,165,32,0.12);
+    border-color: var(--gold); color: var(--gold);
+  }
+  .opt-btn.correct {
+    background: rgba(0,200,150,0.12);
+    border-color: var(--green); color: var(--green);
+  }
+  .opt-btn.wrong {
+    background: rgba(239,83,80,0.12);
+    border-color: var(--red); color: #ef9a9a;
+  }
+  .opt-btn:disabled { cursor: default; }
+  .opt-circle {
+    min-width: 24px; height: 24px; border-radius: 50%;
+    border: 1.5px solid currentColor;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 1px;
+  }
+  .explanation {
+    background: rgba(0,200,150,0.07);
+    border: 1px solid rgba(0,200,150,0.2);
+    border-radius: 10px; padding: 13px 15px;
+    margin-bottom: 16px; display: none;
+  }
+  .explanation .exp-label { color: var(--green); font-size: 12px; font-weight: 700; }
+  .explanation .exp-text { color: #a8d5c0; font-size: 13px; margin-top: 4px; }
+  .action-row { display: flex; gap: 12px; }
+
+  /* ── RESULT SCREEN ── */
+  #screen-result { display: none; text-align: center; }
+  .result-emoji { font-size: 52px; margin-bottom: 8px; }
+  .result-grade { font-size: 24px; font-weight: 700; margin-bottom: 14px; }
+  .result-score-big {
+    font-family: 'Playfair Display', serif;
+    font-size: 54px; font-weight: 700; color: #f5e6c8;
+    line-height: 1; margin-bottom: 4px;
+  }
+  .result-score-big span { font-size: 28px; color: var(--text-muted); }
+  .result-pct { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
+  .result-bar-bg { height: 8px; background: rgba(255,255,255,0.06); border-radius: 4px; max-width: 320px; margin: 0 auto 28px; }
+  .result-bar-fill { height: 100%; border-radius: 4px; transition: width 1.2s ease; }
+  .result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 400px; margin: 0 auto 28px; text-align: left; }
+  .result-cell {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(218,165,32,0.15);
+    border-radius: 8px; padding: 10px 12px;
+  }
+  .result-cell-label { font-size: 12px; color: var(--gold); font-weight: 700; }
+  .result-cell-sub { font-size: 11px; color: var(--text-dim); }
+  .result-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+  /* ── BUTTONS ── */
+  .btn-gold {
+    background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+    color: #0a0e1a; border: none; border-radius: 10px;
+    padding: 13px 28px; font-size: 15px; font-weight: 700;
+    cursor: pointer; box-shadow: 0 4px 18px rgba(218,165,32,0.25);
+    transition: opacity 0.2s;
+  }
+  .btn-gold:hover { opacity: 0.9; }
+  .btn-gold:disabled { opacity: 0.5; cursor: not-allowed; }
+  .btn-ghost {
+    background: rgba(255,255,255,0.05); color: #d4c4a8;
+    border: 1px solid rgba(255,255,255,0.14); border-radius: 10px;
+    padding: 13px 24px; font-size: 14px; cursor: pointer;
+    transition: all 0.2s; flex: 1;
+  }
+  .btn-ghost:hover { background: rgba(255,255,255,0.08); }
+
+  /* ── FOOTER ── */
+  .footer { text-align: center; margin-top: 28px; color: #2a2218; font-size: 11px; }
+
+  /* ── UTILITY ── */
+  .hidden { display: none !important; }
+
+  @media (max-width: 480px) {
+    .card { padding: 22px 16px; }
+    .result-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Header -->
+  <div class="site-header">
+    <a href="https://hpnewslatest.github.io/Himachal-Pradesh-Current-Affairs/" class="back-link">
+      ← Back to HP Current Affairs
+    </a>
+    <span class="eyebrow">Himachal Pradesh Public Service Commission</span>
+    <h1>Daily Current Affairs Quiz</h1>
+    <div class="date-tag" id="today-date"></div>
+  </div>
+
+  <!-- HOME -->
+  <div class="card" id="screen-home">
+    <div class="home-icon">📰</div>
+    <h2 class="home-title">Today's GK Challenge</h2>
+    <p class="home-desc">
+      20 HPPSC-style MCQs generated fresh from today's current affairs — bilingual (English + Hindi), with timer and instant explanations. Aligned with Class 1 &amp; 2 exam pattern.
+    </p>
+    <div class="tags">
+      <span class="tag">20 Questions</span>
+      <span class="tag">Bilingual En/Hi</span>
+      <span class="tag">30s Timer</span>
+      <span class="tag">Instant Answers</span>
+      <span class="tag">HP Focused</span>
+    </div>
+    <div class="error-msg" id="error-msg">⚠️ <span id="error-text"></span></div>
+    <button class="btn-gold" onclick="startGenerate()">Generate Today's Quiz →</button>
+  </div>
+
+  <!-- LOADING -->
+  <div class="card hidden" id="screen-loading">
+    <div class="spinner"></div>
+    <div class="loading-msg" id="loading-msg">Connecting to AI engine...</div>
+    <div class="loading-sub">This may take 15–20 seconds</div>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="screen-quiz" class="hidden">
+    <div class="quiz-meta">
+      <span class="quiz-meta-left" id="q-counter">Question 1 of 20</span>
+      <div class="quiz-meta-right">
+        <span class="score-tag" id="score-display">Score: 0/0</span>
+        <div class="timer" id="timer-circle">30</div>
+      </div>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill" id="progress-fill" style="width:5%"></div>
+    </div>
+    <div class="card" style="margin-bottom:14px">
+      <span class="q-num-badge" id="q-badge">Q1</span>
+      <p class="q-en" id="q-en"></p>
+      <p class="q-hi" id="q-hi"></p>
+    </div>
+    <div class="options" id="options-list"></div>
+    <div class="explanation hidden" id="explanation-box">
+      <div class="exp-label">💡 EXPLANATION</div>
+      <div class="exp-text" id="exp-text"></div>
+    </div>
+    <div class="action-row">
+      <button class="btn-ghost" id="btn-submit" onclick="submitAnswer()" disabled>Submit Answer</button>
+      <button class="btn-gold hidden" id="btn-next" onclick="nextQuestion()">Next →</button>
+    </div>
+  </div>
+
+  <!-- RESULT -->
+  <div class="card hidden" id="screen-result">
+    <div class="result-emoji" id="res-emoji">🏆</div>
+    <div class="result-grade" id="res-grade">Excellent!</div>
+    <div class="result-score-big" id="res-score">18<span>/20</span></div>
+    <div class="result-pct" id="res-pct">90% correct</div>
+    <div class="result-bar-bg">
+      <div class="result-bar-fill" id="res-bar"></div>
+    </div>
+    <div class="result-grid">
+      <div class="result-cell"><div class="result-cell-label">National Affairs</div><div class="result-cell-sub">Q1–Q8</div></div>
+      <div class="result-cell"><div class="result-cell-label">International</div><div class="result-cell-sub">Q9–Q13</div></div>
+      <div class="result-cell"><div class="result-cell-label">Himachal Pradesh</div><div class="result-cell-sub">Q14–Q17</div></div>
+      <div class="result-cell"><div class="result-cell-label">Eco/Env/Science</div><div class="result-cell-sub">Q18–Q20</div></div>
+    </div>
+    <div class="result-actions">
+      <button class="btn-gold" onclick="startGenerate()">🔄 New Quiz</button>
+      <button class="btn-ghost" onclick="reviewAnswers()">📖 Review Answers</button>
+    </div>
+  </div>
+
+  <div class="footer">HPPSC Daily GK Quiz • Powered by AI • <a href="https://hpnewslatest.github.io/Himachal-Pradesh-Current-Affairs/" style="color:#3d3226;text-decoration:none;">HP Current Affairs Portal</a></div>
+</div>
+
+<script>
+// ── STATE ──
+let questions = [];
+let current = 0;
+let answers = {};   // { qIndex: chosenOptionIndex (-1 = timed out) }
+let score = 0;
+let timerInterval = null;
+let timeLeft = 30;
+let revealed = false;
+let reviewMode = false;
+
+// ── DATE ──
+document.getElementById('today-date').textContent =
+  new Date().toLocaleDateString('en-IN', { weekday:'long', day:'numeric', month:'long', year:'numeric' })
+  + ' • Class 1 & 2 Standard';
+
+// ── SCREENS ──
+function showScreen(id) {
+  ['screen-home','screen-loading','screen-quiz','screen-result']
+    .forEach(s => document.getElementById(s).classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  if (id === 'screen-quiz') document.getElementById('screen-quiz').style.display = 'block';
+}
+
+// ── PROMPTS ──
+const SYSTEM = `You are an expert GK quiz maker for HPPSC (Himachal Pradesh Public Service Commission) Class 1 & 2 exams.
+
+Generate exactly 20 MCQ questions based on recent current affairs (last 30 days).
+
+Topic distribution:
+- Q1–Q8: National Current Affairs India (appointments, awards, schemes, records, rankings, science/tech)
+- Q9–Q13: International Affairs (world events, summits, treaties, leaders, records)
+- Q14–Q17: Himachal Pradesh specific news (HP government, HP appointments, HP achievements)
+- Q18–Q20: Economy, Environment or Science news
+
+Rules:
+1. Each question bilingual: English then Hindi
+2. Four options (A B C D), one correct
+3. HPPSC Class 1/2 difficulty — factual, moderately hard
+4. Return ONLY a valid JSON array, no markdown, no extra text
+
+JSON format:
+[{"id":1,"en":"English question?","hi":"Hindi question?","options":["A","B","C","D"],"correct":0,"explanation":"Why this is correct"}]
+
+"correct" = 0-based index of correct option.`;
+
+const USER_PROMPT = `Today is ${new Date().toLocaleDateString('en-IN',{day:'numeric',month:'long',year:'numeric'})}.
+
+Generate 20 HPPSC-style bilingual GK MCQ questions covering important events from the past 30 days. Follow the topic distribution strictly. Return only JSON.`;
+
+// ── GENERATE ──
+async function startGenerate() {
+  document.getElementById('error-msg').style.display = 'none';
+  showScreen('screen-loading');
+  setLoading('Connecting to AI engine...');
+
+  try {
+    setLoading('Generating HPPSC-style questions from latest current affairs...');
+
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 4000,
+        system: SYSTEM,
+        messages: [{ role: 'user', content: USER_PROMPT }]
+      })
+    });
+
+    const data = await res.json();
+    const text = (data.content || []).map(b => b.text || '').join('');
+    const s = text.indexOf('['), e = text.lastIndexOf(']') + 1;
+    if (s === -1) throw new Error('Invalid response. Please try again.');
+    const parsed = JSON.parse(text.slice(s, e));
+    if (!Array.isArray(parsed) || parsed.length < 5)
+      throw new Error('Not enough questions generated. Please try again.');
+
+    questions = parsed.slice(0, 20);
+    answers = {}; score = 0; current = 0; reviewMode = false;
+    launchQuiz();
+  } catch(err) {
+    showScreen('screen-home');
+    document.getElementById('error-msg').style.display = 'block';
+    document.getElementById('error-text').textContent = err.message || 'Something went wrong.';
+  }
+}
+
+function setLoading(msg) {
+  document.getElementById('loading-msg').textContent = msg;
+}
+
+// ── LAUNCH QUIZ ──
+function launchQuiz() {
+  showScreen('screen-quiz');
+  renderQuestion();
+}
+
+function renderQuestion() {
+  revealed = (answers[current] !== undefined);
+  const q = questions[current];
+
+  // Meta
+  document.getElementById('q-counter').textContent = `Question ${current+1} of ${questions.length}`;
+  document.getElementById('q-badge').textContent = `Q${current+1}`;
+  document.getElementById('score-display').textContent = `Score: ${score}/${current + (revealed ? 1 : 0)}`;
+  document.getElementById('progress-fill').style.width = `${((current+1)/questions.length)*100}%`;
+
+  // Question text
+  document.getElementById('q-en').textContent = q.en;
+  document.getElementById('q-hi').textContent = q.hi;
+
+  // Options
+  const list = document.getElementById('options-list');
+  list.innerHTML = '';
+  q.options.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'opt-btn';
+    btn.disabled = revealed;
+    btn.innerHTML = `<span class="opt-circle">${String.fromCharCode(65+i)}</span><span>${opt}</span>`;
+
+    if (revealed) {
+      if (i === q.correct) btn.classList.add('correct');
+      else if (i === answers[current] && i !== q.correct) btn.classList.add('wrong');
+    } else if (answers[current] === i) {
+      btn.classList.add('selected');
+    }
+
+    btn.onclick = () => selectOption(i);
+    list.appendChild(btn);
+  });
+
+  // Explanation
+  const expBox = document.getElementById('explanation-box');
+  if (revealed && q.explanation) {
+    document.getElementById('exp-text').textContent = q.explanation;
+    expBox.classList.remove('hidden');
+  } else {
+    expBox.classList.add('hidden');
+  }
+
+  // Buttons
+  const btnSubmit = document.getElementById('btn-submit');
+  const btnNext = document.getElementById('btn-next');
+  if (revealed) {
+    btnSubmit.classList.add('hidden');
+    btnNext.classList.remove('hidden');
+    btnNext.textContent = current < questions.length - 1 ? 'Next Question →' : 'View Results →';
+  } else {
+    btnSubmit.classList.remove('hidden');
+    btnNext.classList.add('hidden');
+    btnSubmit.disabled = (answers[current] === undefined);
+  }
+
+  // Timer
+  stopTimer();
+  if (!revealed) startTimer();
+}
+
+// ── OPTIONS ──
+function selectOption(idx) {
+  if (revealed) return;
+  answers[current] = idx;
+
+  document.querySelectorAll('.opt-btn').forEach((btn, i) => {
+    btn.classList.toggle('selected', i === idx);
+  });
+  document.getElementById('btn-submit').disabled = false;
+}
+
+// ── SUBMIT ──
+function submitAnswer() {
+  if (answers[current] === undefined) return;
+  stopTimer();
+  revealed = true;
+
+  const q = questions[current];
+  if (answers[current] === q.correct) score++;
+  document.getElementById('score-display').textContent = `Score: ${score}/${current+1}`;
+
+  // Style options
+  document.querySelectorAll('.opt-btn').forEach((btn, i) => {
+    btn.disabled = true;
+    btn.classList.remove('selected');
+    if (i === q.correct) btn.classList.add('correct');
+    else if (i === answers[current]) btn.classList.add('wrong');
+  });
+
+  // Show explanation
+  if (q.explanation) {
+    document.getElementById('exp-text').textContent = q.explanation;
+    document.getElementById('explanation-box').classList.remove('hidden');
+  }
+
+  document.getElementById('btn-submit').classList.add('hidden');
+  const btnNext = document.getElementById('btn-next');
+  btnNext.classList.remove('hidden');
+  btnNext.textContent = current < questions.length - 1 ? 'Next Question →' : 'View Results →';
+}
+
+// ── TIMER ──
+function startTimer() {
+  timeLeft = 30;
+  updateTimerDisplay();
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      stopTimer();
+      if (answers[current] === undefined) answers[current] = -1;
+      submitAnswer();
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(timerInterval);
+}
+
+function updateTimerDisplay() {
+  const el = document.getElementById('timer-circle');
+  el.textContent = timeLeft;
+  el.classList.toggle('urgent', timeLeft <= 10);
+}
+
+// ── NEXT ──
+function nextQuestion() {
+  if (current < questions.length - 1) {
+    current++;
+    renderQuestion();
+  } else {
+    showResult();
+  }
+}
+
+// ── RESULT ──
+function showResult() {
+  stopTimer();
+  showScreen('screen-result');
+
+  const pct = Math.round((score / questions.length) * 100);
+  const grades = [
+    { min: 85, label: 'Excellent! 🌟', color: '#00c896', emoji: '🏆' },
+    { min: 70, label: 'Good Job!',      color: '#4fc3f7', emoji: '✅' },
+    { min: 50, label: 'Average',        color: '#ffb74d', emoji: '📚' },
+    { min: 0,  label: 'Keep Practicing',color: '#ef5350', emoji: '💪' },
+  ];
+  const g = grades.find(gr => pct >= gr.min);
+
+  document.getElementById('res-emoji').textContent = g.emoji;
+  document.getElementById('res-grade').textContent = g.label;
+  document.getElementById('res-grade').style.color = g.color;
+  document.getElementById('res-score').innerHTML = `${score}<span>/${questions.length}</span>`;
+  document.getElementById('res-pct').textContent = `${pct}% correct`;
+
+  const bar = document.getElementById('res-bar');
+  bar.style.background = g.color;
+  setTimeout(() => bar.style.width = pct + '%', 100);
+}
+
+// ── REVIEW ──
+function reviewAnswers() {
+  reviewMode = true;
+  current = 0;
+  // mark all as revealed for review
+  showScreen('screen-quiz');
+  renderQuestion();
+}
+</script>
+</body>
+</html>
