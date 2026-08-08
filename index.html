@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HP Current Affairs – हिमाचल प्रदेश समसामयिकी</title>
-  <meta name="description" content="Daily updated Himachal Pradesh current affairs for HPPSC, HP Police, HPAS, and all HP competitive exams." />
+  <title>Himachal Pradesh GK &amp; Current Affairs – हिमाचल प्रदेश सामान्य ज्ञान</title>
+  <meta name="description" content="Complete Himachal Pradesh GK reference plus live current affairs, a daily rotating fact and quiz, and district-wise info for HPPSC, HP Police, HPAS, and all HP competitive exams." />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
@@ -197,6 +197,45 @@
       text-align: right; padding: 6px 0 0;
     }
 
+    /* ── FACT / QUIZ OF THE DAY ── */
+    .of-day-card {
+      background: linear-gradient(135deg, #0d4a28, #1a6e3c);
+      color: #fff; border-radius: 10px;
+      padding: 16px 18px; margin-bottom: 16px;
+      position: relative; overflow: hidden;
+    }
+    .of-day-label {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--hp-gold); color: #0d4a28;
+      font-size: 0.68rem; font-weight: 700; letter-spacing: 0.5px;
+      padding: 2px 9px; border-radius: 20px; margin-bottom: 10px;
+    }
+    .of-day-text { font-size: 1rem; line-height: 1.55; font-weight: 600; }
+    .of-day-date { font-size: 0.72rem; opacity: 0.75; margin-top: 8px; }
+
+    .snapshot-list { list-style: none; }
+    .snapshot-list li {
+      display: flex; justify-content: space-between; gap: 8px;
+      padding: 7px 0; border-bottom: 1px dashed var(--border);
+      font-size: 0.8rem;
+    }
+    .snapshot-list li:last-child { border-bottom: none; }
+    .snapshot-list .k { color: var(--muted); }
+    .snapshot-list .v { font-weight: 700; color: var(--text); text-align: right; }
+    .snapshot-note {
+      font-size: 0.68rem; color: var(--muted);
+      margin-top: 8px; font-style: italic;
+    }
+
+    .quiz-mode-toggle { display: flex; gap: 8px; margin-bottom: 14px; }
+    .quiz-mode-toggle button {
+      flex: 1; padding: 8px; border-radius: 7px;
+      border: 1.5px solid var(--hp-green); background: none;
+      color: var(--hp-green); font-weight: 600; font-size: 0.8rem;
+      cursor: pointer; transition: all 0.15s;
+    }
+    .quiz-mode-toggle button.active { background: var(--hp-green); color: #fff; }
+
     /* ── SIDEBAR ── */
     .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     .stat-box {
@@ -322,8 +361,8 @@
 <!-- HEADER -->
 <header>
   <span class="logo-icon">🏔️</span>
-  <h1>HP Current Affairs</h1>
-  <div class="subtitle">हिमाचल प्रदेश समसामयिकी पोर्टल</div>
+  <h1>Himachal Pradesh GK</h1>
+  <div class="subtitle">हिमाचल प्रदेश सामान्य ज्ञान एवं समसामयिकी</div>
   <div class="live-badge">LIVE &nbsp;Daily Updated</div>
 </header>
 
@@ -362,6 +401,13 @@
 
       <!-- NEWS SECTION -->
       <div id="section-news" class="section active">
+
+        <div class="of-day-card">
+          <div class="of-day-label">⭐ FACT OF THE DAY</div>
+          <div class="of-day-text" id="fact-of-day-text">Loading…</div>
+          <div class="of-day-date" id="fact-of-day-date"></div>
+        </div>
+
         <div class="card">
           <div class="card-title">📰 Today's Top Stories – Himachal Pradesh</div>
           <div id="news-container">
@@ -390,6 +436,20 @@
               <li><strong>First CM:</strong> Dr. Y.S. Parmar</li>
               <li><strong>Total Districts:</strong> 12 &nbsp;|&nbsp; <strong>Divisions:</strong> 3</li>
               <li><strong>Tehsils:</strong> 172 &nbsp;|&nbsp; <strong>Development Blocks:</strong> 78</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>📜 History</h3>
+            <ul>
+              <li><strong>Ancient rulers:</strong> Region ruled by small hill states/princely states (Kangra, Chamba, Bilaspur, Suket, Mandi, Sirmaur, etc.) for centuries</li>
+              <li><strong>Gorkha invasion:</strong> Early 19th century, ended by Anglo-Gorkha War (1814–16)</li>
+              <li><strong>British Punjab Hill States:</strong> Post-1815, most hill states became British princely states</li>
+              <li><strong>Chief Commissioner's Province:</strong> Formed 15 April 1948 by merging 28 princely hill states (celebrated as HP Day)</li>
+              <li><strong>Part C State:</strong> 1950; merged with Punjab in 1966 (Kangra, Una, parts of Shimla hills added)</li>
+              <li><strong>Full statehood:</strong> 25 January 1971 – 18th state of India</li>
+              <li><strong>First Chief Minister:</strong> Dr. Yashwant Singh Parmar (architect of modern HP)</li>
+              <li><strong>Longest-serving CM:</strong> Virbhadra Singh (six terms, spanning decades)</li>
             </ul>
           </div>
 
@@ -455,6 +515,18 @@
               <li><strong>GI Tags:</strong> Kullu Shawl, Kinnauri Shawl, Kangra Tea, Chamba Rumal</li>
               <li><strong>Pragpur (Kangra):</strong> India's 1st Heritage Village</li>
               <li><strong>Bhuri Singh Museum:</strong> Chamba (est. 1908)</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>👤 Eminent Personalities</h3>
+            <ul>
+              <li><strong>Dr. Y.S. Parmar:</strong> First Chief Minister, called "architect of modern HP"</li>
+              <li><strong>Virbhadra Singh:</strong> Longest-serving CM (six terms)</li>
+              <li><strong>Sukhvinder Singh Sukhu:</strong> 15th &amp; current Chief Minister (took office Dec 2022)</li>
+              <li><strong>Vijay Kumar:</strong> Olympic silver medalist, 25m Rapid Fire Pistol shooting (London 2012), from Hamirpur</li>
+              <li><strong>Anand Sharma:</strong> Senior Congress leader, former Union Minister, from HP</li>
+              <li><strong>Satyanand Stokes:</strong> American-origin settler credited with introducing commercial apple cultivation in Shimla hills (early 1900s)</li>
             </ul>
           </div>
 
@@ -533,7 +605,11 @@
       <!-- MCQ SECTION -->
       <div id="section-mcq" class="section">
         <div class="card">
-          <div class="card-title">✏️ Daily Practice MCQ – HP GK</div>
+          <div class="card-title">✏️ HP GK Quiz</div>
+          <div class="quiz-mode-toggle">
+            <button id="mode-daily" class="active" onclick="setQuizMode('daily')">🌟 Today's Quiz (10 Qs)</button>
+            <button id="mode-full" onclick="setQuizMode('full')">📖 Full Practice Bank</button>
+          </div>
           <div id="mcq-area"></div>
         </div>
       </div>
@@ -541,65 +617,68 @@
       <!-- EXAM CALENDAR SECTION -->
       <div id="section-exams" class="section">
         <div class="card">
-          <div class="card-title">📅 HP Competitive Exams – 2025 Calendar</div>
+          <div class="card-title">📅 HP Competitive Exams – Recurring Calendar</div>
+          <p style="font-size:0.8rem;color:var(--muted);margin-bottom:14px">
+            Notification dates and application windows shift every cycle, so exact "open/closed" status isn't shown here to avoid giving you stale information — use the ticker and news feed above for live notification alerts, and click through to the official site for the current status of each exam.
+          </p>
           <div style="overflow-x:auto">
             <table class="exam-table">
               <thead>
                 <tr>
                   <th>Exam Name</th>
                   <th>Conducting Body</th>
-                  <th>Status</th>
-                  <th>Website</th>
+                  <th>Typical Frequency</th>
+                  <th>Official Website</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>HPAS Prelims 2025</strong> 🔥</td>
+                  <td><strong>HPAS (HP Administrative Service)</strong></td>
                   <td>HPPSC</td>
-                  <td><span class="badge badge-orange">Notification Out</span></td>
+                  <td>Annual</td>
                   <td><a href="https://hppsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppsc.hp.gov.in</a></td>
                 </tr>
                 <tr>
-                  <td><strong>HPSC JBT TET 2025</strong></td>
-                  <td>HPSC</td>
-                  <td><span class="badge badge-orange">Expected Q2</span></td>
+                  <td><strong>HP SET (State Eligibility Test)</strong></td>
+                  <td>HPPSC</td>
+                  <td>Annual</td>
+                  <td><a href="https://hppsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppsc.hp.gov.in</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HPSC JBT / TET</strong></td>
+                  <td>HPSC / HPBOSE</td>
+                  <td>Annual / Bi-annual</td>
                   <td><a href="https://hpsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hpsc.hp.gov.in</a></td>
                 </tr>
                 <tr>
                   <td><strong>HP Police Constable</strong></td>
                   <td>HP Police</td>
-                  <td><span class="badge badge-green">Applications Open</span></td>
+                  <td>As per vacancy</td>
                   <td><a href="https://hppolice.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppolice.hp.gov.in</a></td>
                 </tr>
                 <tr>
-                  <td><strong>HPSSSC Junior Engineer</strong></td>
+                  <td><strong>HPSSSC Junior Engineer / Clerk / Patwari</strong></td>
                   <td>HPSSSC</td>
-                  <td><span class="badge badge-green">Ongoing</span></td>
+                  <td>Rolling, as per vacancy</td>
                   <td><a href="https://hpsssc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hpsssc.hp.gov.in</a></td>
                 </tr>
                 <tr>
-                  <td><strong>HP TGT Arts/Science</strong></td>
+                  <td><strong>HP TGT Arts/Science/Medical</strong></td>
                   <td>HPSC</td>
-                  <td><span class="badge badge-orange">Upcoming</span></td>
+                  <td>As per vacancy</td>
                   <td><a href="https://hpsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hpsc.hp.gov.in</a></td>
                 </tr>
                 <tr>
-                  <td><strong>HPBOSE Board Exams</strong></td>
+                  <td><strong>HPBOSE Board Exams (10th/12th)</strong></td>
                   <td>HPBOSE</td>
-                  <td><span class="badge badge-red">March 2025</span></td>
+                  <td>Annual, Feb–Mar</td>
                   <td><a href="https://hpbose.org" target="_blank" style="color:var(--hp-green)">hpbose.org</a></td>
                 </tr>
                 <tr>
                   <td><strong>HP Naib Tehsildar</strong></td>
                   <td>HPPSC</td>
-                  <td><span class="badge badge-orange">Watch Notification</span></td>
+                  <td>As per vacancy</td>
                   <td><a href="https://hppsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppsc.hp.gov.in</a></td>
-                </tr>
-                <tr>
-                  <td><strong>HP Patwari Exam</strong></td>
-                  <td>HPSSSC</td>
-                  <td><span class="badge badge-orange">Upcoming</span></td>
-                  <td><a href="https://hpsssc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hpsssc.hp.gov.in</a></td>
                 </tr>
               </tbody>
             </table>
@@ -611,6 +690,17 @@
 
     <!-- RIGHT SIDEBAR -->
     <div>
+
+      <div class="card">
+        <div class="card-title">🧑‍⚖️ Current Affairs Snapshot</div>
+        <ul class="snapshot-list">
+          <li><span class="k">Chief Minister</span><span class="v">Sukhvinder Singh Sukhu</span></li>
+          <li><span class="k">Deputy CM</span><span class="v">Mukesh Agnihotri</span></li>
+          <li><span class="k">Governor</span><span class="v">Kavinder Gupta</span></li>
+          <li><span class="k">Ruling Party</span><span class="v">Indian National Congress</span></li>
+        </ul>
+        <div class="snapshot-note">As of August 2026. Officeholders can change — verify on <a href="https://himachal.nic.in" target="_blank" style="color:var(--hp-green)">himachal.nic.in</a> before an exam.</div>
+      </div>
 
       <div class="card">
         <div class="card-title">🏘️ HP at a Glance</div>
@@ -635,22 +725,25 @@
       </div>
 
       <div class="card">
-        <div class="card-title">🗓️ HP Upcoming Exams</div>
+        <div class="card-title">🗓️ HP Exams to Track</div>
         <div class="exam-item">
-          <div class="exam-name">HPAS Prelims 2025 <span class="hot-tag">HOT</span></div>
-          <div class="exam-date">📅 Check hppsc.hp.gov.in</div>
+          <div class="exam-name">HPAS <span class="hot-tag">ANNUAL</span></div>
+          <div class="exam-date">📅 hppsc.hp.gov.in</div>
         </div>
         <div class="exam-item">
-          <div class="exam-name">HPSC JBT TET 2025</div>
-          <div class="exam-date">📅 Notification Q2 2025</div>
+          <div class="exam-name">HPSC JBT / TET</div>
+          <div class="exam-date">📅 hpsc.hp.gov.in</div>
         </div>
         <div class="exam-item">
           <div class="exam-name">HP Police Constable</div>
           <div class="exam-date">📅 hppolice.hp.gov.in</div>
         </div>
         <div class="exam-item">
-          <div class="exam-name">HPSSSC Junior Engineer</div>
-          <div class="exam-date">📅 Applications ongoing</div>
+          <div class="exam-name">HPSSSC (JE / Patwari / Clerk)</div>
+          <div class="exam-date">📅 hpsssc.hp.gov.in</div>
+        </div>
+        <div class="exam-item" style="font-size:0.72rem;color:var(--muted);border-left-color:var(--hp-gold)">
+          See the "Today's News" tab for the latest notification alerts.
         </div>
       </div>
 
@@ -659,7 +752,7 @@
 </div>
 
 <footer>
-  HP Current Affairs Portal &nbsp;|&nbsp; Data sourced from official HP Government district websites &amp; Google News RSS<br>
+  Himachal Pradesh GK &amp; Current Affairs Portal &nbsp;|&nbsp; News via Google News RSS &nbsp;|&nbsp; GK content compiled for educational/exam-prep use<br>
   <a href="https://himachal.nic.in">himachal.nic.in</a> &nbsp;|&nbsp;
   <a href="https://hppsc.hp.gov.in">hppsc.hp.gov.in</a> &nbsp;|&nbsp;
   <a href="https://hpsc.hp.gov.in">hpsc.hp.gov.in</a>
@@ -816,16 +909,183 @@ const MCQ_BANK = [
   { q: 'Which dam in HP creates the Gobind Sagar reservoir?', opts: ['Nathpa Jhakri','Bhakra','Pandoh','Larji'], ans: 1, exp: 'Bhakra Dam on the Sutlej river in Bilaspur creates Gobind Sagar lake.' },
   { q: 'HP\'s Pragpur village (Kangra) holds which national distinction?', opts: ['First smart village','First heritage village','First eco village','First zero-waste village'], ans: 1, exp: 'Pragpur in Kangra is India\'s first gazetted Heritage Village.' },
   { q: 'Bara Shigri, HP\'s largest glacier, is in which district?', opts: ['Kinnaur','Chamba','Lahaul &amp; Spiti','Kullu'], ans: 2, exp: 'Bara Shigri glacier (25 km long) is in Lahaul &amp; Spiti district.' },
+
+  // History
+  { q: 'Himachal Pradesh was formed as a Chief Commissioner\'s Province by merging how many princely hill states?', opts: ['18','24','28','32'], ans: 2, exp: 'On 15 April 1948, 28 princely hill states were merged to form HP — celebrated as Himachal Day.' },
+  { q: 'In which year did Himachal Pradesh attain full statehood?', opts: ['1966','1971','1956','1948'], ans: 1, exp: 'HP became India\'s 18th state on 25 January 1971.' },
+  { q: 'Who is regarded as the "architect of modern Himachal Pradesh"?', opts: ['Virbhadra Singh','Dr. Y.S. Parmar','Prem Kumar Dhumal','Anand Sharma'], ans: 1, exp: 'Dr. Yashwant Singh Parmar, HP\'s first Chief Minister, is called the architect of modern HP.' },
+  { q: 'Who was HP\'s longest-serving Chief Minister?', opts: ['Jai Ram Thakur','Dr. Y.S. Parmar','Virbhadra Singh','Shanta Kumar'], ans: 2, exp: 'Virbhadra Singh served as CM across six terms, the longest of anyone in HP.' },
+  { q: 'The Anglo-Gorkha War, which ended Gorkha rule over the HP hills, concluded in which year?', opts: ['1809','1814–16','1857','1846'], ans: 1, exp: 'The Anglo-Gorkha War (1814–16) ended with the Treaty of Sugauli, pushing the Gorkhas out of the hill states.' },
+
+  // Geography & Rivers
+  { q: 'The Chenab river is formed by the confluence of which two rivers in HP?', opts: ['Beas &amp; Sutlej','Chandra &amp; Bhaga','Ravi &amp; Beas','Yamuna &amp; Tons'], ans: 1, exp: 'The Chandra and Bhaga rivers meet at Tandi (Lahaul) to form the Chenab.' },
+  { q: 'Rohtang Pass, historically the gateway from Manali to Lahaul-Spiti, is now bypassed by which tunnel?', opts: ['Atal Tunnel','Aut Tunnel','Nathpa Tunnel','Parvati Tunnel'], ans: 0, exp: 'The 9.02 km Atal Tunnel goes under Rohtang Pass, offering all-weather connectivity.' },
+  { q: 'Chandratal ("Moon Lake"), a high-altitude lake, lies in which district?', opts: ['Kinnaur','Kullu','Lahaul &amp; Spiti','Chamba'], ans: 2, exp: 'Chandratal is a crescent-shaped high-altitude lake in the Spiti Valley, Lahaul &amp; Spiti.' },
+  { q: 'Which HP district is the largest by area?', opts: ['Chamba','Kinnaur','Kullu','Lahaul &amp; Spiti'], ans: 3, exp: 'Lahaul &amp; Spiti (13,835 km²) is HP\'s largest district by area.' },
+  { q: 'Which HP district is the smallest by area?', opts: ['Hamirpur','Una','Solan','Bilaspur'], ans: 0, exp: 'Hamirpur (1,118 km²) is HP\'s smallest district by area.' },
+  { q: 'Pong Dam (Maharana Pratap Sagar), a Ramsar wetland site, is built on which river in HP?', opts: ['Sutlej','Beas','Ravi','Chenab'], ans: 1, exp: 'Pong Dam is built on the Beas river in Kangra district.' },
+  { q: 'Bhakra Dam, which forms the Gobind Sagar reservoir, is built on which river?', opts: ['Beas','Ravi','Sutlej','Yamuna'], ans: 2, exp: 'Bhakra Dam sits on the Sutlej river at Bilaspur.' },
+  { q: 'What is HP\'s state tree?', opts: ['Deodar','Chir Pine','Oak','Rhododendron'], ans: 0, exp: 'The Deodar (Himalayan Cedar) is HP\'s state tree.' },
+  { q: 'What is HP\'s state flower?', opts: ['Marigold','Pink Rhododendron (Buransh)','Lotus','Sunflower'], ans: 1, exp: 'Pink Rhododendron, locally called Buransh, is HP\'s state flower.' },
+  { q: 'What is HP\'s state animal?', opts: ['Himalayan Tahr','Snow Leopard','Musk Deer','Blue Sheep'], ans: 1, exp: 'The Snow Leopard is HP\'s state animal.' },
+
+  // Districts & Places
+  { q: 'Which district is known as "Chhoti Kashi" for its many temples?', opts: ['Mandi','Kullu','Shimla','Kangra'], ans: 0, exp: 'Mandi town, with roughly 81 temples, is called "Chhoti Kashi" (Little Varanasi).' },
+  { q: 'Renuka Lake, HP\'s largest natural lake, is in which district?', opts: ['Solan','Sirmaur','Kangra','Mandi'], ans: 1, exp: 'Renuka Lake lies in Sirmaur district.' },
+  { q: 'Shimla is popularly known by which nickname?', opts: ['City of Temples','Queen of Hills','Fruit Bowl of India','City of Mushrooms'], ans: 1, exp: 'Shimla, the former British summer capital of India, is called the "Queen of Hills".' },
+  { q: 'Dalhousie hill town is named after which British official?', opts: ['Lord Curzon','Lord Dalhousie','Lord Mountbatten','Lord Elgin'], ans: 1, exp: 'Dalhousie is named after Lord Dalhousie, a 19th-century Governor-General of India.' },
+  { q: 'The Minjar Fair, celebrating the maize harvest, is a major festival of which district?', opts: ['Chamba','Kullu','Kinnaur','Sirmaur'], ans: 0, exp: 'The week-long Minjar Fair is Chamba\'s signature festival.' },
+  { q: 'Hidimba Devi Temple, a pagoda-style wooden shrine, is located in which town?', opts: ['Manali','Kasauli','Kufri','Naggar'], ans: 0, exp: 'The Hidimba Devi Temple (1553) is in Manali, Kullu district.' },
+  { q: 'Bhimakali Temple, blending Hindu and Buddhist architecture, is located in which town?', opts: ['Sarahan','Kalpa','Rampur','Rekong Peo'], ans: 0, exp: 'The Bhimakali Temple is in Sarahan, Shimla district.' },
+  { q: 'Which district shares HP\'s only stretch of broad-gauge railway?', opts: ['Una','Kangra','Solan','Bilaspur'], ans: 0, exp: 'Una district has HP\'s only broad-gauge rail link (Delhi–Una line).' },
+
+  // Temples
+  { q: 'Jwalamukhi Temple, famous for its naturally occurring eternal flame, is located in which district?', opts: ['Kangra','Mandi','Bilaspur','Una'], ans: 0, exp: 'Jwalamukhi Temple, one of the Shakti Peethas, is in Kangra district.' },
+  { q: 'Naina Devi Temple, one of the Shakti Peethas, is located in which district?', opts: ['Bilaspur','Solan','Hamirpur','Shimla'], ans: 0, exp: 'Naina Devi Temple overlooks Gobind Sagar lake in Bilaspur district.' },
+  { q: 'Chintpurni Devi Temple, another major Shakti Peeth, is located in which district?', opts: ['Una','Kangra','Hamirpur','Mandi'], ans: 0, exp: 'Chintpurni Temple is in Una district.' },
+
+  // Culture & Economy
+  { q: 'Kullu Dussehra, an international festival, primarily honors which deity?', opts: ['Lord Shiva','Raghunath ji (Lord Rama)','Lord Krishna','Goddess Hidimba'], ans: 1, exp: 'Kullu Dussehra centers on the procession of Raghunath ji, Kullu\'s presiding deity.' },
+  { q: 'Kangra Valley is especially famous for cultivating which GI-tagged crop?', opts: ['Coffee','Tea','Saffron','Cardamom'], ans: 1, exp: 'Kangra Tea carries a Geographical Indication (GI) tag.' },
+  { q: 'Which HP institute of national importance is located in Mandi district?', opts: ['NIT','IIT','AIIMS','IIM'], ans: 1, exp: 'IIT Mandi was established in 2009.' },
+  { q: 'The National Institute of Technology (NIT) in HP is located in which town?', opts: ['Solan','Hamirpur','Sundernagar','Baddi'], ans: 1, exp: 'NIT Hamirpur is HP\'s NIT.' },
+  { q: 'Losar, the Tibetan New Year festival, is widely celebrated in which HP region?', opts: ['Kangra Valley','Lahaul-Spiti &amp; Kinnaur','Sirmaur','Solan'], ans: 1, exp: 'Losar is prominent among the Buddhist communities of Lahaul-Spiti and Kinnaur.' },
+  { q: 'Chamba Rumal, a GI-tagged handicraft, refers to a traditional form of:', opts: ['Wood carving','Hand embroidery','Pottery','Metalwork'], ans: 1, exp: 'Chamba Rumal is a distinctive double-satin-stitch hand embroidery tradition.' },
 ];
 
+/* ══════════════════════════════════════════
+   DATE-SEEDED DAILY ROTATION
+   (Pure client-side — no server needed. The
+    fact and the 10-question quiz both change
+    automatically every calendar day.)
+══════════════════════════════════════════ */
+function dayOfYear(d) {
+  const start = new Date(d.getFullYear(), 0, 0);
+  return Math.floor((d - start) / 86400000);
+}
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function todaySeed(offset) {
+  const d = new Date();
+  return d.getFullYear() * 1000 + dayOfYear(d) + (offset || 0);
+}
+function seededShuffle(array, seed) {
+  const rand = mulberry32(seed);
+  const arr = array.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+/* ══════════════════════════════════════════
+   FACT OF THE DAY
+══════════════════════════════════════════ */
+const FACTS = [
+  'HP became India\'s 18th state on 25 January 1971, after 23 years as a Union Territory/Part C State.',
+  'Himachal Day (15 April) marks the 1948 merger of 28 princely hill states into the Chief Commissioner\'s Province of HP.',
+  'Dr. Yashwant Singh Parmar, HP\'s first Chief Minister, is remembered as the "architect of modern Himachal Pradesh".',
+  'Virbhadra Singh remains HP\'s longest-serving Chief Minister, having led the state across six terms.',
+  'HP has 12 districts grouped into 3 revenue divisions.',
+  'The HP Legislative Assembly (Vidhan Sabha) has 68 seats.',
+  'HP sends 4 members to the Lok Sabha and 3 to the Rajya Sabha.',
+  'Shimla, HP\'s capital, was also the summer capital of British India.',
+  'Dharamshala was declared HP\'s second (winter) capital in 2017.',
+  'HP\'s High Court is located in Shimla.',
+  'Reo Purgyil (6,816 m), in Kinnaur district, is the highest peak in Himachal Pradesh.',
+  'Five major rivers flow through HP: the Sutlej, Beas, Ravi, Chenab and Yamuna.',
+  'The Chenab river is formed by the union of the Chandra and Bhaga rivers at Tandi, Lahaul.',
+  'Bara Shigri, HP\'s largest glacier at about 25 km long, lies in Lahaul & Spiti.',
+  'Lahaul & Spiti (13,835 km²) is HP\'s largest district; Hamirpur (1,118 km²) is its smallest.',
+  'The Great Himalayan National Park in Kullu was declared a UNESCO World Heritage Site in 2014.',
+  'Pin Valley National Park in Spiti protects the cold-desert biome.',
+  'Renuka Lake in Sirmaur is HP\'s largest natural lake and a Ramsar wetland site.',
+  'Pong Dam (Maharana Pratap Sagar) on the Beas river in Kangra is also a Ramsar wetland.',
+  'HP\'s state animal is the Snow Leopard; its state bird is the Western Tragopan (locally called Jujurana).',
+  'The Deodar (Himalayan Cedar) is HP\'s state tree; the Pink Rhododendron (Buransh) is its state flower.',
+  'HP has an estimated hydropower potential of over 27,000 MW, among the highest of any Indian state.',
+  'Bhakra Dam on the Sutlej at Bilaspur creates the Gobind Sagar reservoir, one of Asia\'s largest artificial lakes.',
+  'Nathpa Jhakri, at 1,500 MW, is HP\'s largest hydroelectric project.',
+  'Himachal Pradesh is India\'s leading apple-producing state and is often called the country\'s "Apple State".',
+  'Baddi, in Solan district, hosts Asia\'s largest cluster of pharmaceutical manufacturing units.',
+  'Kangra Tea, grown in the Kangra Valley, holds a Geographical Indication (GI) tag.',
+  'Kullu Shawls, Kinnauri Shawls and Chamba Rumal embroidery all carry GI tags.',
+  'The Atal Tunnel under Rohtang Pass, at 9.02 km, is among the world\'s longest highway tunnels at high altitude.',
+  'The Kalka–Shimla Railway, built by the British in 1903, was declared a UNESCO World Heritage Site in 2008.',
+  'Hamirpur district is known for having the highest road density of any district in India.',
+  'Una is the only HP district connected by broad-gauge railway.',
+  'Chail, at 2,444 m, is home to the world\'s highest cricket ground.',
+  'Kullu Dussehra is a week-long international festival centered on the deity Raghunath ji.',
+  'Nati, a traditional folk dance of Himachal Pradesh, holds a Guinness World Record for the largest folk dance performance.',
+  'The Minjar Fair, celebrating the maize harvest, is Chamba district\'s signature festival.',
+  'Losar, the Tibetan New Year, is widely celebrated by Buddhist communities in Lahaul-Spiti and Kinnaur.',
+  'Tabo Monastery (founded 996 AD) in Spiti Valley is one of the oldest continuously operating Buddhist monasteries in India.',
+  'Pragpur, in Kangra district, was declared India\'s first Heritage Village.',
+  'Mandi town is nicknamed "Chhoti Kashi" (Little Varanasi) for its roughly 81 temples.',
+  'The Bhimakali Temple at Sarahan, Shimla district, blends Hindu and Buddhist architectural styles.',
+  'Jwalamukhi Temple in Kangra district is famous for a naturally occurring eternal flame and is one of the Shakti Peethas.',
+  'Naina Devi Temple in Bilaspur district overlooks the Gobind Sagar reservoir.',
+  'Hidimba Devi Temple, a pagoda-style wooden shrine built in 1553, stands in Manali.',
+  'IIT Mandi, established in 2009, is HP\'s Indian Institute of Technology.',
+  'NIT Hamirpur is HP\'s National Institute of Technology.',
+  'HP achieved 100% rural electrification in 1988, among the earliest states in India to do so.',
+  'HP has consistently ranked as one of India\'s least-corrupt states in independent surveys.',
+  'Spiti Valley, in Lahaul & Spiti district, has been declared a fully organic farming region by the state.',
+  'Vijay Kumar, born in Hamirpur, won a silver medal in 25m Rapid Fire Pistol shooting at the 2012 London Olympics.',
+  'Dalhousie hill station is named after Lord Dalhousie, a 19th-century Governor-General of India.',
+  'Shimla is popularly nicknamed the "Queen of Hills".',
+  'The Anglo-Gorkha War (1814–16) ended Gorkha control over the western Himalayan hill states, paving the way for British influence in the region.',
+  'HP\'s official languages include Hindi, with Pahari and other dialects widely spoken across districts.',
+  'Chandratal ("Moon Lake"), a crescent-shaped high-altitude lake in Spiti, sits at about 4,300 m elevation.',
+  'The Rohtang Pass, historically the main gateway from Manali into Lahaul-Spiti, is now bypassed by the Atal Tunnel for all-weather access.',
+  'Kinnaur and Lahaul & Spiti are HP\'s two districts that share an international border with Tibet (China).',
+  'Chamba has one of the longest documented histories among HP\'s princely states, with records dating back over a thousand years.',
+  'The Bhuri Singh Museum in Chamba, established in 1908, houses miniature paintings and historical artefacts of the Pahari hill schools.',
+];
+
+let factOfDayEl, factOfDayDateEl;
+function renderFactOfDay() {
+  factOfDayEl = document.getElementById('fact-of-day-text');
+  factOfDayDateEl = document.getElementById('fact-of-day-date');
+  const idx = todaySeed(0) % FACTS.length;
+  factOfDayEl.textContent = FACTS[idx];
+  factOfDayDateEl.textContent = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) + ' · updates automatically each day';
+}
+
+/* ══════════════════════════════════════════
+   MCQ ENGINE — Quiz of the Day + Full Practice
+══════════════════════════════════════════ */
+let quizMode = 'daily';
+let dailyQuizSet = [];
+let activeBank = [];
 let mcqIndex = 0, mcqScore = 0, mcqAnswered = false;
 
+function buildDailyQuizSet() {
+  dailyQuizSet = seededShuffle(MCQ_BANK, todaySeed(500)).slice(0, 10);
+}
+
+function setQuizMode(mode) {
+  quizMode = mode;
+  activeBank = mode === 'daily' ? dailyQuizSet : MCQ_BANK;
+  mcqIndex = 0; mcqScore = 0;
+  document.getElementById('mode-daily').classList.toggle('active', mode === 'daily');
+  document.getElementById('mode-full').classList.toggle('active', mode === 'full');
+  renderMCQ();
+}
+
 function renderMCQ() {
-  const q = MCQ_BANK[mcqIndex];
+  const q = activeBank[mcqIndex];
   const area = document.getElementById('mcq-area');
   area.innerHTML = `
     <div style="font-size:0.8rem;color:var(--muted);margin-bottom:12px">
-      Question ${mcqIndex + 1} of ${MCQ_BANK.length}
+      Question ${mcqIndex + 1} of ${activeBank.length} ${quizMode === 'daily' ? '· 🌟 Today\'s Quiz (changes daily)' : '· Full Practice Bank'}
     </div>
     <div class="mcq-box">
       <div class="mcq-q">${q.q}</div>
@@ -836,7 +1096,7 @@ function renderMCQ() {
     </div>
     <div class="mcq-nav">
       <button class="btn-outline" onclick="prevMCQ()" ${mcqIndex === 0 ? 'disabled' : ''}>← Prev</button>
-      <button class="btn-outline" onclick="nextMCQ()">Next →</button>
+      <button class="btn-outline" onclick="nextMCQ()" ${mcqIndex === activeBank.length - 1 ? 'disabled' : ''}>Next →</button>
       <span id="mcq-score">Score: ${mcqScore}/${mcqIndex}</span>
     </div>`;
   mcqAnswered = false;
@@ -845,7 +1105,7 @@ function renderMCQ() {
 function answerMCQ(chosen) {
   if (mcqAnswered) return;
   mcqAnswered = true;
-  const q = MCQ_BANK[mcqIndex];
+  const q = activeBank[mcqIndex];
   const opts = document.querySelectorAll('#mcq-opts li');
   const result = document.getElementById('mcq-result');
   opts.forEach((li, i) => {
@@ -865,7 +1125,7 @@ function answerMCQ(chosen) {
 }
 
 function nextMCQ() {
-  if (mcqIndex < MCQ_BANK.length - 1) { mcqIndex++; renderMCQ(); }
+  if (mcqIndex < activeBank.length - 1) { mcqIndex++; renderMCQ(); }
 }
 function prevMCQ() {
   if (mcqIndex > 0) { mcqIndex--; renderMCQ(); }
@@ -876,7 +1136,9 @@ function prevMCQ() {
 ══════════════════════════════════════════ */
 document.addEventListener('DOMContentLoaded', () => {
   fetchNews();
-  renderMCQ();
+  renderFactOfDay();
+  buildDailyQuizSet();
+  setQuizMode('daily');
   // Auto-refresh news every 30 minutes
   setInterval(fetchNews, 30 * 60 * 1000);
 });

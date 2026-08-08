@@ -1,93 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>HP Current Affairs Quiz</title>
-
-<style>
-body {
-    font-family: Arial;
-    background-color: #f4f4f4;
-    margin: 0;
-}
-
-header {
-    background: #003366;
-    color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-.container {
-    width: 80%;
-    margin: 30px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.question {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-button {
-    margin-top: 15px;
-    padding: 8px 15px;
-    background: #003366;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #001f4d;
-}
-
-#result {
-    margin-top: 20px;
-    font-weight: bold;
-}
-</style>
-
+<meta charset="UTF-8" />
+<meta http-equiv="refresh" content="0; url=index.html#quiz" />
+<title>Redirecting to HP GK Quiz…</title>
+<script>window.location.replace('index.html');document.addEventListener('DOMContentLoaded',()=>{try{document.querySelector('nav button:nth-child(4)').click();}catch(e){}});</script>
 </head>
-
 <body>
-
-<header>
-<h2>Himachal Pradesh Current Affairs Quiz</h2>
-</header>
-
-<div class="container">
-
-<div class="question">
-1. Who is the current Chief Minister of Himachal Pradesh?
-</div>
-
-<label><input type="radio" name="q1" value="A"> Jai Ram Thakur</label><br>
-<label><input type="radio" name="q1" value="B"> Sukhvinder Singh Sukhu</label><br>
-<label><input type="radio" name="q1" value="C"> Prem Kumar Dhumal</label><br>
-
-<button onclick="checkAnswer()">Submit</button>
-
-<div id="result"></div>
-
-</div>
-
-<script>
-function checkAnswer() {
-    let selected = document.querySelector('input[name="q1"]:checked');
-    if (!selected) {
-        document.getElementById("result").innerHTML = "Please select an option.";
-        return;
-    }
-
-    if (selected.value === "B") {
-        document.getElementById("result").innerHTML = "Correct Answer!";
-    } else {
-        document.getElementById("result").innerHTML = "Wrong Answer!";
-    }
-}
-</script>
-
+<p>The quiz has moved — redirecting you to the <a href="index.html">main Himachal Pradesh GK site</a> (Practice MCQ tab).</p>
 </body>
 </html>
