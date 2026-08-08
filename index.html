@@ -236,6 +236,37 @@
     }
     .quiz-mode-toggle button.active { background: var(--hp-green); color: #fff; }
 
+    /* ── NEWS CATEGORY PILLS ── */
+    .news-cats { display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 14px; }
+    .news-cats button {
+      padding: 5px 13px; border-radius: 20px;
+      border: 1.5px solid var(--border); background: none;
+      color: var(--muted); font-size: 0.76rem; font-weight: 600;
+      cursor: pointer; transition: all 0.15s;
+      font-family: inherit;
+    }
+    .news-cats button:hover { border-color: var(--hp-green); color: var(--hp-green); }
+    .news-cats button.active {
+      background: var(--hp-green); border-color: var(--hp-green); color: #fff;
+    }
+    .cache-badge {
+      display: inline-block; background: #fde8cc; color: #a05000;
+      font-size: 0.68rem; font-weight: 700;
+      padding: 1px 7px; border-radius: 10px; margin-left: 6px;
+    }
+    .news-error a { color: var(--hp-green); font-weight: 600; }
+    .news-fallback-links {
+      list-style: none; margin-top: 12px;
+      display: flex; flex-direction: column; gap: 6px;
+      text-align: left; max-width: 300px; margin-left: auto; margin-right: auto;
+    }
+    .news-fallback-links a {
+      display: block; padding: 7px 11px; font-size: 0.8rem;
+      border: 1px solid var(--border); border-radius: 6px;
+      background: #fff; text-decoration: none;
+    }
+    .news-fallback-links a:hover { background: #e8f5e1; border-color: var(--hp-green); }
+
     /* ── SIDEBAR ── */
     .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     .stat-box {
@@ -409,7 +440,8 @@
         </div>
 
         <div class="card">
-          <div class="card-title">📰 Today's Top Stories – Himachal Pradesh</div>
+          <div class="card-title">📰 Latest Himachal Pradesh News</div>
+          <div class="news-cats" id="news-cats"></div>
           <div id="news-container">
             <div class="news-loading">
               <div class="spinner"></div>
@@ -770,98 +802,202 @@ function showSection(id, btn) {
 }
 
 /* ══════════════════════════════════════════
-   NEWS FETCHING — fixed via rss2json proxy
-   (This resolves the CORS error that was
-    preventing news from loading before)
+   NEWS ENGINE
+   Google News RSS is fetched through a chain
+   of free CORS proxies. Each is tried in turn
+   with a timeout, so one proxy being down or
+   rate-limited no longer breaks the feed.
+   The last good result is cached locally, so
+   the page still shows news even if every
+   proxy fails on a given visit.
 ══════════════════════════════════════════ */
-const RSS_FEEDS = [
-  {
-    name: 'Google News – HP',
-    url: 'https://news.google.com/rss/search?q=Himachal+Pradesh&hl=en-IN&gl=IN&ceid=IN:en'
-  },
-  {
-    name: 'Google News – HPPSC',
-    url: 'https://news.google.com/rss/search?q=HPPSC+HPAS+Himachal&hl=en-IN&gl=IN&ceid=IN:en'
-  }
+const NEWS_CATEGORIES = [
+  { id: 'all',     label: '📰 All HP News',     query: 'Himachal Pradesh' },
+  { id: 'jobs',    label: '🎓 Exams & Jobs',    query: 'HPPSC OR HPSSSC OR HPBOSE OR "Himachal Pradesh" recruitment notification' },
+  { id: 'govt',    label: '🏛️ Govt & Policy',   query: '"Himachal Pradesh" government OR cabinet OR assembly OR budget' },
+  { id: 'weather', label: '🌦️ Weather & Alerts', query: '"Himachal Pradesh" weather OR rain OR snowfall OR landslide OR alert' },
+  { id: 'tourism', label: '🏔️ Tourism',          query: '"Himachal Pradesh" tourism OR Manali OR Shimla OR Dharamshala tourists' }
 ];
 
-const RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
+// Free CORS proxies, tried in order. Mixed types so a single
+// provider outage cannot take the whole feed down.
+const PROXIES = [
+  { name: 'allorigins', type: 'xml',  build: u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u) },
+  { name: 'codetabs',   type: 'xml',  build: u => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u) },
+  { name: 'rss2json',   type: 'json', build: u => 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(u) + '&count=20' },
+  { name: 'corsproxy',  type: 'xml',  build: u => 'https://corsproxy.io/?' + encodeURIComponent(u) }
+];
 
-async function fetchNews() {
+const CACHE_TTL_MS = 6 * 60 * 60 * 1000; // keep showing cached news for up to 6h
+let activeCategory = 'all';
+
+function googleNewsUrl(query) {
+  return 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) +
+         '&hl=en-IN&gl=IN&ceid=IN:en';
+}
+
+/* ---- safe localStorage (never throws) ---- */
+function cacheGet(key) {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const obj = JSON.parse(raw);
+    if (!obj || !obj.t || !Array.isArray(obj.items)) return null;
+    return obj;
+  } catch (e) { return null; }
+}
+function cacheSet(key, items) {
+  try {
+    localStorage.setItem(key, JSON.stringify({ t: Date.now(), items: items.slice(0, 20) }));
+  } catch (e) { /* storage unavailable — not fatal */ }
+}
+
+/* ---- fetch with timeout ---- */
+async function fetchWithTimeout(url, ms) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ms);
+  try {
+    return await fetch(url, { signal: ctrl.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/* ---- RSS XML → item objects ---- */
+function parseRssXml(text) {
+  const doc = new DOMParser().parseFromString(text, 'text/xml');
+  if (doc.querySelector('parsererror')) throw new Error('Malformed XML');
+  const nodes = Array.from(doc.querySelectorAll('item'));
+  if (!nodes.length) throw new Error('No items in feed');
+  return nodes.map(node => {
+    const get = tag => {
+      const el = node.querySelector(tag);
+      return el ? el.textContent.trim() : '';
+    };
+    return {
+      title: get('title'),
+      link: get('link'),
+      pubDate: get('pubDate'),
+      description: get('description'),
+      source: get('source')
+    };
+  });
+}
+
+/* ---- normalise rss2json's JSON shape ---- */
+function parseRss2Json(data) {
+  if (!data || data.status !== 'ok' || !Array.isArray(data.items) || !data.items.length) {
+    throw new Error('rss2json returned no items');
+  }
+  return data.items.map(i => ({
+    title: i.title || '',
+    link: i.link || '',
+    pubDate: i.pubDate || '',
+    description: i.description || '',
+    source: i.author || ''
+  }));
+}
+
+/* ---- try each proxy until one works ---- */
+async function fetchFeed(query) {
+  const feedUrl = googleNewsUrl(query);
+  let lastErr = null;
+
+  for (const proxy of PROXIES) {
+    try {
+      const resp = await fetchWithTimeout(proxy.build(feedUrl), 9000);
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+
+      let items;
+      if (proxy.type === 'json') {
+        items = parseRss2Json(await resp.json());
+      } else {
+        items = parseRssXml(await resp.text());
+      }
+      if (items && items.length) return items;
+      throw new Error('Empty result');
+    } catch (e) {
+      lastErr = e;
+      // move on to the next proxy
+    }
+  }
+  throw lastErr || new Error('All proxies failed');
+}
+
+/* ---- main entry point ---- */
+async function fetchNews(category) {
+  if (category) activeCategory = category;
+  const cat = NEWS_CATEGORIES.find(c => c.id === activeCategory) || NEWS_CATEGORIES[0];
   const container = document.getElementById('news-container');
+  const cacheKey = 'hpnews_' + cat.id;
+
+  container.innerHTML =
+    '<div class="news-loading"><div class="spinner"></div>Loading ' + cat.label.replace(/^\S+\s/, '') + '…</div>';
+
+  let items = null, fromCache = false, cachedAt = null;
 
   try {
-    // Try first feed, fall back to second
-    let items = [];
-    for (const feed of RSS_FEEDS) {
-      try {
-        const url = RSS2JSON + encodeURIComponent(feed.url) + '&count=15';
-        const resp = await fetch(url);
-        if (!resp.ok) continue;
-        const data = await resp.json();
-        if (data.status === 'ok' && data.items && data.items.length > 0) {
-          items = [...items, ...data.items.map(i => ({...i, feedName: feed.name}))];
-        }
-      } catch(e) { /* try next */ }
+    items = await fetchFeed(cat.query);
+    cacheSet(cacheKey, items);
+  } catch (e) {
+    const cached = cacheGet(cacheKey);
+    if (cached && (Date.now() - cached.t) < CACHE_TTL_MS) {
+      items = cached.items;
+      fromCache = true;
+      cachedAt = cached.t;
     }
+  }
 
-    // Deduplicate by title
-    const seen = new Set();
-    items = items.filter(item => {
-      const key = item.title.slice(0, 60);
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-
-    if (items.length === 0) {
-      showError(container);
-      return;
-    }
-
-    // Filter for HP-relevant items
-    const HP_KEYWORDS = [
-      'himachal', 'shimla', 'dharamsala', 'dharamshala', 'manali', 'kullu', 'mandi',
-      'kangra', 'chamba', 'bilaspur', 'hamirpur', 'solan', 'sirmaur', 'kinnaur',
-      'lahaul', 'spiti', 'una', 'hp government', 'hppsc', 'hpsc', 'hpas',
-      'sukhu', 'hp cabinet', 'himachal pradesh'
-    ];
-
-    let hpItems = items.filter(item => {
-      const text = (item.title + ' ' + (item.description || '')).toLowerCase();
-      return HP_KEYWORDS.some(kw => text.includes(kw));
-    });
-
-    // If filter is too aggressive, show all items
-    if (hpItems.length < 5) hpItems = items;
-
-    // Render
-    container.innerHTML = hpItems.slice(0, 18).map((item, i) => {
-      const pubDate = item.pubDate ? new Date(item.pubDate) : null;
-      const timeStr = pubDate ? formatTime(pubDate) : '';
-      const desc = stripHtml(item.description || '').slice(0, 140);
-      const source = item.author || item.feedName || 'HP News';
-
-      return `<div class="news-item" style="animation-delay:${i * 0.04}s">
-        <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
-        ${desc ? `<div class="news-desc">${desc}…</div>` : ''}
-        <div class="news-meta">
-          <span class="news-source">${source}</span>
-          ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
-        </div>
-      </div>`;
-    }).join('');
-
-    // Update ticker with fresh headlines
-    const tickerItems = hpItems.slice(0, 8).map(i => i.title).join(' &nbsp;|&nbsp; ');
-    document.getElementById('ticker-text').innerHTML = tickerItems;
-
-    // Show last updated
-    document.getElementById('last-updated').textContent =
-      '🔄 Last updated: ' + new Date().toLocaleTimeString('en-IN');
-
-  } catch (err) {
+  if (!items || !items.length) {
     showError(container);
+    return;
+  }
+
+  // Deduplicate by leading title text
+  const seen = new Set();
+  items = items.filter(it => {
+    const key = (it.title || '').slice(0, 60).toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  renderNews(container, items, fromCache, cachedAt);
+}
+
+function renderNews(container, items, fromCache, cachedAt) {
+  container.innerHTML = items.slice(0, 18).map((item, i) => {
+    const pub = item.pubDate ? new Date(item.pubDate) : null;
+    const timeStr = pub && !isNaN(pub) ? formatTime(pub) : '';
+    // Google News wraps the headline + publisher in the description HTML
+    const descText = stripHtml(item.description || '').replace(/\s+/g, ' ').trim();
+    const desc = descText.slice(0, 150);
+    const source = item.source || 'Google News';
+
+    return `<div class="news-item" style="animation-delay:${i * 0.04}s">
+      <a href="${escapeAttr(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
+      ${desc ? `<div class="news-desc">${escapeHtml(desc)}…</div>` : ''}
+      <div class="news-meta">
+        <span class="news-source">${escapeHtml(source)}</span>
+        ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  // Refresh the headline ticker
+  const tickerEl = document.getElementById('ticker-text');
+  if (tickerEl) {
+    tickerEl.innerHTML = items.slice(0, 8)
+      .map(i => escapeHtml(i.title)).join(' &nbsp;|&nbsp; ');
+  }
+
+  const updated = document.getElementById('last-updated');
+  if (fromCache) {
+    updated.innerHTML = '🔄 Showing saved headlines from ' +
+      new Date(cachedAt).toLocaleTimeString('en-IN') +
+      '<span class="cache-badge">OFFLINE COPY</span>';
+  } else {
+    updated.textContent = '🔄 Updated: ' + new Date().toLocaleTimeString('en-IN');
   }
 }
 
@@ -869,16 +1005,47 @@ function showError(container) {
   container.innerHTML = `
     <div class="news-error">
       <div style="font-size:1.8rem;margin-bottom:8px">📡</div>
-      <strong>Could not load live news</strong><br>
-      Please check your internet connection.<br>
+      <strong>Live news is temporarily unavailable</strong><br>
+      <span style="font-size:0.82rem">The news service didn't respond. You can retry, or read HP news directly:</span>
+      <ul class="news-fallback-links">
+        <li><a href="https://news.google.com/search?q=Himachal%20Pradesh&hl=en-IN&gl=IN&ceid=IN:en" target="_blank" rel="noopener">📰 Google News – Himachal Pradesh</a></li>
+        <li><a href="https://himachalpr.gov.in" target="_blank" rel="noopener">🏛️ HP Govt Press Releases</a></li>
+        <li><a href="https://hppsc.hp.gov.in" target="_blank" rel="noopener">🎓 HPPSC Notifications</a></li>
+      </ul>
       <button class="refresh-btn" onclick="fetchNews()">🔄 Retry</button>
     </div>`;
+  const updated = document.getElementById('last-updated');
+  if (updated) updated.textContent = '';
+}
+
+function renderNewsCategories() {
+  const wrap = document.getElementById('news-cats');
+  if (!wrap) return;
+  wrap.innerHTML = NEWS_CATEGORIES.map(c =>
+    `<button class="${c.id === activeCategory ? 'active' : ''}" data-cat="${c.id}">${c.label}</button>`
+  ).join('');
+  wrap.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      wrap.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      fetchNews(btn.dataset.cat);
+    });
+  });
 }
 
 function stripHtml(html) {
   const tmp = document.createElement('div');
   tmp.innerHTML = html;
   return tmp.textContent || tmp.innerText || '';
+}
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function escapeAttr(s) {
+  const v = String(s == null ? '' : s);
+  return /^https?:\/\//i.test(v) ? escapeHtml(v) : '#';
 }
 
 function formatTime(date) {
@@ -1135,12 +1302,13 @@ function prevMCQ() {
    INIT
 ══════════════════════════════════════════ */
 document.addEventListener('DOMContentLoaded', () => {
+  renderNewsCategories();
   fetchNews();
   renderFactOfDay();
   buildDailyQuizSet();
   setQuizMode('daily');
-  // Auto-refresh news every 30 minutes
-  setInterval(fetchNews, 30 * 60 * 1000);
+  // Auto-refresh the current category every 30 minutes
+  setInterval(() => fetchNews(), 30 * 60 * 1000);
 });
 </script>
 </body>
