@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himachal Pradesh GK &amp; Current Affairs – हिमाचल प्रदेश सामान्य ज्ञान</title>
+  <meta name="description" content="Complete Himachal Pradesh GK reference plus live current affairs, a daily rotating fact and quiz, and district-wise info for HPPSC, HP Police, HPAS, and all HP competitive exams." />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --hp-green: #1a6e3c;
+      --hp-green-light: #2d9b57;
+      --hp-saffron: #ff6b00;
+      --hp-gold: #e8a020;
+      --bg: #f5f7f2;
+      --card: #ffffff;
+      --text: #1a2a1a;
+      --muted: #5a7060;
+      --border: #d4e0d4;
+      --red: #c0392b;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans', 'Noto Sans Devanagari', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #0d4a28 0%, #1a6e3c 60%, #145c30 100%);
+      color: #fff;
+      padding: 18px 20px 14px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    header .logo-icon { font-size: 2.4rem; display: block; margin-bottom: 4px; }
+    header h1 { font-size: 1.7rem; font-weight: 700; letter-spacing: 0.5px; }
+    header .subtitle { font-size: 0.85rem; opacity: 0.85; margin-top: 2px; }
+    .live-badge {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: var(--hp-saffron); color: #fff;
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 1px;
+      padding: 2px 8px; border-radius: 20px; margin-top: 6px;
+    }
+    .live-badge::before {
+      content: ''; width: 7px; height: 7px;
+      background: #fff; border-radius: 50%;
+      animation: pulse 1.2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    /* ── TICKER ── */
+    .ticker-wrap {
+      background: #0d4a28;
+      border-top: 2px solid var(--hp-gold);
+      overflow: hidden;
+      padding: 7px 0;
+    }
+    .ticker-label {
+      background: var(--hp-gold);
+      color: #0d4a28;
+      font-weight: 700;
+      font-size: 0.72rem;
+      padding: 0 12px;
+      float: left;
+      height: 100%;
+      line-height: 1.4;
+    }
+    .ticker-content {
+      display: inline-block;
+      white-space: nowrap;
+      animation: ticker 45s linear infinite;
+      color: #e8f5e1;
+      font-size: 0.82rem;
+      padding-left: 20px;
+    }
+    @keyframes ticker { 0%{transform:translateX(100vw)} 100%{transform:translateX(-100%)} }
+
+    /* ── NAV ── */
+    nav {
+      background: var(--card);
+      border-bottom: 2px solid var(--border);
+      display: flex;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    nav::-webkit-scrollbar { display: none; }
+    nav button {
+      background: none; border: none;
+      padding: 12px 18px;
+      font-size: 0.82rem; font-weight: 600;
+      color: var(--muted); cursor: pointer;
+      white-space: nowrap;
+      border-bottom: 3px solid transparent;
+      transition: all 0.2s;
+    }
+    nav button.active, nav button:hover {
+      color: var(--hp-green); border-bottom-color: var(--hp-green);
+    }
+
+    /* ── LAYOUT ── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 20px 16px; }
+    .grid-main { display: grid; grid-template-columns: 1fr 300px; gap: 20px; }
+    @media(max-width: 768px) { .grid-main { grid-template-columns: 1fr; } }
+
+    /* ── SECTIONS ── */
+    .section { display: none; }
+    .section.active { display: block; }
+
+    /* ── CARDS ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .card-title {
+      font-size: 1rem; font-weight: 700; color: var(--hp-green);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 10px; margin-bottom: 14px;
+      display: flex; align-items: center; gap: 8px;
+    }
+
+    /* ── NEWS ── */
+    #news-container { min-height: 200px; }
+    .news-loading {
+      text-align: center; padding: 40px;
+      color: var(--muted); font-size: 0.9rem;
+    }
+    .news-loading .spinner {
+      width: 32px; height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--hp-green);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 12px;
+    }
+    @keyframes spin { to{transform:rotate(360deg)} }
+
+    .news-item {
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      animation: fadeIn 0.4s ease both;
+    }
+    .news-item:last-child { border-bottom: none; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+
+    .news-item a {
+      text-decoration: none; color: var(--text); font-weight: 600;
+      font-size: 0.95rem; line-height: 1.5;
+      display: block; margin-bottom: 5px;
+    }
+    .news-item a:hover { color: var(--hp-green); }
+    .news-meta {
+      font-size: 0.75rem; color: var(--muted);
+      display: flex; gap: 10px; flex-wrap: wrap;
+    }
+    .news-source {
+      background: #e8f5e1; color: var(--hp-green);
+      padding: 1px 7px; border-radius: 10px;
+      font-weight: 600;
+    }
+    .news-desc {
+      font-size: 0.82rem; color: var(--muted);
+      margin-top: 4px; line-height: 1.5;
+    }
+    .news-error {
+      text-align: center; padding: 30px;
+      background: #fff3f3; border-radius: 8px;
+      color: var(--red); font-size: 0.9rem;
+    }
+    .refresh-btn {
+      background: var(--hp-green); color: #fff;
+      border: none; padding: 8px 18px;
+      border-radius: 6px; cursor: pointer;
+      font-size: 0.82rem; margin-top: 10px;
+    }
+    .refresh-btn:hover { background: var(--hp-green-light); }
+
+    /* last updated */
+    #last-updated {
+      font-size: 0.75rem; color: var(--muted);
+      text-align: right; padding: 6px 0 0;
+    }
+
+    /* ── FACT / QUIZ OF THE DAY ── */
+    .of-day-card {
+      background: linear-gradient(135deg, #0d4a28, #1a6e3c);
+      color: #fff; border-radius: 10px;
+      padding: 16px 18px; margin-bottom: 16px;
+      position: relative; overflow: hidden;
+    }
+    .of-day-label {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--hp-gold); color: #0d4a28;
+      font-size: 0.68rem; font-weight: 700; letter-spacing: 0.5px;
+      padding: 2px 9px; border-radius: 20px; margin-bottom: 10px;
+    }
+    .of-day-text { font-size: 1rem; line-height: 1.55; font-weight: 600; }
+    .of-day-date { font-size: 0.72rem; opacity: 0.75; margin-top: 8px; }
+
+    .snapshot-list { list-style: none; }
+    .snapshot-list li {
+      display: flex; justify-content: space-between; gap: 8px;
+      padding: 7px 0; border-bottom: 1px dashed var(--border);
+      font-size: 0.8rem;
+    }
+    .snapshot-list li:last-child { border-bottom: none; }
+    .snapshot-list .k { color: var(--muted); }
+    .snapshot-list .v { font-weight: 700; color: var(--text); text-align: right; }
+    .snapshot-note {
+      font-size: 0.68rem; color: var(--muted);
+      margin-top: 8px; font-style: italic;
+    }
+
+    .quiz-mode-toggle { display: flex; gap: 8px; margin-bottom: 14px; }
+    .quiz-mode-toggle button {
+      flex: 1; padding: 8px; border-radius: 7px;
+      border: 1.5px solid var(--hp-green); background: none;
+      color: var(--hp-green); font-weight: 600; font-size: 0.8rem;
+      cursor: pointer; transition: all 0.15s;
+    }
+    .quiz-mode-toggle button.active { background: var(--hp-green); color: #fff; }
+
+    /* ── NEWS CATEGORY PILLS ── */
+    .news-cats { display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 14px; }
+    .news-cats button {
+      padding: 5px 13px; border-radius: 20px;
+      border: 1.5px solid var(--border); background: none;
+      color: var(--muted); font-size: 0.76rem; font-weight: 600;
+      cursor: pointer; transition: all 0.15s;
+      font-family: inherit;
+    }
+    .news-cats button:hover { border-color: var(--hp-green); color: var(--hp-green); }
+    .news-cats button.active {
+      background: var(--hp-green); border-color: var(--hp-green); color: #fff;
+    }
+    .cache-badge {
+      display: inline-block; background: #fde8cc; color: #a05000;
+      font-size: 0.68rem; font-weight: 700;
+      padding: 1px 7px; border-radius: 10px; margin-left: 6px;
+    }
+    .news-error a { color: var(--hp-green); font-weight: 600; }
+    .news-fallback-links {
+      list-style: none; margin-top: 12px;
+      display: flex; flex-direction: column; gap: 6px;
+      text-align: left; max-width: 300px; margin-left: auto; margin-right: auto;
+    }
+    .news-fallback-links a {
+      display: block; padding: 7px 11px; font-size: 0.8rem;
+      border: 1px solid var(--border); border-radius: 6px;
+      background: #fff; text-decoration: none;
+    }
+    .news-fallback-links a:hover { background: #e8f5e1; border-color: var(--hp-green); }
+
+    /* ── SIDEBAR ── */
+    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .stat-box {
+      background: linear-gradient(135deg, #e8f5e1, #f5f7f2);
+      border: 1px solid var(--border);
+      border-radius: 8px; padding: 12px;
+      text-align: center;
+    }
+    .stat-box .num { font-size: 1.5rem; font-weight: 700; color: var(--hp-green); }
+    .stat-box .lbl { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+
+    .portal-list { list-style: none; }
+    .portal-list li { margin-bottom: 8px; }
+    .portal-list a {
+      display: flex; align-items: center; gap: 8px;
+      text-decoration: none; color: var(--text);
+      font-size: 0.82rem; padding: 8px 10px;
+      border: 1px solid var(--border); border-radius: 7px;
+      transition: all 0.2s;
+    }
+    .portal-list a:hover { background: #e8f5e1; border-color: var(--hp-green); color: var(--hp-green); }
+
+    .exam-item {
+      padding: 10px 12px;
+      border-left: 3px solid var(--hp-green);
+      background: #f5faf5;
+      border-radius: 0 7px 7px 0;
+      margin-bottom: 8px;
+      font-size: 0.82rem;
+    }
+    .exam-item .exam-name { font-weight: 700; color: var(--text); }
+    .exam-item .exam-date { color: var(--muted); font-size: 0.75rem; margin-top: 2px; }
+    .hot-tag {
+      background: var(--red); color: #fff;
+      font-size: 0.62rem; font-weight: 700;
+      padding: 1px 5px; border-radius: 4px;
+      margin-left: 5px; vertical-align: middle;
+    }
+
+    /* ── STATIC GK ── */
+    .gk-section { margin-bottom: 20px; }
+    .gk-section h3 {
+      font-size: 0.95rem; font-weight: 700;
+      color: var(--hp-green);
+      background: #e8f5e1; padding: 8px 12px;
+      border-radius: 6px; margin-bottom: 10px;
+    }
+    .gk-section ul { list-style: none; padding-left: 0; }
+    .gk-section li {
+      padding: 5px 0; border-bottom: 1px dashed var(--border);
+      font-size: 0.85rem;
+    }
+    .gk-section li:last-child { border-bottom: none; }
+    .gk-section li strong { color: var(--hp-green); }
+
+    /* ── DISTRICTS ── */
+    .district-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+    .district-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px;
+      transition: box-shadow 0.2s;
+    }
+    .district-card:hover { box-shadow: 0 4px 14px rgba(26,110,60,0.12); }
+    .district-card h3 { font-size: 0.92rem; font-weight: 700; color: var(--hp-green); margin-bottom: 8px; }
+    .district-card p { font-size: 0.78rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── MCQ ── */
+    .mcq-box { margin-bottom: 20px; }
+    .mcq-q { font-weight: 600; margin-bottom: 12px; font-size: 0.95rem; }
+    .mcq-options { list-style: none; }
+    .mcq-options li {
+      padding: 9px 14px; border: 1px solid var(--border);
+      border-radius: 7px; margin-bottom: 7px;
+      cursor: pointer; font-size: 0.88rem;
+      transition: all 0.15s;
+    }
+    .mcq-options li:hover { background: #e8f5e1; border-color: var(--hp-green); }
+    .mcq-options li.correct { background: #d4edda; border-color: #28a745; color: #155724; font-weight: 600; }
+    .mcq-options li.wrong { background: #f8d7da; border-color: #dc3545; color: #721c24; }
+    .mcq-result { font-size: 0.82rem; margin-top: 8px; padding: 8px 12px; border-radius: 6px; display: none; }
+    .mcq-result.show { display: block; }
+    .mcq-result.correct-res { background: #d4edda; color: #155724; }
+    .mcq-result.wrong-res { background: #f8d7da; color: #721c24; }
+    .mcq-nav { display: flex; gap: 10px; margin-top: 14px; }
+    .btn-outline {
+      border: 1.5px solid var(--hp-green); color: var(--hp-green);
+      background: none; padding: 7px 16px;
+      border-radius: 6px; cursor: pointer;
+      font-size: 0.82rem; font-weight: 600;
+      transition: all 0.15s;
+    }
+    .btn-outline:hover { background: var(--hp-green); color: #fff; }
+    #mcq-score { font-size: 0.85rem; color: var(--muted); align-self: center; margin-left: auto; }
+
+    /* ── EXAM CALENDAR ── */
+    .exam-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .exam-table th {
+      background: var(--hp-green); color: #fff;
+      padding: 10px 12px; text-align: left;
+    }
+    .exam-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); }
+    .exam-table tr:nth-child(even) td { background: #f5faf5; }
+    .exam-table tr:hover td { background: #e8f5e1; }
+    .badge {
+      display: inline-block; padding: 2px 8px;
+      border-radius: 10px; font-size: 0.72rem; font-weight: 600;
+    }
+    .badge-green { background: #d4edda; color: #155724; }
+    .badge-orange { background: #fde8cc; color: #a05000; }
+    .badge-red { background: #f8d7da; color: #721c24; }
+
+    footer {
+      text-align: center; padding: 20px;
+      font-size: 0.78rem; color: var(--muted);
+      border-top: 1px solid var(--border);
+      background: var(--card); margin-top: 20px;
+    }
+    footer a { color: var(--hp-green); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <span class="logo-icon">🏔️</span>
+  <h1>Himachal Pradesh GK</h1>
+  <div class="subtitle">हिमाचल प्रदेश सामान्य ज्ञान एवं समसामयिकी</div>
+  <div class="live-badge">LIVE &nbsp;Daily Updated</div>
+</header>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div style="overflow:hidden">
+    <span class="ticker-label">📢 LATEST</span>
+    <span class="ticker-content" id="ticker-text">
+      HP Cabinet approves new development projects across 12 districts &nbsp;|&nbsp;
+      HPSC announces recruitment for various posts – apply at hpsc.hp.gov.in &nbsp;|&nbsp;
+      Atal Tunnel (Rohtang) crosses new traffic milestone &nbsp;|&nbsp;
+      Himachal Pradesh ranked among top states in renewable energy &nbsp;|&nbsp;
+      New medical college to be set up in Nahan, Sirmaur &nbsp;|&nbsp;
+      HPPSC invites applications for HPAS 2025 examination &nbsp;|&nbsp;
+      Baddi becomes Asia's largest pharma cluster &nbsp;|&nbsp;
+      HP achieves 100% electrification target
+    </span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <button class="active" onclick="showSection('news',this)">🗞️ Today's News</button>
+  <button onclick="showSection('gk',this)">📚 HP Static GK</button>
+  <button onclick="showSection('districts',this)">🗺️ Districts Info</button>
+  <button onclick="showSection('mcq',this)">✏️ Practice MCQ</button>
+  <button onclick="showSection('exams',this)">📅 Exam Calendar</button>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+  <div class="grid-main">
+
+    <!-- LEFT COLUMN -->
+    <div>
+
+      <!-- NEWS SECTION -->
+      <div id="section-news" class="section active">
+
+        <div class="of-day-card">
+          <div class="of-day-label">⭐ FACT OF THE DAY</div>
+          <div class="of-day-text" id="fact-of-day-text">Loading…</div>
+          <div class="of-day-date" id="fact-of-day-date"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">📰 Latest Himachal Pradesh News</div>
+          <div class="news-cats" id="news-cats"></div>
+          <div id="news-container">
+            <div class="news-loading">
+              <div class="spinner"></div>
+              Loading latest HP news…
+            </div>
+          </div>
+          <div id="last-updated"></div>
+        </div>
+      </div>
+
+      <!-- STATIC GK SECTION -->
+      <div id="section-gk" class="section">
+        <div class="card">
+          <div class="card-title">📚 Himachal Pradesh – Static GK</div>
+
+          <div class="gk-section">
+            <h3>🏛️ Formation &amp; Administration</h3>
+            <ul>
+              <li><strong>Statehood:</strong> 25 January 1971 (18th state of India)</li>
+              <li><strong>Capital:</strong> Shimla (Summer), Dharamsala (Winter)</li>
+              <li><strong>High Court:</strong> Shimla</li>
+              <li><strong>Rajya Sabha Seats:</strong> 3 &nbsp;|&nbsp; <strong>Lok Sabha Seats:</strong> 4</li>
+              <li><strong>State Assembly:</strong> 68 seats</li>
+              <li><strong>First CM:</strong> Dr. Y.S. Parmar</li>
+              <li><strong>Total Districts:</strong> 12 &nbsp;|&nbsp; <strong>Divisions:</strong> 3</li>
+              <li><strong>Tehsils:</strong> 172 &nbsp;|&nbsp; <strong>Development Blocks:</strong> 78</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>📜 History</h3>
+            <ul>
+              <li><strong>Ancient rulers:</strong> Region ruled by small hill states/princely states (Kangra, Chamba, Bilaspur, Suket, Mandi, Sirmaur, etc.) for centuries</li>
+              <li><strong>Gorkha invasion:</strong> Early 19th century, ended by Anglo-Gorkha War (1814–16)</li>
+              <li><strong>British Punjab Hill States:</strong> Post-1815, most hill states became British princely states</li>
+              <li><strong>Chief Commissioner's Province:</strong> Formed 15 April 1948 by merging 28 princely hill states (celebrated as HP Day)</li>
+              <li><strong>Part C State:</strong> 1950; merged with Punjab in 1966 (Kangra, Una, parts of Shimla hills added)</li>
+              <li><strong>Full statehood:</strong> 25 January 1971 – 18th state of India</li>
+              <li><strong>First Chief Minister:</strong> Dr. Yashwant Singh Parmar (architect of modern HP)</li>
+              <li><strong>Longest-serving CM:</strong> Virbhadra Singh (six terms, spanning decades)</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>🌿 Geography &amp; Environment</h3>
+            <ul>
+              <li><strong>Total Area:</strong> 55,673 km² (18th largest state)</li>
+              <li><strong>Highest Peak:</strong> Reo Purgyil (6,816 m) – Kinnaur</li>
+              <li><strong>5 Rivers:</strong> Sutlej, Beas, Ravi, Chenab, Yamuna</li>
+              <li><strong>State Tree:</strong> Deodar Cedar</li>
+              <li><strong>State Flower:</strong> Pink Rhododendron (Burans)</li>
+              <li><strong>State Animal:</strong> Snow Leopard</li>
+              <li><strong>State Bird:</strong> Western Tragopan (Jujurana)</li>
+              <li><strong>Largest Glacier:</strong> Bara Shigri (Lahaul-Spiti)</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>🏔️ National Parks &amp; Wildlife</h3>
+            <ul>
+              <li><strong>Great Himalayan NP</strong> (UNESCO WHS, 2014) – Kullu</li>
+              <li><strong>Pin Valley NP</strong> – Spiti (Cold Desert biome)</li>
+              <li><strong>Khirganga NP</strong> – Kullu</li>
+              <li><strong>Simbalbara NP</strong> – Sirmaur (est. 2010)</li>
+              <li><strong>Inderkilla NP</strong> – Kullu</li>
+              <li><strong>Renuka WL Sanctuary</strong> – Sirmaur (largest natural lake)</li>
+              <li><strong>Chail WL Sanctuary</strong> – Shimla</li>
+              <li><strong>Shikari Devi WL Sanctuary</strong> – Mandi</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>⚡ Economy &amp; Power</h3>
+            <ul>
+              <li><strong>Hydropower Potential:</strong> 27,436 MW (3rd highest in India)</li>
+              <li><strong>Bhakra Dam:</strong> Gobind Sagar Lake (Satluj, Bilaspur)</li>
+              <li><strong>Largest Hydro Project:</strong> Nathpa Jhakri (1,500 MW)</li>
+              <li><strong>HP ranks 1st:</strong> Apple production in India</li>
+              <li><strong>Apple Economy:</strong> ₹3,500 crore annually</li>
+              <li><strong>Pharma hub:</strong> Baddi (Asia's largest pharma cluster)</li>
+              <li><strong>Salt Mines:</strong> Drang &amp; Guma (Mandi district)</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>🛣️ Infrastructure &amp; Records</h3>
+            <ul>
+              <li><strong>Atal Tunnel:</strong> World's longest highway tunnel at altitude (9.02 km)</li>
+              <li><strong>Kalka-Shimla Railway:</strong> UNESCO World Heritage (2008)</li>
+              <li><strong>Airports:</strong> Shimla, Kullu-Manali (Bhuntar), Dharamsala (Gaggal)</li>
+              <li><strong>Hamirpur:</strong> Highest road density in India</li>
+              <li><strong>Chail:</strong> World's highest cricket ground (2,444 m)</li>
+              <li><strong>Road Network:</strong> 28,208 km total</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>🎭 Culture &amp; Heritage</h3>
+            <ul>
+              <li><strong>Kullu Dussehra:</strong> 7-day International Festival</li>
+              <li><strong>Nati:</strong> World's largest folk dance (Guinness Record)</li>
+              <li><strong>Minjar Fair:</strong> Chamba (maize celebration)</li>
+              <li><strong>GI Tags:</strong> Kullu Shawl, Kinnauri Shawl, Kangra Tea, Chamba Rumal</li>
+              <li><strong>Pragpur (Kangra):</strong> India's 1st Heritage Village</li>
+              <li><strong>Bhuri Singh Museum:</strong> Chamba (est. 1908)</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>👤 Eminent Personalities</h3>
+            <ul>
+              <li><strong>Dr. Y.S. Parmar:</strong> First Chief Minister, called "architect of modern HP"</li>
+              <li><strong>Virbhadra Singh:</strong> Longest-serving CM (six terms)</li>
+              <li><strong>Sukhvinder Singh Sukhu:</strong> 15th &amp; current Chief Minister (took office Dec 2022)</li>
+              <li><strong>Vijay Kumar:</strong> Olympic silver medalist, 25m Rapid Fire Pistol shooting (London 2012), from Hamirpur</li>
+              <li><strong>Anand Sharma:</strong> Senior Congress leader, former Union Minister, from HP</li>
+              <li><strong>Satyanand Stokes:</strong> American-origin settler credited with introducing commercial apple cultivation in Shimla hills (early 1900s)</li>
+            </ul>
+          </div>
+
+          <div class="gk-section">
+            <h3>🏆 HP Firsts &amp; Unique Facts</h3>
+            <ul>
+              <li>First state with 100% electrification: 1988</li>
+              <li>First smoke-free state in India</li>
+              <li>Least corrupt state (CMS India survey, 2017)</li>
+              <li>Tabo Monastery (996 AD): oldest continuously operating in India</li>
+              <li>Gobind Sagar: 2nd largest artificial reservoir in Asia</li>
+              <li>Una: only HP district with broad-gauge railway</li>
+              <li>Hamirpur: Most literate district (89.01%)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- DISTRICTS SECTION -->
+      <div id="section-districts" class="section">
+        <div class="card">
+          <div class="card-title">🗺️ All 12 Districts – Quick GK</div>
+          <div class="district-grid">
+            <div class="district-card">
+              <h3>🏙️ Shimla</h3>
+              <p><strong>HQ:</strong> Shimla<br><strong>Area:</strong> 5,131 km²<br><strong>Known for:</strong> State capital, Jakhu Hill, Ridge, Kufri, IGMC hospital, HP High Court</p>
+            </div>
+            <div class="district-card">
+              <h3>🌸 Kangra</h3>
+              <p><strong>HQ:</strong> Dharamsala<br><strong>Area:</strong> 5,739 km²<br><strong>Known for:</strong> Winter capital, Kangra Fort, Masroor temples, Kangra Tea (GI), Bajreshwari Devi temple</p>
+            </div>
+            <div class="district-card">
+              <h3>🛕 Mandi</h3>
+              <p><strong>HQ:</strong> Mandi<br><strong>Area:</strong> 3,950 km²<br><strong>Known for:</strong> "Chhoti Kashi", 81 temples, Shikari Devi, Prashar Lake, Salt mines (Drang, Guma)</p>
+            </div>
+            <div class="district-card">
+              <h3>🍎 Kullu</h3>
+              <p><strong>HQ:</strong> Kullu<br><strong>Area:</strong> 5,503 km²<br><strong>Known for:</strong> Kullu Dussehra, Rohtang Pass, Atal Tunnel, Great Himalayan NP, Kullu Shawl (GI)</p>
+            </div>
+            <div class="district-card">
+              <h3>🎨 Chamba</h3>
+              <p><strong>HQ:</strong> Chamba<br><strong>Area:</strong> 6,522 km²<br><strong>Known for:</strong> Documented history since 500 AD, Chamba Rumal (GI), Bhuri Singh Museum, Manimahesh Lake</p>
+            </div>
+            <div class="district-card">
+              <h3>⚡ Bilaspur</h3>
+              <p><strong>HQ:</strong> Bilaspur<br><strong>Area:</strong> 1,167 km²<br><strong>Known for:</strong> Gobind Sagar Lake (2nd largest reservoir in Asia), Bhakra Dam, Vyas Cave</p>
+            </div>
+            <div class="district-card">
+              <h3>📚 Hamirpur</h3>
+              <p><strong>HQ:</strong> Hamirpur<br><strong>Area:</strong> 1,118 km²<br><strong>Known for:</strong> Highest road density in India, Most literate district (89%), NIT Hamirpur</p>
+            </div>
+            <div class="district-card">
+              <h3>🌾 Una</h3>
+              <p><strong>HQ:</strong> Una<br><strong>Area:</strong> 1,540 km²<br><strong>Known for:</strong> Only district with broad-gauge railway, Chintpurni Devi temple, industrial growth</p>
+            </div>
+            <div class="district-card">
+              <h3>🌲 Sirmaur</h3>
+              <p><strong>HQ:</strong> Nahan<br><strong>Area:</strong> 2,825 km²<br><strong>Known for:</strong> Renuka Lake (largest natural lake), Simbalbara NP, Paonta Sahib Gurudwara</p>
+            </div>
+            <div class="district-card">
+              <h3>💊 Solan</h3>
+              <p><strong>HQ:</strong> Solan<br><strong>Area:</strong> 1,936 km²<br><strong>Known for:</strong> "City of Mushrooms", Baddi pharma cluster (Asia's largest), Kasauli</p>
+            </div>
+            <div class="district-card">
+              <h3>💎 Kinnaur</h3>
+              <p><strong>HQ:</strong> Reckong Peo<br><strong>Area:</strong> 6,401 km²<br><strong>Known for:</strong> Reo Purgyil (highest peak, 6,816 m), Kinnauri Shawl (GI), Kalpa, Chitkul village</p>
+            </div>
+            <div class="district-card">
+              <h3>❄️ Lahaul &amp; Spiti</h3>
+              <p><strong>HQ:</strong> Keylong<br><strong>Area:</strong> 13,835 km² (largest)<br><strong>Known for:</strong> Bara Shigri Glacier, Pin Valley NP, Tabo Monastery (996 AD), Chandratal Lake</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MCQ SECTION -->
+      <div id="section-mcq" class="section">
+        <div class="card">
+          <div class="card-title">✏️ HP GK Quiz</div>
+          <div class="quiz-mode-toggle">
+            <button id="mode-daily" class="active" onclick="setQuizMode('daily')">🌟 Today's Quiz (10 Qs)</button>
+            <button id="mode-full" onclick="setQuizMode('full')">📖 Full Practice Bank</button>
+          </div>
+          <div id="mcq-area"></div>
+        </div>
+      </div>
+
+      <!-- EXAM CALENDAR SECTION -->
+      <div id="section-exams" class="section">
+        <div class="card">
+          <div class="card-title">📅 HP Competitive Exams – Recurring Calendar</div>
+          <p style="font-size:0.8rem;color:var(--muted);margin-bottom:14px">
+            Notification dates and application windows shift every cycle, so exact "open/closed" status isn't shown here to avoid giving you stale information — use the ticker and news feed above for live notification alerts, and click through to the official site for the current status of each exam.
+          </p>
+          <div style="overflow-x:auto">
+            <table class="exam-table">
+              <thead>
+                <tr>
+                  <th>Exam Name</th>
+                  <th>Conducting Body</th>
+                  <th>Typical Frequency</th>
+                  <th>Official Website</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>HPAS (HP Administrative Service)</strong></td>
+                  <td>HPPSC</td>
+                  <td>Annual</td>
+                  <td><a href="https://hppsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppsc.hp.gov.in</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HP SET (State Eligibility Test)</strong></td>
+                  <td>HPPSC</td>
+                  <td>Annual</td>
+                  <td><a href="https://hppsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppsc.hp.gov.in</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HPSC JBT / TET</strong></td>
+                  <td>HPSC / HPBOSE</td>
+                  <td>Annual / Bi-annual</td>
+                  <td><a href="https://hpsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hpsc.hp.gov.in</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HP Police Constable</strong></td>
+                  <td>HP Police</td>
+                  <td>As per vacancy</td>
+                  <td><a href="https://hppolice.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppolice.hp.gov.in</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HPSSSC Junior Engineer / Clerk / Patwari</strong></td>
+                  <td>HPSSSC</td>
+                  <td>Rolling, as per vacancy</td>
+                  <td><a href="https://hpsssc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hpsssc.hp.gov.in</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HP TGT Arts/Science/Medical</strong></td>
+                  <td>HPSC</td>
+                  <td>As per vacancy</td>
+                  <td><a href="https://hpsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hpsc.hp.gov.in</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HPBOSE Board Exams (10th/12th)</strong></td>
+                  <td>HPBOSE</td>
+                  <td>Annual, Feb–Mar</td>
+                  <td><a href="https://hpbose.org" target="_blank" style="color:var(--hp-green)">hpbose.org</a></td>
+                </tr>
+                <tr>
+                  <td><strong>HP Naib Tehsildar</strong></td>
+                  <td>HPPSC</td>
+                  <td>As per vacancy</td>
+                  <td><a href="https://hppsc.hp.gov.in" target="_blank" style="color:var(--hp-green)">hppsc.hp.gov.in</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /left -->
+
+    <!-- RIGHT SIDEBAR -->
+    <div>
+
+      <div class="card">
+        <div class="card-title">🧑‍⚖️ Current Affairs Snapshot</div>
+        <ul class="snapshot-list">
+          <li><span class="k">Chief Minister</span><span class="v">Sukhvinder Singh Sukhu</span></li>
+          <li><span class="k">Deputy CM</span><span class="v">Mukesh Agnihotri</span></li>
+          <li><span class="k">Governor</span><span class="v">Kavinder Gupta</span></li>
+          <li><span class="k">Ruling Party</span><span class="v">Indian National Congress</span></li>
+        </ul>
+        <div class="snapshot-note">As of August 2026. Officeholders can change — verify on <a href="https://himachal.nic.in" target="_blank" style="color:var(--hp-green)">himachal.nic.in</a> before an exam.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">🏘️ HP at a Glance</div>
+        <div class="stat-grid">
+          <div class="stat-box"><div class="num">12</div><div class="lbl">Districts</div></div>
+          <div class="stat-box"><div class="num">68</div><div class="lbl">Assembly Seats</div></div>
+          <div class="stat-box"><div class="num">55,673</div><div class="lbl">Area (km²)</div></div>
+          <div class="stat-box"><div class="num">82.8%</div><div class="lbl">Literacy</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">🔗 Official HP Portals</div>
+        <ul class="portal-list">
+          <li><a href="https://himachal.nic.in" target="_blank">🏛️ HP Govt Official Site</a></li>
+          <li><a href="https://hpsc.hp.gov.in" target="_blank">📋 HPSC – Staff Selection</a></li>
+          <li><a href="https://hppsc.hp.gov.in" target="_blank">🎓 HPPSC – Public Service</a></li>
+          <li><a href="https://himurja.hp.gov.in" target="_blank">⚡ HIMURJA – Energy</a></li>
+          <li><a href="https://himachalpr.gov.in" target="_blank">📢 HP Press Info Bureau</a></li>
+          <li><a href="https://hpbose.org" target="_blank">📖 HP Board of Education</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-title">🗓️ HP Exams to Track</div>
+        <div class="exam-item">
+          <div class="exam-name">HPAS <span class="hot-tag">ANNUAL</span></div>
+          <div class="exam-date">📅 hppsc.hp.gov.in</div>
+        </div>
+        <div class="exam-item">
+          <div class="exam-name">HPSC JBT / TET</div>
+          <div class="exam-date">📅 hpsc.hp.gov.in</div>
+        </div>
+        <div class="exam-item">
+          <div class="exam-name">HP Police Constable</div>
+          <div class="exam-date">📅 hppolice.hp.gov.in</div>
+        </div>
+        <div class="exam-item">
+          <div class="exam-name">HPSSSC (JE / Patwari / Clerk)</div>
+          <div class="exam-date">📅 hpsssc.hp.gov.in</div>
+        </div>
+        <div class="exam-item" style="font-size:0.72rem;color:var(--muted);border-left-color:var(--hp-gold)">
+          See the "Today's News" tab for the latest notification alerts.
+        </div>
+      </div>
+
+    </div><!-- /sidebar -->
+  </div>
+</div>
+
+<footer>
+  Himachal Pradesh GK &amp; Current Affairs Portal &nbsp;|&nbsp; News via Google News RSS &nbsp;|&nbsp; GK content compiled for educational/exam-prep use<br>
+  <a href="https://himachal.nic.in">himachal.nic.in</a> &nbsp;|&nbsp;
+  <a href="https://hppsc.hp.gov.in">hppsc.hp.gov.in</a> &nbsp;|&nbsp;
+  <a href="https://hpsc.hp.gov.in">hpsc.hp.gov.in</a>
+</footer>
+
+<script>
+/* ══════════════════════════════════════════
+   TAB NAVIGATION
+══════════════════════════════════════════ */
+function showSection(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('section-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+/* ══════════════════════════════════════════
+   NEWS ENGINE
+   Google News RSS is fetched through a chain
+   of free CORS proxies. Each is tried in turn
+   with a timeout, so one proxy being down or
+   rate-limited no longer breaks the feed.
+   The last good result is cached locally, so
+   the page still shows news even if every
+   proxy fails on a given visit.
+══════════════════════════════════════════ */
+const NEWS_CATEGORIES = [
+  { id: 'all',     label: '📰 All HP News',     query: 'Himachal Pradesh' },
+  { id: 'jobs',    label: '🎓 Exams & Jobs',    query: 'HPPSC OR HPSSSC OR HPBOSE OR "Himachal Pradesh" recruitment notification' },
+  { id: 'govt',    label: '🏛️ Govt & Policy',   query: '"Himachal Pradesh" government OR cabinet OR assembly OR budget' },
+  { id: 'weather', label: '🌦️ Weather & Alerts', query: '"Himachal Pradesh" weather OR rain OR snowfall OR landslide OR alert' },
+  { id: 'tourism', label: '🏔️ Tourism',          query: '"Himachal Pradesh" tourism OR Manali OR Shimla OR Dharamshala tourists' }
+];
+
+// Free CORS proxies, tried in order. Mixed types so a single
+// provider outage cannot take the whole feed down.
+const PROXIES = [
+  { name: 'allorigins', type: 'xml',  build: u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u) },
+  { name: 'codetabs',   type: 'xml',  build: u => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u) },
+  { name: 'rss2json',   type: 'json', build: u => 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(u) + '&count=20' },
+  { name: 'corsproxy',  type: 'xml',  build: u => 'https://corsproxy.io/?' + encodeURIComponent(u) }
+];
+
+const CACHE_TTL_MS = 6 * 60 * 60 * 1000; // keep showing cached news for up to 6h
+let activeCategory = 'all';
+
+function googleNewsUrl(query) {
+  return 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) +
+         '&hl=en-IN&gl=IN&ceid=IN:en';
+}
+
+/* ---- safe localStorage (never throws) ---- */
+function cacheGet(key) {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const obj = JSON.parse(raw);
+    if (!obj || !obj.t || !Array.isArray(obj.items)) return null;
+    return obj;
+  } catch (e) { return null; }
+}
+function cacheSet(key, items) {
+  try {
+    localStorage.setItem(key, JSON.stringify({ t: Date.now(), items: items.slice(0, 20) }));
+  } catch (e) { /* storage unavailable — not fatal */ }
+}
+
+/* ---- fetch with timeout ---- */
+async function fetchWithTimeout(url, ms) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ms);
+  try {
+    return await fetch(url, { signal: ctrl.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/* ---- RSS XML → item objects ---- */
+function parseRssXml(text) {
+  const doc = new DOMParser().parseFromString(text, 'text/xml');
+  if (doc.querySelector('parsererror')) throw new Error('Malformed XML');
+  const nodes = Array.from(doc.querySelectorAll('item'));
+  if (!nodes.length) throw new Error('No items in feed');
+  return nodes.map(node => {
+    const get = tag => {
+      const el = node.querySelector(tag);
+      return el ? el.textContent.trim() : '';
+    };
+    return {
+      title: get('title'),
+      link: get('link'),
+      pubDate: get('pubDate'),
+      description: get('description'),
+      source: get('source')
+    };
+  });
+}
+
+/* ---- normalise rss2json's JSON shape ---- */
+function parseRss2Json(data) {
+  if (!data || data.status !== 'ok' || !Array.isArray(data.items) || !data.items.length) {
+    throw new Error('rss2json returned no items');
+  }
+  return data.items.map(i => ({
+    title: i.title || '',
+    link: i.link || '',
+    pubDate: i.pubDate || '',
+    description: i.description || '',
+    source: i.author || ''
+  }));
+}
+
+/* ---- try each proxy until one works ---- */
+async function fetchFeed(query) {
+  const feedUrl = googleNewsUrl(query);
+  let lastErr = null;
+
+  for (const proxy of PROXIES) {
+    try {
+      const resp = await fetchWithTimeout(proxy.build(feedUrl), 9000);
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+
+      let items;
+      if (proxy.type === 'json') {
+        items = parseRss2Json(await resp.json());
+      } else {
+        items = parseRssXml(await resp.text());
+      }
+      if (items && items.length) return items;
+      throw new Error('Empty result');
+    } catch (e) {
+      lastErr = e;
+      // move on to the next proxy
+    }
+  }
+  throw lastErr || new Error('All proxies failed');
+}
+
+/* ---- PRIMARY SOURCE: data/news.json ----
+   A GitHub Actions workflow fetches the RSS
+   feeds on GitHub's servers every 6 hours and
+   commits the result to data/news.json. Because
+   that file is served from this same domain,
+   loading it involves no cross-origin request
+   at all — which is why it works even when
+   every browser-side proxy is blocked.
+------------------------------------------- */
+let newsJsonPromise = null;
+function loadNewsJson() {
+  if (newsJsonPromise) return newsJsonPromise;
+  newsJsonPromise = (async () => {
+    try {
+      const resp = await fetchWithTimeout('data/news.json?t=' + Date.now(), 8000);
+      if (!resp.ok) return null;
+      const data = await resp.json();
+      if (data && data.categories && Object.keys(data.categories).length) return data;
+      return null;
+    } catch (e) {
+      return null;
+    }
+  })();
+  return newsJsonPromise;
+}
+
+/* ---- main entry point ---- */
+async function fetchNews(category) {
+  if (category) activeCategory = category;
+  const cat = NEWS_CATEGORIES.find(c => c.id === activeCategory) || NEWS_CATEGORIES[0];
+  const container = document.getElementById('news-container');
+  const cacheKey = 'hpnews_' + cat.id;
+
+  container.innerHTML =
+    '<div class="news-loading"><div class="spinner"></div>Loading ' + cat.label.replace(/^\S+\s/, '') + '…</div>';
+
+  let items = null, mode = 'live', stamp = null;
+
+  // 1. Same-origin JSON published by GitHub Actions (most reliable)
+  const bundle = await loadNewsJson();
+  if (bundle && Array.isArray(bundle.categories[cat.id]) && bundle.categories[cat.id].length) {
+    items = bundle.categories[cat.id];
+    mode = 'published';
+    stamp = bundle.updated;
+  }
+
+  // 2. Live fetch through CORS proxies
+  if (!items) {
+    try {
+      items = await fetchFeed(cat.query);
+      cacheSet(cacheKey, items);
+    } catch (e) { /* fall through */ }
+  }
+
+  // 3. Last known good copy saved in this browser
+  if (!items) {
+    const cached = cacheGet(cacheKey);
+    if (cached && (Date.now() - cached.t) < CACHE_TTL_MS) {
+      items = cached.items;
+      mode = 'cache';
+      stamp = cached.t;
+    }
+  }
+
+  if (!items || !items.length) {
+    showError(container);
+    return;
+  }
+
+  // Deduplicate by leading title text
+  const seen = new Set();
+  items = items.filter(it => {
+    const key = (it.title || '').slice(0, 60).toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  renderNews(container, items, mode, stamp);
+}
+
+function renderNews(container, items, mode, stamp) {
+  container.innerHTML = items.slice(0, 18).map((item, i) => {
+    const pub = item.pubDate ? new Date(item.pubDate) : null;
+    const timeStr = pub && !isNaN(pub) ? formatTime(pub) : '';
+    // Google News wraps the headline + publisher in the description HTML
+    const descText = stripHtml(item.description || '').replace(/\s+/g, ' ').trim();
+    const desc = descText.slice(0, 150);
+    const source = item.source || 'Google News';
+
+    return `<div class="news-item" style="animation-delay:${i * 0.04}s">
+      <a href="${escapeAttr(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
+      ${desc ? `<div class="news-desc">${escapeHtml(desc)}…</div>` : ''}
+      <div class="news-meta">
+        <span class="news-source">${escapeHtml(source)}</span>
+        ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  // Refresh the headline ticker
+  const tickerEl = document.getElementById('ticker-text');
+  if (tickerEl) {
+    tickerEl.innerHTML = items.slice(0, 8)
+      .map(i => escapeHtml(i.title)).join(' &nbsp;|&nbsp; ');
+  }
+
+  const updated = document.getElementById('last-updated');
+  if (mode === 'cache') {
+    updated.innerHTML = '🔄 Showing saved headlines from ' +
+      new Date(stamp).toLocaleTimeString('en-IN') +
+      '<span class="cache-badge">OFFLINE COPY</span>';
+  } else if (mode === 'published') {
+    const d = new Date(stamp);
+    updated.textContent = '🔄 News updated ' +
+      (isNaN(d) ? 'recently' : d.toLocaleString('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' })) +
+      ' · refreshes automatically every 6 hours';
+  } else {
+    updated.textContent = '🔄 Updated: ' + new Date().toLocaleTimeString('en-IN');
+  }
+}
+
+function showError(container) {
+  container.innerHTML = `
+    <div class="news-error">
+      <div style="font-size:1.8rem;margin-bottom:8px">📡</div>
+      <strong>Live news is temporarily unavailable</strong><br>
+      <span style="font-size:0.82rem">The news service didn't respond. You can retry, or read HP news directly:</span>
+      <ul class="news-fallback-links">
+        <li><a href="https://news.google.com/search?q=Himachal%20Pradesh&hl=en-IN&gl=IN&ceid=IN:en" target="_blank" rel="noopener">📰 Google News – Himachal Pradesh</a></li>
+        <li><a href="https://himachalpr.gov.in" target="_blank" rel="noopener">🏛️ HP Govt Press Releases</a></li>
+        <li><a href="https://hppsc.hp.gov.in" target="_blank" rel="noopener">🎓 HPPSC Notifications</a></li>
+      </ul>
+      <button class="refresh-btn" onclick="fetchNews()">🔄 Retry</button>
+    </div>`;
+  const updated = document.getElementById('last-updated');
+  if (updated) updated.textContent = '';
+}
+
+function renderNewsCategories() {
+  const wrap = document.getElementById('news-cats');
+  if (!wrap) return;
+  wrap.innerHTML = NEWS_CATEGORIES.map(c =>
+    `<button class="${c.id === activeCategory ? 'active' : ''}" data-cat="${c.id}">${c.label}</button>`
+  ).join('');
+  wrap.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      wrap.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      fetchNews(btn.dataset.cat);
+    });
+  });
+}
+
+function stripHtml(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  return tmp.textContent || tmp.innerText || '';
+}
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function escapeAttr(s) {
+  const v = String(s == null ? '' : s);
+  return /^https?:\/\//i.test(v) ? escapeHtml(v) : '#';
+}
+
+function formatTime(date) {
+  const now = new Date();
+  const diff = Math.floor((now - date) / 60000);
+  if (diff < 1) return 'just now';
+  if (diff < 60) return `${diff}m ago`;
+  if (diff < 1440) return `${Math.floor(diff/60)}h ago`;
+  return date.toLocaleDateString('en-IN', { day:'numeric', month:'short' });
+}
+
+/* ══════════════════════════════════════════
+   MCQ ENGINE
+══════════════════════════════════════════ */
+const MCQ_BANK = [
+  { q: 'Which district of HP has the highest road density in India?', opts: ['Shimla','Kangra','Hamirpur','Mandi'], ans: 2, exp: 'Hamirpur has the highest road density per unit area in India.' },
+  { q: 'What is the highest peak of Himachal Pradesh?', opts: ['Shilla','Reo Purgyil','Leo Pargial','Deo Tibba'], ans: 1, exp: 'Reo Purgyil (6,816 m) in Kinnaur is the highest peak of HP.' },
+  { q: 'Which railway line in HP is a UNESCO World Heritage Site?', opts: ['Jogindernagar-Mandi','Pathankot-Jogindernagar','Kalka-Shimla','Una-Hamirpur'], ans: 2, exp: 'The Kalka-Shimla Railway was inscribed as UNESCO World Heritage in 2008.' },
+  { q: 'Baddi in HP is known as Asia\'s largest cluster of:', opts: ['Textile industry','Pharmaceutical industry','IT industry','Food processing'], ans: 1, exp: 'Baddi (Solan) is home to Asia\'s largest pharmaceutical cluster.' },
+  { q: 'The Atal Tunnel is located between which two passes?', opts: ['Rohtang and Baralacha','Manali and Keylong','Rohtang and Kunzum','Solang and Sissu'], ans: 0, exp: 'Atal Tunnel (9.02 km) bypasses the Rohtang Pass, connecting Manali to Lahaul.' },
+  { q: 'Which is HP\'s longest river?', opts: ['Beas','Ravi','Sutlej','Chenab'], ans: 2, exp: 'The Sutlej is the longest river passing through HP.' },
+  { q: 'Great Himalayan National Park is located in which district?', opts: ['Chamba','Kangra','Kullu','Mandi'], ans: 2, exp: 'Great Himalayan NP, a UNESCO WHS (2014), is in Kullu district.' },
+  { q: 'What is HP\'s official state bird?', opts: ['Monal Pheasant','Western Tragopan (Jujurana)','Himalayan Snowcock','Cheer Pheasant'], ans: 1, exp: 'Western Tragopan (locally called Jujurana) is HP\'s state bird.' },
+  { q: 'Which district of HP was the first to achieve 100% organic farming status?', opts: ['Spiti Valley','Kinnaur','Lahaul','Chamba'], ans: 0, exp: 'Spiti Valley (Lahaul &amp; Spiti district) is fully organic.' },
+  { q: 'Tabo Monastery (996 AD) in HP is the oldest continuously operating monastery. In which district is it?', opts: ['Kinnaur','Kullu','Lahaul &amp; Spiti','Chamba'], ans: 2, exp: 'Tabo Monastery (founded 996 AD) is in the Spiti Valley, Lahaul &amp; Spiti district.' },
+  { q: 'Which HP district has the only broad-gauge railway line?', opts: ['Shimla','Una','Hamirpur','Kangra'], ans: 1, exp: 'Una is the only HP district with a broad-gauge railway connection.' },
+  { q: 'Nati, declared world\'s largest folk dance by Guinness World Records, belongs to:', opts: ['Himachal Pradesh','Uttarakhand','Punjab','Jammu &amp; Kashmir'], ans: 0, exp: 'Nati is a traditional folk dance of Himachal Pradesh.' },
+  { q: 'Which dam in HP creates the Gobind Sagar reservoir?', opts: ['Nathpa Jhakri','Bhakra','Pandoh','Larji'], ans: 1, exp: 'Bhakra Dam on the Sutlej river in Bilaspur creates Gobind Sagar lake.' },
+  { q: 'HP\'s Pragpur village (Kangra) holds which national distinction?', opts: ['First smart village','First heritage village','First eco village','First zero-waste village'], ans: 1, exp: 'Pragpur in Kangra is India\'s first gazetted Heritage Village.' },
+  { q: 'Bara Shigri, HP\'s largest glacier, is in which district?', opts: ['Kinnaur','Chamba','Lahaul &amp; Spiti','Kullu'], ans: 2, exp: 'Bara Shigri glacier (25 km long) is in Lahaul &amp; Spiti district.' },
+
+  // History
+  { q: 'Himachal Pradesh was formed as a Chief Commissioner\'s Province by merging how many princely hill states?', opts: ['18','24','28','32'], ans: 2, exp: 'On 15 April 1948, 28 princely hill states were merged to form HP — celebrated as Himachal Day.' },
+  { q: 'In which year did Himachal Pradesh attain full statehood?', opts: ['1966','1971','1956','1948'], ans: 1, exp: 'HP became India\'s 18th state on 25 January 1971.' },
+  { q: 'Who is regarded as the "architect of modern Himachal Pradesh"?', opts: ['Virbhadra Singh','Dr. Y.S. Parmar','Prem Kumar Dhumal','Anand Sharma'], ans: 1, exp: 'Dr. Yashwant Singh Parmar, HP\'s first Chief Minister, is called the architect of modern HP.' },
+  { q: 'Who was HP\'s longest-serving Chief Minister?', opts: ['Jai Ram Thakur','Dr. Y.S. Parmar','Virbhadra Singh','Shanta Kumar'], ans: 2, exp: 'Virbhadra Singh served as CM across six terms, the longest of anyone in HP.' },
+  { q: 'The Anglo-Gorkha War, which ended Gorkha rule over the HP hills, concluded in which year?', opts: ['1809','1814–16','1857','1846'], ans: 1, exp: 'The Anglo-Gorkha War (1814–16) ended with the Treaty of Sugauli, pushing the Gorkhas out of the hill states.' },
+
+  // Geography & Rivers
+  { q: 'The Chenab river is formed by the confluence of which two rivers in HP?', opts: ['Beas &amp; Sutlej','Chandra &amp; Bhaga','Ravi &amp; Beas','Yamuna &amp; Tons'], ans: 1, exp: 'The Chandra and Bhaga rivers meet at Tandi (Lahaul) to form the Chenab.' },
+  { q: 'Rohtang Pass, historically the gateway from Manali to Lahaul-Spiti, is now bypassed by which tunnel?', opts: ['Atal Tunnel','Aut Tunnel','Nathpa Tunnel','Parvati Tunnel'], ans: 0, exp: 'The 9.02 km Atal Tunnel goes under Rohtang Pass, offering all-weather connectivity.' },
+  { q: 'Chandratal ("Moon Lake"), a high-altitude lake, lies in which district?', opts: ['Kinnaur','Kullu','Lahaul &amp; Spiti','Chamba'], ans: 2, exp: 'Chandratal is a crescent-shaped high-altitude lake in the Spiti Valley, Lahaul &amp; Spiti.' },
+  { q: 'Which HP district is the largest by area?', opts: ['Chamba','Kinnaur','Kullu','Lahaul &amp; Spiti'], ans: 3, exp: 'Lahaul &amp; Spiti (13,835 km²) is HP\'s largest district by area.' },
+  { q: 'Which HP district is the smallest by area?', opts: ['Hamirpur','Una','Solan','Bilaspur'], ans: 0, exp: 'Hamirpur (1,118 km²) is HP\'s smallest district by area.' },
+  { q: 'Pong Dam (Maharana Pratap Sagar), a Ramsar wetland site, is built on which river in HP?', opts: ['Sutlej','Beas','Ravi','Chenab'], ans: 1, exp: 'Pong Dam is built on the Beas river in Kangra district.' },
+  { q: 'Bhakra Dam, which forms the Gobind Sagar reservoir, is built on which river?', opts: ['Beas','Ravi','Sutlej','Yamuna'], ans: 2, exp: 'Bhakra Dam sits on the Sutlej river at Bilaspur.' },
+  { q: 'What is HP\'s state tree?', opts: ['Deodar','Chir Pine','Oak','Rhododendron'], ans: 0, exp: 'The Deodar (Himalayan Cedar) is HP\'s state tree.' },
+  { q: 'What is HP\'s state flower?', opts: ['Marigold','Pink Rhododendron (Buransh)','Lotus','Sunflower'], ans: 1, exp: 'Pink Rhododendron, locally called Buransh, is HP\'s state flower.' },
+  { q: 'What is HP\'s state animal?', opts: ['Himalayan Tahr','Snow Leopard','Musk Deer','Blue Sheep'], ans: 1, exp: 'The Snow Leopard is HP\'s state animal.' },
+
+  // Districts & Places
+  { q: 'Which district is known as "Chhoti Kashi" for its many temples?', opts: ['Mandi','Kullu','Shimla','Kangra'], ans: 0, exp: 'Mandi town, with roughly 81 temples, is called "Chhoti Kashi" (Little Varanasi).' },
+  { q: 'Renuka Lake, HP\'s largest natural lake, is in which district?', opts: ['Solan','Sirmaur','Kangra','Mandi'], ans: 1, exp: 'Renuka Lake lies in Sirmaur district.' },
+  { q: 'Shimla is popularly known by which nickname?', opts: ['City of Temples','Queen of Hills','Fruit Bowl of India','City of Mushrooms'], ans: 1, exp: 'Shimla, the former British summer capital of India, is called the "Queen of Hills".' },
+  { q: 'Dalhousie hill town is named after which British official?', opts: ['Lord Curzon','Lord Dalhousie','Lord Mountbatten','Lord Elgin'], ans: 1, exp: 'Dalhousie is named after Lord Dalhousie, a 19th-century Governor-General of India.' },
+  { q: 'The Minjar Fair, celebrating the maize harvest, is a major festival of which district?', opts: ['Chamba','Kullu','Kinnaur','Sirmaur'], ans: 0, exp: 'The week-long Minjar Fair is Chamba\'s signature festival.' },
+  { q: 'Hidimba Devi Temple, a pagoda-style wooden shrine, is located in which town?', opts: ['Manali','Kasauli','Kufri','Naggar'], ans: 0, exp: 'The Hidimba Devi Temple (1553) is in Manali, Kullu district.' },
+  { q: 'Bhimakali Temple, blending Hindu and Buddhist architecture, is located in which town?', opts: ['Sarahan','Kalpa','Rampur','Rekong Peo'], ans: 0, exp: 'The Bhimakali Temple is in Sarahan, Shimla district.' },
+  { q: 'Which district shares HP\'s only stretch of broad-gauge railway?', opts: ['Una','Kangra','Solan','Bilaspur'], ans: 0, exp: 'Una district has HP\'s only broad-gauge rail link (Delhi–Una line).' },
+
+  // Temples
+  { q: 'Jwalamukhi Temple, famous for its naturally occurring eternal flame, is located in which district?', opts: ['Kangra','Mandi','Bilaspur','Una'], ans: 0, exp: 'Jwalamukhi Temple, one of the Shakti Peethas, is in Kangra district.' },
+  { q: 'Naina Devi Temple, one of the Shakti Peethas, is located in which district?', opts: ['Bilaspur','Solan','Hamirpur','Shimla'], ans: 0, exp: 'Naina Devi Temple overlooks Gobind Sagar lake in Bilaspur district.' },
+  { q: 'Chintpurni Devi Temple, another major Shakti Peeth, is located in which district?', opts: ['Una','Kangra','Hamirpur','Mandi'], ans: 0, exp: 'Chintpurni Temple is in Una district.' },
+
+  // Culture & Economy
+  { q: 'Kullu Dussehra, an international festival, primarily honors which deity?', opts: ['Lord Shiva','Raghunath ji (Lord Rama)','Lord Krishna','Goddess Hidimba'], ans: 1, exp: 'Kullu Dussehra centers on the procession of Raghunath ji, Kullu\'s presiding deity.' },
+  { q: 'Kangra Valley is especially famous for cultivating which GI-tagged crop?', opts: ['Coffee','Tea','Saffron','Cardamom'], ans: 1, exp: 'Kangra Tea carries a Geographical Indication (GI) tag.' },
+  { q: 'Which HP institute of national importance is located in Mandi district?', opts: ['NIT','IIT','AIIMS','IIM'], ans: 1, exp: 'IIT Mandi was established in 2009.' },
+  { q: 'The National Institute of Technology (NIT) in HP is located in which town?', opts: ['Solan','Hamirpur','Sundernagar','Baddi'], ans: 1, exp: 'NIT Hamirpur is HP\'s NIT.' },
+  { q: 'Losar, the Tibetan New Year festival, is widely celebrated in which HP region?', opts: ['Kangra Valley','Lahaul-Spiti &amp; Kinnaur','Sirmaur','Solan'], ans: 1, exp: 'Losar is prominent among the Buddhist communities of Lahaul-Spiti and Kinnaur.' },
+  { q: 'Chamba Rumal, a GI-tagged handicraft, refers to a traditional form of:', opts: ['Wood carving','Hand embroidery','Pottery','Metalwork'], ans: 1, exp: 'Chamba Rumal is a distinctive double-satin-stitch hand embroidery tradition.' },
+];
+
+/* ══════════════════════════════════════════
+   DATE-SEEDED DAILY ROTATION
+   (Pure client-side — no server needed. The
+    fact and the 10-question quiz both change
+    automatically every calendar day.)
+══════════════════════════════════════════ */
+function dayOfYear(d) {
+  const start = new Date(d.getFullYear(), 0, 0);
+  return Math.floor((d - start) / 86400000);
+}
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function todaySeed(offset) {
+  const d = new Date();
+  return d.getFullYear() * 1000 + dayOfYear(d) + (offset || 0);
+}
+function seededShuffle(array, seed) {
+  const rand = mulberry32(seed);
+  const arr = array.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+/* ══════════════════════════════════════════
+   FACT OF THE DAY
+══════════════════════════════════════════ */
+const FACTS = [
+  'HP became India\'s 18th state on 25 January 1971, after 23 years as a Union Territory/Part C State.',
+  'Himachal Day (15 April) marks the 1948 merger of 28 princely hill states into the Chief Commissioner\'s Province of HP.',
+  'Dr. Yashwant Singh Parmar, HP\'s first Chief Minister, is remembered as the "architect of modern Himachal Pradesh".',
+  'Virbhadra Singh remains HP\'s longest-serving Chief Minister, having led the state across six terms.',
+  'HP has 12 districts grouped into 3 revenue divisions.',
+  'The HP Legislative Assembly (Vidhan Sabha) has 68 seats.',
+  'HP sends 4 members to the Lok Sabha and 3 to the Rajya Sabha.',
+  'Shimla, HP\'s capital, was also the summer capital of British India.',
+  'Dharamshala was declared HP\'s second (winter) capital in 2017.',
+  'HP\'s High Court is located in Shimla.',
+  'Reo Purgyil (6,816 m), in Kinnaur district, is the highest peak in Himachal Pradesh.',
+  'Five major rivers flow through HP: the Sutlej, Beas, Ravi, Chenab and Yamuna.',
+  'The Chenab river is formed by the union of the Chandra and Bhaga rivers at Tandi, Lahaul.',
+  'Bara Shigri, HP\'s largest glacier at about 25 km long, lies in Lahaul & Spiti.',
+  'Lahaul & Spiti (13,835 km²) is HP\'s largest district; Hamirpur (1,118 km²) is its smallest.',
+  'The Great Himalayan National Park in Kullu was declared a UNESCO World Heritage Site in 2014.',
+  'Pin Valley National Park in Spiti protects the cold-desert biome.',
+  'Renuka Lake in Sirmaur is HP\'s largest natural lake and a Ramsar wetland site.',
+  'Pong Dam (Maharana Pratap Sagar) on the Beas river in Kangra is also a Ramsar wetland.',
+  'HP\'s state animal is the Snow Leopard; its state bird is the Western Tragopan (locally called Jujurana).',
+  'The Deodar (Himalayan Cedar) is HP\'s state tree; the Pink Rhododendron (Buransh) is its state flower.',
+  'HP has an estimated hydropower potential of over 27,000 MW, among the highest of any Indian state.',
+  'Bhakra Dam on the Sutlej at Bilaspur creates the Gobind Sagar reservoir, one of Asia\'s largest artificial lakes.',
+  'Nathpa Jhakri, at 1,500 MW, is HP\'s largest hydroelectric project.',
+  'Himachal Pradesh is India\'s leading apple-producing state and is often called the country\'s "Apple State".',
+  'Baddi, in Solan district, hosts Asia\'s largest cluster of pharmaceutical manufacturing units.',
+  'Kangra Tea, grown in the Kangra Valley, holds a Geographical Indication (GI) tag.',
+  'Kullu Shawls, Kinnauri Shawls and Chamba Rumal embroidery all carry GI tags.',
+  'The Atal Tunnel under Rohtang Pass, at 9.02 km, is among the world\'s longest highway tunnels at high altitude.',
+  'The Kalka–Shimla Railway, built by the British in 1903, was declared a UNESCO World Heritage Site in 2008.',
+  'Hamirpur district is known for having the highest road density of any district in India.',
+  'Una is the only HP district connected by broad-gauge railway.',
+  'Chail, at 2,444 m, is home to the world\'s highest cricket ground.',
+  'Kullu Dussehra is a week-long international festival centered on the deity Raghunath ji.',
+  'Nati, a traditional folk dance of Himachal Pradesh, holds a Guinness World Record for the largest folk dance performance.',
+  'The Minjar Fair, celebrating the maize harvest, is Chamba district\'s signature festival.',
+  'Losar, the Tibetan New Year, is widely celebrated by Buddhist communities in Lahaul-Spiti and Kinnaur.',
+  'Tabo Monastery (founded 996 AD) in Spiti Valley is one of the oldest continuously operating Buddhist monasteries in India.',
+  'Pragpur, in Kangra district, was declared India\'s first Heritage Village.',
+  'Mandi town is nicknamed "Chhoti Kashi" (Little Varanasi) for its roughly 81 temples.',
+  'The Bhimakali Temple at Sarahan, Shimla district, blends Hindu and Buddhist architectural styles.',
+  'Jwalamukhi Temple in Kangra district is famous for a naturally occurring eternal flame and is one of the Shakti Peethas.',
+  'Naina Devi Temple in Bilaspur district overlooks the Gobind Sagar reservoir.',
+  'Hidimba Devi Temple, a pagoda-style wooden shrine built in 1553, stands in Manali.',
+  'IIT Mandi, established in 2009, is HP\'s Indian Institute of Technology.',
+  'NIT Hamirpur is HP\'s National Institute of Technology.',
+  'HP achieved 100% rural electrification in 1988, among the earliest states in India to do so.',
+  'HP has consistently ranked as one of India\'s least-corrupt states in independent surveys.',
+  'Spiti Valley, in Lahaul & Spiti district, has been declared a fully organic farming region by the state.',
+  'Vijay Kumar, born in Hamirpur, won a silver medal in 25m Rapid Fire Pistol shooting at the 2012 London Olympics.',
+  'Dalhousie hill station is named after Lord Dalhousie, a 19th-century Governor-General of India.',
+  'Shimla is popularly nicknamed the "Queen of Hills".',
+  'The Anglo-Gorkha War (1814–16) ended Gorkha control over the western Himalayan hill states, paving the way for British influence in the region.',
+  'HP\'s official languages include Hindi, with Pahari and other dialects widely spoken across districts.',
+  'Chandratal ("Moon Lake"), a crescent-shaped high-altitude lake in Spiti, sits at about 4,300 m elevation.',
+  'The Rohtang Pass, historically the main gateway from Manali into Lahaul-Spiti, is now bypassed by the Atal Tunnel for all-weather access.',
+  'Kinnaur and Lahaul & Spiti are HP\'s two districts that share an international border with Tibet (China).',
+  'Chamba has one of the longest documented histories among HP\'s princely states, with records dating back over a thousand years.',
+  'The Bhuri Singh Museum in Chamba, established in 1908, houses miniature paintings and historical artefacts of the Pahari hill schools.',
+];
+
+let factOfDayEl, factOfDayDateEl;
+function renderFactOfDay() {
+  factOfDayEl = document.getElementById('fact-of-day-text');
+  factOfDayDateEl = document.getElementById('fact-of-day-date');
+  const idx = todaySeed(0) % FACTS.length;
+  factOfDayEl.textContent = FACTS[idx];
+  factOfDayDateEl.textContent = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) + ' · updates automatically each day';
+}
+
+/* ══════════════════════════════════════════
+   MCQ ENGINE — Quiz of the Day + Full Practice
+══════════════════════════════════════════ */
+let quizMode = 'daily';
+let dailyQuizSet = [];
+let activeBank = [];
+let mcqIndex = 0, mcqScore = 0, mcqAnswered = false;
+
+function buildDailyQuizSet() {
+  dailyQuizSet = seededShuffle(MCQ_BANK, todaySeed(500)).slice(0, 10);
+}
+
+function setQuizMode(mode) {
+  quizMode = mode;
+  activeBank = mode === 'daily' ? dailyQuizSet : MCQ_BANK;
+  mcqIndex = 0; mcqScore = 0;
+  document.getElementById('mode-daily').classList.toggle('active', mode === 'daily');
+  document.getElementById('mode-full').classList.toggle('active', mode === 'full');
+  renderMCQ();
+}
+
+function renderMCQ() {
+  const q = activeBank[mcqIndex];
+  const area = document.getElementById('mcq-area');
+  area.innerHTML = `
+    <div style="font-size:0.8rem;color:var(--muted);margin-bottom:12px">
+      Question ${mcqIndex + 1} of ${activeBank.length} ${quizMode === 'daily' ? '· 🌟 Today\'s Quiz (changes daily)' : '· Full Practice Bank'}
+    </div>
+    <div class="mcq-box">
+      <div class="mcq-q">${q.q}</div>
+      <ul class="mcq-options" id="mcq-opts">
+        ${q.opts.map((o, i) => `<li onclick="answerMCQ(${i})">${String.fromCharCode(65+i)}. ${o}</li>`).join('')}
+      </ul>
+      <div class="mcq-result" id="mcq-result"></div>
+    </div>
+    <div class="mcq-nav">
+      <button class="btn-outline" onclick="prevMCQ()" ${mcqIndex === 0 ? 'disabled' : ''}>← Prev</button>
+      <button class="btn-outline" onclick="nextMCQ()" ${mcqIndex === activeBank.length - 1 ? 'disabled' : ''}>Next →</button>
+      <span id="mcq-score">Score: ${mcqScore}/${mcqIndex}</span>
+    </div>`;
+  mcqAnswered = false;
+}
+
+function answerMCQ(chosen) {
+  if (mcqAnswered) return;
+  mcqAnswered = true;
+  const q = activeBank[mcqIndex];
+  const opts = document.querySelectorAll('#mcq-opts li');
+  const result = document.getElementById('mcq-result');
+  opts.forEach((li, i) => {
+    if (i === q.ans) li.classList.add('correct');
+    else if (i === chosen) li.classList.add('wrong');
+    li.style.pointerEvents = 'none';
+  });
+  if (chosen === q.ans) {
+    mcqScore++;
+    result.className = 'mcq-result correct-res show';
+    result.textContent = '✅ Correct! ' + q.exp;
+  } else {
+    result.className = 'mcq-result wrong-res show';
+    result.textContent = '❌ Wrong. ' + q.exp;
+  }
+  document.getElementById('mcq-score').textContent = `Score: ${mcqScore}/${mcqIndex + 1}`;
+}
+
+function nextMCQ() {
+  if (mcqIndex < activeBank.length - 1) { mcqIndex++; renderMCQ(); }
+}
+function prevMCQ() {
+  if (mcqIndex > 0) { mcqIndex--; renderMCQ(); }
+}
+
+/* ══════════════════════════════════════════
+   INIT
+══════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', () => {
+  renderNewsCategories();
+  fetchNews();
+  renderFactOfDay();
+  buildDailyQuizSet();
+  setQuizMode('daily');
+  // Auto-refresh the current category every 30 minutes
+  setInterval(() => fetchNews(), 30 * 60 * 1000);
+});
+</script>
+</body>
+</html>
