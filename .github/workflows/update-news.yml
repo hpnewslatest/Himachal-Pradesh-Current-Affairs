@@ -1,0 +1,104 @@
+name: Update HP News
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'      # every 6 hours (UTC)
+  workflow_dispatch:            # lets you press "Run workflow" manually
+  push:
+    branches: [main]
+    paths: ['.github/workflows/update-news.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Himachal Pradesh news from Google News RSS
+        run: |
+          mkdir -p data
+          cat > /tmp/fetch-news.mjs <<'SCRIPT'
+          import fs from 'fs';
+
+          const CATEGORIES = [
+            { id: 'all',     query: 'Himachal Pradesh' },
+            { id: 'jobs',    query: 'HPPSC OR HPSSSC OR HPBOSE OR "Himachal Pradesh" recruitment notification' },
+            { id: 'govt',    query: '"Himachal Pradesh" government OR cabinet OR assembly OR budget' },
+            { id: 'weather', query: '"Himachal Pradesh" weather OR rain OR snowfall OR landslide OR alert' },
+            { id: 'tourism', query: '"Himachal Pradesh" tourism OR Manali OR Shimla OR Dharamshala tourists' }
+          ];
+
+          const feedUrl = q =>
+            'https://news.google.com/rss/search?q=' + encodeURIComponent(q) +
+            '&hl=en-IN&gl=IN&ceid=IN:en';
+
+          const decode = s => s
+            .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+            .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+            .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+            .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
+
+          const stripTags = s => s.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+
+          function tag(block, name) {
+            const m = block.match(new RegExp('<' + name + '[^>]*>([\\s\\S]*?)<\\/' + name + '>'));
+            return m ? decode(m[1]).trim() : '';
+          }
+
+          async function fetchCategory(cat) {
+            const res = await fetch(feedUrl(cat.query), {
+              headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HP-GK-Site/1.0)' }
+            });
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            const xml = await res.text();
+            const blocks = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => m[1]);
+            const items = blocks.slice(0, 20).map(b => ({
+              title: stripTags(tag(b, 'title')),
+              link: tag(b, 'link'),
+              pubDate: tag(b, 'pubDate'),
+              source: stripTags(tag(b, 'source')),
+              description: stripTags(tag(b, 'description')).slice(0, 200)
+            })).filter(i => i.title && i.link);
+            if (!items.length) throw new Error('no items parsed');
+            return items;
+          }
+
+          const out = { updated: new Date().toISOString(), categories: {} };
+          let okCount = 0;
+
+          for (const cat of CATEGORIES) {
+            try {
+              out.categories[cat.id] = await fetchCategory(cat);
+              okCount++;
+              console.log('OK   ' + cat.id + ' -> ' + out.categories[cat.id].length + ' items');
+            } catch (err) {
+              console.error('FAIL ' + cat.id + ' -> ' + err.message);
+            }
+            await new Promise(r => setTimeout(r, 1500));
+          }
+
+          if (okCount === 0) {
+            console.error('All feeds failed. Leaving the existing news.json untouched.');
+            process.exit(0);
+          }
+
+          fs.writeFileSync('data/news.json', JSON.stringify(out, null, 2));
+          console.log('Wrote data/news.json with ' + okCount + ' of ' + CATEGORIES.length + ' categories.');
+          SCRIPT
+          node /tmp/fetch-news.mjs
+
+      - name: Commit updated news
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-update HP news ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
