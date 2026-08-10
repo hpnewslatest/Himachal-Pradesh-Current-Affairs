@@ -1,21 +1,7 @@
 {
-  "updated": "2026-08-10T12:46:49.149Z",
+  "updated": "2026-08-10T18:43:21.647Z",
   "categories": {
     "all": [
-      {
-        "title": "Weather tomorrow: IMD warns of heavy to very heavy rain in 4 states; orange alert in Himachal Pradesh - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcWJaSzV3aWNLSmFfVzlFNmlVSUI0eFJBb1dLZmhqb1VpYkw2bFFfYnN5MVZMdjRDbERQM1gzelQ1LVIzNTQydnZ0WHJLbnplTnMtSk5yeW5zY0FhU1BmZE9BeW1pYUN5VlFLRVFlLVFGWHBLTlhvV0dwaFlPbmNaZi0teWNPR0tRLWVPa2VaWlZNc3VmSXc0NDE2eGNPRHRKcWRieXhYQVUyZGNOOHpHVEU0TzRuRlhINUppYlpfa2ZrbXQtWExrS3ltZmZlaW1kcnNnMWFhV2x6eTlfY3g5WDNmcUwtaVMyaWpheEtFWDZfWjluRTVac1pNSWhGbUV4UUHSAYcCQVVfeXFMTmd2blZ5WTUxUVYxU19veEpQYUtwT3JqMl9pcVJ5MUdhNWIxcEN0azlhcy05eG5lOFVvcE8tU2xVWWRHNVZnV1IwQmRCbTNNWExmTjlYdFljcnhYcExtYWQ4NzBKZktIbXVVaGdTTmRTcjliTWpLdE40OUs0TlRiV05qQWM5RXdjSjU0ckhka25zWlhnMFEyV1lPRHZDSFhQRGppLU5qbnFqaS1mZlpEOXYtbUVqTUdaaTRYd2tNSzYxMVQyaUpfcllXSzFnMlR6MnB5aXdKSFRwSGVCblFSV2tZYVpCci1vQkF6cXhzZEV3Y2Q3M3lxeU9QTE5iWGpaZS1yMC1XVXM?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 05:32:00 GMT",
-        "source": "The Times of India",
-        "description": "Weather tomorrow: IMD warns of heavy to very heavy rain in 4 states; orange alert in Himachal Pradesh &nbsp;&nbsp; The Times of India"
-      },
-      {
-        "title": "Himachal Pradesh issues orange alert for heavy rain | India News - Hindustan Times",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZk8yaVZLWVhDZDJOUFBTRXZCZ19Wa2x4YlVDX1ktS09MTzIxN1g2LWIxX1dzX25DVldaVUI2VTZkODdUNnRpa3c5ZS1RZzJBVjJQWEQtbHBFQ3JnRFNadm1uRldPRzhfRW5RZk5GcjUwLU9WcFRWM1R5Z2V3Rm5LaDROejRKd1RYX1lYZ3lhUnpkNHJhNVhpWXVvLXBMaWRjS3g3MzV2dzY1aVdfbkZ6akM3Sk3SAboBQVVfeXFMTmlhN01iMkRVQVlwYXJURXRQMW5IMnZTMmU3eWRDejRRczRwY1BScHJ5MFRkY2YxQS13ZWtTT0k5RjNzR1p1eDNMV1JUM09jcHVuRkJJSVBiZ3k3LXNVNExpaks5UXR5S09xWXowellMemlpMUFVd0t5SHJnMjctQXE1azJRZmFzOUVWZXhyeU95UnhUYUlKSFZYY0ptNThMem9lejRoX2xlSFNHbXdrcE5ickFab3FXanNn?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 09:23:28 GMT",
-        "source": "Hindustan Times",
-        "description": "Himachal Pradesh issues orange alert for heavy rain | India News &nbsp;&nbsp; Hindustan Times"
-      },
       {
         "title": "IMD issues Orange alert for heavy rainfall over East Rajasthan, Himachal Pradesh, Uttarakhand & West MP - News On AIR",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSWJvRktBU3pNVFpMczBJT05ISFJ6R1h4Qzl2NWVHUEhVOXBfa1I2QUNLYlZuaFFlVWlTMXNBRXV4MlFtb24tUDJ3ZTVTVFJEeVo5ZHZmbGl5aVVUSWNtU1pib2hqeS15U08zOXhqZFFIdXRSbmdqRVdfeXVoWWFwQ3ZjT1FGU1FCVmRIdHF3Z1RTbzNNNWJuRjBuVWJ5N25qOUZYVHZ0M29kOE5VSkVpY1gwNS1lSENCYm15SE1jUHRxeE0?oc=5",
@@ -24,11 +10,18 @@
         "description": "IMD issues Orange alert for heavy rainfall over East Rajasthan, Himachal Pradesh, Uttarakhand & West MP &nbsp;&nbsp; News On AIR"
       },
       {
-        "title": "8 Killed, 10 Injured After Private Bus Overturns In Himachal's Chamba District - NDTV",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM3lLTXY5ZzR4d1dhZHl5RVdTWS1mcTRBbF9pcmJtdUh6TExudS1qazJaSGUyZXB5LTFuWXBaTEdENldkOEZldFJ2YWFUV1p5bGZQR0NxSUFqTUp0X3NHM2RLUW5DdkdxZ3l6cFhDVFBqdW5HWW01ZjVqZEF1MTJxYXo4bVlsQUVrd254TGpFblRRdzVuSzdWZkRwR3VXS2FfT1VVS2NpeFM5YS1iMzNyME1jaEpZV0h40gHAAUFVX3lxTFAtdlVZcU1jR2ZQS1p4UTFRVkozV1d2Um9QVDVKVG1WNWxUYWs4XzdQRGxYMk5NZ0NKSThDTG8tUmN4WTg4SE1zaHc2RjVqdUcwcjk3TFhLdU5kelR1TW8wenlSdVN0S0Fic1hEYXB0b3VYUXBzbnJDb3JyNWxoMnJSQ2FBOUpnWVNZMlpELXRuV2FYMEgyanBoejFsRmt3c28ydHF0bmwzVHZUNGswX2N5bXFuMFpxcXJlUjBfcmZseg?oc=5",
-        "pubDate": "Sat, 08 Aug 2026 05:08:51 GMT",
-        "source": "NDTV",
-        "description": "8 Killed, 10 Injured After Private Bus Overturns In Himachal's Chamba District &nbsp;&nbsp; NDTV"
+        "title": "Weather tomorrow: IMD forecasts of heavy to very heavy rain across several states; orange alert in Himac - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcnlJbThWY1UwQTNJWkRmbDVXaVU5MnlyNWlySDQ0R211WEZCMldIbDNWMHB3YV9WaUdGVmM1VVpHYkNMaGZrd0NaTUh3X3k2ZWJvbjVuWk1uX1hMaWFiS05fR2lYNjB0YjNGOFdYTnl2NWg1TUpUX3dKVDBPYVBzWFZEVjNjOHZTaEVXOXBVSFZKdFpBSktIOHRpdzJzT3dTZ0VEc2RCZEd1S2h4bDN5bEhaRGMtQkhub3NEN1FNTHlBUE1jdmxoY0dlbE9LblZuMm5IRlozZU83SG5VN1lvTTdtMEpSdFktRmd5bjZqcUJ3QTl2SHhCd3pLNldyYnpVd1J5Z05YdFMySGRMSGRVbXhWRlrSAZoCQVVfeXFMUG12cjJLa1pVTW8yLTBzSEV2bHpOTmN1N0ZVN1RYUlcxT25ZTU5JMGQ0NWdXODRyT19CV2xjV2lHejFSWVpoRWs3VEhMMThQcTgtWHZHbk1mN0x5dWNlQjdURnpHd093SnRKWUwzMzZ3d2N0b3hwNWVFT09HYXNqbkx2MFp2Znc2TEVuOXdFUjJCTDd2RUxxdFNlamhsVGFacDB4Zml3SDhoSmlvYXRnTWNSZ1pDaVBvQ3BQdC0wVlRNeGx3RDlrTDJiaEZYX2VXUkVmVFA0Mmh0bGYwc0pwLW5YU1YwSTJoc19ySkN2bHRQU3dCdlF2VGlWM2M3cWZqYmc5dkE3bnllRnZHWjdEWmotWXVRWU1DU0pR?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 07:09:00 GMT",
+        "source": "The Times of India",
+        "description": "Weather tomorrow: IMD forecasts of heavy to very heavy rain across several states; orange alert in Himac &nbsp;&nbsp; The Times of India"
+      },
+      {
+        "title": "Heavy rain in Himachal: Orange alert for Kangra, Mandi and Chamba - Hindustan Times",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT0FmNWhqOHo4S1NadkVwQklJTlJxZXB5QWxGWGE3ZkNNZTFzQnNBVW1hRVgxRVVEYnZoR0JjYlFTT0preGpYYXZxODh4bHhnN1NhMVZqUHFUbXE0aUVPbTlhcU1tMnNzUFdBd0Z4WlRmVnlWZHpsejI1VHlzM2gxN3ZmUlRRSUJFbFRsSFFNZmE1R2NxM0hDTktlNWYtVHNUaWF5akdSYmdfUk45Vlp0c2ZidVpYdnNrajdZc1JDTm4?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 09:29:21 GMT",
+        "source": "Hindustan Times",
+        "description": "Heavy rain in Himachal: Orange alert for Kangra, Mandi and Chamba &nbsp;&nbsp; Hindustan Times"
       },
       {
         "title": "At least seven killed, 11 others injured after private bus overturns on mountain route in Himachal - The Hindu",
@@ -38,6 +31,13 @@
         "description": "At least seven killed, 11 others injured after private bus overturns on mountain route in Himachal &nbsp;&nbsp; The Hindu"
       },
       {
+        "title": "8 Killed, 10 Injured After Private Bus Overturns In Himachal's Chamba District - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM3lLTXY5ZzR4d1dhZHl5RVdTWS1mcTRBbF9pcmJtdUh6TExudS1qazJaSGUyZXB5LTFuWXBaTEdENldkOEZldFJ2YWFUV1p5bGZQR0NxSUFqTUp0X3NHM2RLUW5DdkdxZ3l6cFhDVFBqdW5HWW01ZjVqZEF1MTJxYXo4bVlsQUVrd254TGpFblRRdzVuSzdWZkRwR3VXS2FfT1VVS2NpeFM5YS1iMzNyME1jaEpZV0h40gHAAUFVX3lxTFAtdlVZcU1jR2ZQS1p4UTFRVkozV1d2Um9QVDVKVG1WNWxUYWs4XzdQRGxYMk5NZ0NKSThDTG8tUmN4WTg4SE1zaHc2RjVqdUcwcjk3TFhLdU5kelR1TW8wenlSdVN0S0Fic1hEYXB0b3VYUXBzbnJDb3JyNWxoMnJSQ2FBOUpnWVNZMlpELXRuV2FYMEgyanBoejFsRmt3c28ydHF0bmwzVHZUNGswX2N5bXFuMFpxcXJlUjBfcmZseg?oc=5",
+        "pubDate": "Sat, 08 Aug 2026 05:08:51 GMT",
+        "source": "NDTV",
+        "description": "8 Killed, 10 Injured After Private Bus Overturns In Himachal's Chamba District &nbsp;&nbsp; NDTV"
+      },
+      {
         "title": "Himachal Pradesh accident: 7 killed, 11 injured after bus crash on Bairagarh-Tissa road - The Times of India",
         "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPc1psSmFYX1dyYlJBNDVrNzZIZTNEOVllRnAyLWh5T25LMEhWU2hSbHMybUdIRHh4eG83TzNhejZDOWR6Vk5LTnpSV0NKZTVvcGc1VXgtVW16WGVCMXNwTENRZjVCZDY5Tm4teVBHYUQ0UlZuN3VwUFBXY3BUWExmR3BPVm5aQm5LXy1Pc05pbkxieWluU0lOR1FwRFB0eUFYbXM2QnVIUlFkaFFIU3h6V2p4TzZKRC0temVaMUNjQjJZWk4tU21Fc3F4NlAyVEtvb3F2TzdtUUdQQlZncGh1U2MtMjUtMnd4aUs5TTR6MUhFdjDSAfgBQVVfeXFMT3JxQXQ3NDhhMFJJeDdKeEkyYWdVaGhfbzBfR0tfa1U1S3E0VElSelAwV3ExNmQ1el9oY0prQ0hXTU9jamhYTjZkXzlEWkxnLUdKWVpBQmFqVGcwbWNBQUM3VTg4a0NMN1FERDEtNnlKd0N2cnRLRUhBT0gteHd6bnhmWjE0SGcxcWVrRF9jNUl4VUxJVDhQaVRaTE1uNWl1bEthSll2Z085cUJEZXhSSC1rU0EyRVJvNGFqUno3RFppdk1mQWJ3MWEwWWJZVHFOUUNlLWRJR2RvRTZkUHgwZm8tR3N2ckZCRkVzSURKQWVPbW9pYXNYemo?oc=5",
         "pubDate": "Sat, 08 Aug 2026 04:34:00 GMT",
@@ -45,32 +45,53 @@
         "description": "Himachal Pradesh accident: 7 killed, 11 injured after bus crash on Bairagarh-Tissa road &nbsp;&nbsp; The Times of India"
       },
       {
-        "title": "Locals line up near Himachal temple for 'darshan' of an unusual goat. Yes, it's true - India Today",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRkd4YlFxenVLbUJMbi03ZGxldVZQRjhGam9yUE1IdVc5YXpiQzczSWFhaWxTTnJnLXRwZEJZMWNEYXFZekdkeWlsSUE1c0JkRFM0VG1SLVdwX0VoY0RUbDhpVWx2X0IySUYxY1MtdWlHX3NVMDdWTkJ1Zk9EN2p6TVhxNE1LTUd2WUF0ZHJ2OGUtZG1xN0ZlSVRLazU1OTRsTHF6UEp5NkVhNFpWRlpDY1YtaEJIdDJvUTVUd1ZFWVk0bmVEX2VLS3lKRdIB0AFBVV95cUxQckUta010el9oa3B1WFZXSVpXUXNqOUhaZGN1ZUd4OW9xOGNJRGdzRWhkaXNCR2N5U1U2OHE0djlCTG83Y0E4eDJOaGNTazYySFUwclBzOGJsVUpqclpSVW1hOFEtQ1ZQZWZGNGxCUURfeVBsSjZXdE5YcGpUdHl5bUZOd2NLbno3SFp6ZVMtaWdveFpQZXJFQmV2N05XWDFCdDg2U3dzcE9FOWtYUFhDVTFLSDlVQlBqejVJLUN3ZW1XZ2tjZUo0N0l4SHoxeENG?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 11:31:35 GMT",
-        "source": "India Today",
-        "description": "Locals line up near Himachal temple for 'darshan' of an unusual goat. Yes, it's true &nbsp;&nbsp; India Today"
+        "title": "Rs 158 cr allocated to boost medical education in HP: Centre - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdDJwUGVzN3N4T1F4c0FsakNYNDNxOHdKVXZJYWtLbVp1X2htVlkxYnFOZDY0RjFfUFlvYzFLV01XM25KYzNsSXluNG9nUFA1NGpzeTdMbWVBZjdRSTFwOGhweVNBd21SNlFMdl81YVd0Y0JxNDc2RjQ2Y2U1US1HWldFWGYyNDRGWk93RWkzbzlJTkowbzl3RElMa3ZvNVFuaURGMWE1VWZPOWMyV0x4UTAyaV85bHk2V08xRUJ5ZFdNUFJTX3ZHb1ZhR1hkY3d6c3gw0gHYAUFVX3lxTE5TNnVqRmFpQVlrUEY1ay1CYnVEbW5CaWMzX2ZzbW9VZFNhRURYRmpNb2gzZFJMU3ExWm1IUkZCYVNKMnFMZWRDcTJCMlpOTTVLWm9ZRGc3cUxFcHNDUzRjVWtjM0lWbVlrX21qT2xmR2R5N3VKcmlyeU5Bb0JYQS1BeDBSd0VMcXhkdWdRM18zcEE2TWJOSThURkRTUXJ2Zkhnd1pCbjd0YkNpX0RYb29FLWlidHJRUlRURy1FSFdONUx1WFBYamJ0eGJqNGdRelp6ZVFubXlaUQ?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 17:23:00 GMT",
+        "source": "The Times of India",
+        "description": "Rs 158 cr allocated to boost medical education in HP: Centre &nbsp;&nbsp; The Times of India"
       },
       {
-        "title": "Mystery Goat Draws Huge Crowd For 'Darshan' at Himachal’s Jogni Mata Temple (WATCH) - Asianet Newsable",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWTF5YjJXR2VoTGFhZmRSMEM5eVhLcDdlSGNqM2NHSnUteTB1azdveEdmM1hnd1dxSnVzRnJIZUQ4UzZIa2NuLUVsclROS1NvQ2wwdDlDRUxsTExYeTVBUWx6X3JuYTJFcVZ5ZDFCdUc0ZFFNOVV5bzZYNU5WWXFOd1B1QWlsam5GX2JpQmc0RzRKVFl3Qm81M0F0RjdRMW01bUJFQ3JreEdtU0FDbGxIdWlIMXFLN0c4MGZtY1dlTVVqUdIBxwFBVV95cUxQMFhMNWJYMHNDSGYtOWhHSTN5cjdjYkVxMTlXSUMzUGRsQ081R1FiOGFTR0h5ajluMVlTeEhtVFlGZlNhOGRrM3p2UnNjZzdSdllUZEFzd1UydUFqQW11RW9zYWc3aXFndEJZT3ZDR3FHaHJVX3FYZGt5T2U0VDNPYVhaMGNIVDg3eXFqNktFYmlSdWdYaTVqTDVHbnh2UThnX3NRYVlqNHVxelVaR1Z3Zy1KbnhmdEE5U05zUExmNGRNM0NBb2Vr?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 06:46:52 GMT",
-        "source": "Asianet Newsable",
-        "description": "Mystery Goat Draws Huge Crowd For 'Darshan' at Himachal’s Jogni Mata Temple (WATCH) &nbsp;&nbsp; Asianet Newsable"
+        "title": "Himachal govt to upgrade 6 schools as Rajiv Gandhi Model Day-Boarding Schools - ThePrint",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVFV5NlNTMXFkaEJVY1hsSm4tdDR6Tlp3SmYwc0c1R2lNNmFvdmx3UEl2TVZNbWozdmpkN2lSakdjbXo5RzVUOWRLODZDMWN3UXBPT3V2eDh4NjRJWm54c2tpMFZnc19FQWM3bnRNWjNqWU1SOFNWWWVoaXR3cTRvMC1CTEMtMEFxQzB6T29kRHUyVEJmaGlxeENRWUhHTVBEaHFjc0psLVJVQTV3VDRYUjln0gG3AUFVX3lxTE8zalNpVDZMMXM4cDdQbmtJT0JrVjdHNGgzajdlZTF4WkhObG1ndE9fZ3g4QVp0RGVPNVhGdHQ3b1ozcTVCNDVxclpFaWNBQzVKbTJ3RFcyZ2YzdG1ZSnhVVmpPNHlsSnJ3V09uX2o1N3BxT05wR0xqUVoyaEF6ZnpQdzBKNHVtbmI0TXB4UkpHbHlkSl9SX09zdWdKOVF5Wm1VcW9mREo4NlhwMlVmUWRhTWZNbjZwcw?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 12:51:48 GMT",
+        "source": "ThePrint",
+        "description": "Himachal govt to upgrade 6 schools as Rajiv Gandhi Model Day-Boarding Schools &nbsp;&nbsp; ThePrint"
       },
       {
-        "title": "Himachal temple goat’s 3-month routine leaves locals puzzled | Tap to know more | Inshorts - Inshorts",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcWpnRklLU3oyOHB6ejlCNF9YaWVTX19UQ2c1Yk5aSl93aEg5bzhvRUZBaDA0dlM5dE5iM184bGljZzVYWVNHWjRHTmlKNHEzS1ZQaUVYcDR0VXFEZHF4UGVFNVgzc0Fhb3d1MVpPaGgtSW9CMlVWYWpiZWtfQXp3bzhTcWlnWUNMRm5VdGQ2Z1J6aERHMmgzQTM0WDVIbWxod1kwNmtn0gGrAUFVX3lxTFBwczRibFhyRmtoRmtSZGxrbGFlTjAzMDFKTEZkbFY1MDJnYzBZYnNCcW9JOG1PYmFPTG5zQnJ5OUpYWGFFd180WURaQjBjaXFfTmVJOFBMNkExYUxqY0JSYnBfYjctSlBFa1AyOEpZSFhPeXR0ek94QmtJRmlJNXpXTl9jZTVkUE9ldmI0aXJZb1UyY2ZoMjc2N1pFQjJNWEZWWFpZQkFjV2QwVQ?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 09:13:21 GMT",
-        "source": "Inshorts",
-        "description": "Himachal temple goat’s 3-month routine leaves locals puzzled | Tap to know more | Inshorts &nbsp;&nbsp; Inshorts"
+        "title": "Himachal govt grants 15-day academic leave to medical college faculty - The Tribune",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc09iZFBQcktZUUhqX1hkYUY3Rkx0SElMa21TZGwwTzU4Tm5PNE13VHVsMThqN0x0UXFWaGYzaUMxOEp2cmtBc2dMRDViU1hvdXNvNTIzaHR0Q1Vyb2tuWTNPY25SVnhDeG1ZZy0xamkxZVI0eTlWUGMyZmVhMTlYNWpmQUhiQVg4eHFhSE1XTEZXZTNjNWNkSUw1SENGeXVSbEFWUTF1a2lGWWRQRnJUWElDSdIBtwFBVV95cUxOZjNFT3NFYUlYb0RHeTE5dU5SWF9zTEJxbGFaWGNmTlFOTnBsdE9YZVBab3lUcXdOdDRRc3g2VG9md2Q3MjlESUttNFZpNzZPNG5Od042WFZJZWVJbWs0aFNTczZrRGlSTFB0a3BMQ2hNYlJXQ1J1VXJRNXk2Z3pQejJTMkt4VkhpTlNIbjNocUNWdmpIRDM0cDZ4YkEzZGFONF95M0RzNnZiekY4T0VqcW9WVXJ3MjQ?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 12:24:59 GMT",
+        "source": "The Tribune",
+        "description": "Himachal govt grants 15-day academic leave to medical college faculty &nbsp;&nbsp; The Tribune"
       },
       {
-        "title": "State government working to strengthen facilities in rural areas: CM - himachalpr.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBibHFmbEFGa3NvQTlSMUFPaG4zUWFUZEpYbUd4dzNpNHdzT0VwdzJxUk1XRjFONWplVEFpWWJCMFo4WU56SGM2eHdZR0Q5TzVNVlBYbEQzU2t4enpmYTk2WjRSYTY0RWxi?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 10:52:50 GMT",
-        "source": "himachalpr.gov.in",
-        "description": "State government working to strengthen facilities in rural areas: CM &nbsp;&nbsp; himachalpr.gov.in"
+        "title": "HP govt to provide 70% subsidy for cold storages, freeze-dry units, refrigerated vans - ETGovernment.com",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYUNhZHFjY1poU21kLTlkQTJFYkpTWDRjM3BZYWYzUTN0RTZvVG1oS0p4VG9EZVROSFlseGVLZUwyVGVLZXNpX0FidEY5MGlUNUM5NmVXbFNnRjF0VGEzWldEUzNNRUU2Uk1hdk82TC1uNHVQOE1JcDZ3eWJBRDRrTTdMSnk3U0xicGZhNEswaXZTb1UtNjhFMk0zd1pXX0RfaWY1aXlDR3l3c3hTQVIzX0hLTWtVNDNHUzZ6bE1Tc2oyNXhBVlhzdk1ZaFNjX2Z5R21VdzFWTlhqOHFmOVZYdnN1ZEllMU3SAewBQVVfeXFMTWpqN3BLbzlCNDlTQlhrRWZMVDJhTjNDcVpSSmdGVmYwN1kyTFZYNTEzMzIzYmlqajhfODhqQVVXcDRxRjlOc20yTWVJOXd3WGNISFc1bzBFOERNRjlrdXhWMHlqMWpfR3VtZlNwWlZMS3ktNTJEcko5NWdqLTROT2E2TnJFeUZPSTd6ODdabkNuSWc1S3p1cjkwOGY3Rk5qbnprNjJmNnYtNjY4RWtlVzRXRWNaT0Y2SzNLUjdHLVJmdVhDS0J2RGF5RXRuT0thLW5mZ2NualdyMVB3NG9CdnIxVUNRc09va0FiUUM?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 12:25:06 GMT",
+        "source": "ETGovernment.com",
+        "description": "HP govt to provide 70% subsidy for cold storages, freeze-dry units, refrigerated vans &nbsp;&nbsp; ETGovernment.com"
+      },
+      {
+        "title": "Bogus GST bills from Himachal fuel illegal mining trade in Punjab - The Tribune",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeFBhdEZsREx4QklodVBsd0oyY0lmRmJaMURVOERaMGYxRy1Kal9QNEYtaWVkampiSnFwbGJqajZCUXZ1MWpiZDZWd2djWFNCMkYtaDhhU21pUXVqUm1TOGlfWjVLMTI0UmN3VExIN2Q3UnJDdzktNnF1N0UzclhMQ05HYS1tWElZeDB3blRCNFRTNGk4WHF5WlRFVllodkh2QVNJUnBYdUFoQ1RCV3U1WE5lLUTSAbgBQVVfeXFMTXJydk9mVFA0TUZtbkM0YU5ES2FKSVhBVVRrc0ltbURORGliS21temczTUdKeGVjb0FtakRqbXN4VFFtd2s3eTBCdEpVR0U5WlZKOFVYQWhEck1fbUlzdFJnckFnY0xvQzlhcnpsYjNkZGV1Z2tmaFp6SGR4ZXJiOVk5MnBUQzdXZjVuVE5hMEJnRFZGaEJqaGxsU3ZBeW9VcE92UnFEaGRzRlJrWVJWQ29RSXhReGtzMw?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 19:54:09 GMT",
+        "source": "The Tribune",
+        "description": "Bogus GST bills from Himachal fuel illegal mining trade in Punjab &nbsp;&nbsp; The Tribune"
+      },
+      {
+        "title": "MIS notices trigger concern among apple growers in Himachal Pradesh - The Tribune",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGlhdlQ4QzVKUVl4Q0FJRlU3clBBRmkwUnBka05fYjlRZUcxc3ZsY0xJVmxJRnpFRXY2VTR5cWtiRTBVU3MxRm9fQll5UHNjc0QzSU5mcFZ2TFFIeS1xWnEtbDVrVmdmazk1a2JINFZjdUJiSU4wMkY5VEJlMGZHRUpTaEs3RWNPV1lZNWhrZGp2ZjluQkwyb2RRaFZTWXIxcjdwZWpsdjgwNkVhWUMwX9IBtAFBVV95cUxQejNGT0NfUmlxdmdDRlZtVjcxeUhLTFN1TklNZk5yMFhKZHpHcDhmYUZHLXhTUS1XcWhGc0pIc1dPQ0Y5NXBfdi02SzVHaEVkTkU0V0dZYmVZUkZ1ZWgwNmpld2dwVWtIVUx1LWFwNUFDdS1mRFY5SjJLZEYtbk5xUzAtTENHQVp0VjZyd01RalJaQ0lQNDNJdHdidmtVaFlObGpoTTN2d1pGbkY0WDdsbzluMGI?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 16:55:22 GMT",
+        "source": "The Tribune",
+        "description": "MIS notices trigger concern among apple growers in Himachal Pradesh &nbsp;&nbsp; The Tribune"
+      },
+      {
+        "title": "Video | Himachal Pradesh | Breathtaking Drone Shots Capture Fog-Covered Manali And Mandi - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRDRCSHJHdEJUdlZCZlJDNFppX1NSeGlJR1lDQ1MxUWVoSE9ZVHF0YkZrbElhSFVlUjk5YzZKM1oxNmkySmNMV3pSakZaeVd6SW5HN0tGclVXZzhGTzdpR3czc2RoaHNzaUJqUkdFUl8tNWhoaEJBb3h2Z2U0S2pGM0xOZHkwRDNxdXllWnhiaXp2aDdYSmNqaGE3ODNpOTlWV19xVmdwSEJ5cU9VQUNVcmNhRQ?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 06:37:57 GMT",
+        "source": "NDTV",
+        "description": "Video | Himachal Pradesh | Breathtaking Drone Shots Capture Fog-Covered Manali And Mandi &nbsp;&nbsp; NDTV"
       },
       {
         "title": "NHAI, contractor told to pay Rs 2.23 cr for building collapse during Shimla road work - The Indian Express",
@@ -87,25 +108,18 @@
         "description": "Kiratpur-Manali highway blocked by shooting stones; 118 roads shut across Himachal Pradesh &nbsp;&nbsp; The New Indian Express"
       },
       {
-        "title": "Weather tomorrow: IMD forecasts of heavy to very heavy rain across several states; orange alert in Himac - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcnlJbThWY1UwQTNJWkRmbDVXaVU5MnlyNWlySDQ0R211WEZCMldIbDNWMHB3YV9WaUdGVmM1VVpHYkNMaGZrd0NaTUh3X3k2ZWJvbjVuWk1uX1hMaWFiS05fR2lYNjB0YjNGOFdYTnl2NWg1TUpUX3dKVDBPYVBzWFZEVjNjOHZTaEVXOXBVSFZKdFpBSktIOHRpdzJzT3dTZ0VEc2RCZEd1S2h4bDN5bEhaRGMtQkhub3NEN1FNTHlBUE1jdmxoY0dlbE9LblZuMm5IRlozZU83SG5VN1lvTTdtMEpSdFktRmd5bjZqcUJ3QTl2SHhCd3pLNldyYnpVd1J5Z05YdFMySGRMSGRVbXhWRlrSAZoCQVVfeXFMUG12cjJLa1pVTW8yLTBzSEV2bHpOTmN1N0ZVN1RYUlcxT25ZTU5JMGQ0NWdXODRyT19CV2xjV2lHejFSWVpoRWs3VEhMMThQcTgtWHZHbk1mN0x5dWNlQjdURnpHd093SnRKWUwzMzZ3d2N0b3hwNWVFT09HYXNqbkx2MFp2Znc2TEVuOXdFUjJCTDd2RUxxdFNlamhsVGFacDB4Zml3SDhoSmlvYXRnTWNSZ1pDaVBvQ3BQdC0wVlRNeGx3RDlrTDJiaEZYX2VXUkVmVFA0Mmh0bGYwc0pwLW5YU1YwSTJoc19ySkN2bHRQU3dCdlF2VGlWM2M3cWZqYmc5dkE3bnllRnZHWjdEWmotWXVRWU1DU0pR?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 07:09:00 GMT",
-        "source": "The Times of India",
-        "description": "Weather tomorrow: IMD forecasts of heavy to very heavy rain across several states; orange alert in Himac &nbsp;&nbsp; The Times of India"
+        "title": "Himachal Pradesh School Holiday Tomorrow (August 11): Will Schools Be Open or Closed? IMD Issues Rain Alert for Chamba, Kangra, Mandi & Other Districts- Check School Closure Status & Official Advisory - sundayguardianlive.com",
+        "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNTmRwQXdHRElsS0NsdjVHLTlQcEhnbHMxdTBHV0RmbHpfNXozOXJ6V1hoblEySDZJaWhhZzZjcWlmd182enhGbWthWGFpaFRSaFZia1dLdjJJcnhWNUpnQlZRcE83a2E5a2h1VDBqcTlRLTgyUnRKSlZYRVpYSnZicU5fZjJ6YWZaUFgxVGhpZ3lNbUkyc3FMU1BmNWwyUGJNREhtWkJ2MVNidEw4dV81NUVaWnZmeTBTREtYZzQ0Q0IxdUd2Z2wxOU5LOUFfOERtLUs1UGtOaWNjU3oxNnJpcElSMjhJV1hTQjQ3RVNQYmJqRldYV2xkQ2Z6Tjhmc3JPZXFCSUFPaDkyUk1Zb0ZFczF3eUZQZkpud1Bua2oyQXBlc1d1bEtIbHpEejVqVUVocmdJME1jN290NzJSWlM3V1dNZS1uVHJtaW13dExPLWx3eWI00gHaAkFVX3lxTFBnQ2xMOHNEdXB2OGFHRDZfZDdpU0tIdEtkQWFJbFJEYzZYYVVRTDZhNm1WVEQxSDRGaXdscEowY3FBQ19vS0lLRW5Rd1pjb0N0TlltVFVpTHdUSmhoRVMycUFXV29iaUtNVUZGaklvRGQtdEhEenJ6eDZwWm51NWpHMnM4cmFpXzNuQ284MTlycHljQklldzV5RDlPSmNZTEUtcFI1RURORDgwT2RDaWp2dFlXVUgtQV9iNkRObGRwMXFaQWx2S0kzaVNDQ1VuRU1jMzRpbGpraVRUQ2Rja3NRak9JM0NSaTFCQXpaTWRRSW95Z21FTy1oa1ZJa1Z2VllJcVhDZlpqd0pLc1JaVkU0OEZXc3lVTjE0WG5WWHM5QTc3N2ZKNU11VGdSbVVCWEktQnJDSXZVZEVOelVaRll4V3hYOW9DZW9UQXJZYWJqa1ZtbUdCZU4yVGc?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 12:59:13 GMT",
+        "source": "sundayguardianlive.com",
+        "description": "Himachal Pradesh School Holiday Tomorrow (August 11): Will Schools Be Open or Closed? IMD Issues Rain Alert for Chamba, Kangra, Mandi & Other Districts- Check School Closure Status & Official Advisory"
       },
       {
-        "title": "MeT forecasts heavy rain in three Himachal districts over next 2 days; orange alert issued - ThePrint",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM2dGNlpZRDZnVTYxMGJwaDd3dzl5LVdpZlhjUzlzZnc1a0RoTXZ2Y0Rpa0REdnVyZlc2SjQ4WFpUTUtwRmRNZERWSEg4YkhBNTNNZGtiaGRoWTRiUFJRcmY1bzR5RmxFaXhFT3Fwc2RxTS1pcmRSd2dUS0JJTzZXRTRIQ05aWUoxTzZXSVRtSkhkZTlzRVpTYWxyVnE2cFU2YXhxX2trUWtUUWswUm53WDQ0Yzk0R1hfakhPLXc2ZkQ2d9IBxwFBVV95cUxNa3pyc0tUTXJuSDRleEttOFdPSVF2SDhIaU5iUUp5d1YtM19Eby10azA2UktST25zMl9hR1NCNHFId0FueXk2MGo0eWtGSldvZ1Q0ZVVoUkcxMXAwMmdESThSWUV4VzRvNlpLQU9iM05tMGJ3bVY4OHlOWTVIck1HbjdvY3diZUFucjQtNllyRjdzZHFLYjhUcTBFd2Z2clB2cGFId2dkVElEUTY3bk4tZWZDM29vclBJeEgwZGVQdHRJbXJSdXA4?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 12:49:11 GMT",
-        "source": "ThePrint",
-        "description": "MeT forecasts heavy rain in three Himachal districts over next 2 days; orange alert issued &nbsp;&nbsp; ThePrint"
-      },
-      {
-        "title": "MIS notices trigger concern among apple growers in Himachal Pradesh - tribuneindia.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGlhdlQ4QzVKUVl4Q0FJRlU3clBBRmkwUnBka05fYjlRZUcxc3ZsY0xJVmxJRnpFRXY2VTR5cWtiRTBVU3MxRm9fQll5UHNjc0QzSU5mcFZ2TFFIeS1xWnEtbDVrVmdmazk1a2JINFZjdUJiSU4wMkY5VEJlMGZHRUpTaEs3RWNPV1lZNWhrZGp2ZjluQkwyb2RRaFZTWXIxcjdwZWpsdjgwNkVhWUMwX9IBtAFBVV95cUxQejNGT0NfUmlxdmdDRlZtVjcxeUhLTFN1TklNZk5yMFhKZHpHcDhmYUZHLXhTUS1XcWhGc0pIc1dPQ0Y5NXBfdi02SzVHaEVkTkU0V0dZYmVZUkZ1ZWgwNmpld2dwVWtIVUx1LWFwNUFDdS1mRFY5SjJLZEYtbk5xUzAtTENHQVp0VjZyd01RalJaQ0lQNDNJdHdidmtVaFlObGpoTTN2d1pGbkY0WDdsbzluMGI?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 16:55:22 GMT",
-        "source": "tribuneindia.com",
-        "description": "MIS notices trigger concern among apple growers in Himachal Pradesh &nbsp;&nbsp; tribuneindia.com"
+        "title": "Himachal Municipal Election Results: BJP sweeps Dharamshala, Mandi; Congress takes Palampur | As it happened - India TV News",
+        "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxORUoxOTk1WmhHRDljUks2ajFNTTk5M2F2SjJwRlNhVDBLLXhCTjRiNEFxLTJlU09VZE9oTDdNWUExQUdtNDJjR0Vna09kVzBJcWt2NkJTeElmbGlYXzZmNWJGbi1FeFhtX1ItbEZJTElBQlVNb0VjakluQWdXbDVTLXA2VXVteVBoLWhPMlFGVFpDMnNqYkg2a0xlMlgzcVYzazJhMks0aEpoWlVPYm0yTlUzU2pjNTN1U041Yml3MXphdlYzaDI3RlJQekJuSWJlZHQtTTdQME5NSHNOSXpIbTAzbERlTVMwWEwzNWNYczlBb2NpWVN1aXZGQ3RnU2lxQXlPQ3RUTDNnZ0dpelJXUWNlanlYd18xSEJ0X9IBogJBVV95cUxPNkJLYTNaS1BHeldpNmpQb3FhVExnVVdIMDhDYmwxYVFoMktaNXVuQ3hoellaVjdVTW14SkF6a3N3bnNrYVBkbkhyeWNWSUZDNklIRk1XNDl6NE5vd016RTRDdzZpZUtMZFVaRnBmZDVBa3BodEpkY2k4dlRkcU1JYzFtZzZ6aGJ1dE1kc0ZnMW1wWFVJNHk3X3NYNlN5Q0EwbnFQTnFFUUpoYlM4cDRvZVB1NmVSX2NYWWR1YjJOem9yQjhaUWdOU1M2TEhmWUM0NWx4Zmh4cmhGWEw5clpuV3ltMUVSZFQ0YU5uN0QxRjBhc3JzRkRMdnpHcFRYNE1aYW1Bc0JFTGNIN3FkUVMzVDkxWlE0aWVWdEdCYVU0NGpBZw?oc=5",
+        "pubDate": "Sun, 31 May 2026 07:00:00 GMT",
+        "source": "India TV News",
+        "description": "Himachal Municipal Election Results: BJP sweeps Dharamshala, Mandi; Congress takes Palampur | As it happened &nbsp;&nbsp; India TV News"
       },
       {
         "title": "IMD forecasts rain across Uttar Pradesh, Delhi and other states; Himachal Pradesh gets alert - CNBC TV18",
@@ -115,32 +129,18 @@
         "description": "IMD forecasts rain across Uttar Pradesh, Delhi and other states; Himachal Pradesh gets alert &nbsp;&nbsp; CNBC TV18"
       },
       {
+        "title": "Locals line up near Himachal temple for 'darshan' of an unusual goat. Yes, it's true - India Today",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRkd4YlFxenVLbUJMbi03ZGxldVZQRjhGam9yUE1IdVc5YXpiQzczSWFhaWxTTnJnLXRwZEJZMWNEYXFZekdkeWlsSUE1c0JkRFM0VG1SLVdwX0VoY0RUbDhpVWx2X0IySUYxY1MtdWlHX3NVMDdWTkJ1Zk9EN2p6TVhxNE1LTUd2WUF0ZHJ2OGUtZG1xN0ZlSVRLazU1OTRsTHF6UEp5NkVhNFpWRlpDY1YtaEJIdDJvUTVUd1ZFWVk0bmVEX2VLS3lKRdIB0AFBVV95cUxQckUta010el9oa3B1WFZXSVpXUXNqOUhaZGN1ZUd4OW9xOGNJRGdzRWhkaXNCR2N5U1U2OHE0djlCTG83Y0E4eDJOaGNTazYySFUwclBzOGJsVUpqclpSVW1hOFEtQ1ZQZWZGNGxCUURfeVBsSjZXdE5YcGpUdHl5bUZOd2NLbno3SFp6ZVMtaWdveFpQZXJFQmV2N05XWDFCdDg2U3dzcE9FOWtYUFhDVTFLSDlVQlBqejVJLUN3ZW1XZ2tjZUo0N0l4SHoxeENG?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 11:31:35 GMT",
+        "source": "India Today",
+        "description": "Locals line up near Himachal temple for 'darshan' of an unusual goat. Yes, it's true &nbsp;&nbsp; India Today"
+      },
+      {
         "title": "India on e-wheels: Himachal Pradesh bets on electric buses to clean up mountain transport - Down To Earth",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTVBUaTFLZ1EzOXZHV1ZZNnhXTW1fWU1nSVEtQzRPcGRFRHRWNU5RNXJ3c21WM0s0dEJhSGZ6NFpxRVEyRHprNF9OQkxkdnhEa1RfMkhfdG4tSVllWDlTa2xZVi0ySXlyOG1GbFRxV1ByNUJVd2x0Y3c5d1V4V2VPN0VBNkVVUkd6bmxjV0xqQWRBd1BPa0p5VWRjNVVCSGpTcEY2dnFaekhmX1VWc2tEbzFpVC10MTM3eU0tWkwtRmdUVVBL0gHSAUFVX3lxTE1ma2owX3FoNVFWTUlIdjJhZWEyd1JNb09uRTlqYVRfdHRyUk1hOGxRNk1nQ0xVRmZtSkdRRmhwbXgzUkRVRWMtbktoNVZoR0xNbTJac2hpQ3pLM1ZMZTdZQkVRLTZvN2VhNHYzWUFtc25LS0psSmtib1JCNEt2cEowWWw4c3JIdjlSQVFMaTFkRlIzT1dTWmYtNWNpOU1kOFVCdXU5N3NmeFpHcFVESy1FWThlbU5aQ00wbXBvVGRaeHJRRFJpSmdVV2JxcjdQdkw4QQ?oc=5",
         "pubDate": "Fri, 07 Aug 2026 08:28:05 GMT",
         "source": "Down To Earth",
         "description": "India on e-wheels: Himachal Pradesh bets on electric buses to clean up mountain transport &nbsp;&nbsp; Down To Earth"
-      },
-      {
-        "title": "Himachal Pradesh Weather Today (Aug 10, 2026): IMD Issues Orange Alert for Heavy Rain in Himalayan State – Check Weather Forecast, Affected Areas & More - The Sunday Guardian",
-        "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNd1FEd0FEdmRDUWNoZmdyNXB0aXBNVS1SeGpXNlYwWEVTamR3aTRxV2pJdDUwNW1PbC1uaS12NW5rWGhRZWlVSy1ZeXJNNGxLclhQanRmbk5LVDVndVJzNFR0eVVWRUhfVWtia0ZtVXJJMlJEdTBXZ0I1ZldBanJTNHh0WlEyRUQ0OWlSSTJtcnJTa3FobFlwdE1SbjR4UV9FVWhBRE1TZWVJSk9jOFVWSDhEZUFGdUZucWRva0dKNUQ1M1FUZlI3YU1adU1aQk41c2pGOVRnV21wbnV3TXc4cFNjR1BxWTdyamVqd3g1SFZqUE9CV01wVTZuaTJ1dGpTMFd4QUxlN3c5QnkzcExLYzBYc3I0TlnSAZwCQVVfeXFMUDlRSnRFQm9MVHh1Tl9oOUtsdlRyYUdCZ3o4S0ZTRTFRakJXc182Z0JYNmhFQUVKSDNyVklnZU13M2ozVFlnbktWUWJJZzVrbXJUV2xYUWY5bG1KNm1MOWxVWXRPUXNWT3pJcXREbHJJZ3BQXzhMRlpBSWRIdDZZWWxqR2RQbTFOUS1jN3VFQnQtdTh1bmN4REx3WW1Pd1pIOGRsVzZhTDRHX0pUSE4ySDFZcmZmeWgxYzR0T0U0aHIySlRJRWl5M3Bta3FVM2N6NmFZTEZBMVpwS1E5NHh2Y3NlbWFBQTRYdnNVRGdzME5hNUlZQmVicTc5ZHRFUVpLZ0wzWF92aTdiUUtpVE40a2s3NHdwN2Fta0RRc1g?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 22:34:53 GMT",
-        "source": "The Sunday Guardian",
-        "description": "Himachal Pradesh Weather Today (Aug 10, 2026): IMD Issues Orange Alert for Heavy Rain in Himalayan State – Check Weather Forecast, Affected Areas & More &nbsp;&nbsp; The Sunday Guardian"
-      },
-      {
-        "title": "Using Teachers for Years Without Fair Pay Amounts to 'Begaar': Himachal Pradesh High Court - Live Law",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObDh3R3N0NExsbVZScjZ1dnpvWWN4RnBMMTBhN3BDeVNLbWx4R1ptWVktdi1DdEtsVDNPSGRKTGpSTEJQQnFUUmVENUlWNmphcGJZeTNESl8tNzlyanFza0FkcTlDMUdMYldqN1dwYkF5MzlXLW5Gb1R0Q2tDVzVtLV9VOVh0blFkUWpWVnI2R253Ui1MNFN1VDFmOWl1RTZvcmQyblByM3M4cEtTakZNeVBVZmpzeFRoZlFwZGtnMDVHWEh5bHhkVVdQQ00xR1Zod0HSAdcBQVVfeXFMTldKOWxNOUw3WjFyenB2UzFTel9wbXlOek5OSjBHRWhNMGNZRTltTUR3VUVTUlNSeXctU0RSWWM5QTRUbWdyWHR3SExyUmQyVXBITGx3cWFuakkzSXJpcm53RlFyNFVaV05WbF9JNF9mcWNmUDhtV3NIVG1IZ1hFT01UVWQtVl9QTHBkLV91WjBRY1lwczJCUWQtQ1d5blFQVHFqUnN5aFExM3ctX29pWTJTOF9tUWp0VmhGdU1YUXF0c1UwV2dmeFc5OTF2MmF2cXFDQ0JZZW8?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 04:15:45 GMT",
-        "source": "Live Law",
-        "description": "Using Teachers for Years Without Fair Pay Amounts to 'Begaar': Himachal Pradesh High Court &nbsp;&nbsp; Live Law"
-      },
-      {
-        "title": "Pay commission: Himachal Pradesh hikes salaries of contract, trainee medical officers by 78% - livemint.com",
-        "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPRUNxcGVYOGlNdlZhai02TlNRNWhaNUNwY3diMWw1Y0RxVkdqMXNEVTAzRXNmbE0wQm5VWk15c1RvLWRSZzAzN1FQX2ZyZUtraXF6VnhGOFdYMkJPVzVLYTEtblhlVWZaMkloYXRVWGsyQ0tYTXZEVThza3VkQVJ1bDZlQTVRMFp5bXhyalVMOE9lOFc5eDI2OTV6alRacV9lTU1NTlNuT2M1bEZ1MVMwWTFoOHk0NXdOdHNRbU1QdGdQaENaQ1k4M3pGbXlhejVhdHhfNGtzTXZ6Ums1RFprTWpueERrRFdvQ1FpMHQ4bEREYl81dERSTklWV21iMmtsTi1NR2w3SHNtemUyTElrQlpLaDdSU1HSAZwCQVVfeXFMTmY2V3Z5eUsxa05IbjhScVBYYndJZk5mLVVZUkVZV0xTdlFza3hOdzRLSkVtQnF0SjZYTEVhUE1saUxqdl9TMVNjTVNmV3IzdEQzdGw0clIwZW0zTFhDSVJiMDRHeEYxb3JvNks1YXlEc0NrSXV6UHJDU0pFNzJYZEpVdUdOb0ZzV2lIMGJQWnRYT29Fc2NneEFveFFFOU5nQnl3UTk2bVVBWGlYU3gwSUF2RmhPMkJtbjdyQnMzVmVDM0VOeUNrM2xEdjlocVdKdW1YRzd3UUlyR3FhNDZ2TWxmN2R2Sk9pY3NZcGdtbnZ0UlFFZDlxQVA5eEFMREoxTDlwSzRzd3I2MnJhSXBCbEt1by16NU1Pel9FMno?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 11:55:06 GMT",
-        "source": "livemint.com",
-        "description": "Pay commission: Himachal Pradesh hikes salaries of contract, trainee medical officers by 78% &nbsp;&nbsp; livemint.com"
       }
     ],
     "jobs": [
@@ -288,31 +288,17 @@
     "govt": [
       {
         "title": "State government working to strengthen facilities in rural areas: CM - himachalpr.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wVUhUajBXa1E4MjQzZkNOR1dHWGwxRDJfVkk0eTlHNWJWaDFDcGxvbFNteDZ1NWpaMEJ4SF9SVzJ0SFdJQ3pXdjJmc25JM1E2SnFUQ0xSWXpMdjVITWVtSUVXYmNjYzB3SFV1SXdaSHlPQVE?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 10:48:39 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBibHFmbEFGa3NvQTlSMUFPaG4zUWFUZEpYbUd4dzNpNHdzT0VwdzJxUk1XRjFONWplVEFpWWJCMFo4WU56SGM2eHdZR0Q5TzVNVlBYbEQzU2t4enpmYTk2WjRSYTY0RWxi?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 10:52:50 GMT",
         "source": "himachalpr.gov.in",
         "description": "State government working to strengthen facilities in rural areas: CM &nbsp;&nbsp; himachalpr.gov.in"
       },
       {
         "title": "Himachal Pradesh Government Presents ₹54,928 Crore Budget for 2026-27, Sparks Political Debate - News On AIR",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWXZXNXVXZXVHVXVLc2ppY2hNNVc5MTU2NVR6cWYyem95UDJhN0V1d05UZW1lby1YUUFybHRkY1ctdzBsb3dqbk1FaHFmYmtvT3JBSE84V1Npc0pHWTljY1I3czA1NWg2aHFBMHR5d1h4VTZOdWs2V3poRE10YWM1SjJfSmkwRzJ6bW1GdXM0enRYLTFQRjlyOHdTYmZqMHlVUEE3by1zbkM0blBOUF9BSDFPTU9pc0NmQmlINGw2bFFJaFR0?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 21:01:07 GMT",
+        "pubDate": "Mon, 10 Aug 2026 11:27:48 GMT",
         "source": "News On AIR",
         "description": "Himachal Pradesh Government Presents ₹54,928 Crore Budget for 2026-27, Sparks Political Debate &nbsp;&nbsp; News On AIR"
-      },
-      {
-        "title": "Mere Presence At Crime Scene Won’t Make A Person Member Of Unlawful Assembly To Book Him U/S.149 IPC:... - Verdictum",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObU44U2lrVXFnOXdSZi1aWnlRVmFzbUltVjd5cVBfS3pEUDA5UHVhYWJnLTRadGdhb21ncTJwUzFKN2czN25mOGZtb194WjBHVmx2cS00bDJMNWkxYkhUN1pQWE9hcHNJai1zT29XWC16dHAtMzZoUkNFUzNZYWdqSFJTeGswbzJLMFRINGR3NXN5S0txLUpSb09GWXVOOEZ0ZlBPVW5WYllubFlxOHNYZXM0cVpOQ0VUQk1obkhXWkRzdnhLa1RrNHZGUHAyQ0xK0gHWAUFVX3lxTFBZNGhXNm9mcGEwNUUzLWJoLXlkODdTWVQtQ3hVcG9md2U2cEFydl9wZzBjbldESjlNSDZIVFRVTEtELTJuSnpnSC02VFZwTDBYRHVYMGg5XzdBUUVJUjhJYlFTYmVJNnp5LVNEaU4wS0FhaTgwSTJzcjQxUjhTTUF4UFZDMDNlSG1MRmRWazI3eTBnVmptb3hKUUJOaUpEeE9telJfV1dzYjR6TzZwMDl1ZzZGRGdrY2EyaUNoeVdsRmdlczJrSDUwRm9tb21yUUNCTkNUSXc?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 05:00:30 GMT",
-        "source": "Verdictum",
-        "description": "Mere Presence At Crime Scene Won’t Make A Person Member Of Unlawful Assembly To Book Him U/S.149 IPC:... &nbsp;&nbsp; Verdictum"
-      },
-      {
-        "title": "Himachal Pradesh Government - himachalpr.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44ZHhYSmJUdWNKd0YyOG5WNFhIa2UxQldKWEM2WTlwZFdnOU1NR3RmNWt2MkRwTlVBR0k3RUJQTTk4RmxDa3hpYVZTbnRLU0Z2MXVFVV9HMDlCb0Z3QnhGNE5EdlFmV2Q0?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 12:01:46 GMT",
-        "source": "himachalpr.gov.in",
-        "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
       },
       {
         "title": "Pay commission: Himachal Pradesh hikes salaries of contract, trainee medical officers by 78% - livemint.com",
@@ -322,53 +308,32 @@
         "description": "Pay commission: Himachal Pradesh hikes salaries of contract, trainee medical officers by 78% &nbsp;&nbsp; livemint.com"
       },
       {
-        "title": "State govt committed to make Himachal hub of modern education, skilled force: CM - EdexLive",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdkw2aXRxdS1Va2o2ekQ3ZFpGLW9NMDI4N25HeW5nbldSTlZNbnI0N1hxLWdBX09VX2RuQ2NWdGhzZElxSjk3YXdvSkJNZl9MR0hwM05jVzVwYXBtN2pRbm1CZEZQNWpoOXpHWV9POTRUd0JfeGxRVFVRa1lvTmJST1VIZWlaZ1VpTWtrMk4yaXprUGdnX1V5cXRjeTNxSFh3M2p1LdIBsgFBVV95cUxNd0tvYVkzelUzeFAxUlRlZUp4Tlhic21Tc2NWWThDYV9CdEp1R1AtWkpJc2FyTmxrd29PNVozd1k4N2Y3c25xMDU5d3I1XzIzMm51bmlRRUVETTJPd2tjZC11eHNrSVd2VVZKRGxONGRIcGZOSHl6cF9EOC05Rnk5WjZZcW5OUHVPdlZyQjJHZ2MzOWNpUGlybWE5dFFuaHdZbXhsMGJnM0hmbHZMazF0X0JR?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 09:40:00 GMT",
-        "source": "EdexLive",
-        "description": "State govt committed to make Himachal hub of modern education, skilled force: CM &nbsp;&nbsp; EdexLive"
+        "title": "Mere Presence At Crime Scene Won’t Make A Person Member Of Unlawful Assembly To Book Him U/S.149 IPC:... - Verdictum",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObU44U2lrVXFnOXdSZi1aWnlRVmFzbUltVjd5cVBfS3pEUDA5UHVhYWJnLTRadGdhb21ncTJwUzFKN2czN25mOGZtb194WjBHVmx2cS00bDJMNWkxYkhUN1pQWE9hcHNJai1zT29XWC16dHAtMzZoUkNFUzNZYWdqSFJTeGswbzJLMFRINGR3NXN5S0txLUpSb09GWXVOOEZ0ZlBPVW5WYllubFlxOHNYZXM0cVpOQ0VUQk1obkhXWkRzdnhLa1RrNHZGUHAyQ0xK0gHWAUFVX3lxTFBZNGhXNm9mcGEwNUUzLWJoLXlkODdTWVQtQ3hVcG9md2U2cEFydl9wZzBjbldESjlNSDZIVFRVTEtELTJuSnpnSC02VFZwTDBYRHVYMGg5XzdBUUVJUjhJYlFTYmVJNnp5LVNEaU4wS0FhaTgwSTJzcjQxUjhTTUF4UFZDMDNlSG1MRmRWazI3eTBnVmptb3hKUUJOaUpEeE9telJfV1dzYjR6TzZwMDl1ZzZGRGdrY2EyaUNoeVdsRmdlczJrSDUwRm9tb21yUUNCTkNUSXc?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 05:00:30 GMT",
+        "source": "Verdictum",
+        "description": "Mere Presence At Crime Scene Won’t Make A Person Member Of Unlawful Assembly To Book Him U/S.149 IPC:... &nbsp;&nbsp; Verdictum"
       },
       {
-        "title": "Himachal Pradesh approves 78 per cent salary hike for specialist medical officers - Medical Dialogues",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS3dYeGFaOGFSMGp5RnlQcThXSUt4RHZjUkRQdmwwaHI4b1lVbkVrM3BJdmFXV05HdG8zeE5xZU8zM3JFVTlsaVhQRDBvUHNPelpZazV6Qk9xWWhkbms2RC1Ba3BmSkh0NXZFMDFmX1JkcU5FOUx1SmkwZ0dFR0tmZWdNZGthajJQTURhWjJYbklUcjk0cV9JZlAxQ3JkbUhHTVdZeER4WmIzYVVnc2lPWnNkUEpzZEgtYUFMT1RHcGUwaVBXaU1sUnNYWmt1cXBZbUHSAdcBQVVfeXFMTlM4RTRzb19zbGlWdHMyUFpISE95bkxFX0RpN18tMVY4VkxfcUF5MDc5X1RDRk5yazJCeTNuWjBXSTNNeVpEQnlRb05WSzB6MWZidHJxZnkydE5VT0lXdllIOVowX2NLdTN4Ul9namNZa3QwRVNXaWNBN1F3Q1k0Z283Wms3Rnc5YTFyM3d2NW5wMFpjZGpaNmtKRXJyRjd5SFJ3MFhadHhyWDRwR2RndkhjbkZtYlpYRTNIdmRHeDhQbGdObDFXR1Bodl8xWE1SN2NTVGoxVDQ?oc=5",
-        "pubDate": "Sat, 08 Aug 2026 11:54:09 GMT",
-        "source": "Medical Dialogues",
-        "description": "Himachal Pradesh approves 78 per cent salary hike for specialist medical officers &nbsp;&nbsp; Medical Dialogues"
+        "title": "Himachal Govt Simplifies Sahara Yojana Application Process Through New Online Platform - The News Himachal",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYXVYOFRWTVZ5ZDdyVUJEd0VBcmYzOG9vNFpTNEU1OVUxeThSajNxRXVJa2RfWk15UE5Xc0s5ZmxKdWpxbTBfTVlrVVJvd1p6a01nQWdEYmlkX0lCcEVMMVJRbTNqTHh0Y0VTVlk0cjRveklIdHQtSHgxa3lrZTJJdldvVXQ2c2l6UzUtVFFZQ1BUZEpQd2tQSmlHU0VJWkxuVlFzdWxhN0JJMUEwVEdKcjkyeDNTVlZSX1NrOGwza3c?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 15:27:14 GMT",
+        "source": "The News Himachal",
+        "description": "Himachal Govt Simplifies Sahara Yojana Application Process Through New Online Platform &nbsp;&nbsp; The News Himachal"
       },
       {
-        "title": "India on e-wheels: Himachal Pradesh bets on electric buses to clean up mountain transport - Down To Earth",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTVBUaTFLZ1EzOXZHV1ZZNnhXTW1fWU1nSVEtQzRPcGRFRHRWNU5RNXJ3c21WM0s0dEJhSGZ6NFpxRVEyRHprNF9OQkxkdnhEa1RfMkhfdG4tSVllWDlTa2xZVi0ySXlyOG1GbFRxV1ByNUJVd2x0Y3c5d1V4V2VPN0VBNkVVUkd6bmxjV0xqQWRBd1BPa0p5VWRjNVVCSGpTcEY2dnFaekhmX1VWc2tEbzFpVC10MTM3eU0tWkwtRmdUVVBL0gHSAUFVX3lxTE1ma2owX3FoNVFWTUlIdjJhZWEyd1JNb09uRTlqYVRfdHRyUk1hOGxRNk1nQ0xVRmZtSkdRRmhwbXgzUkRVRWMtbktoNVZoR0xNbTJac2hpQ3pLM1ZMZTdZQkVRLTZvN2VhNHYzWUFtc25LS0psSmtib1JCNEt2cEowWWw4c3JIdjlSQVFMaTFkRlIzT1dTWmYtNWNpOU1kOFVCdXU5N3NmeFpHcFVESy1FWThlbU5aQ00wbXBvVGRaeHJRRFJpSmdVV2JxcjdQdkw4QQ?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 08:28:05 GMT",
-        "source": "Down To Earth",
-        "description": "India on e-wheels: Himachal Pradesh bets on electric buses to clean up mountain transport &nbsp;&nbsp; Down To Earth"
-      },
-      {
-        "title": "Mere Participation In Protest March Doesn't Make One Part Of Unlawful Assembly: HP High Court Quashes... - LawBeat",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb253Qy1LNXpMV0RBWHltajNMcFRMUlIxQUhVand1bUFpVjNSTUdYS040aXN6bW9leUNOMG1yTnFVMlJJb25PSUl4OHlNRURtVEFHSDllcjFKY0J5a0pvMEZfRy1DdmN0TDlaS0ZXU2JRUWwzLVctb2M2SzdlN3ZZSnVPUWJZdjBYYWFBeENXeVNnZnQ2QTM0UjM5eVVxLWFrTVRMTlJwYjAxT0JxcXJOU2Z1eXNvMU10d25aMmZsRjJ1Y3N5N0hhYzVTTm9FLTV1ZXF5RFgxdmwtX29xZmxWY1dwRmo1d9IB6wFBVV95cUxObHBYcUk5Z1JDVzNySHg4RVgwT2h1Q1hPMGZwUkJDNmhXSUhjV1ZVZzZtVUMyM2t3Y3FveUJFV0Nvdi04YlgtZ3Eyb0laRkN2SFVSUnl2OXFTUVdnMmdWRjkwVGNZcVJ3MVF4Mk5VazVETHBjTnVOZ295M0lic3dOYWZUUThOdEZqMzd2Q0k0MkhkVkhuejNISzd5Y1d6QllnNjNHVjYza2Q0bXVEOWxJWXJFcmpMSUNZcUVBX3hhOE53ZXNDTFVNbDdHbzZEOUJpZEN4LVVtejVFSndYcC16aDB2MnBIdnFoYXl3?oc=5",
-        "pubDate": "Thu, 06 Aug 2026 10:16:40 GMT",
-        "source": "LawBeat",
-        "description": "Mere Participation In Protest March Doesn't Make One Part Of Unlawful Assembly: HP High Court Quashes... &nbsp;&nbsp; LawBeat"
-      },
-      {
-        "title": "Himachal Pradesh Assembly Speaker reviews security arrangements ahead of August 21 session - The News Mill",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLTduSW1hcFV3TE5fTVgtTkxMM1NUcWs0a3p1M3RiVllBbUd2cEpWMWh0cXVuNnUzUVhILWs2YTBSSjRXSV9hN3ZYVFlUQzc2Sno4dDJ2SFlWSHdpemlUclVBM2Ftb1RHSjR3U01wTjdYbHlneHM4dm85bjhPczc0ZUZJNEQzckxqZUlSRndJZUF2RTdMVndxRjY1MHQ5X1hTYXZPSHU0Z0k2WnYzNDJvLU5ab3Z1Wk1fZjJrR21temM?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 13:32:20 GMT",
+        "title": "Himachal Pradesh government transfers 3 IPS and 54 HPPS officers in police reshuffle - The News Mill",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVHJJc3FSa0g0b0s5R2xJcGpEMG4xbXNYNWdMVXVublczRWZ1ZFBXVGhCWlY1RjRtMFl5MTJSU2c1QzZNa2ZNeHoxcHhrV3Bjc1l2cC1IRENkeWRHSUtkbDRKWkRPUUJibjgwTzFzamtxbXJKQmdLeVItdkFoZXZDNmlVMy1LR3pQLThNc2JWYnVFaVFLeGVqVlhPU3YwTDM5Z3ZkMnF1VWlOX2xLeG1acmtUWFpBTEFq?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 15:47:23 GMT",
         "source": "The News Mill",
-        "description": "Himachal Pradesh Assembly Speaker reviews security arrangements ahead of August 21 session &nbsp;&nbsp; The News Mill"
+        "description": "Himachal Pradesh government transfers 3 IPS and 54 HPPS officers in police reshuffle &nbsp;&nbsp; The News Mill"
       },
       {
-        "title": "Himachal Pradesh appoints 259 Assistant Staff Nurses across Govt Medical Colleges - Medical Dialogues",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY0taZDFHZjdPZ1NBMEttb2dXM0hhRzM3aWk3N083Q1JDY1NnTy00YTUyazB5WDdhNnVEOHN1WGhGa05vbW1PWXNfaVREZEpNc0l2QkdpOVpVRGdZRWRQTDNEUnF5ZXNiZi1weDRwdTZ5T2UyUGhqWHlfRDExSk45UE1UQms3a3JhUkRnQlVKZFEyblJrYnE4QTdybjNRZkZMMllyb1Q5bnZILW9fMUF1NkhIQ1JwLTh6R0tvSjRuYUVzWlM2ZDJpZdIBzgFBVV95cUxQWHJYcG9Zc0l4QWwzUnRROWtvbmdPRE9KYnZSSVJSNkF4TUFfM01XemxtUkRhc2FaTlhvb0tpSy1JRmxZYjVOUHcwb1pLM2twZFcwNlNNLXd3QmdsMjJndlNvalZIQi1JaS1wVTNhT3U5YXFhdmlBNzFXUUtET0toRU1GNWcwVWI1LTJORFpLcVo3dllZdU9nUWtERFhsdzZ3N016UGg5VmpWNF9ldmN2SG52cS0weVI2RXlXVGFDcllvTnpLbUZ3cEEtSUZBdw?oc=5",
-        "pubDate": "Sat, 08 Aug 2026 05:30:30 GMT",
-        "source": "Medical Dialogues",
-        "description": "Himachal Pradesh appoints 259 Assistant Staff Nurses across Govt Medical Colleges &nbsp;&nbsp; Medical Dialogues"
-      },
-      {
-        "title": "Himachal Pradesh launches robotic surgeries in government hospitals - The News Mill",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMHV2d0RRVVFZa1hEcjU1SDVPX3lES1o2OW9Zd1dpZUxTNzd6U2o4VEhCZTF6NG8zMDJoN1hESmZWc05WX3IxM3N3TTFWX1kxV2FqamZoRDJoalUzQmNtbHVoRkhnU0VkUWVuVHhkUkYzWTNOcEVuWGF1dzdzcHBIckE1ZzhWeU1hc2h4ZHNMTVV5Vjl2T3IzdFVNLXZfcE9ZOVlOZTVwbnJYdTFxaFF5YTcwT0E1YlJObmZmNnFSWGNUdHFH?oc=5",
-        "pubDate": "Sat, 08 Aug 2026 17:42:49 GMT",
-        "source": "The News Mill",
-        "description": "Himachal Pradesh launches robotic surgeries in government hospitals &nbsp;&nbsp; The News Mill"
+        "title": "Himachal govt to upgrade 6 schools as Rajiv Gandhi Model Day-Boarding Schools - Careers360",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdzB6aFdtWWNSdHgxVjRYVGdlaWVldlRZY2ZMOEdaaVNQTDlMSXdLa0l2NVFYWTgzejRsMzJjUnpTbktuUGZyLV9wdFVuSVRwSEhvNUZLOFZlMkdsbHZTSzhmN2xUQkVGS0pyd1lXVlBnQXh6NFZkbzhpV1hOSnlkNU5TeTRLcnNKUkNNMFNIbGlZMDBOdll2THl4RVVfV2dZY1pCUEtwY3pUcXQyejctdDhUUVBPNzktNWVPaUM1V19lN3Zk0gHKAUFVX3lxTE50dWxQQTU3Tzl0VTNPUUtxeU5rbHg5WnVSQ2VNZE5EdzZuWWs2OWppSTZLcXh1STVhSW1yZWZ0SDVoaEU0azA5N0RvOTB1WVZHYVNNaU9fb1JWS2RoMmVIWFBYT2lQZGtDOXd2ZkxSTjNZZzhsR3hJSXFGMldMSDBEVzQ0Rm5nSmhELVBidlMwN3k1WUxOM1UycF9Ta1N0cS1YbTJXY3cyOEU3bmhlaEtZNVp6cUd6bllQNk5ZQ2lORTRPdFpqMnBPMFE?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 16:48:19 GMT",
+        "source": "Careers360",
+        "description": "Himachal govt to upgrade 6 schools as Rajiv Gandhi Model Day-Boarding Schools &nbsp;&nbsp; Careers360"
       },
       {
         "title": "Himachal Pradesh Government - himachalpr.gov.in",
@@ -378,11 +343,46 @@
         "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
       },
       {
-        "title": "Himachal Pradesh Government - himachalpr.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNWEhQZi10R050bGtoYUhsWUF3OXFVVExHRHVDdjhIdmRRU2djRkpnTDIzLWFWdWQtUl9Oa1VISzR5ZGFPS0syT3lsWm93MDA4NWZNaUkxRXF6b0hYWS1fdjdwN0lBREZxb1RGR3ZMVTV6OFE?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 12:04:21 GMT",
-        "source": "himachalpr.gov.in",
-        "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
+        "title": "Himachal Pradesh issues road design norms to strengthen rural connectivity - propnewstime.com",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSm1GQmZwMmNYckVpMlBiby1YaVpzNVcwVkpDakVETjRmUHBtX2hwbEpfX0l4NXEzUk1TVld4RjNGd1pCLVI4MEZkbFVlWVRrVVFNZXdjOE84VXljVWVOVEhFazYyTzRwc2NLX3JYZjBXX2tmSld5bGg1SmlvT0czZjVtU3NJaHZRVXdQR3BNQjVzaWNVY25ZU2FWS0x3dDN5bzVKU0s5RjBoUFlfeVZ1ZXhOdl9DUnVoMW81MzBzZmZnbkpQ?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 17:00:24 GMT",
+        "source": "propnewstime.com",
+        "description": "Himachal Pradesh issues road design norms to strengthen rural connectivity &nbsp;&nbsp; propnewstime.com"
+      },
+      {
+        "title": "India on e-wheels: Himachal Pradesh bets on electric buses to clean up mountain transport - Down To Earth",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTVBUaTFLZ1EzOXZHV1ZZNnhXTW1fWU1nSVEtQzRPcGRFRHRWNU5RNXJ3c21WM0s0dEJhSGZ6NFpxRVEyRHprNF9OQkxkdnhEa1RfMkhfdG4tSVllWDlTa2xZVi0ySXlyOG1GbFRxV1ByNUJVd2x0Y3c5d1V4V2VPN0VBNkVVUkd6bmxjV0xqQWRBd1BPa0p5VWRjNVVCSGpTcEY2dnFaekhmX1VWc2tEbzFpVC10MTM3eU0tWkwtRmdUVVBL0gHSAUFVX3lxTE1ma2owX3FoNVFWTUlIdjJhZWEyd1JNb09uRTlqYVRfdHRyUk1hOGxRNk1nQ0xVRmZtSkdRRmhwbXgzUkRVRWMtbktoNVZoR0xNbTJac2hpQ3pLM1ZMZTdZQkVRLTZvN2VhNHYzWUFtc25LS0psSmtib1JCNEt2cEowWWw4c3JIdjlSQVFMaTFkRlIzT1dTWmYtNWNpOU1kOFVCdXU5N3NmeFpHcFVESy1FWThlbU5aQ00wbXBvVGRaeHJRRFJpSmdVV2JxcjdQdkw4QQ?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 08:28:05 GMT",
+        "source": "Down To Earth",
+        "description": "India on e-wheels: Himachal Pradesh bets on electric buses to clean up mountain transport &nbsp;&nbsp; Down To Earth"
+      },
+      {
+        "title": "Himachal Pradesh approves 78 per cent salary hike for specialist medical officers - Medical Dialogues",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS3dYeGFaOGFSMGp5RnlQcThXSUt4RHZjUkRQdmwwaHI4b1lVbkVrM3BJdmFXV05HdG8zeE5xZU8zM3JFVTlsaVhQRDBvUHNPelpZazV6Qk9xWWhkbms2RC1Ba3BmSkh0NXZFMDFmX1JkcU5FOUx1SmkwZ0dFR0tmZWdNZGthajJQTURhWjJYbklUcjk0cV9JZlAxQ3JkbUhHTVdZeER4WmIzYVVnc2lPWnNkUEpzZEgtYUFMT1RHcGUwaVBXaU1sUnNYWmt1cXBZbUHSAdcBQVVfeXFMTlM4RTRzb19zbGlWdHMyUFpISE95bkxFX0RpN18tMVY4VkxfcUF5MDc5X1RDRk5yazJCeTNuWjBXSTNNeVpEQnlRb05WSzB6MWZidHJxZnkydE5VT0lXdllIOVowX2NLdTN4Ul9namNZa3QwRVNXaWNBN1F3Q1k0Z283Wms3Rnc5YTFyM3d2NW5wMFpjZGpaNmtKRXJyRjd5SFJ3MFhadHhyWDRwR2RndkhjbkZtYlpYRTNIdmRHeDhQbGdObDFXR1Bodl8xWE1SN2NTVGoxVDQ?oc=5",
+        "pubDate": "Sat, 08 Aug 2026 11:54:09 GMT",
+        "source": "Medical Dialogues",
+        "description": "Himachal Pradesh approves 78 per cent salary hike for specialist medical officers &nbsp;&nbsp; Medical Dialogues"
+      },
+      {
+        "title": "State govt committed to make Himachal hub of modern education, skilled force: CM - EdexLive",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdkw2aXRxdS1Va2o2ekQ3ZFpGLW9NMDI4N25HeW5nbldSTlZNbnI0N1hxLWdBX09VX2RuQ2NWdGhzZElxSjk3YXdvSkJNZl9MR0hwM05jVzVwYXBtN2pRbm1CZEZQNWpoOXpHWV9POTRUd0JfeGxRVFVRa1lvTmJST1VIZWlaZ1VpTWtrMk4yaXprUGdnX1V5cXRjeTNxSFh3M2p1LdIBsgFBVV95cUxNd0tvYVkzelUzeFAxUlRlZUp4Tlhic21Tc2NWWThDYV9CdEp1R1AtWkpJc2FyTmxrd29PNVozd1k4N2Y3c25xMDU5d3I1XzIzMm51bmlRRUVETTJPd2tjZC11eHNrSVd2VVZKRGxONGRIcGZOSHl6cF9EOC05Rnk5WjZZcW5OUHVPdlZyQjJHZ2MzOWNpUGlybWE5dFFuaHdZbXhsMGJnM0hmbHZMazF0X0JR?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 09:40:00 GMT",
+        "source": "EdexLive",
+        "description": "State govt committed to make Himachal hub of modern education, skilled force: CM &nbsp;&nbsp; EdexLive"
+      },
+      {
+        "title": "Mere Participation In Protest March Doesn't Make One Part Of Unlawful Assembly: HP High Court Quashes... - LawBeat",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb253Qy1LNXpMV0RBWHltajNMcFRMUlIxQUhVand1bUFpVjNSTUdYS040aXN6bW9leUNOMG1yTnFVMlJJb25PSUl4OHlNRURtVEFHSDllcjFKY0J5a0pvMEZfRy1DdmN0TDlaS0ZXU2JRUWwzLVctb2M2SzdlN3ZZSnVPUWJZdjBYYWFBeENXeVNnZnQ2QTM0UjM5eVVxLWFrTVRMTlJwYjAxT0JxcXJOU2Z1eXNvMU10d25aMmZsRjJ1Y3N5N0hhYzVTTm9FLTV1ZXF5RFgxdmwtX29xZmxWY1dwRmo1d9IB6wFBVV95cUxObHBYcUk5Z1JDVzNySHg4RVgwT2h1Q1hPMGZwUkJDNmhXSUhjV1ZVZzZtVUMyM2t3Y3FveUJFV0Nvdi04YlgtZ3Eyb0laRkN2SFVSUnl2OXFTUVdnMmdWRjkwVGNZcVJ3MVF4Mk5VazVETHBjTnVOZ295M0lic3dOYWZUUThOdEZqMzd2Q0k0MkhkVkhuejNISzd5Y1d6QllnNjNHVjYza2Q0bXVEOWxJWXJFcmpMSUNZcUVBX3hhOE53ZXNDTFVNbDdHbzZEOUJpZEN4LVVtejVFSndYcC16aDB2MnBIdnFoYXl3?oc=5",
+        "pubDate": "Thu, 06 Aug 2026 10:16:40 GMT",
+        "source": "LawBeat",
+        "description": "Mere Participation In Protest March Doesn't Make One Part Of Unlawful Assembly: HP High Court Quashes... &nbsp;&nbsp; LawBeat"
+      },
+      {
+        "title": "Himachal Pradesh offers subsidies for fishing boats and gear - The News Mill",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOE5SXzFRN3FLdTZQNFY5MjY5WWZlSkxkUUtLU2pkUzhsNGszX3d6VnBlYjN0VkNOZFRUdVdSQXA5T1dFQlA3VXA2OTh0TDRueDF0UjVYOGtmSlBkX0RVaTF6c3FLNmlreHFmUTJVQUd2SG5OODRLVm85RzF0MmtqT1dZd1Y3MnRNZlhGVEZXWmNRRl9rSktrMnFJLVR2SE1ONDF0bzJ3?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 11:42:15 GMT",
+        "source": "The News Mill",
+        "description": "Himachal Pradesh offers subsidies for fishing boats and gear &nbsp;&nbsp; The News Mill"
       },
       {
         "title": "Himachal Pradesh Government - himachalpr.gov.in",
@@ -390,6 +390,13 @@
         "pubDate": "Fri, 07 Aug 2026 13:43:58 GMT",
         "source": "himachalpr.gov.in",
         "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
+      },
+      {
+        "title": "Farmers and workers hold Jail Bharo protest in Shimla against government policies - The News Mill",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdERtQWJvTUFUYUwyNS1XUzl4NUhIeXhzSDBBR3ZtRjJkdGFTZFQ3THBteTA1bGxGNGtzczdpdlFLYWN2MXJDN1lzQng4M0VOQzRkblpMT2dMOW0tbFhUUFNSOEFab0RMWldURHgyNUNpcFo3aTRnS0Izd2FjUGE3azlUSV9SZ09KMmNtcVpFbm1obnJFcTljaFZjY1V1MzhIMTZxdi1na2VjWXhNd212MnljWng?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 15:47:53 GMT",
+        "source": "The News Mill",
+        "description": "Farmers and workers hold Jail Bharo protest in Shimla against government policies &nbsp;&nbsp; The News Mill"
       },
       {
         "title": "Governor Kavinder Gupta visits Himachal Emporium in Delhi on National Handloom Day - himachalpr.gov.in",
@@ -418,29 +425,15 @@
         "pubDate": "Fri, 17 Apr 2026 07:00:00 GMT",
         "source": "himachalpr.gov.in",
         "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
-      },
-      {
-        "title": "Himachal Pradesh Government - himachalpr.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwclpGd29vSWJ1ZkN0MGJzeHZlQUNPLW5Ga1VvUWlHSnVGcXZQbTl0SnhvbXpQLTl3eG5uOHMtMHdRWVh5QWE5Q21kell4ZzJmMVF0R1FpdkFRZHZiWGxrTGhaQTFyb3pm?oc=5",
-        "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "source": "himachalpr.gov.in",
-        "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
       }
     ],
     "weather": [
       {
-        "title": "IMD issues Orange alert for heavy rainfall over East Rajasthan, Himachal Pradesh, Uttarakhand & West MP - News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSWJvRktBU3pNVFpMczBJT05ISFJ6R1h4Qzl2NWVHUEhVOXBfa1I2QUNLYlZuaFFlVWlTMXNBRXV4MlFtb24tUDJ3ZTVTVFJEeVo5ZHZmbGl5aVVUSWNtU1pib2hqeS15U08zOXhqZFFIdXRSbmdqRVdfeXVoWWFwQ3ZjT1FGU1FCVmRIdHF3Z1RTbzNNNWJuRjBuVWJ5N25qOUZYVHZ0M29kOE5VSkVpY1gwNS1lSENCYm15SE1jUHRxeE0?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 08:41:43 GMT",
+        "title": "Orange alert for heavy rainfall issued in 4 districts of Himachal Pradesh - News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNDFYeEFSYTAzME5PWVlVbUdXeXBoMlNXRWp5bTRNWmYxMm5fajNtMkh6cjZwR25oWUlCV0tlMThwNEJOeWpuRWZoamRIanBfU1libl9vcWt1MmVQMlh2OXVDSUR4S1QzcDc2V21nM0VIT0lFaUt0TW9QRzUzb3Y2bjk2YUFOR1ktSi1tRTZuUVVmM3N3dVlVMkRLaHM?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 08:36:43 GMT",
         "source": "News On AIR",
-        "description": "IMD issues Orange alert for heavy rainfall over East Rajasthan, Himachal Pradesh, Uttarakhand & West MP &nbsp;&nbsp; News On AIR"
-      },
-      {
-        "title": "Heavy rain to impact Himachal Pradesh through August 11 with orange alert for Kangra, Mandi and Chamba - The News Mill",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT3lkQTJQLVFiYmFXRU5ONDMteHd6YU53MnNnQUsxd1FZLV9tcGJzaXpMNHNZbnVDem9zSGRCME02V3Vmb055QWZtdndDSFlGZ0VjV3pPcWZ6dlFNWTloT2xZM3QtLW9SR0dsUFpBTjFYTE9SS29kaXVHeldpYi0zTHBZV085ZU1oN1lRb1hjWWpZTndNQzdrZ1g5dDRRRDc3YTlJUjJXMEVnSDE2OWJHMXdqWEtQNkNjbml4TUFCeFg5OGhtcXhWaDdaYzU0UlE?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 09:12:10 GMT",
-        "source": "The News Mill",
-        "description": "Heavy rain to impact Himachal Pradesh through August 11 with orange alert for Kangra, Mandi and Chamba &nbsp;&nbsp; The News Mill"
+        "description": "Orange alert for heavy rainfall issued in 4 districts of Himachal Pradesh &nbsp;&nbsp; News On AIR"
       },
       {
         "title": "Weather tomorrow: IMD forecasts of heavy to very heavy rain across several states; orange alert in Himac - The Times of India",
@@ -450,11 +443,32 @@
         "description": "Weather tomorrow: IMD forecasts of heavy to very heavy rain across several states; orange alert in Himac &nbsp;&nbsp; The Times of India"
       },
       {
+        "title": "Himachal Pradesh weather: IMD issues orange alert for heavy rainfall through August 11 - Mid-Day",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSUNFeUIyUm9mNU1kVjh6bC1fTWQyYmY3ZUlHaEpMbHFVRUxTRTJHRDZlZFJPZ1EwUjhhZFlnZS10OW1EVVZ3cTh4aVg4djlXZ1JxTVpscl9aUGFNeDRBX2FSRVZJTnFqUFBZbEVLa3NORG1CQlFZMkYyY2pJLXZZQkg1MVFveFhDT0FCaTVwbnItWk5Wb180WThsaEMxOWgxZ0E2QVBHbi1jdlZfMVFSc2hrZXNSTDZUdmREdE5vbU9qMnZfeXF4ckgyelNmTWlHRTdPME9nLXhlb1UyNXphbtIB5gFBVV95cUxOaE93ZXhOX3VFZmIzc2x2ZFBTaXF1Mmd3SUtBVW1Vd19kT2oxcWFTa3FqZlEzVjlVMmZqamFCUm15b1IzanlCY2RUVjBvalM1UDg1ZWFYZ0ZVenRTWFlDbnlnTDlFdlRsSnBLQVFoNG1NUkZqVXVtZDFaOHVJT0dfWUpycGFxekZlMXV0UXU2UjB1UjExeGZadnZJQVZLRk53Q09nYkQ2QXNtQVlaeWlVakdId3JDZHNjLXY4TUcwQ20xYmRSWGlXa1pZRG5GSU9vLUtXZ2pYUXRKY2FGYngzRk1WTUNCUQ?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 13:42:00 GMT",
+        "source": "Mid-Day",
+        "description": "Himachal Pradesh weather: IMD issues orange alert for heavy rainfall through August 11 &nbsp;&nbsp; Mid-Day"
+      },
+      {
+        "title": "Heavy rain to impact Himachal Pradesh through August 11 with orange alert for Kangra, Mandi and Chamba - The News Mill",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT3lkQTJQLVFiYmFXRU5ONDMteHd6YU53MnNnQUsxd1FZLV9tcGJzaXpMNHNZbnVDem9zSGRCME02V3Vmb055QWZtdndDSFlGZ0VjV3pPcWZ6dlFNWTloT2xZM3QtLW9SR0dsUFpBTjFYTE9SS29kaXVHeldpYi0zTHBZV085ZU1oN1lRb1hjWWpZTndNQzdrZ1g5dDRRRDc3YTlJUjJXMEVnSDE2OWJHMXdqWEtQNkNjbml4TUFCeFg5OGhtcXhWaDdaYzU0UlE?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 09:12:10 GMT",
+        "source": "The News Mill",
+        "description": "Heavy rain to impact Himachal Pradesh through August 11 with orange alert for Kangra, Mandi and Chamba &nbsp;&nbsp; The News Mill"
+      },
+      {
         "title": "IMD forecasts rain across Uttar Pradesh, Delhi and other states; Himachal Pradesh gets alert - CNBC TV18",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTVFIT3REeFVBQ0UwaFhTYVNvZzZ3dWZhOWVsbGdQZFBzVGpBMTlsSnBuQ083WDBNanR0ZEMtQkx6NjE5bzlTSHpGbEpCUWU0WE1ub0luN05DbkdRckNBZmgyTjVZNUVGLUh6WXBlSmpjbE5BVFBrQTBwQWZaSjFIUndYX25LSjV6VWJ0N3B0UjRjLURVTXFPQUhiSnM5LXlvMklMZVItanEwTEt6NXNKVkVfSi1OdTBvc0hPWDRVS19pczBuUkxTWmtuRGRYZU9RN3fSAdcBQVVfeXFMTklZOEhOTFhadGVXTFJuNDdEOG42VU8xZnV5d0ZGdUtqN1hrbGhqUVdtRUxNNnFlX3BRM3g1Tno2cUhodkZrV3p1NFpfYk5zdHRVamxOWFdubElUUDN4aWtiMnBWNnNMekZqSmw3Mkt6ZHA1RENaTGVXLU9qOTZBZmowX2lzTUVOVndFLUxJcTZvQXpRMEk2RHU0X2RFa3gyTzhYTEZYSW1aNzZRX3pmemhFbGtkOTF4bEpvc1l2a24wQWhJYW1vakpteHNnLUZhSWlWWmQ0OW8?oc=5",
         "pubDate": "Mon, 10 Aug 2026 02:05:55 GMT",
         "source": "CNBC TV18",
         "description": "IMD forecasts rain across Uttar Pradesh, Delhi and other states; Himachal Pradesh gets alert &nbsp;&nbsp; CNBC TV18"
+      },
+      {
+        "title": "IMD issues Orange alert for heavy rainfall over t Rajasthan, Himachal, Uttarakhand & West MP - The Indian Awaaz",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV2VSMUhCanNRSzFjSkJJV1RESkRzLTlldnByMTlFX01FSWs2MDBFNWt1emxRTkFRV3pDOWVKZUJYSjZBOTZOaUNDeTBIQmYwb3BHaUQxcXpmOXliTEhuYk9HUmxBVGwwMzZVVUhic2JEcmdaZlV1eDJycVYtY0hKcnNyVXg1OG5nM0ZvbVlpSnF1Tm9uRlcyeWtiZWtyWDEybk1DdERNeHhKMld6LTdtRWtWM1c1a3M?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 17:57:00 GMT",
+        "source": "The Indian Awaaz",
+        "description": "IMD issues Orange alert for heavy rainfall over t Rajasthan, Himachal, Uttarakhand & West MP &nbsp;&nbsp; The Indian Awaaz"
       },
       {
         "title": "Himachal Pradesh is likely to see stronger monsoon activity from Monday evening, with heavy to very heavy rain expected in several areas until August 11, according to the India Meteorological Department (IMD). - newsarenaindia.com",
@@ -478,25 +492,25 @@
         "description": "Himachal Weather Update: Orange Alert Amid Heavy Rain Forecast; Highway Traffic Hit &nbsp;&nbsp; The News Himachal"
       },
       {
-        "title": "Orange alert for heavy rainfall issued in 4 districts of Himachal Pradesh - News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNDFYeEFSYTAzME5PWVlVbUdXeXBoMlNXRWp5bTRNWmYxMm5fajNtMkh6cjZwR25oWUlCV0tlMThwNEJOeWpuRWZoamRIanBfU1libl9vcWt1MmVQMlh2OXVDSUR4S1QzcDc2V21nM0VIT0lFaUt0TW9QRzUzb3Y2bjk2YUFOR1ktSi1tRTZuUVVmM3N3dVlVMkRLaHM?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 08:36:43 GMT",
-        "source": "News On AIR",
-        "description": "Orange alert for heavy rainfall issued in 4 districts of Himachal Pradesh &nbsp;&nbsp; News On AIR"
-      },
-      {
-        "title": "IMD warns of heavy showers in Himachal Pradesh on August 10-11, issues orange alert - Mid-Day",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZHFIUmplUTVFZllMQ0dBcVhzZEEwYkE0cGloS2I5NVIzbE5ycmdCd0lXZVllVDI0MW9nTVQtZnBxX1lnb19UZW5ZZ3lUcVVsTHFnQVdoYmFzMlpWVk5UVEtsYnBlMFlMZmVLWnZSc05lczVtSlItRDk1bXRDbVhRbVFFVHNqOVlwVGdHMDFDVXRJTUY4cTVPM3l4cU5aMXFIbTV6TGdDOHItWVQxcG1yVkg2Zk9sTml0SDQ3WHFzdDk3WkgxVXB6Vi1oYmxTQmN0S0xrLVZsM1RMWFA3UXFiUTJQNTI4Z19vUGYzRGlTWUJSSmEz0gH6AUFVX3lxTFBBcHloYVNFVEhDTEZ2NC12RFZiZ05oYkJ4RlBZWGs4dmZjUnVCZmdFQ3ZDOHBDcFRjTTNFTjZtTHFaNzBtZ1dscVdXZXIyZnlpbWpWZ3lBMTh1UG0zOGlaZzFET3llYmgxY2tJSmJWa1c4Q0pyZVB4UXY0RGZfY1pOM1VORjIyeElvdnJHVzh3WW9RX1FINUplekN3RkdINV8tNTVfTlhvank2cWxlbG4xYWVyUjRUaEZxRXF5R0ZxVVJOMi1qZktlMHBVVmNKeVBwcGt5QkpKNXZyUEpzS3VibG92VEJKalNZWU5uMnpJYzdqNW9lWHhOVUE?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 12:21:33 GMT",
-        "source": "Mid-Day",
-        "description": "IMD warns of heavy showers in Himachal Pradesh on August 10-11, issues orange alert &nbsp;&nbsp; Mid-Day"
-      },
-      {
         "title": "Met issues ‘orange alert’ in Himachal amid heavy rains; 145 roads closed - The Hindu",
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPN1BQWEhxM3ljeVdISDJINGJGLXF1WFA5eTk1ZEs5YUx1NW84NGppRGotcmRvTzlfWDQ2Zk1GaW1rdEdRSEVYd1BaaUQ2RlJfT1ZianhFajQ4SnNDX0VGdU94Y01OOWNxNmxoRl9hQnhVTDBWcDZLVlNQcTZ4amY4cFZpV2Z4MWRFdFE0QzRrY0c0NGlUYVNnejgzVklORFZVb0Z2VmFndWhpaUFTMDVqMUZOS00xdUxibjA4WmNoMkZHaXJ6Z2p5Znh3SjZsQWs3bXNoSHpCeTQxcGlZVWfSAeQBQVVfeXFMT3hNVzVPdVBfN01zRTFXN3lidU5ZOElKRVRWM2pnbDhacnVGeFNZMlFoT2xJVFJ6eUx5QmYzekQ4VGt1YWRZNTZja2FSZWlseEV3Q3VTbk52d2plckRnbklrdTRuNHV1cHVaWjIwMk1ZR0RvZFRkVXZta1YySi05ZWhCZnhrX1RwV2pOOVdQTlFOdEJJNVQ1MElaYkljaW9HVjk3bVZrR2VKRFpQSUdBSFppU0VSZXI4TjJ2eFhYY0lMc2t4N1NiOU1jNXc3M0JKQ1R5WGdVZWJQbnVkb0NXUUs2TXl5?oc=5",
         "pubDate": "Fri, 07 Aug 2026 06:42:25 GMT",
         "source": "The Hindu",
         "description": "Met issues ‘orange alert’ in Himachal amid heavy rains; 145 roads closed &nbsp;&nbsp; The Hindu"
+      },
+      {
+        "title": "Daily weather tracker: Orange alert across several states as monsoon rains intensify; Assam floods worsen - Down To Earth",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRHZXX0F6UWVoclRBOGNzY0hIQmZfTGdRdHBfd3dTc3Z6VnlXajVFYVdibldYZVJCWndLZTZxSHY1RWZyNmZMN3QzOUcwQ0pCVGxpNHRWMWVfM1RkcnVfcWE1YXJZSkJmNnZONE5zWlF2YngySGRMb0JRckVnd0VRMlRHZGY2V1RSeVpfN3ZVWWdkT25BOE1kOWhWLU5hVEUtVWk1MlRnb0JMQ2lnRzZ0c0dpTVB6WGx6UGJBTVl5dkxzejBtSEJ1eExwbEQ2djg4RmZTeXdydmpKcGRBY0NpQzNpd9IB8AFBVV95cUxPZW1Od253VjZjWlk5Z0dEa0Y5YklXdkpMMS0yY3g3YjJIMDdjRGE5eksyaDJ6UWp3SzNBbUFZcm1SUkQtT21MNkRidjRkZnlTelhHSVBXWFV4cEhjSXlWVXFpSlJDTW9hczlXZC0tNHhyZEJTOGpQSElGYUpOajFuREVOdmN5a1VwTkgzcGYtRGF5YThqV2lGTGVQR0pWX2JHUEtGSkhWdFRReFJQY3pTaDRkdzh0eDhpazdxUmpYTGJLQXRxVjNMZkZPazB5RFRZaW04NmtxeEVwMmhoYnBvVE1XdFA4VUFNbFhqZzMtRTg?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 04:44:49 GMT",
+        "source": "Down To Earth",
+        "description": "Daily weather tracker: Orange alert across several states as monsoon rains intensify; Assam floods worsen &nbsp;&nbsp; Down To Earth"
+      },
+      {
+        "title": "Himachal: 106 roads closed; 'orange alert' for heavy rain on Tuesday - The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTkdMVkczbzRfZWt6QmdoekZDY3k0a0kzN2xKUTdyREl5TmoxRlVHX25WSlpWWDlOZ05hOVVqdWx4TlFGUTRUY1N2dEZLN0pfVnI0Sl82dGdyVFliWlAwX1YwcE0wcXNGYnBfa1hRWUhjVHNOaktaTUhkTUtKVXhzbU1UaUpKejBLaGFBVWtyWHBnekpGNkZud0FnR2dkM1FnVjRPcnpXdEcycFBrcU5ZM3ZycWFOZG9aZXAzU2ZKaXYzQkh1OUpjdNIBzgFBVV95cUxPbjdfck53dHgwYnlueGVlZlJCNXFrRmdYdjcwTTJDdGpIV3dOMEtzR2kzQmxnbWpoSnhONnhGdnFhOFJTVGNQbjdmcm9ySk1KbGxJR0NSRUlBZG5uYlFMMm1LVmdHeXBNdlNicVVxVU96WTJxTng2RzlsU21OS3JBRk9kS1QyMkdBc0V6R2M5dV9oNUUyQXBwY2xIUUlTdWlJdXdNSkJFLTRTZHVJbmRnOWMwLTV5bkdGcmw0UnJpNzViZXg5TGVCby05TVhIZw?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 13:19:28 GMT",
+        "source": "The Economic Times",
+        "description": "Himachal: 106 roads closed; 'orange alert' for heavy rain on Tuesday &nbsp;&nbsp; The Economic Times"
       },
       {
         "title": "IMD issues orange alert for Himachal Pradesh; heavy rain forecast across Delhi, Uttarakhand, Rajasthan - Moneycontrol.com",
@@ -506,32 +520,11 @@
         "description": "IMD issues orange alert for Himachal Pradesh; heavy rain forecast across Delhi, Uttarakhand, Rajasthan &nbsp;&nbsp; Moneycontrol.com"
       },
       {
-        "title": "Intensifying Monsoon in Himachal Pradesh: Heavy Rains Expected - Devdiscourse",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3FkWjBfRE9saUtaUGEyT2RMdldWTTJTYnMyb3M3S0FxbUt4Y18zd1BEUEk3NGZJQzN6TWdFNEE5VW80VklmOVJiWjZDMkpOangxbEo5X3U0RTFVVXFGSUtEeWh1N0xMWTlhVkhkT3ZKeUtMUE5Nc2Q4RllBeDN6ODZJYUNtUUliUHNNdFM0d2NqdVpQTGMzUjJaWjRiWFJHb2h3Y0RwZGtqUjdKYmJFWlR0dG9lYUHSAbwBQVVfeXFMT0l3MXZkaThJRExlUWYyQ0ZxWjFKaDVOai1zUnpQNnB4eGM2UHl3NHhPNW9qb3FOWllEaHVlazlqZXU5NGktMFhqNkpUalg5VzJyWVphTktZQUV4cVVVTVNnd21nN01abHRMdm5SNm9KRV9iMU9zMzRzbVpfV2FHRU9rX0dmdTh4d2JEcXBWYktaYW9VMmNvSmw2RUFmemxmQmFELXhIRXBUbGFRaURSSGtmRWxWWHFlTzRIRXk?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 09:14:16 GMT",
-        "source": "Devdiscourse",
-        "description": "Intensifying Monsoon in Himachal Pradesh: Heavy Rains Expected &nbsp;&nbsp; Devdiscourse"
-      },
-      {
-        "title": "Himachal Pradesh monsoon: 124 roads blocked, 255 DTRs down, 155 deaths reported - The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUVVLc3hnX1VsejlSdWhpZEhoQWhUY2VZdXU2VUlqRThGV2pJSU5hd1lWUF9yLUh5SDU5c3JhbEJobDFKRTliV1AzSjF1dzFYOVhzb29IUVVsWkM5Vi1aZ3Ztdzh4XzRxcDYzM0o0UEprVldPdFBRNzZkZVdHNWNGeWZhcDFaZ05TVE9jQjhxVzd5N3lIZjhZb1o1WHlQUnEtUWMxUjBzenUxR3FlNEU1X1FyWnlTYzk2ZlRxanJIbTQzWmgwRktGRy1BYk9kQjRnYU5Zb1dGT3XSAd4BQVVfeXFMTWJrbXJkdFFnWVZXeWNlSlRMZUN4X3hYRlNDN1pKNnFYdW9qWHR2eVJyRFh2Ml9xazgtRDU0dVhjRGpoM0NUYTdndHhLWnlVdmczMWRzNWdEaExCWGlnUXdhUTVGajF1dF8wVmw1YzlVSlNjNlRpZWI2b1FwSzVMMnd1ZVZxTVdDcUFQbUZJSEV2cEFZelY5VW96OVpYTVlVU2RlWTF4MWZQOVpHbHVUYlRma2VJamppd2cyU2ZGWkpiMU1LaU90eHBSOEo2bVNZNmwwM09NaVJycHp4b0xB?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 06:43:28 GMT",
-        "source": "The Economic Times",
-        "description": "Himachal Pradesh monsoon: 124 roads blocked, 255 DTRs down, 155 deaths reported &nbsp;&nbsp; The Economic Times"
-      },
-      {
-        "title": "Kiratpur-Manali highway blocked by shooting stones; 118 roads shut across Himachal Pradesh - The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQnBDTmpYUDNfcXZnME4yUHZHbFR3WFNtYjZUV2FaNjNVbFhkOUM1YTNKZHRFRW5nZk5LbnhuaFRqV3l5YjJvVWEtQ09IdG9IMTVzZ19DSzA0WHZabUgwcnhEV3BzSGR4VXBzOFNrVTY0SnMzN01TOWtaTHVWUVpmMjFIV2tFb043aFpPek9WMmZSYjJPWl9nOE1NQm9ZZ0thQkd4YmJ5MC1nRktaSjljSkVJaVZMZ0pGaURwVzNlY0Qtbi1OTDQzZ3pkNkg5SExtNXhzaFd2QdIB5AFBVV95cUxOOUlaNG1vc185UEZncjNaaGxwc0VLakh5Ry01QUZlNFhTbGJVc0gtRlhUcjAySzZsR3lMVW9CTEVKZUVScVlYVE5MUUI4SnVkZXRDOTEydUx5OE5XN24wRXpsRzNVTXlCd2VIQW80U1JKOTJVc1ZmYWtDSW1USEx4WmhWSHpSLWliSXB0UHBKMUxQelYtcWUzcXVhYXcyU25ybGpMZm13YUNnVzhYQ3hPQndtN2c4OFVnX2dHNEltNmtzS1VfM2NKaWhYWl9HYXg3NjI3WEJTSHFSX19WeGw3anVuTEE?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 16:09:29 GMT",
-        "source": "The New Indian Express",
-        "description": "Kiratpur-Manali highway blocked by shooting stones; 118 roads shut across Himachal Pradesh &nbsp;&nbsp; The New Indian Express"
-      },
-      {
-        "title": "Rain alert across India: Where could travel plans be hit this week? - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONHAzVDlCa3FBMVVaYWlQSjRldmV6RE5CVk9SZVhjbVNRcTFhRjU5U0ZQSXlmQ1hCYVNjUmtDOF9MdGZ3cS1OLVZyamtId3doN0dzSkdEdW5zcVg4VndFZVFfYU9YOHRaN0NadWQ1WDNlWDVpZnVQOUZxeXUwNGYwRmIzTzE3ZWNRVjdnREhtUHhxVENKdUJGdjFvcXNkeWVDRGZUZXllVDFiRms2cjF0cGREUjFQTXk4NjVWUnFtblVWRHBZNXFGSWZRd0x1b1N1SVdXU3JDVWcybEJSRjNlRDF5ekvSAeoBQVVfeXFMUHkxVW9xOHk0Q0loR3JacHg2cmd2WVZkTXZoVmloRDdtVE5QdG9ZS2pPVDJBeWt4Sk5LbDFJZGl3OGZOTThwdms2ZU1yemIydkNCN29SZzdfWTNnSVlQMjNVb1g2QTFzX3NzYWdqcDhKbnlndU01MzBhSkZ3cE1pRTNYYzB3TTY2Zk9DbXlESUZ1MVlxc0M5eHV5ZUNzZ2FiNzRFeTB3RnBhTURHZV9SMkNuSjlxMl9MNl9rVnIxRGxEYWVjdmxza3hEMzVORE9rUzlGTUcxem9EZmNTVUNoNjdGTEcwQkpGNE9R?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 04:14:00 GMT",
+        "title": "Weather tomorrow: IMD warns of heavy to very heavy rain in 4 states; orange alert in Himachal Pradesh - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcWJaSzV3aWNLSmFfVzlFNmlVSUI0eFJBb1dLZmhqb1VpYkw2bFFfYnN5MVZMdjRDbERQM1gzelQ1LVIzNTQydnZ0WHJLbnplTnMtSk5yeW5zY0FhU1BmZE9BeW1pYUN5VlFLRVFlLVFGWHBLTlhvV0dwaFlPbmNaZi0teWNPR0tRLWVPa2VaWlZNc3VmSXc0NDE2eGNPRHRKcWRieXhYQVUyZGNOOHpHVEU0TzRuRlhINUppYlpfa2ZrbXQtWExrS3ltZmZlaW1kcnNnMWFhV2x6eTlfY3g5WDNmcUwtaVMyaWpheEtFWDZfWjluRTVac1pNSWhGbUV4UUHSAYcCQVVfeXFMTmd2blZ5WTUxUVYxU19veEpQYUtwT3JqMl9pcVJ5MUdhNWIxcEN0azlhcy05eG5lOFVvcE8tU2xVWWRHNVZnV1IwQmRCbTNNWExmTjlYdFljcnhYcExtYWQ4NzBKZktIbXVVaGdTTmRTcjliTWpLdE40OUs0TlRiV05qQWM5RXdjSjU0ckhka25zWlhnMFEyV1lPRHZDSFhQRGppLU5qbnFqaS1mZlpEOXYtbUVqTUdaaTRYd2tNSzYxMVQyaUpfcllXSzFnMlR6MnB5aXdKSFRwSGVCblFSV2tZYVpCci1vQkF6cXhzZEV3Y2Q3M3lxeU9QTE5iWGpaZS1yMC1XVXM?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 05:32:00 GMT",
         "source": "The Times of India",
-        "description": "Rain alert across India: Where could travel plans be hit this week? &nbsp;&nbsp; The Times of India"
+        "description": "Weather tomorrow: IMD warns of heavy to very heavy rain in 4 states; orange alert in Himachal Pradesh &nbsp;&nbsp; The Times of India"
       },
       {
         "title": "Himachal Pradesh issues orange alert for heavy rain | India News - Hindustan Times",
@@ -555,18 +548,25 @@
         "description": "162 roads closed in Himachal Pradesh; Meteorological department issues orange alert for heavy rain on Augu &nbsp;&nbsp; The Economic Times"
       },
       {
-        "title": "Weather tomorrow: IMD warns of heavy to very heavy rain in 4 states; orange alert in Himachal Pradesh - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcWJaSzV3aWNLSmFfVzlFNmlVSUI0eFJBb1dLZmhqb1VpYkw2bFFfYnN5MVZMdjRDbERQM1gzelQ1LVIzNTQydnZ0WHJLbnplTnMtSk5yeW5zY0FhU1BmZE9BeW1pYUN5VlFLRVFlLVFGWHBLTlhvV0dwaFlPbmNaZi0teWNPR0tRLWVPa2VaWlZNc3VmSXc0NDE2eGNPRHRKcWRieXhYQVUyZGNOOHpHVEU0TzRuRlhINUppYlpfa2ZrbXQtWExrS3ltZmZlaW1kcnNnMWFhV2x6eTlfY3g5WDNmcUwtaVMyaWpheEtFWDZfWjluRTVac1pNSWhGbUV4UUHSAYcCQVVfeXFMTmd2blZ5WTUxUVYxU19veEpQYUtwT3JqMl9pcVJ5MUdhNWIxcEN0azlhcy05eG5lOFVvcE8tU2xVWWRHNVZnV1IwQmRCbTNNWExmTjlYdFljcnhYcExtYWQ4NzBKZktIbXVVaGdTTmRTcjliTWpLdE40OUs0TlRiV05qQWM5RXdjSjU0ckhka25zWlhnMFEyV1lPRHZDSFhQRGppLU5qbnFqaS1mZlpEOXYtbUVqTUdaaTRYd2tNSzYxMVQyaUpfcllXSzFnMlR6MnB5aXdKSFRwSGVCblFSV2tZYVpCci1vQkF6cXhzZEV3Y2Q3M3lxeU9QTE5iWGpaZS1yMC1XVXM?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 05:32:00 GMT",
-        "source": "The Times of India",
-        "description": "Weather tomorrow: IMD warns of heavy to very heavy rain in 4 states; orange alert in Himachal Pradesh &nbsp;&nbsp; The Times of India"
+        "title": "IMD warns of heavy showers in Himachal Pradesh on August 10-11, issues orange alert - Mid-Day",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZHFIUmplUTVFZllMQ0dBcVhzZEEwYkE0cGloS2I5NVIzbE5ycmdCd0lXZVllVDI0MW9nTVQtZnBxX1lnb19UZW5ZZ3lUcVVsTHFnQVdoYmFzMlpWVk5UVEtsYnBlMFlMZmVLWnZSc05lczVtSlItRDk1bXRDbVhRbVFFVHNqOVlwVGdHMDFDVXRJTUY4cTVPM3l4cU5aMXFIbTV6TGdDOHItWVQxcG1yVkg2Zk9sTml0SDQ3WHFzdDk3WkgxVXB6Vi1oYmxTQmN0S0xrLVZsM1RMWFA3UXFiUTJQNTI4Z19vUGYzRGlTWUJSSmEz0gH6AUFVX3lxTFBBcHloYVNFVEhDTEZ2NC12RFZiZ05oYkJ4RlBZWGs4dmZjUnVCZmdFQ3ZDOHBDcFRjTTNFTjZtTHFaNzBtZ1dscVdXZXIyZnlpbWpWZ3lBMTh1UG0zOGlaZzFET3llYmgxY2tJSmJWa1c4Q0pyZVB4UXY0RGZfY1pOM1VORjIyeElvdnJHVzh3WW9RX1FINUplekN3RkdINV8tNTVfTlhvank2cWxlbG4xYWVyUjRUaEZxRXF5R0ZxVVJOMi1qZktlMHBVVmNKeVBwcGt5QkpKNXZyUEpzS3VibG92VEJKalNZWU5uMnpJYzdqNW9lWHhOVUE?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 12:21:33 GMT",
+        "source": "Mid-Day",
+        "description": "IMD warns of heavy showers in Himachal Pradesh on August 10-11, issues orange alert &nbsp;&nbsp; Mid-Day"
       },
       {
-        "title": "Orange alert warns of heavy rain on July 2, 3 in parts of Himachal - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRTFHNFV4dEs4MUluZk5ZR1U2emJsLTJUX2hlVjJ4VGVpUVg2VDVPYjBsM1FlZjJ0bW5zNG9GazdSZzNmLU5Ja1hjSk16UTFHUXMzbDREQUV4TEx6WkkyRVU3MVlZbERmQlY0Y3ZzanBkdjhESF9NWDNUME5RVHRyRm50aHphUy1yY2JSaXBOU1hPTzlXRGZjRm5rQzlvbENyTVZGTWljdWdmbzhmLXVPNmtxSGlrbzF5SXNZTE5ub0NtTk9aemt6b3lLTFQtWWZOR1FTY2pkSlbSAd8BQVVfeXFMUHlRN2JVXzg5SWZ1YTRuWDhSRkNrS2N3VWo5U0RkdWN6WHY3WlFqNmVBZXcwTmYwaVA4VEk2eWp3TFR0M2ZBak1wbGRvSGUtZHlVcUstZmozcEJYbkc4TjNBMXVmUVk2dDR6ZjExbzdZemEzVkJFZmg3YU03aUY0WHpIcUNRQjZyZ0R0QVNKcGk3cW14aFFkM2phUzNpVnppSzJ2ZVBkaFNBNUFzMndiQmpjX1pyX0hNdWRWazJPNXpFVERUR3h3ZFo5NmRCdmd1SnFuRDJaYWhaLXhPODdxVQ?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
-        "source": "The Hindu",
-        "description": "Orange alert warns of heavy rain on July 2, 3 in parts of Himachal &nbsp;&nbsp; The Hindu"
+        "title": "Rain alert across India: Where could travel plans be hit this week? - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONHAzVDlCa3FBMVVaYWlQSjRldmV6RE5CVk9SZVhjbVNRcTFhRjU5U0ZQSXlmQ1hCYVNjUmtDOF9MdGZ3cS1OLVZyamtId3doN0dzSkdEdW5zcVg4VndFZVFfYU9YOHRaN0NadWQ1WDNlWDVpZnVQOUZxeXUwNGYwRmIzTzE3ZWNRVjdnREhtUHhxVENKdUJGdjFvcXNkeWVDRGZUZXllVDFiRms2cjF0cGREUjFQTXk4NjVWUnFtblVWRHBZNXFGSWZRd0x1b1N1SVdXU3JDVWcybEJSRjNlRDF5ekvSAeoBQVVfeXFMUHkxVW9xOHk0Q0loR3JacHg2cmd2WVZkTXZoVmloRDdtVE5QdG9ZS2pPVDJBeWt4Sk5LbDFJZGl3OGZOTThwdms2ZU1yemIydkNCN29SZzdfWTNnSVlQMjNVb1g2QTFzX3NzYWdqcDhKbnlndU01MzBhSkZ3cE1pRTNYYzB3TTY2Zk9DbXlESUZ1MVlxc0M5eHV5ZUNzZ2FiNzRFeTB3RnBhTURHZV9SMkNuSjlxMl9MNl9rVnIxRGxEYWVjdmxza3hEMzVORE9rUzlGTUcxem9EZmNTVUNoNjdGTEcwQkpGNE9R?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 04:14:00 GMT",
+        "source": "The Times of India",
+        "description": "Rain alert across India: Where could travel plans be hit this week? &nbsp;&nbsp; The Times of India"
+      },
+      {
+        "title": "Heavy rain batters Himachal Pradesh, Kerala, Delhi; Assam flood toll mounts to 98 - telegraphindia.com",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMXpTTGg3OEFXZGtpcjJRMmU4dWlZc2hpdHlhVWtOUEVHSUYtWi1KWHN4UTlmWEhFVlZCRHU4NzE3bnotSndZYmx2SExJMTdiS3NXYjNQbmstQlg2NmRlOHh4T0lOUjB6cFJoTklYajRvZWREUDhPSVEyMGhTN2l0ZlZzQVcwWklqVEFHN1pmc3ZwYVNPYkY0WUd1SjN2M2xoQjhfNjdmX05jSElua19VR1pqNXV5N3FPZk0xbTBrVXZEa2x3ZFHSAcsBQVVfeXFMTU5DY2o3enlZb0FfVWZZTXNGaFpEY1JpQTNIWi04SF9WekVvaUNKRWoyMlBWSHdQZkQ1d1dpbUFXTGl6b0FuaU5tUWd1QWRFdllhMnlzTXRjTXRSTDRacWlTYWFEeGxEc3IyOHRRa2d5eTVvNm9CSjFvRFlaZmZpbEcybW1oblhscjJpY29QaWFMaEN5R2VrT3h5U1BxRnRQQ3hxLXQ1TlZjVXpEb1N2RWx6NGMzT2FGNTNqMzd5YzBfMVdpRGEtclRyTUk?oc=5",
+        "pubDate": "Sat, 08 Aug 2026 17:00:46 GMT",
+        "source": "telegraphindia.com",
+        "description": "Heavy rain batters Himachal Pradesh, Kerala, Delhi; Assam flood toll mounts to 98 &nbsp;&nbsp; telegraphindia.com"
       }
     ],
     "tourism": [
@@ -601,7 +601,7 @@
       {
         "title": "MP attracts more domestic tourists than Himachal, Goa: 500 foreign and 3.82 lakh domestic visitors arrive d... - Bhaskar English",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUURDR2ZnQ25LenRSMHZIbjFsRndhRnN0LWxuVmVmWVZPNmNZWWF1T1ZNbGlXazBiTjhMaTJZdTZFaHVoTUFQZ3lRZUREQlhjOUJpdXhPY2lnVWxQaEhDMHZfRTNPSG5OTlJkZ2ExTmxUYUJ3REc3Qk9uZGxuV2lDZHl4QThVN3VaYWFTQmkyZDlkMGlqaWJQTjl4Zm4xV0dpTDZDbWxEXzRKaUtNTGl2dkpQSHFqNDTSAbwBQVVfeXFMTVUzMGowbWV4d0hfc3NpSEMyM2M3aDNWU1luR002NGZwb241YkJZOFdRbjFPbDJZdWNPZnB0QVA1RVFuSnlMaHZYM2cxQlJlazZxZWk4VmtJd0NwWkJUZTNSQXRHZktYa28xN1JMbHAybDVsbjNMdHJ4QzBnZU1zcVdlaWZXNVhDUXpvNHVRd3hqUks1UVBpUjNPakVETDAwOTdiLTIzSkZqMlFoM0FDX0V4RGZJZzdUdGVkemw?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 11:59:06 GMT",
+        "pubDate": "Sat, 25 Jul 2026 16:26:11 GMT",
         "source": "Bhaskar English",
         "description": "MP attracts more domestic tourists than Himachal, Goa: 500 foreign and 3.82 lakh domestic visitors arrive d... &nbsp;&nbsp; Bhaskar English"
       },
@@ -613,11 +613,11 @@
         "description": "Rain lashes Shimla; tourists revel in monsoon charm, locals grapple with daily disruptions &nbsp;&nbsp; ANI News"
       },
       {
-        "title": "Himachal tourism rebounds 156 pc since 2021, domestic arrivals ease in 2025 - United News of India (UNI)",
+        "title": "Himachal tourism rebounds 156 pc since 2021, domestic arrivals ease in 2025 - UNITED NEWS OF INDIA",
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oTWFlWTBMRkRGaHZXSWhZRTRKZ09FbkVmYWpLV3J2aUdWRWVxc0JidWVlVjFwQWZxUUtrTWpvN2ZQaW1TbWlFc2FrdjFFTlFWanlCU2kzQWxHSkdNOUMtbkxVMzJ3TnNUaHZJRTZubUVWSFNkblNV?oc=5",
         "pubDate": "Thu, 23 Jul 2026 13:59:00 GMT",
-        "source": "United News of India (UNI)",
-        "description": "Himachal tourism rebounds 156 pc since 2021, domestic arrivals ease in 2025 &nbsp;&nbsp; United News of India (UNI)"
+        "source": "UNITED NEWS OF INDIA",
+        "description": "Himachal tourism rebounds 156 pc since 2021, domestic arrivals ease in 2025 &nbsp;&nbsp; UNITED NEWS OF INDIA"
       },
       {
         "title": "Tourists dash to Shimla as plains sizzle; 70,000 vehicles reach city in 72 hours - The Hindu",
@@ -655,13 +655,6 @@
         "description": "A tourist rush is swamping Himachal Pradesh – and the environmental cost is heavy &nbsp;&nbsp; Scroll.in"
       },
       {
-        "title": "Pleasant weather prompts heavy tourist influx to Himachal Pradesh hills - The News Mill",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdGdoRzBDbGI2QlU0RzkyWEpDZUlqc202czV3WGlTSGV3WktrcXV1YU9VLS14c0dMdGxxNDJvS2ZaRGVjOU01dEZHR1ZJOUQ5X2RQTzdxdThzMk9OQVFKMU1WR0JROE1jX25jWm11eEVWRzBPbzdVM2ZRcnJSMVVTenVjdHllN25DSkRxNWUxeVBaZThUNGpNMGJCNXdpSEZEeWIzWlFNYw?oc=5",
-        "pubDate": "Sun, 31 May 2026 07:00:00 GMT",
-        "source": "The News Mill",
-        "description": "Pleasant weather prompts heavy tourist influx to Himachal Pradesh hills &nbsp;&nbsp; The News Mill"
-      },
-      {
         "title": "Tourism gains momentum in Manali of Himachal Pradesh; hotel occupancy reaches up to 80 per cent - The Economic Times",
         "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQcUo2S2dGemRKTlk4QzdrSEpHRFBIZG5mM2JUaUZGTUM4S2JBeTNDYlctbmc4OUZXMy1OOHFFLUtwam5fYmc3WXAtR21xRnUtVEN5MXBJMm9kUmdQYm1nNUlXTXRaTWFNREJHeE5pSXU1eHVicV9JVF9FYnRIaS1oMXZRZVVPY3RVUVFhSzR3UkRsR09HZnJnMWxzLWtrTFNQQVl1NmtzOG50aDloWVd5MzFEQ19wZ1ZLMWJjM3RMQko1VkFYMm8tSHBLdmNiT2VNTERHeFc1d19uYzZtZ3FBalk0VnVUOVA0N2lUUVh2eW9mREFkS1NSN19XYlA2bXJYUkdCOTNDczV1M1BfU1c0dE1oY2ozUdIBmwJBVV95cUxQRWZLM1lxYXZaUWhiOVhvV2RkODZUS3lXRzJHYmNrcGpMOTBNaEtFOHo1d1FTdjNPbjJrd1pfYk5SRkM3eGM2anI3WW9fQnpuQ3JTbnItbGFZTVpHVDMwNHdBNlo2dUVBMWpqTndZNzRBTUVjTFlxRGZ2aU1FTjVCSlRyeDVDSG1yX3dNYWVHaUNFWmRXLWlFeHM1aURBR1l2a295MlRzS3ZQS05xYks1V1hDdVVLWWliMjhFV3dpX1Aybkkyd0JVUzdSM3RtbUJOOVdnTVR3TnZ2S2w0ODZJaC1hMW9iSUJfZTh2d0hXdHgxN0c0a1dmYlNJdDFNYlVldWthRC10MGJsYVJiOWR4THBnN245SzNVQ3Br?oc=5",
         "pubDate": "Sun, 03 May 2026 07:00:00 GMT",
@@ -691,10 +684,17 @@
       },
       {
         "title": "From Scorching Plains To Icy Peaks: Tourists Celebrate Snow At Rohtang Pass - ETV Bharat",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNal9HODd2WTBaTTRvSWg4a25SYS16MFlmMFVkQ3Jpc3VMSGdlbFB2cF9ZS3FXTVJLTHVYWmtfdW9PTkloMlowQmlKQVlBUzc2TmJJa3p0QlF2dFdyN3Ntckkxd1dVYThDYXhRcDZHaU95ZDhNWmRwNFdJNDN1V3NnZ2lfUEtGOVlXeFZhOEFOMk5BV2tVWWRIRFJncUVIOTJ4Szh6UlRPNUhIRndXU05FZW5Sd1A4NTlscXJEYXpaWdIBxAFBVV95cUxPcndtTEdhV2ZIdDF5QkRjdU51aWJ6aGJaU0VVb19uRjJjZ1dwd0Q3cFRQU2FuT3N5ZGZDdVVlcXcyM2NoVG9LLThvQTFYUGcxcGg3cXVOU3VLTEFERGNWVm1objVkejUxZzBQN1ltVkIyQXpMc2dlODBhZ09uZzlwRlNQUE9ZYlI2aFZjYmxpa0NFcUlEOThyMDRiOFRkVy1RM1F0WlFzckM3Q0k3QjRGQmFFbGlFZ010MndONXJ5Q0k0MVl2?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNal9HODd2WTBaTTRvSWg4a25SYS16MFlmMFVkQ3Jpc3VMSGdlbFB2cF9ZS3FXTVJLTHVYWmtfdW9PTkloMlowQmlKQVlBUzc2TmJJa3p0QlF2dFdyN3Ntckkxd1dVYThDYXhRcDZHaU95ZDhNWmRwNFdJNDN1V3NnZ2lfUEtGOVlXeFZhOEFOMk5BV2tVWWRIRFJncUVIOTJ4Szh6UlRPNUhIRndXU05FZW5Sd1A4NTlscXJEYXpaWQ?oc=5",
         "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
         "source": "ETV Bharat",
         "description": "From Scorching Plains To Icy Peaks: Tourists Celebrate Snow At Rohtang Pass &nbsp;&nbsp; ETV Bharat"
+      },
+      {
+        "title": "Amid heatwave, tourist influx to Manali triggers severe traffic congestion, vehicles crawl for hours - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcW1EUWRaeHhsTkVjcGJSNzR0dk9PbUc2SXZnMW5nQVUwdmRVTnREaTVzQ0M1dVpZRWxUampjMFJucFdoNzlnLTNHal9wZWx6amloa1ZuR2R3cXFXOWhNMFNESnVITGEzV0IzQmEtM1hxMWprNDNNNGR1ZDNDZlNpajFxUkJFajZva3ljOGtURkUwOHZmOVJsTjRwMnhVYXlJUGJfaHhqMDFDMGhrRUNYNVNzaFU0bW5heUxXUk1UM1R4azFBVjZRUmdpbUttcTMyWWp3aVhFV1Z2YjJSM3VnaEtkMjQ4Q2tVTDhYLXNSX3B3TDUyR3pNYVNpUEbSAYICQVVfeXFMTVBzaDl3RWZGbEZxNXRIcFlDVHNyT3U2UmxZVmMzTEUtNHVCdmFyVWZUVDdUdDZqTVFMYWRRSEZPZ0lYSWExMVhIdWs1Vk1aTTVfUHF6UmdXcmVJQm51d012NUw5YmV2VTZ3UVgySjFnNmhyQmFpeWNrcFo2aVhSTHllbXBxZVM5c0JLcXRrVmY2M1BZWm5LUmNLSEI1V1ZmYXZYQk40Nk9fb1R0U3V0dWd5X3hzQTl5Zk1MNERIdVktTS13VlFzM2NLVncxS1N1dDVUelpPS0JMTXAxNzM3OU56RHgxVmdnTkF1TDJFbHcwanBfMnR1SzBhNzkzN0lIVXNn?oc=5",
+        "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
+        "source": "The Times of India",
+        "description": "Amid heatwave, tourist influx to Manali triggers severe traffic congestion, vehicles crawl for hours &nbsp;&nbsp; The Times of India"
       },
       {
         "title": "Himachal Pradesh: Garbage piles tarnish Manali's image amid peak tourist season - ANI News",
