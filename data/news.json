@@ -1,105 +1,7 @@
 {
-  "updated": "2026-08-31T02:29:47.521Z",
+  "updated": "2026-08-31T12:13:26.229Z",
   "categories": {
     "all": [
-      {
-        "title": "Himachal identifies 67 vulnerable glacial lakes, early warning systems planned for 4 - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbEtsSGl2Qm1raVpIdU5wX3V6UXhwZzd6dlFIa0pvMzhXa2dvZXd2V005Z1RfbDdiWUFjR1BJZTcxM3BacVo1RzFycXM2MFdJeVB2Rm9yeV9fT0RkcFQtY1pFTVhEVWNvWnVhS0VlNmVTVk0yUlBVbU9WYkdId0Y3TkQ4RkdHcFJWcmhaQ1djRmQ3OHZEaDgwdlB0UnBWeTNOWERQTlRqV3Rkb25wVnV2WlZOWS1HaDhtN01NZTVBMGlTUm1XdF9FTXpNZFhqcWgybmNHbElxMmRETWRnTWVMNGoxRGROeEhyMGJOb1JR0gHzAUFVX3lxTFBKZzRaTC1qM0V6RG9xck9ZSjVSZk9Rd3V3NzhiOEpGU2dzU25BVXRISm5ha3htVl9lZ2VZOUpubjJUbUczR2hfU3JCZjF6eV9MYlBqandNUVQ1RnpCWXM0TGYyM1pONGR0U1A3Z3R0Zm5nTnlHSGpjeFBDVGh5bnluWTQyZVVnNnlna2ttVmY4UFJKb01hSTVYYS1yTFhJTzI4MTdIQVhtUzdUNTdYUFNWT2VCTVNUUndhOWN1ckZrelYzcUV2RlA2V21RR29HTjBUVHhldnFJdmpTbnhKTlZDY0ZxVnB4M0hJYzJfb1c1ZzVXNA?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 10:25:00 GMT",
-        "source": "The Times of India",
-        "description": "Himachal identifies 67 vulnerable glacial lakes, early warning systems planned for 4 &nbsp;&nbsp; The Times of India"
-      },
-      {
-        "title": "Himachal prepared for possible 'Glacial Lake Outburst Floods' incidents: Governor - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdktXcHdDQzlpMTJXbTVPdGJJM3ZOLUtFZ2I4SFZjaFRJZmxxcXVFVHNDNmJzUTVvWlV1U1J3OVRFTnV4UGUwMk83eEpzMk5fblpzb1JOZHc4WjhGTnpoOXhVV1JUTHhYeDktQ0pOUjJfYmpYMVRrVXBvN25DRFVHTXFTSWxPMlYtLWxIMTJMVVlJZElVc2ZNdzk4aTFWY19sZUs2aE1ZU3BnbW41d1A5V1A1ZS1Bd2R3Nm5wSFkxMFlnbEF4cjhBODdNcTB3S3hncENwWjNQeE84YllyWHdwNnhUSzg4amtUWWxvS2FyeHTSAfcBQVVfeXFMTVEybWhkVXA0S0Zjclhad3paa1VqZTNfZm9lbjg3dllLLW9SSWRXUk9raUtQWklaeGZJUmpITUswdEtHUDhTZEk0STNjTzNXY2Zid2JCcnh1QW1sWktuZkRqbWVNVWVReFBTUjBoSlpnOGVkWk9CLUwzQUVkNkNEVVA4cDFiM0NwcEhiS3BwbF84YjNvSTY4RHR1SnB4OGNpanFwemRtb0JoeHg4YkZCeW1XZWVBQ1Q1RlR1b0g3RmtfQW9tZUR4V2Z5RDYtUU9JYTlBTFRWTUxzcXl4eF85Y1Y0U0hXaXI0ZFhmNE00XzBVSGJ4M2VhOA?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 05:59:11 GMT",
-        "source": "The Hindu",
-        "description": "Himachal prepared for possible 'Glacial Lake Outburst Floods' incidents: Governor &nbsp;&nbsp; The Hindu"
-      },
-      {
-        "title": "Punjab, Himachal men working at Trishuli project went missing after Nepal floods - The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY1VKSUdMWTNFTmVMYVl2dHlXSUVqX2I4ZmZaMEo3NFA1clc2Wm0tWFd1RElPellxT1NhQjBJTDdld2hfV2FmaXItd1IyTTN0X0tXU0NfajNFUFE0XzU4V1c5XzIzaDdJN2pWOWpncFpBNGtfdlZrckFydEtIQ0dRUTQzbFlQdnRjUEZHSDhsQ0N5VHg5U1dHYnEyaWtGMmN0cUY2NkFXQTFndnpsYzB4TjFMVFVyUjdqbGhjc0NQVmwtQkxwWE54YVBn0gHXAUFVX3lxTE9qbzJLamR0NUVPLUxyaGNjVTE4cHJpMFNuR2hoam8tR0QxbXFmTS1GcHdUTHBjOXJqdlZMY29YMnVDZWN0UE9tRFlpX185N3dZZXFUa0k1TzhZbGpsWlRuVWIxczl1bWJTamZsSkxVWlBqclNLM3lyWHkyYVFSTlFjMHFVUkFCUUJTT0FXenBnVjl1N19zZjBIc2gzX2VyYVVJRnlVVHd5UlNON2NrZndiZWdTcDFYcEpXRG9tXzZfLW5KeEttZC1MZWFrRE5vTHhoT1lLSGZB?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 10:42:43 GMT",
-        "source": "The New Indian Express",
-        "description": "Punjab, Himachal men working at Trishuli project went missing after Nepal floods &nbsp;&nbsp; The New Indian Express"
-      },
-      {
-        "title": "64 Roads Closed In Himachal, Warning Of Heavy Rains For Next 4 Days - Deccan Chronicle",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNamUxVnRTbm1lSmsxVllQOVMwWG1CUU1rY1hJOGlEaFUzVnB3MHN5emk0dHVRT2VocFc4QUxXLWdFU1BvVmxMU01KS1kxbzZwV3pxUmVtWGVsR0lKVDZsRmFvWDAtWndmSEhNalVvd2FvRW1oS1NfeHFGZEpZRU1ZOUNJOGYwZ3BtNGpsZDZSZ3NYLWVELWtYd0UxVF9QdkphSE5UUDM3OEVpUzVRMlpsbjM3ONIBuAFBVV95cUxPRk1yaVk0akpmTXMtUjhrbnZzZ2xOekJMOHlaZ25pVGFmLTJzUnd5LXFVMC1zTGNhRHlMLWpIY1ZVT21ybEUxZWw3bjV6OEFpR2Y1eHVxVEhfbUVYcmctaERBNWhiUWNGeW9kT3M0VXpYbFItTlFsZV9QNW8xczAyVnFRUkVGX1dBczluZXJkWFB3UHBHNE1FeEtubjd3c0p5VFJmZndRQUVua19sbUlqVzI0SUNldXpM?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 06:25:30 GMT",
-        "source": "Deccan Chronicle",
-        "description": "64 Roads Closed In Himachal, Warning Of Heavy Rains For Next 4 Days &nbsp;&nbsp; Deccan Chronicle"
-      },
-      {
-        "title": "Himachal likely to receive rain till Sept 4 - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOakVaNTBhMW1jM08zOEczQkFzRm9tZ2hTM05NdU12SVJDQVhZM1pGd2lWcGNGUnAtTlhjeFI1Z01PYjYyU3FyLU5EXzlUVzVQMUZCU3dOX2c4SVlGbXNXYXc5eFU5cWh6WUVndGhIWFNIMVdab2QtMmZnTGY1WVFHRW92Mlh3YXdQLTFHbURKbFVMVzc1WEF4MXRfYmJwZFhUM2ZMU3lqN19ZUU9iYTVOUk4zLXhrRk1abTRYV21R0gHDAUFVX3lxTE9QOVhySm5PMHNRQWNSWVhQb0pNbXJRVGNKTTU2Ri1ad3VOenZCdURSR0o0RnNJU0w2cWE4RXlUQzNramNrMlhUWlhXRnByM0FoMXpLbkEwVF9iNV9OdnVUaFZ5TFVWS0h4dGJXMFNHYXFuQ1V3OFg0TnRSbXNKVEFiUWVqZEdqQjgwekpUQjZBY1Y2VldLTTkxRjE2Uk11dDA2dTlORkY5V2hxTS1OSlZQWGNPWTM4dDFMWjBrNGFGZGlMYw?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 18:44:00 GMT",
-        "source": "The Times of India",
-        "description": "Himachal likely to receive rain till Sept 4 &nbsp;&nbsp; The Times of India"
-      },
-      {
-        "title": "Himachal Pradesh rains: 64 roads closed, 225 transformers disrupted as fresh showers lash state - The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVlFodFpKNGFpcFdGQnp5OThKeVVIMDVVMUVDNXVHcEpRVkxPcVBvU3hSampaY0I0OWpIQXhWWW9jSmlGaks3Ty10VnIzUVp3MDdLMldqVmVha2o1Q25yNTBvQUdBdDBWbUlKVTV3eFJGZ25jcmUtYWNsdHZnNEh6bS0xRTNNLWFRQ0FRS1Z1NmhsR0Rha21qbnQyWHptekZwVWFHbWxMRmdDWXM5emVJbDJsMksxTnpUcXFkT2tWakxCNFk2aEg2SE1SNWlORThsbTlCaHFNb2VLbXRGOUZpY2ZwOGp4cUNhZnfSAeoBQVVfeXFMT1ZRaHRaSjRhaXBXRkJ6eTk4SnlVSDA1VTFFQzV1R3BKUVZMT3FQb1N4UmpqWmNCNDlqSEF4VllvY0ppRmpLN08tdFZyM1FadzA3SzJXalZlYWtqNUNucjUwb0FHQXQwVm1JSlU1d3hSRmduY3JlLWFjbHR2ZzRIem0tMUUzTS1hUUNBUUtWdTZobEdEYWttam50Mlh6bXpGcFVhR21sTEZnQ1lzOXplSWwybDJLMU56VHFxZE9rVmpMQjRZNmhINkhNUjVpTkU4bG05QmhxTW9lS210RjlGaWNmcDhqeHFDYWZ3?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 06:30:00 GMT",
-        "source": "The New Indian Express",
-        "description": "Himachal Pradesh rains: 64 roads closed, 225 transformers disrupted as fresh showers lash state &nbsp;&nbsp; The New Indian Express"
-      },
-      {
-        "title": "CM Sukhu announces scheme for poor families not under Himachal government welfare net - The Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnBRVHgwdThNWVJVelZMOVgtMmZQek5iUHlGUjZwRmpFejlxRWcyRkg3ZEhoTzVVREk5ODg1TXBqVTcxRmlZRXZRNjcyclJqWm9lSm5wcXJpcEljcjA2OVVrTXBJU1czdmVkbDRBNTVndWZabk1jeHNoZi1hQ3lSMTR1VkVvd0ZiMkpvdkdzMFFPM3lRVWJqRldDejBVVVJQZl9lYzUxR1ZJYTZ6MFUyVVdaeXhfOUI5YWctUV9ISVdDZ05Kb3pxTTY1bHR1Z9IB1AFBVV95cUxPWXpzMTYtenMzQ0d4VGV1WmNQdDVhbmRRb0JfbFJoNnhmY05yVTZHRF9SYV9nYkJ0ckR1YVNfVnhmaDRmNjhaUTN6WWdPZTFWRS0wNl84eWlaNm9hdkdlaDFWQWVTR0hsTXdnQWV1ZjkxdGVseVRMcHlwR3VWd2xCeGxHQzF0SU1IX0FiYzVrMnBFaF9nQ2lXcEhlUUVSVm5tUXJrdjJqQnlYcW0xWU1nVjYyRHluTjVOQ2FoZ1BBT09EQVhmVkMya1kxSDFMajFyQWozUA?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 14:52:20 GMT",
-        "source": "The Indian Express",
-        "description": "CM Sukhu announces scheme for poor families not under Himachal government welfare net &nbsp;&nbsp; The Indian Express"
-      },
-      {
-        "title": "Himachal to recruit 650 doctors, upgrade diagnostic facilities - The Tribune",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWc0TDczTURBckNVNTdueFRqR0UxUnhVY0dMWTkzRHQ5N2VxNUU1TEJzRlltcFFFVDdpQndnb01kVlJSWUMyX3VZRHNXWGJjYzVyZHg1c1kzS0l2LXdISTV1dmUwNm1mc0xHTGJSbVIyMGNkS3lpeVFwMkNuakhtRkwyTGdaZEJfT0w2WFhvcW1reFdGa3k2WklzUDUxWUtSWkNKVHVaTGnSAawBQVVfeXFMUFBsUWhRSUdsZVVGUGU1Nml2dnFRVG5FVVZHeUlPNXR3Yk11VnduLXhBWWpOVkRPdXVHMHJWUEpxRWV1V2xhTm9GVDVRZWtPdnpWeDJZWEktYi1PX3c5Qlg2Q01WNG9pRy1Id3hNS19OSUZyaUhOQWJfWmF5SnJrNWloY2tGdVp2ekxRRlg3MTVRYXZlNXIwekNRT1Z6ZlVKa3dsRVJxUVZwUkFFcA?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 07:00:00 GMT",
-        "source": "The Tribune",
-        "description": "Himachal to recruit 650 doctors, upgrade diagnostic facilities &nbsp;&nbsp; The Tribune"
-      },
-      {
-        "title": "Himachal CM lays foundation stone of Rs 17.5 crore school building in Hamirpur - Daily Excelsior",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb2pFRG1jQnZhQXp2eV9TVnQzVDNleFZiNVk3OTlZVnBtVm56LUZSS3BiNUlObmpKV1dkWU9pUUt3Unh0djNYNlR1dWhYVW5UaF91azFGWkRGVWhJenVDR1psaW1xOHc4alJOQW52UGVHTW9NQUozRWxkYk1seFI1X2xBcGVwZ0RnZWR6Ym5JWkFZZEIxR2VkYk9qZUFEbmI5T1NsM0R2V1lTbVVMTmhR0gGzAUFVX3lxTFBSMmZsVUgwNXQ4R2FEaVgyMHZuXzVTTnJ2SHVscGxEcjRPSWpHVFBjV1JQcFh4WmR4ZngtdFh5Vkg3a0pIVEpRbS1FRkxNTEVOZW4tSjdkUGE2YTA4R19JR0FIbzdzejNsVFQ3dVFYUmo1TkRUU1pkbUhmNHl2RnE4ZDNwVjU2V0lyMTRwTjg1eDhHUmlXX0k1NC1Ja1BMcUYySmlyX3E5YUJGMWFYcjY3X3Zr?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 22:30:30 GMT",
-        "source": "Daily Excelsior",
-        "description": "Himachal CM lays foundation stone of Rs 17.5 crore school building in Hamirpur &nbsp;&nbsp; Daily Excelsior"
-      },
-      {
-        "title": "10-year-old girl assaulted, molested on Raksha Bandhan in Himachal's Sirmaur district - The New Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNGttaXBfQ0ZDckhuNWV2bTF5TGd3OHgwSF9ZTFdXWC0xcHVFWkJMcjZINEtkZWVXcWdWeV9PVENBNTdvbjBYN3AxUTlXVWJPMmFWX09CWHdpSjRzVzdmWjNmSEpUV3d3VDVMdjliM0VSSjd3bUh4OF9iaEtmRHVBQzJfa1hLNVhoV25FOEE0RUdxblVDWi1Lbmk0VGRMZVpPajVEaGhUbS1zbHNKZkd4Q0pVVy1OUjI2dFZ1MmlGTC1jeXc0c1UteF9BRC10d2_SAdwBQVVfeXFMTTBLekpEeFcydjNTM1pZaDhLQ3p2Z0pKMTdDTjMyMXEzNVBaMXg4ZVMxVVV4TDJhckl3WUVkLTEzRi12M0NRbGJ0bVpZS1lBczVLMDl5T0JBNDdEcDNOVTZMUVNWd09PVmRqRTQ4X01TcXh2c3V2N2c5dHhJWkVzN2l6QW1HQ05KSWdtU3pIRzBWTTlxTHNZYjF4WFpwTzRYSXQzYnNrLU1FN2c2T2x1WlF6UkpKVnBXWUNjcTB2RmswMmhNTjF1SnVDVHBoeXROR0NPdnpvdDl2WFJ1LQ?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 06:42:42 GMT",
-        "source": "The New Indian Express",
-        "description": "10-year-old girl assaulted, molested on Raksha Bandhan in Himachal's Sirmaur district &nbsp;&nbsp; The New Indian Express"
-      },
-      {
-        "title": "10-year-old girl molested on Raksha Bandhan in Himachal Pradesh - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV1k3ZEkwWkpMbzIyZDdNX05OV1hNNUx0Yk5hc2c0anpab2NTZTN5NXdFc2lDNFF3cGp2LWpPQi1OYWF2UnJZY29CLU50SldNaGt0NFJBRFBXZjBRdDVqbnY5NlFfSnp5eVR4TU5kd3lNUWZDcGsxZWM0dGR6QkxqNUZ5c0lwQUZ4VWtuQ29wSWY5T3lCMW9NSkp3MG9uWk05WDdoZnlnQS1yTjMyQ0J6emtoM3N3TEYya0dtUHRGTG0zc1d2bE9KcWJIdGYzbWwweWhn0gHYAUFVX3lxTE1KNmQ1TFl5Q2lBNHppcVRONVZYc3ZPWFhaSlRIT3pRay1MWDViaDBzdmVGWlRpVDJaTDVpNzZjVVFrOWlDUGdKeXpwMlB6T0R1WUxhYVQ4NWlHYmw0U0dTV1BrcmRpX2pwX2pQY3ZFbmJKX29fZWltNHdxVnEtSUstSkdON0VHV3plUWw0dEM2azE5UWV5WUVjN1YyZTFvMGM0SUN0QklaSWlNdFBMS0FxNDBUMVI4WS1HNGxJaUtXVFRXRXloNk5PSlo0RGUzTEZSTWtwMWRnZg?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 06:15:00 GMT",
-        "source": "The Times of India",
-        "description": "10-year-old girl molested on Raksha Bandhan in Himachal Pradesh &nbsp;&nbsp; The Times of India"
-      },
-      {
-        "title": "Himachal man lures girl on pretext of meeting wife, molests her on Raksha Bandhan - India Today",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNOTlwNVhKYXJvSVJFYzMta0otSEtYMHRUbE5zRXpWSWdyZHVRM2F1Q1ZVQ0Q1MjdhTi16Y0dYa054MGU0UER6MXRPc0NvOW0tenkyYnd2N2g1YU9CVHRzR0llbk56WU1jcTlHaUVHdVA0dVlnRVVpMDVGRjRacXpVQ3ZKRXhkUVozbmNTLW5iaUs4dGZZczVOX2lHc25nQ0ZJREIzaXdvM3hzWVRYbGg0eEQwYVBwQTJoY25TMlBnbzRyR1RMcGxkbE5QdExnbE9LVDQtR1laeExQOWdTRXR4NVlqM0pDZGlnZjNIUtIB8gFBVV95cUxQSnMxdFprb0N2OUlpUTQ3UmRua2drdWNmcnByb0FPYUpSZFZkYV9WZk0teFBqMXBLUmM5THFLMEpQeGNWS0kwWlZTa2JiQ1YwNjZ0VFVHUy14LXZ1blJVWnRsLVE2SURTZlhEekJuYWxpWjFEbWZnYXlIZXBhS2p5T3RKcDVYUDVreWMxMTBKZWdwZjBGNlZXNGdQSjdYOGR3V0EwbmZveGFJRTAzRGNJM0hCVGRjQzllM1BFRGpMY0hZdkNlYUpOaVBna0dJMW8tNWhLWkd3cXN6cjFkaVlnQWRIbnJOQlJDV28zU2VudExvdw?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 07:01:59 GMT",
-        "source": "India Today",
-        "description": "Himachal man lures girl on pretext of meeting wife, molests her on Raksha Bandhan &nbsp;&nbsp; India Today"
-      },
-      {
-        "title": "A blast in Himachal exposed terror network built on Punjab youth at risk - The Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOG1JeXFueWNsZUtTbEZBcWczaDFZSFVvZTVtQ1VfNUpCdXNFNmF1TkVjRjdIZ3ZrTERQMWVEaDNjZ2E0cGlCTjhLcUdrVW01LUZaRXFQMEQzaHpya05hY1pPSktrMkVxSEo3VzBabHNWZGl0ZlNDbTFBc3VUVFkxNFQ5T0RDVnlVNHF4UmZhNkk2R05hRlFmNjdOSEFkVW9sUGFOWUZ5OGZzRElCQXNSOEpndTltYjVqMjVKckl1ckZLN3ZqcVNsZkZn0gHQAUFVX3lxTE1PMHNBWUpnLTJpV0Zjano1eDY0bmZLSGItQUJYXy1ZVnZOWnN5QTBadnplbTh4SHhsbUtZZzlIM0FDWUJZaUI0aC1zSHdyb1R6ZlMxRW5DSFExX29zWWFQUEZtOEk1dmpmajhLeTk4ZmxFWjBPalg3UHl6MlVac2gtelY1aU5VaUFNRUJIN3pTZVBwUldLZkhfRFBUVmpKdzluUTdfRzVVZ0NXQWEzT3pHbFpPWjV1Z1NEMXMyV3otaF9RMFZLMDRyQXlRbGZQYWM?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 05:41:49 GMT",
-        "source": "The Indian Express",
-        "description": "A blast in Himachal exposed terror network built on Punjab youth at risk &nbsp;&nbsp; The Indian Express"
-      },
-      {
-        "title": "Monsoon 2026 updates: Heavy rains lash parts of Himachal Pradesh; wet spell likely till June 17 - The Hindu",
-        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNd1hvc2ZaZjk2ZlpyZHl6SWFJN0FJQkd6VU54RDhNSDNiWDVOTG9pR3Z5cjNvcUVDZjhHSm9DNXN6ZlNkSzlxNDdTWDg3R3U3aUsxc2owaTc0TVUwWnRfS3gydkFsODZiVEV6aE82eFNUUjFvY1FOX2JWOUk5bjhlOWFpcnJiTndHbjRSMVlfYThHNzlFc3lxOGJId19XTnlqbk1Da2EyLXZveDV1LUVQc3ZHX3Y0a1E2cW5ia1dVclUxZndUX2tHZVNqdFNsRGZrRkl6WlJlaF9NeU9TMExPelN6ZjhsS0RDSDA2VUxSZG00TnM5bmxIQ3pYRUtwcHR0N2pOYXhR0gGMAkFVX3lxTE80YjVrS3ZDc0tuUXV4VjRIdGg1T05vNW1TV1ZvWGY0bXFvR194cG5lVXEyRENvVVZ3NHYzU2xTYk8zZEpYRHBMV3dGb1czQUVWNGw4eG5qMVc1YW1VM2w2SFRTb2YyWjNCaXVJU1hDVUt4YjdKZXRXOUVfQzlTZmd4S215cU5uaEc5NWZIMVF6UEdKclZ6QTlVTUY2N3hLSDI0R1ZiUE5Ld1I3dGszVWE5SmZ0aWhuY2h5UDR2QzluYXpGSXZ4ZkFiQ283VEY2YWx2d21wS0kxb3V1dlpIVmkxei1EeVV5VV9WOXNSODRLNjQtY056NjJ4ZnNvR2E4bGZpUmptOUMwMEFjSUs?oc=5",
-        "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
-        "source": "The Hindu",
-        "description": "Monsoon 2026 updates: Heavy rains lash parts of Himachal Pradesh; wet spell likely till June 17 &nbsp;&nbsp; The Hindu"
-      },
       {
         "title": "Himachal rains leave Shimla ‘toy train’ track hanging after soil slips, 10 services cancelled - Telegraph India",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSUpoRThMa3o2dHptZHJUVFc0cXRFYlVEWkVZbFFlZ1pDeTJZcU5BZnhhQnBjX3hid29EaHJnUW1kSUJzdkY3S3BpV19LZ1JJTFh2cUFrS0JoQXVlNHlWQ2FnWVhsM1RrUlpJdEl2Ti1NMWUyQy1mbEg1eTNnbGVDWERSSHY4OUtFVHRrRENZOHlDZ1pWUmppcnpYYlEwaHNGdnZYWndqT0NSUnEzd0lLNHZjY0VCUzFMaEd6N0pxZW9zclVhZk56dzk5bm04TjNjc3lPVjdB0gHbAUFVX3lxTFBKcVdLVzhEWDd1alNpcUE0OVVRWU14WjQ0Y3JsNGk4VDFvcURaVWlKRU4zenFlVGY5dnZJYjZLUG5MNUpUUzIzemNCbnVnN3VPdDI1dEJ5VEZyTHdDMDlpNXN6YmJOVDVwZENKMlZqbzdvQ1JqSXBXaWZNYlh2UzZwMHBGYlBtMDBwcHdOQWJBSXBjVk5HMVVzRlladXYwd2pELVFsRHpOZ1BsSWotdnFKOEhRanNyUFlzSlhVdkcyMHQtSUNyNjV0LXA0STgtajlDaEtYSmJ0NTdwbw?oc=5",
@@ -108,25 +10,25 @@
         "description": "Himachal rains leave Shimla ‘toy train’ track hanging after soil slips, 10 services cancelled &nbsp;&nbsp; Telegraph India"
       },
       {
-        "title": "Himachal targets posting 90% medical staff in all govt colleges by December 31 | Hindustan Times - Hindustan Times",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNakN6VlhGZ2tkeVNkbjM0RnFXSnZScS1wSmdXUFp5UkFDdUdmX2YtXzhaMWxtTVlndUdYbUUxcmM0Z2MtY25ZbjBZMjNvZU1KVmFpZHd3QXdlRE5renBYUU5fRndaQnBlai1lZmRUaGF3eG1IZVRidFBkUWdQcVRKSVAwUnRxR3ZUa3lJZXlmNTd2cmxuc2laZjIyQmNYSm9mcFBBaXMxaElKbU1EdHFHOGtkS19pTmFRLXZHOWtPMEFLRnZyY19XV21iT1AwZll6X3FwX044RFVsODI1SXlnMHJvZGRRZTDSAewBQVVfeXFMTTVoWXVPaHhGWlBiQUtyWTVaaVpYUFlwWW9YNzczaEt6Vmc1bzNNLUQzOFNvdHROcHFmZlRJNUs1WTNuQzJXMnI5TTl6Yjd4VkJfWjJpQ2p6ZzRKWVp4LWFnNjVOMVNFNXU5eHA3eDFiRnk4cmVBZk9LdXJlckxDZW9kaFBoRjRvZTZVbGxfYlVKSGhEd09LS0tlRlV1bEVoci1fbHo3YmN2WDBmbHFHYUFQdGFGXzNWbnVJejBFVUVudm9UTXNqRXRfZWV0djktRUNJTHNSbjJyczF6bjh2UnAzWVBvQ3RZRWNTaWc?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 02:32:20 GMT",
+        "title": "Himachal: ‘Toy trains’ cancelled as section of Shimla-Kalka line hangs mid-air due to soil slippage - ThePrint",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRVRUUHhKamRUblNCbmY4LUZJbkx4YTFOcHRrSzRHaWFfcEIzRk5XdGxkUm5BczlkRkVIUTVfTE9SVktMSlBrSXpxeHpfNWZ4b1paeWN2WE5NSnZ4cThIT3ZBQ0ZCVk5OTk5zTFVTQTdkaUtCd0c4ZEJEaWVWcE1fTE9vcmNHTGpjcHhCbVNWZWdjQU1WTGY4alh3TC14LWVScUlYQUZxdW9OYlZUUDJkeW1rczBaYXg2YkdNaU13UWozanhtRXpnNE9mVdIB0AFBVV95cUxPNGJibDN0cDEzXzlFYy1RaFljUHNSWDZaem9heldyc2J3anQyeVZpM3BlM3ViX2dXWW9neGtQaTFrMXN2VTN1TXhmVjdFYXpJZHNzZFYtM1dIUmxUbGFlWkMwak1DMkFNdXNGMDJTbHN4aUhWZnNNSXo5bHh6akF4X01WYklhTVZJMlBucnFRWWxDSUlLU192S2s0a3dINjVQMmszaDJmMkRBNmdxVDNwZnEyZ2UxcTI1T0RYWW5UZ1pyREpFNXJZMHc1di15bkNs?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 12:47:16 GMT",
+        "source": "ThePrint",
+        "description": "Himachal: ‘Toy trains’ cancelled as section of Shimla-Kalka line hangs mid-air due to soil slippage &nbsp;&nbsp; ThePrint"
+      },
+      {
+        "title": "Himachal Pradesh weather: Heavy rains wreak havoc, Kalka-Shimla rail line damaged, several trains cancelled - India.com",
+        "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPZEtZaGRhTVlYWVU3cVJKWGVzaGpXVnRMRkZUN3plcnBOd1pJMWZqdVRBODJ1WDJnOU90NGRNVXdLcG43Z1o0WjEyYk9UNEdxYmxEV0I1VnYzSTNqdnY4aGZHVlliXzVjQy13TTNWbi13U3Ewbkhaakl4dlRzS3ZYV3ZzdWhjblRtd3pTeE54eFZjWDl0eFVueG9zWld3elNsYk5vVE5KY1ExX0pYLTlGazB4WWRBc3llU2tNa0R3N3dmUURuRjRVa0psQkN2emppeVBTSXlCM1dGNGxfb2hUbnpfX1pjUHg4MXpDNEhqc3Z0VEZwbUFadVA1ZkZYZlZCZGJSZUIySzhUdzZzVkp3bjVra3hmTG9kUkl1T215SFVpYm9IZ0HSAasCQVVfeXFMUFM2MEFrQ0JQM0Z1UE5KVUpOSjh3c2s4cGpsSVVWMUN6NTJ3WW1mT293YXZzZTYyUGVoNU5Ra1RFdFZGLUhmVXpHUzV6YU1GYXNLRGZEMzJicDkxVGdFSDd1QnVGc3BUemc5LUVVcU1OenJIdVFHQTJmWnk1OTBNMWxsRms4Y2FzSHBxT192WlFhWEI2OXNrNjUzSkNHWXZBSjZGd05tNWhMR2R6RHEzcjhKUGZZbzFLTExhdFFpTFhadWlQU2tLcjFIUDV6Q3M1WWN5MDIzZWt0TUx0QURqVUJveW91STdWWVNub181RWFvMHl5RGZqRzBqb214NjVKZVBiaWhVbXJZeHktTTNOX1BkMXlGWWFtSnowck1zNXNPSXlvck5LcFNpcjQ?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 02:45:21 GMT",
+        "source": "India.com",
+        "description": "Himachal Pradesh weather: Heavy rains wreak havoc, Kalka-Shimla rail line damaged, several trains cancelled &nbsp;&nbsp; India.com"
+      },
+      {
+        "title": "64 roads blocked across Himachal; MeT issues 4-day heavy rain alert | Hindustan Times - Hindustan Times",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWjBBb0lxV2ZzRVZ3VFdqZ2EyMy1jNmtEbU8xV3pycWZfNkhJZ28xZHdYcXNVSmxtNmZMZEo3RE84d04xRjlNZFlIckxSaFBDb29Rck1XV0lURkRmR2w4OTBidjlBTm00T050WExDWUdmcmNGSGN3SXVIYjlNT1N5b0k2NGU1enU4WjhZN3NkQVgxSHRVc1VaUjNnZjNGMG05bDFOZ0h4cU5XMjFPNm5NelBKd2d4QUpmTjJBTS1sNGZkWmdjM1Nla0lmMHVSc3ZwcUUzbmxlaVLSAd4BQVVfeXFMTXpwNXlLOFRHdUlpTXRSWUliRU1Lak1lYTYwN09IcEJVeDdmZ1dHZzhLMmJ6TjZBY19LeXVocUVuSkVOTXBGdkFNUktnU194RXI3UFVfTjAwT2xIMERhdUZDOHk1dEtnQVo2Rlo5NXhhM05IRGFUQlFHc0plSkZxcENmV3ZVbFZDbTRzaFRoV2dJNmgyTmtzZ1hCcmE4SDNBZ0p4Mkk5Tk5GRS1LS3M0X1lNYnJybXRuemczNkhBZXVHRGRWN1JrMVhoVDM3SmZRdmo3NV9PLWtxSXA3VTBR?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 02:58:10 GMT",
         "source": "Hindustan Times",
-        "description": "Himachal targets posting 90% medical staff in all govt colleges by December 31 | Hindustan Times &nbsp;&nbsp; Hindustan Times"
-      },
-      {
-        "title": "Himachal: 10-year-old girl assaulted, molested on Raksha Bandhan - Telangana Today",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaEhnQ05SOE9SZ3gxc0hIWVZyVndHSXVMbVlUaXdfdGZIVE11NGVCbmkxRnJxVEYybXZGSHY0OVVmMUs0WGFNaWxyNVlHaHRLbzZRZmtSeExISDZ5R1JvaC1EQmtLZ0lkZ2ZIc0w0TklFOEtfRUVfVWduMTdGZk1PQnQxbDJsUHp0eEs1ZVJQWEx6TEE?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 06:23:43 GMT",
-        "source": "Telangana Today",
-        "description": "Himachal: 10-year-old girl assaulted, molested on Raksha Bandhan &nbsp;&nbsp; Telangana Today"
-      },
-      {
-        "title": "Himachal Governor Flags Himalayan Flood Risks, Climate Change Concerns - Daily Pioneer",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbTh5N3R3bHVlb3l6eDdOSThIWFRLTl84aFNTYzFWZE5OeE5sTkhHNGZkOVRKa204RnJTUVI5Q0FzRnhrM1ZiY0hKaGEwelhOeTZ1V01XZ3locVhCazk4RTJVeFVLVkhMSlJ2LWRjWUs2cWxmQ0NHcW4zc0x3aEZPN05tNG5qdmR4azlTcVdxdDVDbEhCZWFPeVdieFdzaDV0SkcwLWw5NVMtX2xpLVE?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 02:34:05 GMT",
-        "source": "Daily Pioneer",
-        "description": "Himachal Governor Flags Himalayan Flood Risks, Climate Change Concerns &nbsp;&nbsp; Daily Pioneer"
+        "description": "64 roads blocked across Himachal; MeT issues 4-day heavy rain alert | Hindustan Times &nbsp;&nbsp; Hindustan Times"
       },
       {
         "title": "Weather Forecast August 30: Heavy rain alert in several states; Delhi, UP, Bihar, Himachal Pradesh and Uttarakhand to see rain - Zee Business",
@@ -136,11 +38,109 @@
         "description": "Weather Forecast August 30: Heavy rain alert in several states; Delhi, UP, Bihar, Himachal Pradesh and Uttarakhand to see rain &nbsp;&nbsp; Zee Business"
       },
       {
+        "title": "Himachal Pradesh rains: 64 roads closed, 225 transformers disrupted as fresh showers lash state - The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVlFodFpKNGFpcFdGQnp5OThKeVVIMDVVMUVDNXVHcEpRVkxPcVBvU3hSampaY0I0OWpIQXhWWW9jSmlGaks3Ty10VnIzUVp3MDdLMldqVmVha2o1Q25yNTBvQUdBdDBWbUlKVTV3eFJGZ25jcmUtYWNsdHZnNEh6bS0xRTNNLWFRQ0FRS1Z1NmhsR0Rha21qbnQyWHptekZwVWFHbWxMRmdDWXM5emVJbDJsMksxTnpUcXFkT2tWakxCNFk2aEg2SE1SNWlORThsbTlCaHFNb2VLbXRGOUZpY2ZwOGp4cUNhZnfSAeoBQVVfeXFMT1ZRaHRaSjRhaXBXRkJ6eTk4SnlVSDA1VTFFQzV1R3BKUVZMT3FQb1N4UmpqWmNCNDlqSEF4VllvY0ppRmpLN08tdFZyM1FadzA3SzJXalZlYWtqNUNucjUwb0FHQXQwVm1JSlU1d3hSRmduY3JlLWFjbHR2ZzRIem0tMUUzTS1hUUNBUUtWdTZobEdEYWttam50Mlh6bXpGcFVhR21sTEZnQ1lzOXplSWwybDJLMU56VHFxZE9rVmpMQjRZNmhINkhNUjVpTkU4bG05QmhxTW9lS210RjlGaWNmcDhqeHFDYWZ3?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 06:30:00 GMT",
+        "source": "The New Indian Express",
+        "description": "Himachal Pradesh rains: 64 roads closed, 225 transformers disrupted as fresh showers lash state &nbsp;&nbsp; The New Indian Express"
+      },
+      {
+        "title": "After Nepal floods, Himachal identifies 67 vulnerable glacial lakes, plans early warning systems for 4 high-risk ones - WION",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRkRPcVpaLXIyMVZxZXM4Z3RSSWFkbkNyOE1xbW44YzJ6MDRvMUt4ZkJNd3BLc2JhZmVVRDQyczNHMlYzczlMYjBETHJmSm1BOXhTZG9wUi12RHJvVkNVM3czQ3VGbDZIZk55SGxHaXNqQVZVVVFJRVVzVmxEMjk2M2Fyd3VwTTVnZDNFWGhHMVZYZ0pNZkZVVTUwODliNVllbk16LU9LSlQxeFZud0RiTXJZSVF2M0VRbkt1Z1lsam9BRi01b2poWGNmNk90ZkRBWGYweG5GNDJ1RnBrMFFRTTNtT3NLeXgyRnI3UGtiV282SUdwM2VJ0gH8AUFVX3lxTE5rWHprYW4wQnc1V3lQY3VUWFN3eWEtdmYzdm5HRk9EVEtqZVB2Zi1WR0dNNVlQY1BkNHBnbElTUzh5djdGeHd4MEhrRElEenI0a0dHb21mXzMwY1dpTTB4MGNpWDJmMncwZHljMVRWTFFsU2Y3Nk44Ylo4d3ptRHpuQUF0VzV6SkxVa2RRX09FZmRMajJ1aTF4Ynd0RGFKOERCczJYNW1HNkFWRTBRdlF2NE5qQS1ST3BsZTZkVjVkbGhDcHYyanZzd0czY2ZYMXJQb3Q1djZfZGNScUZhUDg2ODVnYnhjNFB0WGJ3V3lIUGZEdkMyQjg1dHA2Sg?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 16:40:00 GMT",
+        "source": "WION",
+        "description": "After Nepal floods, Himachal identifies 67 vulnerable glacial lakes, plans early warning systems for 4 high-risk ones &nbsp;&nbsp; WION"
+      },
+      {
+        "title": "Himachal identifies 67 vulnerable glacial lakes, early warning systems planned for 4 - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbEtsSGl2Qm1raVpIdU5wX3V6UXhwZzd6dlFIa0pvMzhXa2dvZXd2V005Z1RfbDdiWUFjR1BJZTcxM3BacVo1RzFycXM2MFdJeVB2Rm9yeV9fT0RkcFQtY1pFTVhEVWNvWnVhS0VlNmVTVk0yUlBVbU9WYkdId0Y3TkQ4RkdHcFJWcmhaQ1djRmQ3OHZEaDgwdlB0UnBWeTNOWERQTlRqV3Rkb25wVnV2WlZOWS1HaDhtN01NZTVBMGlTUm1XdF9FTXpNZFhqcWgybmNHbElxMmRETWRnTWVMNGoxRGROeEhyMGJOb1JR0gHzAUFVX3lxTFBKZzRaTC1qM0V6RG9xck9ZSjVSZk9Rd3V3NzhiOEpGU2dzU25BVXRISm5ha3htVl9lZ2VZOUpubjJUbUczR2hfU3JCZjF6eV9MYlBqandNUVQ1RnpCWXM0TGYyM1pONGR0U1A3Z3R0Zm5nTnlHSGpjeFBDVGh5bnluWTQyZVVnNnlna2ttVmY4UFJKb01hSTVYYS1yTFhJTzI4MTdIQVhtUzdUNTdYUFNWT2VCTVNUUndhOWN1ckZrelYzcUV2RlA2V21RR29HTjBUVHhldnFJdmpTbnhKTlZDY0ZxVnB4M0hJYzJfb1c1ZzVXNA?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 10:25:00 GMT",
+        "source": "The Times of India",
+        "description": "Himachal identifies 67 vulnerable glacial lakes, early warning systems planned for 4 &nbsp;&nbsp; The Times of India"
+      },
+      {
+        "title": "Himachal prepared to tackle possible Glacial Lake Outburst Floods: Governor Kavinder Gupta - The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbURvdnFLSXBEMTlLTWRweXBkbGNOZ3lSYkt5S1RJTDJIOXBVODlmOGQ4WjZvaTZzR29pR3h0YnRMRXJydEF4ekRNVUZONm5sWGo1U3dxR1lKd0pRQWtsZ2Vrd1ZYOVk0dGRBemJNYUJXd01INnM5NTRqQXE4MldFakZQaXpPdHdUd3B1cUE4bTI3QjlRY3EzVnFIM3VUeGwwVTNlOHdPUjB4S3pXbXNBZG5fMUpZTURjUkp2NDVfOEtudEU3MlBqUFBtN29nU3BndHR1cnNwb9IB5AFBVV95cUxOY1VpOVRBVlRDU3A3UW8zSjBmaVQySm5TOFRGMVcxcUppRnBiWUw3eDZtaERweHFkNVJhRlRRMUxyRVh6bF9PTWdSNkZyOEtEWlJQZUVRcEd0b0tNX1ZpV2FsTElqYXIzRFFJdkljclluYTgwek5vOHFqb25sdGRBbllZc2pib0NHd1VlLUtmemRMZk1PWUF6cHpGcW92d2VNOFhSbm5Hcjc3cEVDamRlU0ZwaWF6U2V6NFZjRVVIeVNSZk80cEpMa2l6OWs5SHRzbGF4Sm03Q1pZOXJybW1rWkwwTjQ?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 05:57:29 GMT",
+        "source": "The New Indian Express",
+        "description": "Himachal prepared to tackle possible Glacial Lake Outburst Floods: Governor Kavinder Gupta &nbsp;&nbsp; The New Indian Express"
+      },
+      {
+        "title": "A blast in Himachal exposed terror network built on Punjab youth at risk - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOG1JeXFueWNsZUtTbEZBcWczaDFZSFVvZTVtQ1VfNUpCdXNFNmF1TkVjRjdIZ3ZrTERQMWVEaDNjZ2E0cGlCTjhLcUdrVW01LUZaRXFQMEQzaHpya05hY1pPSktrMkVxSEo3VzBabHNWZGl0ZlNDbTFBc3VUVFkxNFQ5T0RDVnlVNHF4UmZhNkk2R05hRlFmNjdOSEFkVW9sUGFOWUZ5OGZzRElCQXNSOEpndTltYjVqMjVKckl1ckZLN3ZqcVNsZkZn0gHQAUFVX3lxTE1PMHNBWUpnLTJpV0Zjano1eDY0bmZLSGItQUJYXy1ZVnZOWnN5QTBadnplbTh4SHhsbUtZZzlIM0FDWUJZaUI0aC1zSHdyb1R6ZlMxRW5DSFExX29zWWFQUEZtOEk1dmpmajhLeTk4ZmxFWjBPalg3UHl6MlVac2gtelY1aU5VaUFNRUJIN3pTZVBwUldLZkhfRFBUVmpKdzluUTdfRzVVZ0NXQWEzT3pHbFpPWjV1Z1NEMXMyV3otaF9RMFZLMDRyQXlRbGZQYWM?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 05:41:49 GMT",
+        "source": "The Indian Express",
+        "description": "A blast in Himachal exposed terror network built on Punjab youth at risk &nbsp;&nbsp; The Indian Express"
+      },
+      {
+        "title": "H1N1 Death In Himachal: 64-Year-Old Dies As Flu Cases Continue To Rise In India - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcW9TTXNucUFVYzZUOWRqWEo5QUFwLWhNR1dqaWI0MWhDR2stdXU1cWhBOVhQQnpuZ1VHc0FwV3NyNl8zUTQ5b3lKTUttcjlDcjROdDhoNi1kNVRlUThJaF9lLWhSV0FpeU5FMGNuNlNKTUsxb1dYNkZQNkU2ZElyTjRLUDd6cmswTnJTMnF2dnl2YklFbjRSMUsyb09iZDd6OV9kZXVEcnBRb01Kb0hzNFQwVHAyQQ?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 05:26:47 GMT",
+        "source": "NDTV",
+        "description": "H1N1 Death In Himachal: 64-Year-Old Dies As Flu Cases Continue To Rise In India &nbsp;&nbsp; NDTV"
+      },
+      {
+        "title": "Monsoon 2026 updates: Heavy rains lash parts of Himachal Pradesh; wet spell likely till June 17 - The Hindu",
+        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNd1hvc2ZaZjk2ZlpyZHl6SWFJN0FJQkd6VU54RDhNSDNiWDVOTG9pR3Z5cjNvcUVDZjhHSm9DNXN6ZlNkSzlxNDdTWDg3R3U3aUsxc2owaTc0TVUwWnRfS3gydkFsODZiVEV6aE82eFNUUjFvY1FOX2JWOUk5bjhlOWFpcnJiTndHbjRSMVlfYThHNzlFc3lxOGJId19XTnlqbk1Da2EyLXZveDV1LUVQc3ZHX3Y0a1E2cW5ia1dVclUxZndUX2tHZVNqdFNsRGZrRkl6WlJlaF9NeU9TMExPelN6ZjhsS0RDSDA2VUxSZG00TnM5bmxIQ3pYRUtwcHR0N2pOYXhR0gGMAkFVX3lxTE80YjVrS3ZDc0tuUXV4VjRIdGg1T05vNW1TV1ZvWGY0bXFvR194cG5lVXEyRENvVVZ3NHYzU2xTYk8zZEpYRHBMV3dGb1czQUVWNGw4eG5qMVc1YW1VM2w2SFRTb2YyWjNCaXVJU1hDVUt4YjdKZXRXOUVfQzlTZmd4S215cU5uaEc5NWZIMVF6UEdKclZ6QTlVTUY2N3hLSDI0R1ZiUE5Ld1I3dGszVWE5SmZ0aWhuY2h5UDR2QzluYXpGSXZ4ZkFiQ283VEY2YWx2d21wS0kxb3V1dlpIVmkxei1EeVV5VV9WOXNSODRLNjQtY056NjJ4ZnNvR2E4bGZpUmptOUMwMEFjSUs?oc=5",
+        "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
+        "source": "The Hindu",
+        "description": "Monsoon 2026 updates: Heavy rains lash parts of Himachal Pradesh; wet spell likely till June 17 &nbsp;&nbsp; The Hindu"
+      },
+      {
+        "title": "Punjab, Himachal men working at Trishuli project went missing after Nepal floods - The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY1VKSUdMWTNFTmVMYVl2dHlXSUVqX2I4ZmZaMEo3NFA1clc2Wm0tWFd1RElPellxT1NhQjBJTDdld2hfV2FmaXItd1IyTTN0X0tXU0NfajNFUFE0XzU4V1c5XzIzaDdJN2pWOWpncFpBNGtfdlZrckFydEtIQ0dRUTQzbFlQdnRjUEZHSDhsQ0N5VHg5U1dHYnEyaWtGMmN0cUY2NkFXQTFndnpsYzB4TjFMVFVyUjdqbGhjc0NQVmwtQkxwWE54YVBn0gHXAUFVX3lxTE9qbzJLamR0NUVPLUxyaGNjVTE4cHJpMFNuR2hoam8tR0QxbXFmTS1GcHdUTHBjOXJqdlZMY29YMnVDZWN0UE9tRFlpX185N3dZZXFUa0k1TzhZbGpsWlRuVWIxczl1bWJTamZsSkxVWlBqclNLM3lyWHkyYVFSTlFjMHFVUkFCUUJTT0FXenBnVjl1N19zZjBIc2gzX2VyYVVJRnlVVHd5UlNON2NrZndiZWdTcDFYcEpXRG9tXzZfLW5KeEttZC1MZWFrRE5vTHhoT1lLSGZB?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 10:42:43 GMT",
+        "source": "The New Indian Express",
+        "description": "Punjab, Himachal men working at Trishuli project went missing after Nepal floods &nbsp;&nbsp; The New Indian Express"
+      },
+      {
+        "title": "Meet Pushpa Rana: Himachal Pradesh-born raider who is set to lead Indian women's Kabaddi team at 2026 Asian Games - India.com",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZzNDRVE4azNxcmNoc2VmaDkwY21UMEltaXp1c0hFNXBTWjBZZTYwanBUa0tHbmtWWEgwQ0E3d1lEM041Q0ZBTURUck52TDhMRXlKN0RqczA5VXJ0enVpTXFlWWUzbWc1VnZuaG90MlFnZTBxOEJUWGZOallabHQ0V1lFT2lvVkY2TXpXeFBzT3N2cVJLOGgwd3ViQzN4WjZ1YVZNem43Tnp4YURfdTBpSlBHTm5uT0dBRDh4UXVTMV9rNElNR284RGdLa3lPZGlKRmQ0V2NfYml5ZkFJaXU1XzN0Zw?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 10:51:20 GMT",
+        "source": "India.com",
+        "description": "Meet Pushpa Rana: Himachal Pradesh-born raider who is set to lead Indian women's Kabaddi team at 2026 Asian Games &nbsp;&nbsp; India.com"
+      },
+      {
+        "title": "64 Roads Closed In Himachal, Warning Of Heavy Rains For Next 4 Days - Deccan Chronicle",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNamUxVnRTbm1lSmsxVllQOVMwWG1CUU1rY1hJOGlEaFUzVnB3MHN5emk0dHVRT2VocFc4QUxXLWdFU1BvVmxMU01KS1kxbzZwV3pxUmVtWGVsR0lKVDZsRmFvWDAtWndmSEhNalVvd2FvRW1oS1NfeHFGZEpZRU1ZOUNJOGYwZ3BtNGpsZDZSZ3NYLWVELWtYd0UxVF9QdkphSE5UUDM3OEVpUzVRMlpsbjM3ONIBuAFBVV95cUxPRk1yaVk0akpmTXMtUjhrbnZzZ2xOekJMOHlaZ25pVGFmLTJzUnd5LXFVMC1zTGNhRHlMLWpIY1ZVT21ybEUxZWw3bjV6OEFpR2Y1eHVxVEhfbUVYcmctaERBNWhiUWNGeW9kT3M0VXpYbFItTlFsZV9QNW8xczAyVnFRUkVGX1dBczluZXJkWFB3UHBHNE1FeEtubjd3c0p5VFJmZndRQUVua19sbUlqVzI0SUNldXpM?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 06:25:30 GMT",
+        "source": "Deccan Chronicle",
+        "description": "64 Roads Closed In Himachal, Warning Of Heavy Rains For Next 4 Days &nbsp;&nbsp; Deccan Chronicle"
+      },
+      {
+        "title": "Himachal CM announces first ozone-based drinking water project in Dehra - Business Standard",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcDFMc2dzQlE2ZVYzUHh4dTJqMFBuSHNYMWY4N0xDV2tzMmQyTkJJaTE3dGphdXNTalNiZ1VWUG4tUWpoZnprNlFJaWRkRm9lZEtSZkxtV1VBakx3RExnUTlrSVBqZlBKVk5IQ25lXzh4VFJfbmNZTzBsck82ZWJWbExKZFFQNFJPUEJfZUtabmMzTzV4RlQxalo2bTVpemo4REVUZnJENUFKOFhMSDRXOEFhYUdtdmNxRGNYOFk3UGEzTm1qTWfSAcsBQVVfeXFMUEtMamc5ejYyMEtIV3Z4R0NWdmF5dDIxMVJGY2YtTE4yTGhHeUpPUDRkU29xenRWcFdMTE12eUVNMFNsT1k3cjV0Q2JNMllHRWF5V0lpTWg0N1lzUTB0T25sbHBIOVFkWXAzdVdSQ2lXRS1mMVlNemNGd18tb1pRd2U3YWdnZWcwVXg4cXN6M0Y5Y0ZROFRiMEJBOF9zMmhtblVpMGZuMnBWMV83V3hpOURxTWdYc2pHMjlnTUNEc3JVWTJ3dU9HNHk3RjQ?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 09:40:37 GMT",
+        "source": "Business Standard",
+        "description": "Himachal CM announces first ozone-based drinking water project in Dehra &nbsp;&nbsp; Business Standard"
+      },
+      {
         "title": "Himachal to spend Rs 500 cr on modern medical equipment for State Medical Colleges, says CM Sukhu - EdexLive",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOGdCejJtbC12RUlBWkZBLUs3MGdnYm1oUXlxUEFPU0Z0Wk5kTy1pWnFTLVVGeUhwaThhaDN6dzloZFh6ajZoMklmb3dUUlpDdGV6UjBCTDBrYktBTEw0eFA3Um9zQXg5M0hnSnktbVl0bUtsMnptMUxacHh1akZMRnlISEt3S19VbEVXMExGc3BXUlV1NTJnaG5mbWs3MkxVU0dUTkJmR3RYdW_SAbgBQVVfeXFMT2xFUVRMcDNWRUhTWEhxVVN2OGlMNGQ4ckZOelBiZklISTVJQVluMlV0U2Fvb1pPWnc2ZDlJOTAwX3k4dXB1T1ZJUDlLeGVxN0dYQ3ZYRjJWdXNtMUF4djUxSDdqSFZzTnpldFc4alNjdmVUd240RkVPT2FrWEFNZmZrdjFVZUk1NzI5MHhyaEtZeGJYYi1OVUx0N0hsY3JzWVZwTkxVTTRrLXdFckdfY3prd05rejFzVA?oc=5",
         "pubDate": "Sun, 30 Aug 2026 12:30:00 GMT",
         "source": "EdexLive",
         "description": "Himachal to spend Rs 500 cr on modern medical equipment for State Medical Colleges, says CM Sukhu &nbsp;&nbsp; EdexLive"
+      },
+      {
+        "title": "PACS, Dairy Co-ops get fresh impetus in Himachal - Indian Cooperative",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUlprd2JFd2N0Y3Qxdlk4bVJEc1Y0Um03elZ1aHBhS05aM3Jkb2lkRHFKMG9nbzg1Y3JKODZ2cklURXAyUWdCWmtEQmF3TTRTVXVqU0JHUUxBQzVWMmtCNG16Z2lhd0JNcmlRZUJCWVZNbzFBMURvaTVaaDd2Mk4tdWRqRnRiMFlpVzkwdnhYaHl2WEJwRzBxZWxDYmVGVzZzTEFMNQ?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 05:24:26 GMT",
+        "source": "Indian Cooperative",
+        "description": "PACS, Dairy Co-ops get fresh impetus in Himachal &nbsp;&nbsp; Indian Cooperative"
+      },
+      {
+        "title": "Himachal plans to restrict new ethanol plants over water, pollution concerns - ChiniMandi",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWTZYazdJT3ZoNVgxQ1d1MDhscmNpZlBuQS1KUjMtNzVHRjJOOEtzeU1heVo4NkxfSDVNWTZtSUF5SlcyUERVQmZJVlBGT2hBT1kzQlowcXh3c0FrT3pfNkV5ZDNua1lPWkRGZnlrbXIwa1Bmd2pvX2dxRkJHNE81Tk1BM2NXb3JPS3Byanl4anROT0tlSWlMYVlOY0JxZDJDX0dwTkdB?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 05:47:40 GMT",
+        "source": "ChiniMandi",
+        "description": "Himachal plans to restrict new ethanol plants over water, pollution concerns &nbsp;&nbsp; ChiniMandi"
+      },
+      {
+        "title": "Himachal Pradesh records 2nd H1N1 death as Ramashish Ram dies - NewsBytes",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYnBCck1EaENFaVNsekxaRUFSTGpUMmdzaWN2NXRTTXktQlRBSE9seHV6Vndnb1FWTi1xa0R0VnhrVlhmREdUcEZEZlZyVngwOFdJempiMDhHX2tjeFVUNzM1MzlVYy1YOVQ1WEtmaHEtdk12cmRKQ2pHd2VZMXZwQnpHMWpCS0NwZjNYMjdLckdYM1o3dzd1Z19PNmJpZ0VCdEk2amF4ajU5UQ?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 04:28:45 GMT",
+        "source": "NewsBytes",
+        "description": "Himachal Pradesh records 2nd H1N1 death as Ramashish Ram dies &nbsp;&nbsp; NewsBytes"
       }
     ],
     "jobs": [
@@ -294,32 +294,32 @@
         "description": "Himachal Pradesh Government Presents ₹54,928 Crore Budget for 2026-27, Sparks Political Debate &nbsp;&nbsp; News On AIR"
       },
       {
-        "title": "Himachal to urge Centre to review land acquisition cost burden for four-lane projects - ET Government",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWDhKTVpTUWtJaWpLbVd5OEpmdF9yY29MQm9oSmNqRmNORVRvU1JGUmxZNngyOGtobHVkSE5HeUN5NXdRYWh2ZjBWNEU1WWtpMlRYM0MwRjl1NWQzdnFoWVRlNHl3ZE5SblhBV296MmZDV2x6eVVscndXUV9yRi1XUktUT1JzVmVCTVM0eHhtN1ZfTW9hc2stYnZERVdtb1JvRnVDMWRyS3VSR3JBN0ZqckU0R3VMZTJReURrSlpxenBoTU9CN2M1VFR0eVZnU1g2bnJ0QXhaRlZyR2tMZ0QxM1V5d3dnVWszMWJELXYzR093d9IB9wFBVV95cUxQbmd4V0IzOThEckNQclNKbjJNalFLUHlrdHRvNVRSSzVfbDNXcHR6ZkY0TEFHUFMxNko5dXFSZlNlWUVJZWN1ZnlNWUZ0ZXc5VmpnR0pSb21zYjhiYUVfSV9nSERzU0laT21IbUVLVzNyOC1rMk9YRVVBRXdjR0ZNc1E2VjVwQXgyUGVOeGpzTVdVTkV5YnBMb2h4X0NFclAtbzNVMENQWTNQZ0lHUFdQYVRLemdSNEZPZVk5OF9FVXRTZnNoNU91UWpDSXNCUG1uN09peVI1VHFKQkhCM3EtVnpZSjZyS2NqdlE0ZFRhY1ZDdHQ0UWNB?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 10:29:51 GMT",
-        "source": "ET Government",
-        "description": "Himachal to urge Centre to review land acquisition cost burden for four-lane projects &nbsp;&nbsp; ET Government"
-      },
-      {
-        "title": "Budget session of 14th Himachal Pradesh Legislative Assembly begins today - News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkF5aHNRNEMydnlKejZXS2JBRVh1clVmdDd2SWUyeWhIRXJNTVotSEw4YUVyQ2JWUGd4QWxVQ2wzOXAzZEZwQW5QQkdyNHpXSHVRTmp1c1hrLUI4QkVpWFNLbUo5NFJMZHR1dmRCdXJjLTR0alRRb3RQekZ1LTBkTVkyZVF4RnlHSDN2aDdBcUhsb0Rtc1JrNUYxMVZuNGRM?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 21:45:38 GMT",
-        "source": "News On AIR",
-        "description": "Budget session of 14th Himachal Pradesh Legislative Assembly begins today &nbsp;&nbsp; News On AIR"
+        "title": "Himachal Pradesh sets December 2026 deadline for 90 percent staffing in Govt medical colleges - Medical Dialogues",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORlBIOVZyaUNGRnYyelR6UUlxSmlmSGVDTEVScTZOSDJqMUJuWW1ObGFFYzZPVnNDeGpDQkMxb001Uk54TlAtOWNRRmZFX2lfQnBkbnJSdGpVVk5Bc0VobURSZTRaWXRaQ3VGU2Z2a2pWQmkyQk1zODJiUWZiWGFZMVp5NjU4N2wyNkNTRzFRVFJPTXJENS0zQ3JjX25KcDNmRUVmbEdGRl9IaDd5M3kwTW9Pb1JPVzQ0NVV1X2YxZkdva244ckRUUTI5dmxzYU5INHBCWmN2aG9LaTItVkhOOGsyZWdwTXJlZ3JnbVFVWGxCQU3SAfgBQVVfeXFMT0k2OXM2TEhscWJkTWp5dmlIejU1UGhERWo0RnNiekVLcnhwcWIzNWQ3d3E4YWxyQWw1dW5KSmYtcTlPanI5eDhXdV9yWlVqX2RDVExqX3ZQdmN0RDZ3MEZuUFNuVzE4OXhWV1pFN1RTS01tenRMMWFoLVVldUx0Q1dtNzJyOG9ZUVRZdXZTWEtWSkVTSm0xQUJWUzBDaVVEZXQ5cTIwTzdxR1R6QWp1Y2gzNU9IblByV3VlaW80b1dWMW9YUEgtM2ZCTEt1OVUtQVA3M0ZVUFd3NUdMeUZGcXNTdjNkT0xjd1AzZVRITXhySWdOdVN3UWc?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 10:45:19 GMT",
+        "source": "Medical Dialogues",
+        "description": "Himachal Pradesh sets December 2026 deadline for 90 percent staffing in Govt medical colleges &nbsp;&nbsp; Medical Dialogues"
       },
       {
         "title": "Himachal Pradesh Government - himachalpr.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JWkF0V0VxR1VWeWMycG9qNjk1b2J5R2JXLVdhdkNNR1RERDdKN2trU3FqNXBadDF1YWEzWUoweGFWak1tUmpDX2w0SUFjQ1BXQi1rMVdaWmJYWlBSU1V5TnVTTzdhazlZaW15SVRmT0U1WVBCdnpzZw?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zSkswZFZBSVk0MDFKMWtUdll2M1oyUE40TE16Snc4dkowUTFXeXJiQnlrOVdscVZ1a1pCb0lmTlVqN2FaR19WdnNLZUt5c0Z1SGt6OXVlOTZESlFHQ0wxVmZDX2pMUkNLY3Z1Vnln?oc=5",
         "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
         "source": "himachalpr.gov.in",
         "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
       },
       {
-        "title": "Himachal Pradesh invests Rs 500 crore in medical college upgrades - The News Mill",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZzRZRkJMemw3RW1TbHJPZmJtaEwwckZReHAyanM1SjNJYVIyY0JlWHlnYnBYVHBfajduYVRNSDBZVHB6RXNuaWFzZnhJOS04bWFOSDlnZ1pBMGNobUY3N3psNHJQTGpKdHdlRWN6RFBkRFdwMWYxYUVDMWVuSWxnN01rMzRYeWxBbEljV3dXWWhQMmZNQU1rd2JFaHhoR0syS21tNjJMSUY1LTNQOWc?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 10:52:26 GMT",
-        "source": "The News Mill",
-        "description": "Himachal Pradesh invests Rs 500 crore in medical college upgrades &nbsp;&nbsp; The News Mill"
+        "title": "President appoints Chirag Bhanu Singh as Himachal Pradesh High Court judge; Bhupesh Sharma, Yogesh Jaswal named Additional judges - India Legal",
+        "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPSkxVX1ZaUmxOVjEzMXp6T3pUQkF0RzZkVXBmN2wtdmIzSTFCamg0aUVoU2VReUpZakZzS0FkZjlHOUYtWm9aQTgyX0JURFdlMUVUcHFOLUpEa3NoY2ZyNHFWbjV4VElHTGFBb0FIaHVDZW1TcEZJVi00UE9fcE9XTE82cUZRMWRIVC12WE1xdU9feHFwNFlDQk1mMUFSOWgxU0M0ZlRxcGRvano1dXcxYUU3STFNUktvUzhBb2hmOUt5cjJIREIwb0M0dVIxcEpkYldYOVI1SzNXWF9WcmdIMVN2Q2dEQzBwQTd2YVZJVnIxOG9FcmI5UVNxYkV1bktPc2xDQVlKS2hyenRSU3BLVlRnV2lTTk5ueUlj?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 09:36:00 GMT",
+        "source": "India Legal",
+        "description": "President appoints Chirag Bhanu Singh as Himachal Pradesh High Court judge; Bhupesh Sharma, Yogesh Jaswal named Additional judges &nbsp;&nbsp; India Legal"
+      },
+      {
+        "title": "Himachal to urge Centre to review land acquisition cost burden for four-lane projects - ET Government",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWDhKTVpTUWtJaWpLbVd5OEpmdF9yY29MQm9oSmNqRmNORVRvU1JGUmxZNngyOGtobHVkSE5HeUN5NXdRYWh2ZjBWNEU1WWtpMlRYM0MwRjl1NWQzdnFoWVRlNHl3ZE5SblhBV296MmZDV2x6eVVscndXUV9yRi1XUktUT1JzVmVCTVM0eHhtN1ZfTW9hc2stYnZERVdtb1JvRnVDMWRyS3VSR3JBN0ZqckU0R3VMZTJReURrSlpxenBoTU9CN2M1VFR0eVZnU1g2bnJ0QXhaRlZyR2tMZ0QxM1V5d3dnVWszMWJELXYzR093d9IB9wFBVV95cUxQbmd4V0IzOThEckNQclNKbjJNalFLUHlrdHRvNVRSSzVfbDNXcHR6ZkY0TEFHUFMxNko5dXFSZlNlWUVJZWN1ZnlNWUZ0ZXc5VmpnR0pSb21zYjhiYUVfSV9nSERzU0laT21IbUVLVzNyOC1rMk9YRVVBRXdjR0ZNc1E2VjVwQXgyUGVOeGpzTVdVTkV5YnBMb2h4X0NFclAtbzNVMENQWTNQZ0lHUFdQYVRLemdSNEZPZVk5OF9FVXRTZnNoNU91UWpDSXNCUG1uN09peVI1VHFKQkhCM3EtVnpZSjZyS2NqdlE0ZFRhY1ZDdHQ0UWNB?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 10:29:51 GMT",
+        "source": "ET Government",
+        "description": "Himachal to urge Centre to review land acquisition cost burden for four-lane projects &nbsp;&nbsp; ET Government"
       },
       {
         "title": "‘Rs 2,700 land sold to government for Rs 18 lakh?’: Himachal CM responds - The Indian Express",
@@ -329,41 +329,6 @@
         "description": "‘Rs 2,700 land sold to government for Rs 18 lakh?’: Himachal CM responds &nbsp;&nbsp; The Indian Express"
       },
       {
-        "title": "Himachal Pradesh defers retirement of medical officers, faculty to March 31, 2027 - Medical Dialogues",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObkNKcU5QWWxsbzRTS3MwWDZBLUlOVlRmOHFVN1BfTVZ5V1RRZ2FRMFV4WmlDY3lCaXVFTXBMdmhnbjQwWVV6bDV4RC1JbkpRUURGR0FZaS1GUEFFRW5tNzhWWFZfR2JBaXNSS2JXdlhFejh4VUk2WkhQWlFRUHJUNzA3YnhQcktSQ1VndmxKQzVtQ0t3QnJreEtNanQ4SFZ5U01rNzBUTVVLRGJpSU90RUVwMXYzeV9DQ0FtRmJ6ZFlFSUY1S1VNMnJKcXZsTDDSAdQBQVVfeXFMUEZtZkNJOURBQWlxRUJFMUtqRWhrT1hrYmNndHkzZXlPcUJPLWVZZ2pXUnJSejNVN252M1k4TkVYRnUxcndKQ0N6VkhvUFdESGM2aVJyU0YxS1dKVFVXSE5qYnlsUlNuNVdxbHdib1pNZGhCWGdMQWtUUE5KYk1JVGdIZHdTQTdrbFFvVHlmTXBJd2RaWG1kbFpRZzVBbzBpRE83dHBXcm50Y0otcmVLZGh3MjcwUU5UcHpKM2poenkzMlBzMG9xbVpzeXBsT1NTNkY1aTM?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 05:30:43 GMT",
-        "source": "Medical Dialogues",
-        "description": "Himachal Pradesh defers retirement of medical officers, faculty to March 31, 2027 &nbsp;&nbsp; Medical Dialogues"
-      },
-      {
-        "title": "Himachal Apple Growers' Association seek immediate release of pending MIS payments - ANI News",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRy0tMzBTWk1WVVdlMVVXT1JSX0FFWWJyQXp6ZVFMYU9MVWt1ck96RU9UY2hSS0h6ZmtESDB3b2xrX045Z3h6VHFESWNsWGoxSTE5WjR5d2FlMVNjMEVaaF9iUWFud1hFVHE5bjVXMmRiM214QnRIZlNMM3RVbV9lLWlacW1RNUJ0SGZlSGxoeUlEQzA5emxxd1Rjdm5fdVBxV2F0UjRxdlB3WU1CWTM3RnRtT1A3aU1GejhkN1F4bXg2ckQ5RDU1Mmw1U3oyM0pnN1loNmNUNWpqMVRHZGc?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 11:26:00 GMT",
-        "source": "ANI News",
-        "description": "Himachal Apple Growers' Association seek immediate release of pending MIS payments &nbsp;&nbsp; ANI News"
-      },
-      {
-        "title": "GOVERNOR ADMINISTERS OATH TO CHIRAG BHANU SINGH AS HIMACHAL PRADESH HIGH COURT JUDGE - Face2News",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSWUzRFA5VF9veXNtQVVPSUEwdGRXWE5GT3lWTXNLZUlmb3NNaFR6cll3akwxWnhpc0xsVHZJei1tQ3lYUUhGZXZMQkxjZE14WEZrZmhuRjZZakw2aFdCZ01BNzk4UnVYNHo5OGVlWVRSb2NaT2RZLTVYXzlTVGFqSHJ1WDVQXzNjNU00MkpEQnl2dkJSNDZmYUlfaFBuVFAxZDdBYndod1ozdEhmcEFPVFZ3?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 13:54:21 GMT",
-        "source": "Face2News",
-        "description": "GOVERNOR ADMINISTERS OATH TO CHIRAG BHANU SINGH AS HIMACHAL PRADESH HIGH COURT JUDGE &nbsp;&nbsp; Face2News"
-      },
-      {
-        "title": "Himachal Pradesh to Bar New Ethanol Plants over Water and Pollution Fears - GujaratSamachar English",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLTYwRnY3ZmtiUk5VVHVsMDdTdWJKN2tnRFJwYlNrdTlaZ0VnUkZqQmZNTjRYZFZwY1duZHFfTG9BSFE5UEVjVWhBSnV3bXhkNGJrWmdUU1I3U1hZdW0zXzFkQVJITENMTDJPVFFuSUd5M1c1QXA0MURrbjl0MXJZUjRiRXZaUXR1c1JaODh1eU9oWUJDUUlsQ2J0R1ozNFRUNGF0YzhWQ1hJNV9mZ295R0lhWlQtNjFzbHBWUDZ1OUVYRW5XUVVBb05KOUk1OFVr?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 06:48:01 GMT",
-        "source": "GujaratSamachar English",
-        "description": "Himachal Pradesh to Bar New Ethanol Plants over Water and Pollution Fears &nbsp;&nbsp; GujaratSamachar English"
-      },
-      {
-        "title": "Will provide diagnostic services in all medical colleges, says Himachal CM - Cityairnews",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnpFRzRRLWVLM254emk5SWR0dkI5R0RLR3B3X1ZzNXMwY05xOGJEYlNMTFVxaWw1X2t1bFdBMFcwelJRTUtjWXJKZVhLN3pfeGZsNmF4R2VBVDZMd2xFbHUxaDBqQzNHRE9NN2E5TGVkR3J2dzV2UlEwOVNGbHMwRlBmRFB2T0JHS2pDYTlRX2pPRDBRWE9vREF6TUdRZ2ZvQm54RF85ZjVVRVFCTkE?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 18:27:08 GMT",
-        "source": "Cityairnews",
-        "description": "Will provide diagnostic services in all medical colleges, says Himachal CM &nbsp;&nbsp; Cityairnews"
-      },
-      {
         "title": "Himachal Assembly Adjourned Within 10 Minutes Over Vande Mataram Row - NDTV",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbVZiaTB4MlNEdkxCcno2U3ZLZ3BfZ2xzS2JPUk5vZExkOU0ycG9GX2VsaFZrX3pNUzRrRTBlYlpEdDZpbTNIa3N5di1MUUs0VzVfQ1dnUkNqNzFWS2hxNC02bVl1eVpmdVNnOWRVS3NGcnhPcm9LYkk0dWZOcndxX1V4TElONmxURnpmeU1PY05tWXROX1NRVGJ4ZFZ4RWFHSnRETjNqUUxHak1HZmhhTDRQNDQtbTJx0gHAAUFVX3lxTE1pU2JObGp3U1pvWUI5aFdvT0RFQzcxYjNGUE5pNVVZdXlBeGZPTjFkcFBjRk5Qa2xtb2JZT3lwOG0tb1NvbXJvMHZqdjN3Wkt6bTJqRXctMTJFUEJxckhVX05hYV9BbHBEaUVhT0ZhWDhxWGJqS1NMSEpRZFFZNEtaUnhKM2d5eVBSa1pWU1NFWVFZOU9fQ01tQjFUZU0xMmNPRW80T19vZV9wSW1tSWJjTld3ZzZ2dzJOdHkxQTMzeg?oc=5",
         "pubDate": "Fri, 21 Aug 2026 07:00:00 GMT",
@@ -371,32 +336,32 @@
         "description": "Himachal Assembly Adjourned Within 10 Minutes Over Vande Mataram Row &nbsp;&nbsp; NDTV"
       },
       {
-        "title": "Over 150 Haryana Students Cross State Border To Himachal Pradesh Daily For Schooling Amid Teacher Shortage - ETV Bharat",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNnBPejFCYTdpNWJCWVpkbEs2ZkVGUmdDU0tINEtmM1hSdWlkUUtjU1JBMFhtZ0pMR2s5SmpuejItQUdINWhoazVQOEtUTF9YRmZ3QXRkREktUUc5dUMzcnpCVFdSblJfRWpWRVJkWkQyZG9NeTFYcGtDMDdJUF9DTktiX3c1dTFtNHJaaEZmcm52a0VOT3ZNc3pEblhQeFpiQzY1RE15WGwydFNhOEJFcGZPRGp6RnB2RENHeDh5Tjg5VlM1OUd4SWFYcWhtZG5YLW5JdVJKT0FXN1BiQW0yQmN1UkVUeUVKXzhfdtIB8gFBVV95cUxPSWFiX1h5UnZnRjVKYnpiS1p5MDB3Szk3X3BETVUtVlNsZmNvbXBvWGhJVDIyZk9zQnR0TWE2UTdORmxKT2EwX3h1M2VocEp5UGVEOGh0MHZxQXZ4WVkyRWhUZG91TTJ3U090QUVwZ3VVWWF1WHU5SE9pSUNuUW9FVkZ1QV9rUG5WU01oTzQtOXBVbUdRQ0o5V1NRNVRiaWQwTU1zXzBZZWk0dUMwY25GWm50T0tzWm9oemhCNHVXczduN0E1dTlxV0MzMnRvaXVOWkthNEFudTVUSkxuTk9GaDhNcC1JZXNhTmJBSGtkNTJDZw?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 19:14:08 GMT",
-        "source": "ETV Bharat",
-        "description": "Over 150 Haryana Students Cross State Border To Himachal Pradesh Daily For Schooling Amid Teacher Shortage &nbsp;&nbsp; ETV Bharat"
+        "title": "Himachal Pradesh invests Rs 500 crore in medical college upgrades - The News Mill",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZzRZRkJMemw3RW1TbHJPZmJtaEwwckZReHAyanM1SjNJYVIyY0JlWHlnYnBYVHBfajduYVRNSDBZVHB6RXNuaWFzZnhJOS04bWFOSDlnZ1pBMGNobUY3N3psNHJQTGpKdHdlRWN6RFBkRFdwMWYxYUVDMWVuSWxnN01rMzRYeWxBbEljV3dXWWhQMmZNQU1rd2JFaHhoR0syS21tNjJMSUY1LTNQOWc?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 10:52:26 GMT",
+        "source": "The News Mill",
+        "description": "Himachal Pradesh invests Rs 500 crore in medical college upgrades &nbsp;&nbsp; The News Mill"
       },
       {
-        "title": "Himachal Pradesh Government - himachalpr.gov.in",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yXzlabjA1RE4yelJ1eGlWUTFKQlZJMlBEcDV1Yml2dUFSMmN2Rm9sd1BmUm5TcnctSUgycGhtQTR0cXhIazVhRHR5dkJwMEJzMV9OTEpBcDE5Rm5BV1pSdWVsS1hOTlJ1?oc=5",
-        "pubDate": "Sat, 15 Aug 2026 12:54:00 GMT",
-        "source": "himachalpr.gov.in",
-        "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
+        "title": "Himachal Pradesh National Law University students visit Assembly to learn legislative process - The Tribune",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU2hEWkw1bzNOa0NxV3EyVVlXTGY4UWhhZUtrYjdOUENTRW42cS04VTB3UElVdnhZYWdwTmVVeVo3RlFpcUNuUjR2WHNZRktlTFNsemN3ZzRJYlZaZm9FNGhqT0JQWjR1Nzhtd2NTcUppQlM2bzZqUWM2dVJKY1BIYml1T2lpVDFFRDVhUFFDQjNOV1RCSmJEcVpYY2JhRW5vYnZNaDhPcDZKRmFfdkFRemNuOGtPTjlqNDczUmVFVUZoMEpOS0hOcTI5RjRvZjJJZW9J0gHXAUFVX3lxTE50Q2Nnd1VTN1RKQ2gyYkw4ZkNraWJEX1R6ZDRkZUFsclQtWV8yMmNDM2J6aVRVd0FfOE1tOTV3S29QZDBISFIwSF9QYzhCQl9iMU51V1Q2Q2dkQXFjQ3FLMlNpdlMxbUhvc1ZZam16NFdiczlIVUpQRHlXZE9mbjdjQlpqbXJJMXE3NEUzZEFBelZXeUN2LVM0TlZBMzZZam5xTzRFTS1rTEhpLUJXV0dMd0pVSlpQYzd4X3dxY25tS2JYYWtaaExwQ0h6cFVqWEtVeXY4cjdR?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 20:17:20 GMT",
+        "source": "The Tribune",
+        "description": "Himachal Pradesh National Law University students visit Assembly to learn legislative process &nbsp;&nbsp; The Tribune"
       },
       {
-        "title": "CM Sukhu announces scheme for poor families not under Himachal government welfare net - The Indian Express",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnBRVHgwdThNWVJVelZMOVgtMmZQek5iUHlGUjZwRmpFejlxRWcyRkg3ZEhoTzVVREk5ODg1TXBqVTcxRmlZRXZRNjcyclJqWm9lSm5wcXJpcEljcjA2OVVrTXBJU1czdmVkbDRBNTVndWZabk1jeHNoZi1hQ3lSMTR1VkVvd0ZiMkpvdkdzMFFPM3lRVWJqRldDejBVVVJQZl9lYzUxR1ZJYTZ6MFUyVVdaeXhfOUI5YWctUV9ISVdDZ05Kb3pxTTY1bHR1Z9IB1AFBVV95cUxPWXpzMTYtenMzQ0d4VGV1WmNQdDVhbmRRb0JfbFJoNnhmY05yVTZHRF9SYV9nYkJ0ckR1YVNfVnhmaDRmNjhaUTN6WWdPZTFWRS0wNl84eWlaNm9hdkdlaDFWQWVTR0hsTXdnQWV1ZjkxdGVseVRMcHlwR3VWd2xCeGxHQzF0SU1IX0FiYzVrMnBFaF9nQ2lXcEhlUUVSVm5tUXJrdjJqQnlYcW0xWU1nVjYyRHluTjVOQ2FoZ1BBT09EQVhmVkMya1kxSDFMajFyQWozUA?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 14:52:20 GMT",
-        "source": "The Indian Express",
-        "description": "CM Sukhu announces scheme for poor families not under Himachal government welfare net &nbsp;&nbsp; The Indian Express"
+        "title": "Himachal cabinet expansion awaits Congress high command’s nod; Kullu MLA Thakur to be inducted - The New Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZThDMXJ4elVReGpERUhWQmE4WEoxV3pJV0RfZ2tyd1VLVjJxN1A0OVd6ekhIOXpsZ3JyT0JWd2VQQ20ycmlfdDMxNC1qX2Y3VjdiZVZlUE42alIwTXZZOWEtWDVUVWVNSzJRbHRWWDQ1bUgxbS1yYzRFeTh3Q21xbnNGc21wZ1U1VnltWFhpV0ZrWGJ1aXFsMkRjZExRdWtDVUtPSzhGTkRBeFlWbE43Rl8zNjJQSnduX1hQR0M4TzNZQVVHZWdVX0x2MVlBcjVCQVpxbFY1bVg2TkXSAegBQVVfeXFMTkZOMEQxN3ZQMnA5cWhNMGtraG5lQ0RackhBR0UycUluRzBjMW9GSHpVY3dQR1o2NDZ1V1NYU3Fsa0dEMHJ1OWgwSkd5ZTBHdW1ldWEzbWhwZVFXcUxaQ2VaeGlWVk1QZ2MzX0RSUnMwaEpmUU9uTUFiRjBiWGdfVU45cllfdXUwOVpzX2JqNXg3dU9wa1U5dXlzb3Nza1cwUG5TWTNoeURqSlBUd3A5dnJRNU41RDRPUmVCOHpXaURPenlSQTlwcms4blBMZ1JxdG1Yb1BQVENCQm43ZDRpaXdHSGhsTEs4ag?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 07:00:00 GMT",
+        "source": "The New Indian Express",
+        "description": "Himachal cabinet expansion awaits Congress high command’s nod; Kullu MLA Thakur to be inducted &nbsp;&nbsp; The New Indian Express"
       },
       {
-        "title": "BJP's Anurag Thakur attacks Himachal govt over proposed lottery system, calls it Rahul Gandhi's 'Phata-phat' model - ANI News",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ2lBSUJXMDRGOFdqdkFZYjJ4alByaG9Hb0V0VlZIdWRhcWdEZERnTkxrOXJXbkZBRFg0WDF0QlpESGd1MXpqb1N6Sm9WYmF2MW10TE5vaVB2cE95SzdHLVdwbFJwWXpScWtiaVU4UV9YT0xIN2ZkRG5wbDlpRXVjUUxua0dIUEljUUhMMWlaT0hPMmpKd0pTLVpHalR1XzYxU2RFeTlQSjJhd3N4ZlpseUNYR1BMVHYwdzRYM2dFV2N2LW04cFhBWGpDNDE2SjN1UDJFSVVMNDlQU3paYXNSUnFEZm9WN1U5SnZ2NkpQdm5yWTFMbE9fWTVzQkVMZw?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 07:15:00 GMT",
-        "source": "ANI News",
-        "description": "BJP's Anurag Thakur attacks Himachal govt over proposed lottery system, calls it Rahul Gandhi's 'Phata-phat' model &nbsp;&nbsp; ANI News"
+        "title": "Years of Service, No Job Security: Outsourced Employees Await Himachal’s Policy - The News Himachal",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSFNhUS1jcTVZYl84UU5tOFlEMDFMc0xvT2gtQ2Rjc2Q4NnAya3ZBTmtWRVVIZzlya0JIcFRHdC1Bblhabkl1Nm9vNUU1dkZrNXFGYmFFOWEzUXhnYU13UDM2YjZwZHRLcllMVFVMWHJqLUJRUkszQ2gtNS0tVW5BcXpUMHRsOWQ2UFZBWnFjYWRJa1BCR3VSS1ZkamdaempacUh6bncyS2RweVNXWEdibmlXOA?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 02:51:43 GMT",
+        "source": "The News Himachal",
+        "description": "Years of Service, No Job Security: Outsourced Employees Await Himachal’s Policy &nbsp;&nbsp; The News Himachal"
       },
       {
         "title": "Monsoon Session of Himachal Pradesh Assembly begins - News On AIR",
@@ -406,11 +371,39 @@
         "description": "Monsoon Session of Himachal Pradesh Assembly begins &nbsp;&nbsp; News On AIR"
       },
       {
-        "title": "Himachal Pradesh declares statewide holiday on Raksha Bandhan - ANI News",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZEtFZE1jQm82TlUxcHdQNDVBVml5Vk1lZHFOcEZnLW1ock9TSHJzYTN4TVdONkJNZjdRaVh5MzNBN1RLdTVpcWhOSGRMMGFzaWVFX2lERU9uZXJkRGlLZEpDZjRwSmhQQUw0Z3VfT05QdUpoV2VEeG5ZLTBhdUNBNnpqZ1VnVkUyd2JVQVlpd1ZtOEVSWmdrUWIweWdwSHBnNnJ4TE9IQXo4ZC1ueC1hLUJ2Slk3eE5tMXRtMnM2REJmeWM?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 13:35:00 GMT",
-        "source": "ANI News",
-        "description": "Himachal Pradesh declares statewide holiday on Raksha Bandhan &nbsp;&nbsp; ANI News"
+        "title": "CM Sukhu announces scheme for poor families not under Himachal government welfare net - The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnBRVHgwdThNWVJVelZMOVgtMmZQek5iUHlGUjZwRmpFejlxRWcyRkg3ZEhoTzVVREk5ODg1TXBqVTcxRmlZRXZRNjcyclJqWm9lSm5wcXJpcEljcjA2OVVrTXBJU1czdmVkbDRBNTVndWZabk1jeHNoZi1hQ3lSMTR1VkVvd0ZiMkpvdkdzMFFPM3lRVWJqRldDejBVVVJQZl9lYzUxR1ZJYTZ6MFUyVVdaeXhfOUI5YWctUV9ISVdDZ05Kb3pxTTY1bHR1Z9IB1AFBVV95cUxPWXpzMTYtenMzQ0d4VGV1WmNQdDVhbmRRb0JfbFJoNnhmY05yVTZHRF9SYV9nYkJ0ckR1YVNfVnhmaDRmNjhaUTN6WWdPZTFWRS0wNl84eWlaNm9hdkdlaDFWQWVTR0hsTXdnQWV1ZjkxdGVseVRMcHlwR3VWd2xCeGxHQzF0SU1IX0FiYzVrMnBFaF9nQ2lXcEhlUUVSVm5tUXJrdjJqQnlYcW0xWU1nVjYyRHluTjVOQ2FoZ1BBT09EQVhmVkMya1kxSDFMajFyQWozUA?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 14:52:20 GMT",
+        "source": "The Indian Express",
+        "description": "CM Sukhu announces scheme for poor families not under Himachal government welfare net &nbsp;&nbsp; The Indian Express"
+      },
+      {
+        "title": "Himachal Pradesh defers retirement of medical officers, faculty to March 31, 2027 - Medical Dialogues",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObkNKcU5QWWxsbzRTS3MwWDZBLUlOVlRmOHFVN1BfTVZ5V1RRZ2FRMFV4WmlDY3lCaXVFTXBMdmhnbjQwWVV6bDV4RC1JbkpRUURGR0FZaS1GUEFFRW5tNzhWWFZfR2JBaXNSS2JXdlhFejh4VUk2WkhQWlFRUHJUNzA3YnhQcktSQ1VndmxKQzVtQ0t3QnJreEtNanQ4SFZ5U01rNzBUTVVLRGJpSU90RUVwMXYzeV9DQ0FtRmJ6ZFlFSUY1S1VNMnJKcXZsTDDSAdQBQVVfeXFMUEZtZkNJOURBQWlxRUJFMUtqRWhrT1hrYmNndHkzZXlPcUJPLWVZZ2pXUnJSejNVN252M1k4TkVYRnUxcndKQ0N6VkhvUFdESGM2aVJyU0YxS1dKVFVXSE5qYnlsUlNuNVdxbHdib1pNZGhCWGdMQWtUUE5KYk1JVGdIZHdTQTdrbFFvVHlmTXBJd2RaWG1kbFpRZzVBbzBpRE83dHBXcm50Y0otcmVLZGh3MjcwUU5UcHpKM2poenkzMlBzMG9xbVpzeXBsT1NTNkY1aTM?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 05:30:43 GMT",
+        "source": "Medical Dialogues",
+        "description": "Himachal Pradesh defers retirement of medical officers, faculty to March 31, 2027 &nbsp;&nbsp; Medical Dialogues"
+      },
+      {
+        "title": "Himachal Slaps Widow And Orphan Cess On Petrol, Diesel. What It Means - NDTV",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONG5OMzU0ZXRXRFo3RXFVYWh1Y3MwU3M3YmpsNnYya2tJN3lHSlFuZzgwUkFmZENSMElTelpVV2RZTC04SVNOQnNXM1liYjhLRHRPSW1pVXhXRGVQVnItUXJyR09kTGQwemdMYnkxbDc1allyRjJMUktnR2QwSVhuOFpGVFl3aW95TDJvUl9EZEJDMUlwaDBkNjBPMHRad1VRamlPdHA0Y2V4MUtHc2dUYXJCLVc2R3ViUGR2cVVVcldxa0I4UlpURg?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 07:00:00 GMT",
+        "source": "NDTV",
+        "description": "Himachal Slaps Widow And Orphan Cess On Petrol, Diesel. What It Means &nbsp;&nbsp; NDTV"
+      },
+      {
+        "title": "Himachal Pradesh to set up ₹46-crore ozone-based drinking water project in Kangra - ET Infra",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOXhld19sZzZYWUJhWktJcDIxUHY3Zi1vVHdzYmdudDFMTDFXX3lhdk9jSUtpLTNhLTQ3emZYTzl6cVIxTUV1eGRmc19TWEp5Y2hZaUVFMm5iU3BFOXN4MHcxT0FpUEpGVkVXenNJbGpLaGRiZnBZLWpYU21BQ0RCRy1lV25saEJha2JIaVBycVZBZjRfNlBuZ3NmTTFMUDdIbFZUcUxaNXFhaE9aUnE5bEl3M0F1X19PTDJEM2F2SVdVOVVzSVJ5clRVRkpQOEdlN2tEOTBXNU5xOHlGN2pDT3Y1Qmd3TVgzdzBUd09YVDbSAfYBQVVfeXFMUFI1blh6YWVWUEFxU3lucHJNT0Z3LU02RG9IQWllZjFNV2RtZlBwY3BCTWZiNWQ0SmMwb3VnMUtFbjRhVldGT3dWTXlscWZVbV8tUWRiX19ibjRYbm9hQlZCVkhjUzZEdnd6bG5KWlktZlFPZjZaa24wTl80bzFOOTczZzZ5LUhJTER4ZkJYTEZBc2lwRU1oYlNkN0Y3d1JtVElDZ09fbG5PeFVhdXpGVFJSLUNCN0xUU0dxa0lPdUx0TXJhd1dGbzYtMWZWSGFlb2NjTTlla1NrYkJHVTJRSnJ2UUdxYlRPendkdGxUaFJXY2JoaEZ3?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 10:06:50 GMT",
+        "source": "ET Infra",
+        "description": "Himachal Pradesh to set up ₹46-crore ozone-based drinking water project in Kangra &nbsp;&nbsp; ET Infra"
+      },
+      {
+        "title": "Himachal Pradesh Government - himachalpr.gov.in",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yXzlabjA1RE4yelJ1eGlWUTFKQlZJMlBEcDV1Yml2dUFSMmN2Rm9sd1BmUm5TcnctSUgycGhtQTR0cXhIazVhRHR5dkJwMEJzMV9OTEpBcDE5Rm5BV1pSdWVsS1hOTlJ1?oc=5",
+        "pubDate": "Sat, 15 Aug 2026 12:54:00 GMT",
+        "source": "himachalpr.gov.in",
+        "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
       },
       {
         "title": "Himachal Pradesh Government - himachalpr.gov.in",
@@ -420,20 +413,27 @@
         "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
       },
       {
-        "title": "67 vulnerable glacial lakes identified in Himachal; early warning systems planned for four in Kinnaur, Lahaul-Spiti - ANI News",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZFNVVjItR2luNDJBUTNaZFRldHExVlNNeTZhSW5Ud2JoNUNxVVZFSUNRNVZyR1Qzak9DaWhzSUZydEpTQS00ZVBNd0ljQUNNWEpDMmw5TklaZ01NS0ZOaDgzd2QzWVZreEpyc0xiYUhMN1JkSlVScmZFUDlfUGJKcy0yOUNWcUdEQUgwUkpNVS1mcVl5eTZYaENweFZPSmhKUmN2R2tPRUZKZHgyc0ZVTnpkUHJZZ0Q1bzQyMkQ5QWR0dmlOS3Q5Mjk0Ql8wTXEtVFU5TVdyTzkwY3VaaXo4UDVjajhWU3hMSEtSa1o2UUwzZ2pBOXVRVTZkZFVLbXdIVjdzYjNKMlU?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 09:27:00 GMT",
-        "source": "ANI News",
-        "description": "67 vulnerable glacial lakes identified in Himachal; early warning systems planned for four in Kinnaur, Lahaul-Spiti &nbsp;&nbsp; ANI News"
+        "title": "Himachal Pradesh Government - himachalpr.gov.in",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1CbVp0NS1mai1lNndoRFdmR2R1dFJjUWFMV3kxeGk4SWVGZzhGbWlaYjA1Ync0cXcyalkwMXk5ZXpMY01oUlkzV2tDU2tMQ1djRjFFTEN0RGlLUzV6dUF1Sm5xZXhzTkdTWXgtSUtXY0xtUGs?oc=5",
+        "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
+        "source": "himachalpr.gov.in",
+        "description": "Himachal Pradesh Government &nbsp;&nbsp; himachalpr.gov.in"
+      },
+      {
+        "title": "Himachal Pradesh imposes 60-paise-per-litre orphan and widow cess on petrol and diesel - News On AIR",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSF85RnpfWG84WVQwZ1lQNzdxeVNuUjVFRDdFdk16UmFYSU45dThrM1p6bXNiMzhlbFNyT2xDa2tZRzQwbjZsTFV0bVR2RE9tdkNqTE5mM1oxdzgwLU5iTkxsZ1NPd1poWFZ3YTU5VkNLUEkyZHhEV09DN2JzZEhKdmdBNHRlOGIyUmh2VlNFVmRRUlVzVzVLcnBqYlJwS0dpdHNBblJYTm9VN0U4dGRlMWZB?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 07:00:00 GMT",
+        "source": "News On AIR",
+        "description": "Himachal Pradesh imposes 60-paise-per-litre orphan and widow cess on petrol and diesel &nbsp;&nbsp; News On AIR"
       }
     ],
     "weather": [
       {
-        "title": "Himachal Pradesh weather forecast: 64 roads closed, 225 power transformers hit; heavy rain warning issued - The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQZ0VpMlYzSkpEZDRUXzhVZFNtcXVMZHpRZkplbW5GNUVIT3M0WFRqMkd3a3hCOU1CTTVsci1Md2g0Wk5XOWk4clhXdElFTm9LUDZ4SkwxbEJfa1ZiRGlQSHRENjE3M0VCNGxrRWJ1UnI4U2lEUlZNbEZSUGhLaTI2RG9RdXBLQ1k0MzBSajVzMWpSVFNwVU1WYkFpVlktRFpkMU5kajVyRUR4b2dxYWhIN2RsejVaYzh1OE9ZZnZRUUlxd1F6NldDb0JjaldNM1cxSEJhbUl2eWNfNTBqSnMxeGlEQThMME9pZ0tKQlBzYTJ4Qk0zdGVYa1czWWtqdDVSNWZtRnIxYU04WTlMTW9tUWd2SHRpTFBVS2fSAZ8CQVVfeXFMTU0tWGxHVmlqRm84V25IeVFBb2dtUUlkSU9MV0lOU29OX3FGcmhSc2FxdnMzbUpHbDA5dkphTFJfY3ZMZ05UaVlfSG9xSVhjU0w4SDI3U3dsTTVFR2dYZkxyQllVdjRtYlNjcEJhaV9Da3JWeU5nWmhERTF1Z094bUZhVEo5T09ESlZaXzdPbDQ1UWVBWHpxYjd5VmkzdXFVU25JUnhTdFVJV2FyR1IyWmR5YkxqaWUtLTJ5SVQybjhtMkE3MDVXUVIzS2hxanJySnZTeXV3dVhoTkRTdTBaRTdYZ19YU0w1elFhUjY5d2VHc1loTUU2ZldjSkFlWlB2NWNaNXVvRklBaXJ4aTA2WFZUV3hlSWROSlVMbS1RRkE?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 12:58:55 GMT",
-        "source": "The Economic Times",
-        "description": "Himachal Pradesh weather forecast: 64 roads closed, 225 power transformers hit; heavy rain warning issued &nbsp;&nbsp; The Economic Times"
+        "title": "64 roads blocked across Himachal; MeT issues 4-day heavy rain alert | Hindustan Times - Hindustan Times",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWjBBb0lxV2ZzRVZ3VFdqZ2EyMy1jNmtEbU8xV3pycWZfNkhJZ28xZHdYcXNVSmxtNmZMZEo3RE84d04xRjlNZFlIckxSaFBDb29Rck1XV0lURkRmR2w4OTBidjlBTm00T050WExDWUdmcmNGSGN3SXVIYjlNT1N5b0k2NGU1enU4WjhZN3NkQVgxSHRVc1VaUjNnZjNGMG05bDFOZ0h4cU5XMjFPNm5NelBKd2d4QUpmTjJBTS1sNGZkWmdjM1Nla0lmMHVSc3ZwcUUzbmxlaVLSAd4BQVVfeXFMTXpwNXlLOFRHdUlpTXRSWUliRU1Lak1lYTYwN09IcEJVeDdmZ1dHZzhLMmJ6TjZBY19LeXVocUVuSkVOTXBGdkFNUktnU194RXI3UFVfTjAwT2xIMERhdUZDOHk1dEtnQVo2Rlo5NXhhM05IRGFUQlFHc0plSkZxcENmV3ZVbFZDbTRzaFRoV2dJNmgyTmtzZ1hCcmE4SDNBZ0p4Mkk5Tk5GRS1LS3M0X1lNYnJybXRuemczNkhBZXVHRGRWN1JrMVhoVDM3SmZRdmo3NV9PLWtxSXA3VTBR?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 02:58:10 GMT",
+        "source": "Hindustan Times",
+        "description": "64 roads blocked across Himachal; MeT issues 4-day heavy rain alert | Hindustan Times &nbsp;&nbsp; Hindustan Times"
       },
       {
         "title": "Himachal’s key Chandigarh-Shimla highway on landslide edge, study warns - The New Indian Express",
@@ -443,25 +443,32 @@
         "description": "Himachal’s key Chandigarh-Shimla highway on landslide edge, study warns &nbsp;&nbsp; The New Indian Express"
       },
       {
-        "title": "64 roads closed in Himachal Pradesh, yellow warning of heavy rains for next four days - ET Infra",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOT0dRWndrOXN3TnBELURyelc2X3BzUEZ4bVBUVE14U0lRcEZwdC1Dbm00ZG1RYkxDOUpCWk1IYzNpZDRCcFFFcmJ2VEJFYnN4allfeXlkajA2MTdpVXN3OEMwSEZqUzd2NDhoaGxtUG5tT0p4anAxQnFzN1Q5NmFHc0JGeDRTN3JvVVMxSjRZTE1EdHVBVzZaR0ZELXgxb05qTDZCMGZMc3gzc29NYUEyTGRmUTdkRDV1OHY0cUtGTXlWRXpVQUpCd3RjcVQwY2xEYkNkTlNVRU1wcFFFMmF2T0xVNUFHU2M0OHpHSi130gHzAUFVX3lxTE1vYUxHeHZUXzc2X3FYb3ItWEwzdVRUX1pSbGdLc3ZVYm5EbXNxTE5VSy1GaGhaR0FublR1cjhnRERxWjc4bGZhTlduQlNzbjlVU1U3WWJGSzdMUjI5cmlvWjgyMXFCYmY3Vks5a2h1ZVdQQl9RaGdKZFNqQ0o2WkdXMGJ5djk4M3FFWlQ1ZHh0Y01FRXUtU2pwMUI1LUVVWDRxS01udG02dkZCaG5DVTM3Y3A0cmY5eGttbTZzcjd3Z1E2N3pPWEV4RUlYaUExZ2dCU1N0ZTV0LVVFbXlzZTlsZTRPS3JTblVfRXlnLU12eHgtbw?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 08:10:26 GMT",
-        "source": "ET Infra",
-        "description": "64 roads closed in Himachal Pradesh, yellow warning of heavy rains for next four days &nbsp;&nbsp; ET Infra"
+        "title": "Himachal: 'Toy trains' cancelled as section of Shimla-Kalka line hangs mid-air due to soil slippage - ET TravelWorld",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcXQ4NjQyeUg1cmlIVkN4eC1HcjQ1UndvT1lfOFU2Q1YzdnZkcnpKNWxjUlE2SW96bzZGcVNXTXdpTEx6Q1hUZnNYcWo1N3U1YTBGTXMxS3M0bWpMaTdqalJwdUhlRTZXT3hxUXRwTTRWV3RCaUJrWjRpLTNqdHNnUTZNUE85Y3FqbUstTnY5UTRTcmVkdjY1VWRTQlR2bGpEMFBNVHNhTy1mNW5sOXA2b2dPclJYejM0SVFfNWJaZG9EOUE3UzR4MS1jb2Y2NzBCMTlWck1KOWNZVmE0dWdmWFFxOFNHUWJuWTZwMWs0a3h1TVJoZXFSc2ctdGkwY0F5ZkhyYmh6Mk9fZ9IBigJBVV95cUxQcXQ4NjQyeUg1cmlIVkN4eC1HcjQ1UndvT1lfOFU2Q1YzdnZkcnpKNWxjUlE2SW96bzZGcVNXTXdpTEx6Q1hUZnNYcWo1N3U1YTBGTXMxS3M0bWpMaTdqalJwdUhlRTZXT3hxUXRwTTRWV3RCaUJrWjRpLTNqdHNnUTZNUE85Y3FqbUstTnY5UTRTcmVkdjY1VWRTQlR2bGpEMFBNVHNhTy1mNW5sOXA2b2dPclJYejM0SVFfNWJaZG9EOUE3UzR4MS1jb2Y2NzBCMTlWck1KOWNZVmE0dWdmWFFxOFNHUWJuWTZwMWs0a3h1TVJoZXFSc2ctdGkwY0F5ZkhyYmh6Mk9fZw?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 07:32:32 GMT",
+        "source": "ET TravelWorld",
+        "description": "Himachal: 'Toy trains' cancelled as section of Shimla-Kalka line hangs mid-air due to soil slippage &nbsp;&nbsp; ET TravelWorld"
       },
       {
-        "title": "Himachal braces for heavy rain from Aug 31 to Sept 3 - himachalguardian.com",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ09zVjZqUzdERVZ4cElaRk0yZFhUNm4zdkpORzFGdjJSSTVteUtVeS1UXy0xeDhxcjI4Y3ZLc3JoQzFaa3gxZkw2SWpWWDJEWWd4elZFa01Bc2o2ODBLcll0bjhfMEp6eE9aZ3g5eEdaeTlBTDh1V2lZUWxUeFVkbGF6emhkOWFSUmNzNXV2R3Y1am53?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 15:38:17 GMT",
-        "source": "himachalguardian.com",
-        "description": "Himachal braces for heavy rain from Aug 31 to Sept 3 &nbsp;&nbsp; himachalguardian.com"
+        "title": "Himachal Pradesh weather: Heavy rains wreak havoc, Kalka-Shimla rail line damaged, several trains cancelled - India.com",
+        "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPZEtZaGRhTVlYWVU3cVJKWGVzaGpXVnRMRkZUN3plcnBOd1pJMWZqdVRBODJ1WDJnOU90NGRNVXdLcG43Z1o0WjEyYk9UNEdxYmxEV0I1VnYzSTNqdnY4aGZHVlliXzVjQy13TTNWbi13U3Ewbkhaakl4dlRzS3ZYV3ZzdWhjblRtd3pTeE54eFZjWDl0eFVueG9zWld3elNsYk5vVE5KY1ExX0pYLTlGazB4WWRBc3llU2tNa0R3N3dmUURuRjRVa0psQkN2emppeVBTSXlCM1dGNGxfb2hUbnpfX1pjUHg4MXpDNEhqc3Z0VEZwbUFadVA1ZkZYZlZCZGJSZUIySzhUdzZzVkp3bjVra3hmTG9kUkl1T215SFVpYm9IZ0HSAasCQVVfeXFMUFM2MEFrQ0JQM0Z1UE5KVUpOSjh3c2s4cGpsSVVWMUN6NTJ3WW1mT293YXZzZTYyUGVoNU5Ra1RFdFZGLUhmVXpHUzV6YU1GYXNLRGZEMzJicDkxVGdFSDd1QnVGc3BUemc5LUVVcU1OenJIdVFHQTJmWnk1OTBNMWxsRms4Y2FzSHBxT192WlFhWEI2OXNrNjUzSkNHWXZBSjZGd05tNWhMR2R6RHEzcjhKUGZZbzFLTExhdFFpTFhadWlQU2tLcjFIUDV6Q3M1WWN5MDIzZWt0TUx0QURqVUJveW91STdWWVNub181RWFvMHl5RGZqRzBqb214NjVKZVBiaWhVbXJZeHktTTNOX1BkMXlGWWFtSnowck1zNXNPSXlvck5LcFNpcjQ?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 02:45:21 GMT",
+        "source": "India.com",
+        "description": "Himachal Pradesh weather: Heavy rains wreak havoc, Kalka-Shimla rail line damaged, several trains cancelled &nbsp;&nbsp; India.com"
       },
       {
-        "title": "67 roads closed in Himachal Pradesh, 'yellow' warning issued for heavy rain - Business Standard",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZUJxV3ZhcGFXVHZUNWNFTUVKaUZCSDVueFJXb3EwQ2RQTGRiMFhoa1l4WS1YbXlGY2p1THUwYUplQ1hZRU1iaDlrbG9MaXBJTFRYSmtCemx6NkJUMXhCYm5ldGdCci14RU5jbnV1QW9HU0h3bmI0MzdZLWQyd2tUeExqOWFBQ3JnUXFhbS1jeFU0YmxGWG0tNmZ3SDRjZkt1R2FHOGhrZTlPSXg3VkdXRTNDd0NVY1RxbTVGSjVFTUVZNjM3T09BMmhmUEdXcVN0ZFN30gHYAUFVX3lxTE1pRkZtZ2ZxQUkySHZsbHRZbnYxSXA2cjAyZzNlZlNFa0ZqNXRCUWE4ZmJHYlpGTFFueXJNSWprc05NWmdTdkhMQlVKc0tJeTc3UmFUZlFyZHhETHppWXBycmZGRkJUSXgyeGdHM2lyTS1DTUJYMTZoSktnM1JVenJoYVlBdGxCalBtOVo1dVpZNnFta2J0dDNZd1R6dnRmb3RrRlYyT0Qxd0JRM3NsMFJDbFhaVmdZd2dUQ0YwWl9DdE9CZnd6MWd4bzBSaEcyNHo3VDgwbGpobg?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 15:09:57 GMT",
-        "source": "Business Standard",
-        "description": "67 roads closed in Himachal Pradesh, 'yellow' warning issued for heavy rain &nbsp;&nbsp; Business Standard"
+        "title": "Himachal Pradesh weather forecast: 64 roads closed, 225 power transformers hit; heavy rain warning issued - The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQZ0VpMlYzSkpEZDRUXzhVZFNtcXVMZHpRZkplbW5GNUVIT3M0WFRqMkd3a3hCOU1CTTVsci1Md2g0Wk5XOWk4clhXdElFTm9LUDZ4SkwxbEJfa1ZiRGlQSHRENjE3M0VCNGxrRWJ1UnI4U2lEUlZNbEZSUGhLaTI2RG9RdXBLQ1k0MzBSajVzMWpSVFNwVU1WYkFpVlktRFpkMU5kajVyRUR4b2dxYWhIN2RsejVaYzh1OE9ZZnZRUUlxd1F6NldDb0JjaldNM1cxSEJhbUl2eWNfNTBqSnMxeGlEQThMME9pZ0tKQlBzYTJ4Qk0zdGVYa1czWWtqdDVSNWZtRnIxYU04WTlMTW9tUWd2SHRpTFBVS2fSAZ8CQVVfeXFMTU0tWGxHVmlqRm84V25IeVFBb2dtUUlkSU9MV0lOU29OX3FGcmhSc2FxdnMzbUpHbDA5dkphTFJfY3ZMZ05UaVlfSG9xSVhjU0w4SDI3U3dsTTVFR2dYZkxyQllVdjRtYlNjcEJhaV9Da3JWeU5nWmhERTF1Z094bUZhVEo5T09ESlZaXzdPbDQ1UWVBWHpxYjd5VmkzdXFVU25JUnhTdFVJV2FyR1IyWmR5YkxqaWUtLTJ5SVQybjhtMkE3MDVXUVIzS2hxanJySnZTeXV3dVhoTkRTdTBaRTdYZ19YU0w1elFhUjY5d2VHc1loTUU2ZldjSkFlWlB2NWNaNXVvRklBaXJ4aTA2WFZUV3hlSWROSlVMbS1RRkE?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 12:58:55 GMT",
+        "source": "The Economic Times",
+        "description": "Himachal Pradesh weather forecast: 64 roads closed, 225 power transformers hit; heavy rain warning issued &nbsp;&nbsp; The Economic Times"
+      },
+      {
+        "title": "Himachal Pradesh Floods: Kalka-Shimla Railway Line Damaged, Trains And Flights Cancelled - curlytales.com",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR2V1WXpNQ2VPZ0l0d04xRU5kSkxxUkQwS3F4TGFiZWZNU0w2RTVSc3ktazJMOVdhWEt6cklGVzZhTlFBakdBY2JVU1llaF9ZZWJaRm1lbWZsbmwxeUx2WFRuZW1ncGk5a3ZGdWItSEVEcE9qRm8xT0NwVFpkempnenhCaUFNMWU0WEJQOEQ5dG4wektXWF9lOGpwaDE0ZTNjblFKczJJWXBJRG9vcnV1d0VFM05wWVhFZU1BLWJRdGlhWlHSAcgBQVVfeXFMTlNUMFI1bjN3T3ZnSjNxTWViUm1VTVV4THFGX0s5TFM1anJkM2JyZF93eHI2Z195TmYwTmRpMEJKWnRZc2xyUnFKUmdwc0hJN3dVcmE3QkRMQnpIbFE5YW5VUkE1X3Fhb1UtTUVzNW9PcDAwN2c2ZXVCOXdBalU4andYOUdLbm1fZHlNaVRZVTlDNEIycXlOMHhhVTBOZlVISmNJMlhnUXlBNl9IajZOdGdMbzB2X2NGSFFmdGdGQzZTZ1JLUW5US0M?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 06:24:46 GMT",
+        "source": "curlytales.com",
+        "description": "Himachal Pradesh Floods: Kalka-Shimla Railway Line Damaged, Trains And Flights Cancelled &nbsp;&nbsp; curlytales.com"
       },
       {
         "title": "IMD issues Orange alert for heavy rainfall over East Rajasthan, Himachal Pradesh, Uttarakhand & West MP - News On AIR",
@@ -471,11 +478,11 @@
         "description": "IMD issues Orange alert for heavy rainfall over East Rajasthan, Himachal Pradesh, Uttarakhand & West MP &nbsp;&nbsp; News On AIR"
       },
       {
-        "title": "August Devastation: From Leh To Uttarakhand To Himachal Pradesh To Nepal - ETV Bharat",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcHZ2MURwM3V1WGd5UHRzRTlHS19SV0N2U0I3THZRS0FoWHlzRmFuOEgxZ2lJNWpEWUJwZ3VPX1UwY2p5S3Y5VG4zRDJXUF95aDFFTFNwemR6TGFkRHZFRzloQ0I5MFBPcW9mVW1lZWh5VEZYYmdmaXc5TFljUTExV0ZRMVdqRHo5dVFFX0lqUDRoSFEtdWlhLU5xUFZXOUZqX3VGcS00aUFCczN4SVRJVU9ybW81THZPd0I1MWJZSdIBxAFBVV95cUxOR2g1YXRtZjY0TlRTeTI0aDB6VmVaWWM1UEJ4STA1VnU2VDFLY1ZCZ3NVZk5Wc09JcjBDamlaeG41VWJydlozVTFFdWM5TkJpVVpvcnNQdjlacnZpR1JpWUxBVEdmTC15U3kyYWVtRXp5dHh6TnlKSy1LbFRLT0dFeWhIN0l0XzV0OHU1U0djMUxhMEdHNmVEclNFWThvdElrTHVMSVAzcHhXMmJyblltUlVva2pnOUoyMjZhcC1WSTNEYzFC?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 11:19:26 GMT",
-        "source": "ETV Bharat",
-        "description": "August Devastation: From Leh To Uttarakhand To Himachal Pradesh To Nepal &nbsp;&nbsp; ETV Bharat"
+        "title": "Himachal braces for heavy rain from Aug 31 to Sept 3 - himachalguardian.com",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ09zVjZqUzdERVZ4cElaRk0yZFhUNm4zdkpORzFGdjJSSTVteUtVeS1UXy0xeDhxcjI4Y3ZLc3JoQzFaa3gxZkw2SWpWWDJEWWd4elZFa01Bc2o2ODBLcll0bjhfMEp6eE9aZ3g5eEdaeTlBTDh1V2lZUWxUeFVkbGF6emhkOWFSUmNzNXV2R3Y1am53?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 15:38:17 GMT",
+        "source": "himachalguardian.com",
+        "description": "Himachal braces for heavy rain from Aug 31 to Sept 3 &nbsp;&nbsp; himachalguardian.com"
       },
       {
         "title": "Himachal Weather Update: Monsoon to Intensify Again from August 31, Yellow Alert for Heavy Rain - The News Himachal",
@@ -483,6 +490,13 @@
         "pubDate": "Sat, 29 Aug 2026 10:36:58 GMT",
         "source": "The News Himachal",
         "description": "Himachal Weather Update: Monsoon to Intensify Again from August 31, Yellow Alert for Heavy Rain &nbsp;&nbsp; The News Himachal"
+      },
+      {
+        "title": "Himachal: 67 roads closed; ‘yellow warning’ for heavy rain - DD News",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVjBjOHlPMDI5VlJqRFgwLXoyOXBaeURoV250Z05BM3J5Nm5qN3pNZ3B3QVliOGpFb0xNSDg3Rmc5OWFFNnFuWDRuV1p6S25oWURwZVBmZllra2c1dlJrOEhoY3hTY2hkZnlWVjFIcjF0QnprSjBWR3cteFZ1LXdfdnpQcEptTWs?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 15:03:00 GMT",
+        "source": "DD News",
+        "description": "Himachal: 67 roads closed; ‘yellow warning’ for heavy rain &nbsp;&nbsp; DD News"
       },
       {
         "title": "Himachal weather update: 68 roads closed in state; yellow alert issued for 10 districts today - The Tribune",
@@ -499,6 +513,13 @@
         "description": "Himachal braces for fresh spell of heavy rain from Monday, 70 roads shut &nbsp;&nbsp; Rediff"
       },
       {
+        "title": "Weather tomorrow: IMD warns of very heavy rain in 4 states; extreme rain alert for Odisha, Chhattisgarh - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNU2Z3a3Bibkktb2VPd2kwOHJYV0g0TEhsU3RsUk5tNFd1dWItbjBSNmtvdWpCdTlZUWJxamlFSzcxek9GQm9nTVZWSHlKQkd2RWRNblN1TXc4YnlHbjlFWDRYMnBLRURSOFUxS1RXdl9BVWJTV0dWRmVnMkZCUEY0eU1wclFmR05NS1dRV1ZUVTdpVG1qNFdTWHF4cmJnbFAtWk9XNGtQd3BZd3A3RGsyLTRrMzFyWl9wWnF4czdvNU5XUlAzczRQQ3ktM2locWl4S1VZY1NPQWZRUTdnUDFLVGc5bzhISXNqV2VvSHNWTUpxdEZXOU9SRTRaV2RPOHhyUEFr0gGIAkFVX3lxTE1vZk5PYmJRZmwtNmhxLW9CYTdUWEZSbjBwUVFUX3R6Q0JwaDBjVmZpWjJRYS1WZFQxS2NRQ2ltWTJ4dGsyUG9wT0s1Z29qdFZtbndROVZpZzZ2NmZQQW1IS3FZb2NDWUdoakJNSVhGREMtdC1MbUFiUVMxMU9TRlI2TWFxUENJdzYxX3VfS1dsUlpGY3kzQ2JaMnR1Z2JhUnpmSmgwY3EyM1gzakpaUTAwN1RHMktBT2lqVlY0VWFsYXhoZEhOVHdCak9lY1h3LU9kS0gzSk1BeFZmNVd0TW5vRkpfUUE4aFBCdUNVMEJlVnhVSHBldERKb3NUakJhN0ZBeFZ2MGpVLQ?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 04:32:00 GMT",
+        "source": "The Times of India",
+        "description": "Weather tomorrow: IMD warns of very heavy rain in 4 states; extreme rain alert for Odisha, Chhattisgarh &nbsp;&nbsp; The Times of India"
+      },
+      {
         "title": "Himachal Pradesh on high alert as red alert issued for heavy rains; all schools closed in three districts - The Hindu",
         "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZFZYNS1jTlFzQkJyWTZxOW9xWlBUTzJKTUVRa3cxSnNCVm5DcGdzZG5JdE9Tam9CTzdLSW5KMHRIcFlQdVNscDk1eElHbHd5RjNQTDYzTlNuRGNESjVqYzNLemJNaXVoUUkyZ0I3MzVKS180N0FNYmhibndrMGNmN1RlQUVhMHY5S0Ywbk5IWFhjT1cyOHpFR1pidlhHajd0SjAybFBYVTFXb2JWM1J0Q2VOU3IxMjFwYTA0Vkt1VU43LUcxWWlTck56Zm1nU0c4QjgwcXFKUFlhVF9UbmltWEM3em00UDBHNW9hUXQzUm1wVUxZSm9vNFVicGk1MEFSdERyLWlVX1h4aFAz0gGTAkFVX3lxTE1RemI3bHMzdTBpYTJUUkt5VmFtZ0NVZ3VTY25QQ2s5QkNORXBNRGNPX0g4SEIzM1ZwbHNHY2ZEMlRiUU1sWE0xQkwzUWFNWVRRbHhmVVBvaFdhTHRWTThMMFYxNWl3emZEU2swVjhad25vb2xQZ1hwdzFZSHo2QzMydl9KMHpfQVVrR2dWSWVmckhSckEzbFUydDdDdkpMUHBVcGJGNE1Qb09jbWJFRjVSSXFfemQ3YkJ4QzJTN3FQUGFEdUtXZG5RTVpLRDJCdm9sSkEwWnZLTFVtUjB2aXcxMURzS2p4LVBUaEhFUWdnN0hiZnFXaTJmSmJ4dWhjaVJSYmYybGktcE83ZkpuSDVuUkx3?oc=5",
         "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT",
@@ -513,27 +534,6 @@
         "description": "School holiday tomorrow, August 31, 2026: Are schools closed due to rain? Check status in Delhi-NCR, Mumba &nbsp;&nbsp; The Economic Times"
       },
       {
-        "title": "Weather tomorrow: IMD warns of heavy to very heavy rain several states; thunderstorms likely in many area - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdEh4SUdsYnNYN3NoYTBTa3pVVHdlMWJCV2MySVJXR25GQkhKVGxQTjlSX0llYnh0TERiR0VmUnNpa1E3MjRtVGNkdW9ISkZtdXBsX0FTdFcyR1hCWDQ3NHVKb1ZjNzFveTEzU1Y2Tmxwal9ldGlhdVVnUEZzem9BLTAySG5vZDV5M0E3RTZMcjIzYThqeExNUkdXZjRQc2paMjVCV19lMGl0VEUzV3htTTBZZWtkUkxya1RiOGU5bWh5UDFOMDA4ZEFfUUtkYl80dnFmXzJtbnJWQldwT3oxYlgyazFWSEZ6MVlsOHBTd0JpS1BmZ09xZmw0SnE1Y1M4WkUyTy1rTGfSAY4CQVVfeXFMUDBxTEdLc1U2TWROU294UlZzaURXUHFKN3R6YjJNUXJtS1ZYb1dfU1pXdHBJeFZWREJleWp2QVRnVWFpYTNnLTJtT0RjRDBOQXIzNEU2azc0Si1QZnEtMXZGSVlBOGZSaDAtazZFOC05dVlLenFwWTBXdDBDOW5raU91dGhWY0JYTXN5ZmYzd3JlMGFkTGZEY3ZjcGwzYXVtVUtCTDMxN2JzRVhMeFRQczNadmpjRDZDSEgwQjVXelRoT3BjT1A4UFhnTEkwcWxWR052YTNCWl9kT1JHdXRQVFZ1bWdTc2RFZFN5YjF2aS1xbTZfVDlfTEdxWHdCeWliczR1d181TjkxXzNQcXJn?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 05:22:00 GMT",
-        "source": "The Times of India",
-        "description": "Weather tomorrow: IMD warns of heavy to very heavy rain several states; thunderstorms likely in many area &nbsp;&nbsp; The Times of India"
-      },
-      {
-        "title": "IMD weather forecast August 28: Orange alert for Kerala, heavy rainfall predicted in South Bengal, check fore - India.com",
-        "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOT3cwazVIZE9EME9kZzQ3Z3ZSRjg4T1NYYkw4VHhRWXoxZU43THNtWkI0R0xpNGwzdUxyU09fNzVCRjc4aDNieDJWZUtxdGNobzZCc3RFSmszdm84OHp4RC1vSENvaU1kOWZtRDJSNDkxaFVqNlVtNVFWM0FQa2Y1WmVBU2FzWkd0MGtjQWxQVjE3VmpCa3UtaHc4LWJCWHJZRE5YakNuSkh3X1BYdXlQdUZ1MDA5aUNiY2Uzc05KVFR1SjBqbVVQMjZGZEV0WDlKSndvLUg2NXluMTc4YXI4S052V1M4VXpVSjVrM1F5MWtaSzZyVE5odjVVN0lVRXVVMzh1cjJQZnVnUkd1VW1EMk5TcWtCMWk3VUNsWHowZHV4Z3Za0gGqAkFVX3lxTE5rWTFjSVU1d2UwX3RWX2g0NHpaSGw1STAxZzBpRWRoYU42WHI3QjVQZkVtbDU3VXNOMU55M09CUnJNdjVqYmZVZFNmV2h1LS1FZ28ySkVkb0dudzUya1FLWFIyVEpQaUZ1bXc5Y0U1dENjYVhVLWtMQTZUR2RGOFJzNnlNVzd5SXlFakdLUXhMbTctMmJVVWxzMWdYRXdkZkRfNjYyNjd6QlYtMmVLY2h1YmpTam84NmkzSENiVWZNUzRMc1VqSGlsT1RkRkxfT3FtMXBYeVc0eXlDLVJiX3c4eTVIekFBdkxYQXVXQkVUVFBPa0hMeHEyd2djN2NING5TeUt5NXBCVGdHUWotcVRMQVA2Z2k1ZW85SEZZTDdmTmJnblVoNHZraVE?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 11:52:13 GMT",
-        "source": "India.com",
-        "description": "IMD weather forecast August 28: Orange alert for Kerala, heavy rainfall predicted in South Bengal, check fore &nbsp;&nbsp; India.com"
-      },
-      {
-        "title": "Fresh spells of rain disrupt normal life across Himachal Pradesh; yellow alert issued for next five days - DD News",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTzlMeVplNjlUdU0xZkt2Wld4Tnh3N2oxc19QS3VyNnFMX0dabTNLXzhmMW1nOGdWaE5fLVd3b0t5bl9SOVFYRk50ZVl5UkpWemQ0a25xUE9uaDhCeFNrMWo5ZlNuLXdtTVZfWXc1MDBKcUd1OHNxbHd5aUItODdmVXRpcy1HMTRPbTlESEVOeUpIN25TOE44MHFhZmRqVTlNOTZoNy1qZW1TZDdJNjJWREZwR1FEZEw0aWlYY0tzYmZ6Snc1SWQ2Xw?oc=5",
-        "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
-        "source": "DD News",
-        "description": "Fresh spells of rain disrupt normal life across Himachal Pradesh; yellow alert issued for next five days &nbsp;&nbsp; DD News"
-      },
-      {
         "title": "Himachal Pradesh rains: 64 roads closed, 225 transformers disrupted as fresh showers lash state - The New Indian Express",
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVlFodFpKNGFpcFdGQnp5OThKeVVIMDVVMUVDNXVHcEpRVkxPcVBvU3hSampaY0I0OWpIQXhWWW9jSmlGaks3Ty10VnIzUVp3MDdLMldqVmVha2o1Q25yNTBvQUdBdDBWbUlKVTV3eFJGZ25jcmUtYWNsdHZnNEh6bS0xRTNNLWFRQ0FRS1Z1NmhsR0Rha21qbnQyWHptekZwVWFHbWxMRmdDWXM5emVJbDJsMksxTnpUcXFkT2tWakxCNFk2aEg2SE1SNWlORThsbTlCaHFNb2VLbXRGOUZpY2ZwOGp4cUNhZnfSAeoBQVVfeXFMT1ZRaHRaSjRhaXBXRkJ6eTk4SnlVSDA1VTFFQzV1R3BKUVZMT3FQb1N4UmpqWmNCNDlqSEF4VllvY0ppRmpLN08tdFZyM1FadzA3SzJXalZlYWtqNUNucjUwb0FHQXQwVm1JSlU1d3hSRmduY3JlLWFjbHR2ZzRIem0tMUUzTS1hUUNBUUtWdTZobEdEYWttam50Mlh6bXpGcFVhR21sTEZnQ1lzOXplSWwybDJLMU56VHFxZE9rVmpMQjRZNmhINkhNUjVpTkU4bG05QmhxTW9lS210RjlGaWNmcDhqeHFDYWZ3?oc=5",
         "pubDate": "Sun, 30 Aug 2026 06:30:00 GMT",
@@ -541,25 +541,25 @@
         "description": "Himachal Pradesh rains: 64 roads closed, 225 transformers disrupted as fresh showers lash state &nbsp;&nbsp; The New Indian Express"
       },
       {
-        "title": "Situation Report 4 - Extreme Weather Events in India - Assam, Jammu & Kashmir, Himachal Pradesh, Gujarat and Maharashtra (Date: 25th July 2026) - ReliefWeb",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRzBuNGJULUViaUkxREFRMWlqY280aHk3b2hOMTJOdGV1a0hfbTZoMEdDcDJHOEtJT3NlaV94Mm9VSXJNRDhra215NGUteHdPWUNHejRsUjBiZmwyWTBhYVFfbVFnN01XUnpGbko5ZWxNbE5Dc3hXSVZhNjVhQks5S0QtYzBfRjNsNFpJYXhBNkM3anQ0emJLSWI2cWNvQ0JNU0RfYWdCZTQ3bzgtZ3kyTHdVX1N2aEVPN1VFOFg4c0FXX3RON1pEbGNpZzEwQ3ctV2x6YVR4eVh2UmpJQ0NrQVVTYkxBV0lmRmZFM19zUFpscUdURHc?oc=5",
-        "pubDate": "Mon, 27 Jul 2026 07:00:00 GMT",
-        "source": "ReliefWeb",
-        "description": "Situation Report 4 - Extreme Weather Events in India - Assam, Jammu & Kashmir, Himachal Pradesh, Gujarat and Maharashtra (Date: 25th July 2026) &nbsp;&nbsp; ReliefWeb"
-      },
-      {
-        "title": "Himachal Monsoon To Stay Active For Next 45 days, IMD Issues Orange Alerts - Open Magazine",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZEVwSG5LdEJuV0g2WW8xWmpnVERjdnJ4Q3BHaWRnSFMwOTVMT3BDaWR4cVRPcFI5dlFoWnVuWG5fRm9GdlI0MjdTcVh0eUpRWXZHS2JBYzdrN1BkT1QxYm50LVdVVVVZSmIxdmc4MmlZbDVSSDFvdzZXQ0cySGRIQlEzUEFEZy1XN0QtNTBtY0l2YllEWHBobGVwM1VZVHQwV2RhN1ZERUlyZGM?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 07:00:00 GMT",
-        "source": "Open Magazine",
-        "description": "Himachal Monsoon To Stay Active For Next 45 days, IMD Issues Orange Alerts &nbsp;&nbsp; Open Magazine"
-      },
-      {
         "title": "IMD issues Red Alert for very heavy rainfall over Himachal Pradesh, Uttarakhand and Jammu & Kashmir - News On AIR",
         "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT0hqdVBzeXRIQ1NvVEtsY2RZRF96U2xaOHBCY0drd0lzRS14QVUxc1VKQ3BxQ2hCaERERnZ1WGZDNl9jYVN0MTJldlkxZW55WEg1S2pHVW1lRnp1cWszZm1NRjFtU0ZORVpFdVVIZ0p1ZVcwYkNCUXlTWDVEMGM1RzZBc3YxMHdxMkxoZGlZMkpCTFpnSEx1M1hyLXIxUUJJYXM4ZEtMV0xzRjYydTJpTmJnVC1EZGFOUlN4MDZmTQ?oc=5",
         "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT",
         "source": "News On AIR",
         "description": "IMD issues Red Alert for very heavy rainfall over Himachal Pradesh, Uttarakhand and Jammu & Kashmir &nbsp;&nbsp; News On AIR"
+      },
+      {
+        "title": "Himachal identifies 67 vulnerable glacial lakes, early warning systems planned for 4 - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbEtsSGl2Qm1raVpIdU5wX3V6UXhwZzd6dlFIa0pvMzhXa2dvZXd2V005Z1RfbDdiWUFjR1BJZTcxM3BacVo1RzFycXM2MFdJeVB2Rm9yeV9fT0RkcFQtY1pFTVhEVWNvWnVhS0VlNmVTVk0yUlBVbU9WYkdId0Y3TkQ4RkdHcFJWcmhaQ1djRmQ3OHZEaDgwdlB0UnBWeTNOWERQTlRqV3Rkb25wVnV2WlZOWS1HaDhtN01NZTVBMGlTUm1XdF9FTXpNZFhqcWgybmNHbElxMmRETWRnTWVMNGoxRGROeEhyMGJOb1JR0gHzAUFVX3lxTFBKZzRaTC1qM0V6RG9xck9ZSjVSZk9Rd3V3NzhiOEpGU2dzU25BVXRISm5ha3htVl9lZ2VZOUpubjJUbUczR2hfU3JCZjF6eV9MYlBqandNUVQ1RnpCWXM0TGYyM1pONGR0U1A3Z3R0Zm5nTnlHSGpjeFBDVGh5bnluWTQyZVVnNnlna2ttVmY4UFJKb01hSTVYYS1yTFhJTzI4MTdIQVhtUzdUNTdYUFNWT2VCTVNUUndhOWN1ckZrelYzcUV2RlA2V21RR29HTjBUVHhldnFJdmpTbnhKTlZDY0ZxVnB4M0hJYzJfb1c1ZzVXNA?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 10:25:00 GMT",
+        "source": "The Times of India",
+        "description": "Himachal identifies 67 vulnerable glacial lakes, early warning systems planned for 4 &nbsp;&nbsp; The Times of India"
+      },
+      {
+        "title": "64 roads closed in Himachal Pradesh, yellow warning of heavy rains for next four days - ET Infra",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOT0dRWndrOXN3TnBELURyelc2X3BzUEZ4bVBUVE14U0lRcEZwdC1Dbm00ZG1RYkxDOUpCWk1IYzNpZDRCcFFFcmJ2VEJFYnN4allfeXlkajA2MTdpVXN3OEMwSEZqUzd2NDhoaGxtUG5tT0p4anAxQnFzN1Q5NmFHc0JGeDRTN3JvVVMxSjRZTE1EdHVBVzZaR0ZELXgxb05qTDZCMGZMc3gzc29NYUEyTGRmUTdkRDV1OHY0cUtGTXlWRXpVQUpCd3RjcVQwY2xEYkNkTlNVRU1wcFFFMmF2T0xVNUFHU2M0OHpHSi130gHzAUFVX3lxTE1vYUxHeHZUXzc2X3FYb3ItWEwzdVRUX1pSbGdLc3ZVYm5EbXNxTE5VSy1GaGhaR0FublR1cjhnRERxWjc4bGZhTlduQlNzbjlVU1U3WWJGSzdMUjI5cmlvWjgyMXFCYmY3Vks5a2h1ZVdQQl9RaGdKZFNqQ0o2WkdXMGJ5djk4M3FFWlQ1ZHh0Y01FRXUtU2pwMUI1LUVVWDRxS01udG02dkZCaG5DVTM3Y3A0cmY5eGttbTZzcjd3Z1E2N3pPWEV4RUlYaUExZ2dCU1N0ZTV0LVVFbXlzZTlsZTRPS3JTblVfRXlnLU12eHgtbw?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 08:10:26 GMT",
+        "source": "ET Infra",
+        "description": "64 roads closed in Himachal Pradesh, yellow warning of heavy rains for next four days &nbsp;&nbsp; ET Infra"
       },
       {
         "title": "Himachal likely to receive rain till Sept 4 - The Times of India",
@@ -571,25 +571,18 @@
     ],
     "tourism": [
       {
-        "title": "Six tourists killed in road accident in Himachal Pradesh’s Chamba district - News On AIR",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVk5BMGNIa1l6THVQZDh4UGpjb0k5X3ZrVjZnekVBcFdVdTlrNENCNVFIZWprdDVMdkZpU3BGM2hFcFRra3pfUkVYT2JWdHgtaUVneHZJcWFwZVZ5dTJuU1d5TTQ0c1hFNENnZWJfd19pYTJzMUdVQ09XaDJUZEgzbXpRVGFOWGVaQjdPQjB1dmFMT3JHSkxSZ1FBQkNKVEpi?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 15:42:48 GMT",
-        "source": "News On AIR",
-        "description": "Six tourists killed in road accident in Himachal Pradesh’s Chamba district &nbsp;&nbsp; News On AIR"
-      },
-      {
-        "title": "CM invites hospitality, tourism industry to explore Himachal's emerging destinations - ET TravelWorld",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQV0pUWTZ5eEJjZ3ViV2NBWFVzYVItVW1jbUxBVlNXTUM4cHp2Mi1XWEdUdTl5UExqV3M3c0FmQTJqVTF6ZWJaaFNwaUxsQUhhTFVlaDFqdTBHaXlWempJQnR0Mk85S25lcWU4WTVPcUFSQm5fZGJ3VmV0UGxyN1R0eFM1Z3lJUmJKSmtfTmNOdE1Fbm5lLUFmVGE3a2k2YUVUczFKUDY1OVkxb05wM1d1cWN6cFhnamhONmZWV0xMZEFiNXhCMDltTXZ0Rl9YTEYyaTh6WEJGQlBUT0Utb2VKZGllVi1UNlVmWFhfcUNlZl9wd9IB9gFBVV95cUxQeWxkOGFtSUw5anhpNHVjb0pLbmF2bVNQU014ekpJSF8tOE1Ga2ZkTEEtQ2s3M1F3bDVqUWZ6WG83VmpJcmlvNkhiRUE1RjREWDhDcHBXWWxOTWRyN3BubmU5NTU2akdST1AyVjlYVlA3OFJuY2VTNVAyZmE3N2lNRXJMTmFLQ2ZqU01jdXl6bjNQVU9VZ3JkbU9sYXdvNXptTXdWSHMzaG5pNjRWWWxKQ0RZOHljcUVha3kxX1RJRmhyemxkRXk2ZTMyZVdBOEp1UG5SZUtPazlIN3dTanVaZzgwOE53ek5wXy1HTF9KOFNUU1ZSYWc?oc=5",
-        "pubDate": "Tue, 25 Aug 2026 12:10:19 GMT",
+        "title": "Himachal: 'Toy trains' cancelled as section of Shimla-Kalka line hangs mid-air due to soil slippage - ET TravelWorld",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQcXQ4NjQyeUg1cmlIVkN4eC1HcjQ1UndvT1lfOFU2Q1YzdnZkcnpKNWxjUlE2SW96bzZGcVNXTXdpTEx6Q1hUZnNYcWo1N3U1YTBGTXMxS3M0bWpMaTdqalJwdUhlRTZXT3hxUXRwTTRWV3RCaUJrWjRpLTNqdHNnUTZNUE85Y3FqbUstTnY5UTRTcmVkdjY1VWRTQlR2bGpEMFBNVHNhTy1mNW5sOXA2b2dPclJYejM0SVFfNWJaZG9EOUE3UzR4MS1jb2Y2NzBCMTlWck1KOWNZVmE0dWdmWFFxOFNHUWJuWTZwMWs0a3h1TVJoZXFSc2ctdGkwY0F5ZkhyYmh6Mk9fZ9IBigJBVV95cUxQcXQ4NjQyeUg1cmlIVkN4eC1HcjQ1UndvT1lfOFU2Q1YzdnZkcnpKNWxjUlE2SW96bzZGcVNXTXdpTEx6Q1hUZnNYcWo1N3U1YTBGTXMxS3M0bWpMaTdqalJwdUhlRTZXT3hxUXRwTTRWV3RCaUJrWjRpLTNqdHNnUTZNUE85Y3FqbUstTnY5UTRTcmVkdjY1VWRTQlR2bGpEMFBNVHNhTy1mNW5sOXA2b2dPclJYejM0SVFfNWJaZG9EOUE3UzR4MS1jb2Y2NzBCMTlWck1KOWNZVmE0dWdmWFFxOFNHUWJuWTZwMWs0a3h1TVJoZXFSc2ctdGkwY0F5ZkhyYmh6Mk9fZw?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 07:32:32 GMT",
         "source": "ET TravelWorld",
-        "description": "CM invites hospitality, tourism industry to explore Himachal's emerging destinations &nbsp;&nbsp; ET TravelWorld"
+        "description": "Himachal: 'Toy trains' cancelled as section of Shimla-Kalka line hangs mid-air due to soil slippage &nbsp;&nbsp; ET TravelWorld"
       },
       {
-        "title": "Himachal gets 3.11 crore tourists in 2025; CM asks industry to promote new destinations - The Financial World",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTHdMWEtQWlBCWVhtQVYzWHFNLVluVVEycDl1UlZEN0d5bXcxd3pJU0lkRkVabG1TV296TXhDSkJOeUZIQkJYV3JlTzEyZVNRN2Nfcmo4eXM2cDhYT3pmRm4wNWhRQTV6NExBR1dIVzctekFOdno0SVhaQ0Q5bGp0akNzcGRvSlZDVzd2eG1GV3lSREJZV3VHcGN5T2tVVElvNnlzM0YzakhQNUlSOC05OU10Y3VXcjJBZ092Zm1R?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 15:04:48 GMT",
-        "source": "The Financial World",
-        "description": "Himachal gets 3.11 crore tourists in 2025; CM asks industry to promote new destinations &nbsp;&nbsp; The Financial World"
+        "title": "Himachal Pradesh weather: Heavy rains wreak havoc, Kalka-Shimla rail line damaged, several trains cancelled - India.com",
+        "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQUzYwQWtDQlAzRnVQTkpVSk5KOHdzazhwamxJVVYxQ3o1MndZbWZPb3dhdnNlNjJQZWg1TlFrVEV0VkYtSGZVekdTNXphTUZhc0tEZkQzMmJwOTFUZ0VIN3VCdUZzcFR6ZzktRVVxTU56ckh1UUdBMmZaeTU5ME0xbGxGazhjYXNIcHFPX3ZaUWFYQjY5c2s2NTNKQ0dZdkFKNkZ3Tm01aExHZHpEcTNyOEpQZllvMUtMTGF0UWlMWFp1aVBTa0tyMUhQNXpDczVZY3kwMjNla3RNTHRBRGpVQm95b3VJN1ZZU25vXzVFYW8weXlEZmpHMGpvbXg2NUplUGJpaFVtcll4eS1NM05fUGQxeUZZYW1KejByTXM1c09JeW9yTktwU2lyNNIBqwJBVV95cUxQUzYwQWtDQlAzRnVQTkpVSk5KOHdzazhwamxJVVYxQ3o1MndZbWZPb3dhdnNlNjJQZWg1TlFrVEV0VkYtSGZVekdTNXphTUZhc0tEZkQzMmJwOTFUZ0VIN3VCdUZzcFR6ZzktRVVxTU56ckh1UUdBMmZaeTU5ME0xbGxGazhjYXNIcHFPX3ZaUWFYQjY5c2s2NTNKQ0dZdkFKNkZ3Tm01aExHZHpEcTNyOEpQZllvMUtMTGF0UWlMWFp1aVBTa0tyMUhQNXpDczVZY3kwMjNla3RNTHRBRGpVQm95b3VJN1ZZU25vXzVFYW8weXlEZmpHMGpvbXg2NUplUGJpaFVtcll4eS1NM05fUGQxeUZZYW1KejByTXM1c09JeW9yTktwU2lyNA?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 02:45:21 GMT",
+        "source": "India.com",
+        "description": "Himachal Pradesh weather: Heavy rains wreak havoc, Kalka-Shimla rail line damaged, several trains cancelled &nbsp;&nbsp; India.com"
       },
       {
         "title": "India on e-Wheels: Himachal’s EV push turns to tourists as it builds charging corridors through the hills - Down To Earth",
@@ -599,18 +592,11 @@
         "description": "India on e-Wheels: Himachal’s EV push turns to tourists as it builds charging corridors through the hills &nbsp;&nbsp; Down To Earth"
       },
       {
-        "title": "\"We invite investors to come and invest in Himachal's hotel industry..\" Himachal CM Sukhu at the 56th FHRAI Annual Convention - indiagazette.com",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRGkzV2dEcnVjdWtmMUlIVUd5WDRGczBfZDFEdXBOZG9JYW1fNUVwTmgyUXNNSUk2ZEFaeU4zc3NNWjl0MldnenF1WDZGNTh0QlltLTNkNnROR3prV285RktGV253Z1dfdTJUY1VXZUI2eHpSNEg2S2F3Y0VmbHpVTDc2ZFdmYi1BdXRBeFZkNGF4YXFvNjNkeU5YZ0Q1NkZqTUpfRmh1Q2xxR0pHVjBPV0lWSGJMbDlzRG5wdXJXOFUyVTUxRE42RFR5VkM5R3lRQWJLaEl3alBnZmgzTDNZWFNQU0xkWmkzMlVVWjNxa2d1VlBPNEE?oc=5",
-        "pubDate": "Sun, 23 Aug 2026 11:02:00 GMT",
-        "source": "indiagazette.com",
-        "description": "\"We invite investors to come and invest in Himachal's hotel industry..\" Himachal CM Sukhu at the 56th FHRAI Annual Convention &nbsp;&nbsp; indiagazette.com"
-      },
-      {
-        "title": "India-China Border Tourism: Ancient Trade Route Reopens - eTurboNews",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pLTE4UjE4eGY1T2pjUjdTS2s4RHMtMVFtUXZQcTdtQ2U0RGlBMEp5eEQ0NFNfcXZVMEVDM19fenBpT0RvNkF3aHlkcFdRd2VBNGR6VVp0RnlobldRSGJEUHA5OGdZUmh6YjJ0R3FheVZyN0tKY2NrajVYZi0?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 09:35:56 GMT",
-        "source": "eTurboNews",
-        "description": "India-China Border Tourism: Ancient Trade Route Reopens &nbsp;&nbsp; eTurboNews"
+        "title": "Himachal gets 3.11 crore tourists in 2025; CM asks industry to promote new destinations - The Financial World",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTHdMWEtQWlBCWVhtQVYzWHFNLVluVVEycDl1UlZEN0d5bXcxd3pJU0lkRkVabG1TV296TXhDSkJOeUZIQkJYV3JlTzEyZVNRN2Nfcmo4eXM2cDhYT3pmRm4wNWhRQTV6NExBR1dIVzctekFOdno0SVhaQ0Q5bGp0akNzcGRvSlZDVzd2eG1GV3lSREJZV3VHcGN5T2tVVElvNnlzM0YzakhQNUlSOC05OU10Y3VXcjJBZ092Zm1R?oc=5",
+        "pubDate": "Mon, 24 Aug 2026 15:04:48 GMT",
+        "source": "The Financial World",
+        "description": "Himachal gets 3.11 crore tourists in 2025; CM asks industry to promote new destinations &nbsp;&nbsp; The Financial World"
       },
       {
         "title": "Monsoon active but Himachal safe for tourists, says CM's principal media advisor; appeals against \"misleading narrative\" hurting tourism - ANI News",
@@ -618,6 +604,13 @@
         "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
         "source": "ANI News",
         "description": "Monsoon active but Himachal safe for tourists, says CM's principal media advisor; appeals against \"misleading narrative\" hurting tourism &nbsp;&nbsp; ANI News"
+      },
+      {
+        "title": "India-China Border Tourism: Ancient Trade Route Reopens - eTurboNews",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pLTE4UjE4eGY1T2pjUjdTS2s4RHMtMVFtUXZQcTdtQ2U0RGlBMEp5eEQ0NFNfcXZVMEVDM19fenBpT0RvNkF3aHlkcFdRd2VBNGR6VVp0RnlobldRSGJEUHA5OGdZUmh6YjJ0R3FheVZyN0tKY2NrajVYZi0?oc=5",
+        "pubDate": "Thu, 27 Aug 2026 09:35:56 GMT",
+        "source": "eTurboNews",
+        "description": "India-China Border Tourism: Ancient Trade Route Reopens &nbsp;&nbsp; eTurboNews"
       },
       {
         "title": "Tourists dash to Shimla as plains sizzle; 70,000 vehicles reach city in 72 hours - The Hindu",
@@ -648,6 +641,13 @@
         "description": "From Scorching Plains To Icy Peaks: Tourists Celebrate Snow At Rohtang Pass &nbsp;&nbsp; ETV Bharat"
       },
       {
+        "title": "CM invites hospitality, tourism industry to explore Himachal's emerging destinations - ET TravelWorld",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQV0pUWTZ5eEJjZ3ViV2NBWFVzYVItVW1jbUxBVlNXTUM4cHp2Mi1XWEdUdTl5UExqV3M3c0FmQTJqVTF6ZWJaaFNwaUxsQUhhTFVlaDFqdTBHaXlWempJQnR0Mk85S25lcWU4WTVPcUFSQm5fZGJ3VmV0UGxyN1R0eFM1Z3lJUmJKSmtfTmNOdE1Fbm5lLUFmVGE3a2k2YUVUczFKUDY1OVkxb05wM1d1cWN6cFhnamhONmZWV0xMZEFiNXhCMDltTXZ0Rl9YTEYyaTh6WEJGQlBUT0Utb2VKZGllVi1UNlVmWFhfcUNlZl9wd9IB9gFBVV95cUxQeWxkOGFtSUw5anhpNHVjb0pLbmF2bVNQU014ekpJSF8tOE1Ga2ZkTEEtQ2s3M1F3bDVqUWZ6WG83VmpJcmlvNkhiRUE1RjREWDhDcHBXWWxOTWRyN3BubmU5NTU2akdST1AyVjlYVlA3OFJuY2VTNVAyZmE3N2lNRXJMTmFLQ2ZqU01jdXl6bjNQVU9VZ3JkbU9sYXdvNXptTXdWSHMzaG5pNjRWWWxKQ0RZOHljcUVha3kxX1RJRmhyemxkRXk2ZTMyZVdBOEp1UG5SZUtPazlIN3dTanVaZzgwOE53ek5wXy1HTF9KOFNUU1ZSYWc?oc=5",
+        "pubDate": "Tue, 25 Aug 2026 12:10:19 GMT",
+        "source": "ET TravelWorld",
+        "description": "CM invites hospitality, tourism industry to explore Himachal's emerging destinations &nbsp;&nbsp; ET TravelWorld"
+      },
+      {
         "title": "How changing weather is forcing Himachal’s tourism workers to migrate - Down To Earth",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzVzTVNPWlRjRVlZYkVoZWx0LVpscGQxdmlpVDFaYjhVRlRLRmxyeFlCM0Fzb2lnbllEdm1CelZBdFFCblpoekwwd2lqZ3JhUXV4bVdfTnFZZGRnVkViaEVLcGtmNXdSZ0JkeDU4RTJjYXRJS1lJQjNNRTdvdk00TjFEQm13STVSNkpTOWRjS0JIM3IzbjJZMjlub0xZQXI2Si1Sb2VTLXpVTmV2ODQzV2N0d9IBwAFBVV95cUxNdmU5NXhmMzJXcGFqTmFaN0JWSDR5Zk9KOVlKaGFJRjV4X0tpRVZfeTcwaG9wZ1pLbDFUUGRlRjJBV3ViMXZYa3F0NENpWHNHd3kxTGJNVjQ3bkJSU3o5VGt3bUdRRWRDNFFPYkpKeTZFSTZOajFpS2dtaWJ3c0lDNFRjQjQzd1ZBRFBFeUVUdXhiRldtZWxPSTZYNFhCU0lualVqX3hHTFRQUzhtWGJWMWlrZnc4MFRBc2Jaa09mVnY?oc=5",
         "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
@@ -660,13 +660,6 @@
         "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
         "source": "ANI News",
         "description": "Himachal Pradesh: Pleasant weather, rainfall draw tourists to Shimla; visitors praise clean air, scenic beauty &nbsp;&nbsp; ANI News"
-      },
-      {
-        "title": "'Avoid unnecessary travel': Himachal Pradesh govt issues warning as monsoon toll rises to 15, damages tou - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPOE1waTNscmtKd3k0LUZKQzVoVXBRNHlLTVF5b2gzWUxwVW95WWhpNDZtcFh5M1ZNb3ZudEFfcVZjcHFweGg3VWREa2gwUU9ZakJsdzBFcnc5VFBsZ0Z4M0hBWmRlQ2lfekVaNzkyWlhxRmk0UFNnWXFLM1h2Y3JLbDNVRC1LX2JWSUcwb1lMZ08tWGF6NDFCSFFXZURpQkp1TmJmRlRPNUd1dl90U0NtUUZZdG1tRUNCeFBLbzYyQWxLZ083RGp0aDFpNWRaTzE2Qm5RbENvdnc3emUtekp5Q25yWTNBcUxTMlpsbzFhZnlYckMwS2dQdmUxa3J2TUN3RWdfNmFRbnVKNzBwRnhOOWhkdWVCZ9IBmwJBVV95cUxPVjF3cUlCNmM2M2tZenJXTlRmNlNKaWdJdEUxQlh0Mkc3QWdjajJLVTA2ZHFIRzRXaEFtUW4tZnF2LUl6OE00RFM2a21TY2l0dTlldGRkQllYRTFBLUE2SVFEdll1MDAtUk1IUXRXWmY0NEZPN19YeEJ4RkRubTVMOGJsa0diYmlyZ3kzS2JIU29WUGpmV09heDBXU2ZFQTN5X1RJNE4wSEJDWG5Uczh0WVE1Z2xNb2ZfaEpWWUl5a0tPSk5Pc29ZbFhsVHc3TmZjSk5YZEZ4U2N5ZlppUUFoVk1JWDhTZUVFNjVWUU9iNzdFZUNUSExNakYxQ2VWZ1Y3Mi1WMUhud3BfYXZjbC1Ub3ozOVdHTUdUUzk0?oc=5",
-        "pubDate": "Mon, 27 Jul 2026 07:00:00 GMT",
-        "source": "The Times of India",
-        "description": "'Avoid unnecessary travel': Himachal Pradesh govt issues warning as monsoon toll rises to 15, damages tou &nbsp;&nbsp; The Times of India"
       },
       {
         "title": "Foreign Tourist Flags Garbage Problem In Shimla, Urges People To Protect 'Dev Bhoomi' Himachal - ETV Bharat",
@@ -683,11 +676,11 @@
         "description": "Himachal Pradesh: Garbage piles tarnish Manali's image amid peak tourist season &nbsp;&nbsp; ANI News"
       },
       {
-        "title": "Amid heatwave, tourist influx to Manali triggers severe traffic congestion, vehicles crawl for hours - The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcW1EUWRaeHhsTkVjcGJSNzR0dk9PbUc2SXZnMW5nQVUwdmRVTnREaTVzQ0M1dVpZRWxUampjMFJucFdoNzlnLTNHal9wZWx6amloa1ZuR2R3cXFXOWhNMFNESnVITGEzV0IzQmEtM1hxMWprNDNNNGR1ZDNDZlNpajFxUkJFajZva3ljOGtURkUwOHZmOVJsTjRwMnhVYXlJUGJfaHhqMDFDMGhrRUNYNVNzaFU0bW5heUxXUk1UM1R4azFBVjZRUmdpbUttcTMyWWp3aVhFV1Z2YjJSM3VnaEtkMjQ4Q2tVTDhYLXNSX3B3TDUyR3pNYVNpUEbSAYICQVVfeXFMTVBzaDl3RWZGbEZxNXRIcFlDVHNyT3U2UmxZVmMzTEUtNHVCdmFyVWZUVDdUdDZqTVFMYWRRSEZPZ0lYSWExMVhIdWs1Vk1aTTVfUHF6UmdXcmVJQm51d012NUw5YmV2VTZ3UVgySjFnNmhyQmFpeWNrcFo2aVhSTHllbXBxZVM5c0JLcXRrVmY2M1BZWm5LUmNLSEI1V1ZmYXZYQk40Nk9fb1R0U3V0dWd5X3hzQTl5Zk1MNERIdVktTS13VlFzM2NLVncxS1N1dDVUelpPS0JMTXAxNzM3OU56RHgxVmdnTkF1TDJFbHcwanBfMnR1SzBhNzkzN0lIVXNn?oc=5",
-        "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
+        "title": "'Avoid unnecessary travel': Himachal Pradesh govt issues warning as monsoon toll rises to 15, damages tou - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPOE1waTNscmtKd3k0LUZKQzVoVXBRNHlLTVF5b2gzWUxwVW95WWhpNDZtcFh5M1ZNb3ZudEFfcVZjcHFweGg3VWREa2gwUU9ZakJsdzBFcnc5VFBsZ0Z4M0hBWmRlQ2lfekVaNzkyWlhxRmk0UFNnWXFLM1h2Y3JLbDNVRC1LX2JWSUcwb1lMZ08tWGF6NDFCSFFXZURpQkp1TmJmRlRPNUd1dl90U0NtUUZZdG1tRUNCeFBLbzYyQWxLZ083RGp0aDFpNWRaTzE2Qm5RbENvdnc3emUtekp5Q25yWTNBcUxTMlpsbzFhZnlYckMwS2dQdmUxa3J2TUN3RWdfNmFRbnVKNzBwRnhOOWhkdWVCZ9IBmwJBVV95cUxPVjF3cUlCNmM2M2tZenJXTlRmNlNKaWdJdEUxQlh0Mkc3QWdjajJLVTA2ZHFIRzRXaEFtUW4tZnF2LUl6OE00RFM2a21TY2l0dTlldGRkQllYRTFBLUE2SVFEdll1MDAtUk1IUXRXWmY0NEZPN19YeEJ4RkRubTVMOGJsa0diYmlyZ3kzS2JIU29WUGpmV09heDBXU2ZFQTN5X1RJNE4wSEJDWG5Uczh0WVE1Z2xNb2ZfaEpWWUl5a0tPSk5Pc29ZbFhsVHc3TmZjSk5YZEZ4U2N5ZlppUUFoVk1JWDhTZUVFNjVWUU9iNzdFZUNUSExNakYxQ2VWZ1Y3Mi1WMUhud3BfYXZjbC1Ub3ozOVdHTUdUUzk0?oc=5",
+        "pubDate": "Mon, 27 Jul 2026 07:00:00 GMT",
         "source": "The Times of India",
-        "description": "Amid heatwave, tourist influx to Manali triggers severe traffic congestion, vehicles crawl for hours &nbsp;&nbsp; The Times of India"
+        "description": "'Avoid unnecessary travel': Himachal Pradesh govt issues warning as monsoon toll rises to 15, damages tou &nbsp;&nbsp; The Times of India"
       },
       {
         "title": "Himachal Pradesh: Pleasant weather, pre-monsoon showers trigger massive tourist rush in Shimla - ANI News",
@@ -702,6 +695,13 @@
         "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
         "source": "ANI News",
         "description": "Southwest Monsoon covers Himachal Pradesh; IMD issues heavy rainfall warning as tourists enjoy showers in Shimla &nbsp;&nbsp; ANI News"
+      },
+      {
+        "title": "Amid heatwave, tourist influx to Manali triggers severe traffic congestion, vehicles crawl for hours - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcW1EUWRaeHhsTkVjcGJSNzR0dk9PbUc2SXZnMW5nQVUwdmRVTnREaTVzQ0M1dVpZRWxUampjMFJucFdoNzlnLTNHal9wZWx6amloa1ZuR2R3cXFXOWhNMFNESnVITGEzV0IzQmEtM1hxMWprNDNNNGR1ZDNDZlNpajFxUkJFajZva3ljOGtURkUwOHZmOVJsTjRwMnhVYXlJUGJfaHhqMDFDMGhrRUNYNVNzaFU0bW5heUxXUk1UM1R4azFBVjZRUmdpbUttcTMyWWp3aVhFV1Z2YjJSM3VnaEtkMjQ4Q2tVTDhYLXNSX3B3TDUyR3pNYVNpUEbSAYICQVVfeXFMTVBzaDl3RWZGbEZxNXRIcFlDVHNyT3U2UmxZVmMzTEUtNHVCdmFyVWZUVDdUdDZqTVFMYWRRSEZPZ0lYSWExMVhIdWs1Vk1aTTVfUHF6UmdXcmVJQm51d012NUw5YmV2VTZ3UVgySjFnNmhyQmFpeWNrcFo2aVhSTHllbXBxZVM5c0JLcXRrVmY2M1BZWm5LUmNLSEI1V1ZmYXZYQk40Nk9fb1R0U3V0dWd5X3hzQTl5Zk1MNERIdVktTS13VlFzM2NLVncxS1N1dDVUelpPS0JMTXAxNzM3OU56RHgxVmdnTkF1TDJFbHcwanBfMnR1SzBhNzkzN0lIVXNn?oc=5",
+        "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
+        "source": "The Times of India",
+        "description": "Amid heatwave, tourist influx to Manali triggers severe traffic congestion, vehicles crawl for hours &nbsp;&nbsp; The Times of India"
       },
       {
         "title": "Pleasant weather draws massive tourist influx to Shimla, Himachal hills; traffic management intensified - ANI News",
